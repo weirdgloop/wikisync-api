@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "removeComments": true,
+      "types": ["node"],
+      "target": "es6",
+      "allowJs": true,
+      "checkJs": false,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "sourceMap": false,
+      "outDir": "./dist",
+      "declaration": true,
+      "plugins": [
+        { "transform": "@zerollup/ts-transform-paths" }
+      ],
+      "baseUrl": "src",
+    },
+    "include": [
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "./dist"
+    ]
+  }
