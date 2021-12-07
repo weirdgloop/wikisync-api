@@ -27,7 +27,7 @@ export default class CreatePlayerDataTable1638891161614 implements MigrationInte
           type: 'string',
         },
       ],
-    }));
+    }), true);
 
     // Create an index for the username column.
     await queryRunner.createIndex('player_data', new TableIndex({
