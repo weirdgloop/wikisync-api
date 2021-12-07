@@ -18,6 +18,8 @@ module.exports = {
     project: './tsconfig.json'
   },
   rules: {
-    'no-console': 'off'
+    'no-console': 'off',
+    'no-prototype-builtins': 'off',
+    'radix': 'off'
   }
 };
