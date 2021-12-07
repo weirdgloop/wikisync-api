@@ -21,6 +21,9 @@ module.exports = {
     'no-console': 'off',
     'no-prototype-builtins': 'off',
     'radix': 'off',
-    'max-len': 'off'
+    'max-len': 'off',
+    'no-bitwise': 'off',
+    'no-plusplus': 'off',
+    'import/prefer-default-export': 'off'
   }
 };

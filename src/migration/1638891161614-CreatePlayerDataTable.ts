@@ -1,4 +1,6 @@
-import { MigrationInterface, QueryRunner, Table, TableIndex } from 'typeorm';
+import {
+  MigrationInterface, QueryRunner, Table, TableIndex,
+} from 'typeorm';
 
 export default class CreatePlayerDataTable1638891161614 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
