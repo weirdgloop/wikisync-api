@@ -1,15 +1,32 @@
 /**
- * The varbits that we require from RuneLite
+ * The varbits that we require from RuneLite.
+ * No exceptional cases included, all RFD, Curse of the Empty lord, Arch alliance, and Enchanted key all removed.
  */
 export const REQUIRED_VARBITS = [
-  // TODO: add required varbits
+  [12063, 6071, 2561, 2378, 3468, 8063, 3185, 3550, 299, 3293,
+    3274, 2573, 2258, 6027, 358, 1465, 6104, 3618, 2780, 2639,
+    1560, 2866, 2497, 1803, 2326, 334, 822, 5795, 3311, 961,
+    217, 571, 346, 2783, 1527, 34, 418, 1990, 3888, 532,
+    2448, 6528, 1383, 5027, 260, 1103, 2790, 3534, 6037, 1404,
+    657, 2140, 1372, 2610, 2011, 1444, 2098, 1028, 6358, 6396,
+    451, 3337, 5619, 1051, 3523, 487, 7856, 7796, 9016, 9459,
+    7255, 693, 10582, 12296, 12276, 5078, 3330, 1344, 3290, 5347,
+    6067, 8403, 10570],
 ];
 
 /**
- * The varps that we require from RuneLite
+ * The varps that we require from RuneLite.
+ * No exceptional cases included, SoA, Fenken, and Alfred's removed.
  */
 export const REQUIRED_VARPS = [
-  // TODO: add required varps
+  [130, 29, 31, 176, 32, 160, 122, 71, 273, 107,
+    144, 63, 179, 178, 67, 293, 68, 655, 10, 314,
+    131, 80, 0, 335, 148, 17, 11, 347, 180, 150,
+    980, 382, 223, 188, 5, 387, 175, 139, 147, 14,
+    365, 30, 517, 192, 307, 112, 416, 165, 302, 714,
+    328, 402, 600, 76, 159, 339, 60, 116, 320, 26,
+    359, 197, 111, 200, 385, 317, 161, 212, 65, 226,
+    492, 267],
 ];
 
 /**
