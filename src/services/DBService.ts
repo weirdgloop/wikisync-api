@@ -19,7 +19,6 @@ class DBService {
       entities: [
         PlayerData,
       ],
-      synchronize: true,
     });
     this.conn = conn;
     console.log('Connected to the database.');
