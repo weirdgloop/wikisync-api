@@ -2,6 +2,7 @@ import express from 'express';
 import BadRequestError from '../errors/BadRequestError';
 import { REQUIRED_VARBITS, REQUIRED_VARPS } from '../constants';
 import RLService from '../services/RuneLiteService';
+import QuestService from '../services/QuestService';
 
 const router = express.Router();
 
@@ -38,8 +39,13 @@ router.get('/player/:username', async (req, res) => {
   }
 
   const data = await RLService.getDataForUser(req.params.username);
+  const questCompletion = await QuestService.getQuestCompletionStates(data);
 
-  res.json({ data });
+  res.json({
+    username: req.params.username,
+    timestamp: new Date(),
+    quests: questCompletion,
+  });
 });
 
 export default router;

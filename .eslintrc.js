@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-prototype-builtins': 'off',
-    'radix': 'off'
+    'radix': 'off',
+    'max-len': 'off'
   }
 };
