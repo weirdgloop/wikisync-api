@@ -19,6 +19,7 @@ class DBService {
       entities: [
         PlayerData,
       ],
+      migrations: ['migration/*.ts'],
     });
     this.conn = conn;
     console.log('Connected to the database.');
