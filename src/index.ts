@@ -1,6 +1,7 @@
 import 'reflect-metadata';
 import dotenv from 'dotenv';
 import express from 'express';
+import cors from 'cors';
 import bodyParser from 'body-parser';
 import runelite from './routes/runelite';
 import BadRequestError from './errors/BadRequestError';
@@ -11,7 +12,16 @@ dotenv.config();
 const app = express();
 const port = 3000;
 
+// Options
+app.set('etag', true);
+
+const corsOptions = {
+  maxAge: 86400,
+  methods: 'GET',
+};
+
 // Middleware
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // Routes
