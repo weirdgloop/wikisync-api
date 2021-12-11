@@ -2,6 +2,7 @@ import ProfileType from '../enum/ProfileType';
 import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';
+
 interface RuneLiteSubmitData {
   username: string;
   profile: string;
@@ -9,6 +10,11 @@ interface RuneLiteSubmitData {
     varb: object;
     varp: object;
   }
+}
+
+export interface RuneLiteGetDataReturn {
+  varbs: object;
+  varps: object;
 }
 
 class RuneLiteService {
@@ -19,7 +25,7 @@ class RuneLiteService {
    * @param raw - Whether to return raw results. Defaults to false.
    * @returns object || PlayerData[]
    */
-  public static async getDataForUser(username: string, profile?: ProfileType, raw?: boolean) {
+  public static async getDataForUser(username: string, profile?: ProfileType, raw?: boolean): Promise<PlayerData[] | RuneLiteGetDataReturn> {
     const results: PlayerData[] = await (await DBService.getConnection())
       .createQueryBuilder()
       .from(PlayerData, 'playerdata')

@@ -1,7 +1,7 @@
 import express from 'express';
 import BadRequestError from '../errors/BadRequestError';
 import { REQUIRED_VARBITS, REQUIRED_VARPS } from '../constants';
-import RLService from '../services/RuneLiteService';
+import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import QuestService from '../services/QuestService';
 import ProfileType from '../enum/ProfileType';
 
@@ -44,7 +44,11 @@ router.get('/player/:username/:profile?', async (req, res) => {
     profile = ProfileType[req.params.profile];
   }
 
-  const data = await RLService.getDataForUser(req.params.username, profile);
+  const data = await RLService.getDataForUser(req.params.username, profile) as RuneLiteGetDataReturn;
+  if (!Object.keys(data.varbs).length && !Object.keys(data.varps).length) {
+    res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
+    return;
+  }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
 
   res.json({
