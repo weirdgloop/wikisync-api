@@ -3,6 +3,7 @@ import BadRequestError from '../errors/BadRequestError';
 import { REQUIRED_VARBITS, REQUIRED_VARPS } from '../constants';
 import RLService from '../services/RuneLiteService';
 import QuestService from '../services/QuestService';
+import ProfileType from '../enum/ProfileType';
 
 const router = express.Router();
 
@@ -32,13 +33,18 @@ router.post('/submit', async (req, res) => {
 /**
  * Gets player data from our database
  */
-router.get('/player/:username', async (req, res) => {
+router.get('/player/:username/:profile?', async (req, res) => {
   if (!req.params.username) {
     // Should never reach here anyway...
     throw new BadRequestError('Missing required data for this request.');
   }
 
-  const data = await RLService.getDataForUser(req.params.username);
+  let profile = null;
+  if (req.params.profile) {
+    profile = ProfileType[req.params.profile];
+  }
+
+  const data = await RLService.getDataForUser(req.params.username, profile);
   const questCompletion = await QuestService.getQuestCompletionStates(data);
 
   res.json({
