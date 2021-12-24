@@ -26,11 +26,12 @@ class RuneLiteService {
    * @returns object || PlayerData[]
    */
   public static async getDataForUser(username: string, profile?: ProfileType, raw?: boolean): Promise<PlayerData[] | RuneLiteGetDataReturn> {
+    const formattedUsername = username.toLowerCase().replace(/ /g, '_');
     const results: PlayerData[] = await (await DBService.getConnection())
       .createQueryBuilder()
       .from(PlayerData, 'playerdata')
       .where({
-        username,
+        username: formattedUsername,
         profile: profile || ProfileType.STANDARD, // default to returning standard results
       })
       .execute();
@@ -65,11 +66,12 @@ class RuneLiteService {
 
   public static async parseAndSaveData(data: RuneLiteSubmitData) {
     const inserts: PlayerData[] = [];
+    const formattedUsername = data.username.toLowerCase().replace(/ /g, '_');
 
     // Varbs
     Object.entries(data.data.varb).forEach(([k, v]) => {
       inserts.push({
-        username: data.username,
+        username: formattedUsername,
         profile: ProfileType[data.profile],
         type: PlayerDataType.VARBIT,
         data_key: k.toString(),
@@ -80,7 +82,7 @@ class RuneLiteService {
     // Varps
     Object.entries(data.data.varp).forEach(([k, v]) => {
       inserts.push({
-        username: data.username,
+        username: formattedUsername,
         profile: ProfileType[data.profile],
         type: PlayerDataType.VARPLAYER,
         data_key: k.toString(),
