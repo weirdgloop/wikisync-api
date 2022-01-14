@@ -204,3 +204,32 @@ export const QUESTS_TO_COMPLETION_VARP = {
   'Enter the Abyss': [492, 0, 4],
   'The Mage Arena': [267, 0, 8],
 };
+
+/**
+ * Valid skills to save in the database.
+ */
+export const SKILL_NAMES = [
+  'Attack',
+  'Strength',
+  'Defence',
+  'Ranged',
+  'Prayer',
+  'Magic',
+  'Runecraft',
+  'Hitpoints',
+  'Crafting',
+  'Mining',
+  'Smithing',
+  'Fishing',
+  'Cooking',
+  'Firemaking',
+  'Woodcutting',
+  'Agility',
+  'Herblore',
+  'Thieving',
+  'Fletching',
+  'Slayer',
+  'Farming',
+  'Construction',
+  'Hunter',
+]

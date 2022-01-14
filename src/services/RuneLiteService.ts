@@ -2,6 +2,7 @@ import ProfileType from '../enum/ProfileType';
 import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';
+import { SKILL_NAMES } from '../constants';
 
 interface RuneLiteSubmitData {
   username: string;
@@ -9,12 +10,14 @@ interface RuneLiteSubmitData {
   data: {
     varb: object;
     varp: object;
+    level: object;
   }
 }
 
 export interface RuneLiteGetDataReturn {
   varbs: object;
   varps: object;
+  levels: object;
 }
 
 class RuneLiteService {
@@ -44,6 +47,7 @@ class RuneLiteService {
     // Separate the data by category
     const varbs = {};
     const varps = {};
+    const levels = {};
 
     results.forEach((v) => {
       switch (v.type) {
@@ -53,6 +57,9 @@ class RuneLiteService {
         case PlayerDataType.VARPLAYER:
           varps[v.data_key] = v.data_value;
           break;
+        case PlayerDataType.SKILLLEVEL:
+          levels[v.data_key] = parseInt(v.data_value);
+          break;
         default:
           break;
       }
@@ -61,6 +68,7 @@ class RuneLiteService {
     return {
       varbs,
       varps,
+      levels,
     };
   }
 
@@ -89,6 +97,22 @@ class RuneLiteService {
         data_value: v.toString(),
       });
     });
+
+    // Levels
+    if (data.data.hasOwnProperty('level')) {
+      Object.entries(data.data.level).forEach(([k, v]) => {
+        // Ensure that this is a valid skill name to protect against polluting the database.
+        if (SKILL_NAMES.includes(k)) {
+          inserts.push({
+            username: formattedUsername,
+            profile: ProfileType[data.profile],
+            type: PlayerDataType.SKILLLEVEL,
+            data_key: k.toString(),
+            data_value: v.toString(),
+          });
+        }
+      });
+    }
 
     await (await DBService.getConnection())
       .createQueryBuilder()

@@ -55,6 +55,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
+    levels: data.levels,
   });
 });
 
