@@ -2,7 +2,7 @@ import ProfileType from '../enum/ProfileType';
 import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';
-import { SKILL_NAMES } from '../constants';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, SKILL_NAMES } from '../constants';
 
 interface RuneLiteSubmitData {
   username: string;
@@ -78,24 +78,30 @@ class RuneLiteService {
 
     // Varbs
     Object.entries(data.data.varb).forEach(([k, v]) => {
-      inserts.push({
-        username: formattedUsername,
-        profile: ProfileType[data.profile],
-        type: PlayerDataType.VARBIT,
-        data_key: k.toString(),
-        data_value: v.toString(),
-      });
+      // Ensure that this is a requested varb to protect against polluting the database.
+      if (REQUIRED_VARBITS.includes(parseInt(k))) {
+        inserts.push({
+          username: formattedUsername,
+          profile: ProfileType[data.profile],
+          type: PlayerDataType.VARBIT,
+          data_key: k.toString(),
+          data_value: v.toString(),
+        });
+      }
     });
 
     // Varps
     Object.entries(data.data.varp).forEach(([k, v]) => {
-      inserts.push({
-        username: formattedUsername,
-        profile: ProfileType[data.profile],
-        type: PlayerDataType.VARPLAYER,
-        data_key: k.toString(),
-        data_value: v.toString(),
-      });
+      // Ensure that this is a requested varp to protect against polluting the database.
+      if (REQUIRED_VARPS.includes(parseInt(k))) {
+        inserts.push({
+          username: formattedUsername,
+          profile: ProfileType[data.profile],
+          type: PlayerDataType.VARPLAYER,
+          data_key: k.toString(),
+          data_value: v.toString(),
+        });
+      }
     });
 
     // Levels
