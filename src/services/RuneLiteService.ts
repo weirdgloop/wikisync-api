@@ -52,10 +52,10 @@ class RuneLiteService {
     results.forEach((v) => {
       switch (v.type) {
         case PlayerDataType.VARBIT:
-          varbs[v.data_key] = v.data_value;
+          varbs[v.data_key] = parseInt(v.data_value);
           break;
         case PlayerDataType.VARPLAYER:
-          varps[v.data_key] = v.data_value;
+          varps[v.data_key] = parseInt(v.data_value);
           break;
         case PlayerDataType.SKILLLEVEL:
           levels[v.data_key] = parseInt(v.data_value);
