@@ -38,7 +38,21 @@ app.use((err, req, res, next) => {
   next();
 });
 
-app.listen(port, async () => {
+const server = app.listen(port, async () => {
   await DBService.getConnection();
   console.log(`Running server on http://localhost:${port}`);
+  if (typeof process.send === 'function') process.send('ready'); // pm2 ready signal
+});
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+  console.log('Closing down Express server');
+
+  server.close(async () => {
+    console.log('HTTP server closed');
+
+    if (DBService.conn) await DBService.conn.close();
+    console.log('DB connection closed');
+    process.exit();
+  });
 });
