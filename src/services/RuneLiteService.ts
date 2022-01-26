@@ -72,53 +72,56 @@ class RuneLiteService {
     };
   }
 
-  public static async parseAndSaveData(data: RuneLiteSubmitData) {
+  public static async parseAndSaveData(data: RuneLiteSubmitData[]) {
     const inserts: PlayerData[] = [];
-    const formattedUsername = data.username.toLowerCase().replace(/ /g, '_');
 
-    // Varbs
-    Object.entries(data.data.varb).forEach(([k, v]) => {
-      // Ensure that this is a requested varb to protect against polluting the database.
-      if (REQUIRED_VARBITS.includes(parseInt(k))) {
-        inserts.push({
-          username: formattedUsername,
-          profile: ProfileType[data.profile],
-          type: PlayerDataType.VARBIT,
-          data_key: k.toString(),
-          data_value: v.toString(),
-        });
-      }
-    });
+    data.forEach((el) => {
+      const formattedUsername = el.username.toLowerCase().replace(/ /g, '_');
 
-    // Varps
-    Object.entries(data.data.varp).forEach(([k, v]) => {
-      // Ensure that this is a requested varp to protect against polluting the database.
-      if (REQUIRED_VARPS.includes(parseInt(k))) {
-        inserts.push({
-          username: formattedUsername,
-          profile: ProfileType[data.profile],
-          type: PlayerDataType.VARPLAYER,
-          data_key: k.toString(),
-          data_value: v.toString(),
-        });
-      }
-    });
-
-    // Levels
-    if (data.data.hasOwnProperty('level')) {
-      Object.entries(data.data.level).forEach(([k, v]) => {
-        // Ensure that this is a valid skill name to protect against polluting the database.
-        if (SKILL_NAMES.includes(k)) {
+      // Varbs
+      Object.entries(el.data.varb).forEach(([k, v]) => {
+        // Ensure that this is a requested varb to protect against polluting the database.
+        if (REQUIRED_VARBITS.includes(parseInt(k))) {
           inserts.push({
             username: formattedUsername,
-            profile: ProfileType[data.profile],
-            type: PlayerDataType.SKILLLEVEL,
+            profile: ProfileType[el.profile],
+            type: PlayerDataType.VARBIT,
             data_key: k.toString(),
             data_value: v.toString(),
           });
         }
       });
-    }
+
+      // Varps
+      Object.entries(el.data.varp).forEach(([k, v]) => {
+        // Ensure that this is a requested varp to protect against polluting the database.
+        if (REQUIRED_VARPS.includes(parseInt(k))) {
+          inserts.push({
+            username: formattedUsername,
+            profile: ProfileType[el.profile],
+            type: PlayerDataType.VARPLAYER,
+            data_key: k.toString(),
+            data_value: v.toString(),
+          });
+        }
+      });
+
+      // Levels
+      if (el.data.hasOwnProperty('level')) {
+        Object.entries(el.data.level).forEach(([k, v]) => {
+          // Ensure that this is a valid skill name to protect against polluting the database.
+          if (SKILL_NAMES.includes(k)) {
+            inserts.push({
+              username: formattedUsername,
+              profile: ProfileType[el.profile],
+              type: PlayerDataType.SKILLLEVEL,
+              data_key: k.toString(),
+              data_value: v.toString(),
+            });
+          }
+        });
+      }
+    });
 
     await (await DBService.getConnection())
       .createQueryBuilder()
