@@ -1,8 +1,9 @@
 import express from 'express';
 import BadRequestError from '../errors/BadRequestError';
-import { REQUIRED_VARBITS, REQUIRED_VARPS } from '../constants';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants';
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import QuestService from '../services/QuestService';
+import LeagueService from '../services/LeagueService';
 import ProfileType from '../enum/ProfileType';
 
 const router = express.Router();
@@ -14,6 +15,14 @@ router.get('/manifest', (req, res) => {
   res.json({
     varbits: REQUIRED_VARBITS,
     varps: REQUIRED_VARPS,
+    version: MANIFEST_VERSION,
+    timestamp: new Date(),
+  });
+});
+
+router.get('/version', (req, res) => {
+  res.json({
+    version: MANIFEST_VERSION,
     timestamp: new Date(),
   });
 });
@@ -51,11 +60,13 @@ router.get('/player/:username/:profile?', async (req, res) => {
   }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
 
+  const leagueTasks = await LeagueService.getLeagueTasks(data);
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
     levels: data.levels,
+    league_tasks: leagueTasks
   });
 });
 

@@ -2,6 +2,8 @@
  * The varbits that we require from RuneLite.
  * No exceptional cases included, all RFD, Curse of the Empty lord, Arch alliance, and Enchanted key all removed.
  */
+export const MANIFEST_VERSION = 1;
+
 export const REQUIRED_VARBITS = [
   /* Quest completion */
   12063, 6071, 2561, 2378, 3468, 8063, 3185, 3550, 299, 3293,
@@ -29,8 +31,16 @@ export const REQUIRED_VARPS = [
   328, 402, 600, 76, 159, 339, 60, 116, 320, 26,
   359, 197, 111, 200, 385, 317, 161, 212, 65, 226,
   492, 267, 145, 146, 399, 203, 299, 77, 76,
+
+
+2616, 2617, 2618, 2619, 2620, 2621, 2622, 2623, 2624,
+2625, 2626, 2627, 2628, 2629, 2630, 2631, 2808, 2809,
+2810, 2811, 2812, 2813, 2814, 2815, 2816, 2817, 2818,
+2819, 2820, 2821, 2822, 2823, 2824, 2825, 2826, 2827, 2828, 2829, 2830,
+2831, 2832, 2833, 2834, 2835, 3339, 3340, 3341, 3342
 ];
 
+export const LEAGUE_VARP = [2616, 2617, 2618, 2619, 2620, 2621, 2622, 2623, 2624, 2625, 2626, 2627, 2628, 2629, 2630, 2631, 2808, 2809, 2810, 2811, 2812, 2813, 2814, 2815, 2816, 2817, 2818, 2819, 2820, 2821, 2822, 2823, 2824, 2825, 2826, 2827, 2828, 2829, 2830, 2831, 2832, 2833, 2834, 2835, 3339, 3340, 3341, 3342];
 /**
  * Quests to their respective completion varbit.
  * The first value in the array is the varbit.
