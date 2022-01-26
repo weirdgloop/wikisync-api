@@ -14,6 +14,17 @@ class LeagueService {
     });
     return results;
   }
+
+  public static async getLeagueFragments(data) {
+    const results = [];
+
+    LEAGUE_FRAGMENT_VARBIT.forEach((val, index) => {
+      const varb = data.varbs[val.toString()];
+        results.push(varb);
+      }
+    });
+    return results;
+  }
 }
 
 export default LeagueService;

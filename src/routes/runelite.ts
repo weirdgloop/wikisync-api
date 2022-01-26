@@ -83,12 +83,14 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const questCompletion = await QuestService.getQuestCompletionStates(data);
 
   const leagueTasks = await LeagueService.getLeagueTasks(data);
+  const leagueFragments = await LeagueService.getLeagueFragments(data);
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
     levels: data.levels,
-    league_tasks: leagueTasks
+    league_tasks: leagueTasks,
+    league_fragments: leagueFragments
   });
 });
 
