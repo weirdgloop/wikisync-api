@@ -27,38 +27,16 @@ router.get('/version', (req, res) => {
   });
 });
 
-const submitDataValidation = (obj) => {
-  if (!obj.username || !obj.data || !obj.data.varb || !obj.data.varp) {
-    return false;
-  }
-  return true;
-};
-
 /**
  * Submits player data from the RuneLite plugin to our database
  */
 router.post('/submit', async (req, res) => {
-  const dataToParse = [];
-
-  if (req.body.length) {
-    // Array
-    req.body.forEach((el) => {
-      const val = submitDataValidation(el);
-      if (!val) return;
-      dataToParse.push(el);
-    });
-  } else {
-    // Not an array
-    const val = submitDataValidation(req.body);
-    if (val) dataToParse.push(req.body);
+  if (!req.body.username || !req.body.data || !req.body.data.varb || !req.body.data.varp) {
+    throw new BadRequestError('Missing required data from this request.');
   }
 
-  if (!dataToParse.length) {
-    res.json({ success: false });
-  } else {
-    await RLService.parseAndSaveData(dataToParse);
-    res.json({ success: true });
-  }
+  await RLService.parseAndSaveData(req.body);
+  res.json({ success: true });
 });
 
 /**
@@ -83,14 +61,12 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const questCompletion = await QuestService.getQuestCompletionStates(data);
 
   const leagueTasks = await LeagueService.getLeagueTasks(data);
-  const leagueFragments = await LeagueService.getLeagueFragments(data);
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
     levels: data.levels,
-    league_tasks: leagueTasks,
-    league_fragments: leagueFragments
+    league_tasks: leagueTasks
   });
 });
 

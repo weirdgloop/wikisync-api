@@ -1,4 +1,4 @@
-import { LEAGUE_FRAGMENT_VARBIT, LEAGUE_VARP } from '../constants';
+import { LEAGUE_VARP } from '../constants';
 
 class LeagueService {
   public static async getLeagueTasks(data) {
@@ -11,16 +11,6 @@ class LeagueService {
           results.push(32 * index + i);
         }
       }
-    });
-    return results;
-  }
-
-  public static async getLeagueFragments(data) {
-    const results = [];
-
-    LEAGUE_FRAGMENT_VARBIT.forEach((val) => {
-      const varb = data.varbs[val.toString()];
-      results.push(varb);
     });
     return results;
   }
