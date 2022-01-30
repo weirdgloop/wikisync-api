@@ -16,17 +16,17 @@ export default class CreatePlayerDataTable1638891161614 implements MigrationInte
         },
         {
           name: 'username',
-          type: 'string',
+          type: 'varchar',
           isPrimary: true,
         },
         {
           name: 'data_key',
-          type: 'string',
+          type: 'varchar',
           isPrimary: true,
         },
         {
           name: 'data_value',
-          type: 'string',
+          type: 'varchar',
         },
       ],
     }), true);

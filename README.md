@@ -3,7 +3,7 @@
 API for the WikiSync feature
 
 ## Get started
-1. Run `yarn -i` to install deps.
+1. Run `yarn` to install deps.
 
 2. Run a MySQL server and create the `wikisync` database in it.
 3. Create a .env file that looks like this (fill in details):
