@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - "./src:/home/node/app/src"
+      - "./tsconfig.json:/home/node/app/tsconfig.json"
+    links:
+      - db
+    command: "yarn run dev"
+    environment:
+      - TYPEORM_CONNECTION=mysql
+      - TYPEORM_HOST=db
+      - TYPEORM_USERNAME=root
+      - TYPEORM_PASSWORD=root-password
+      - TYPEORM_DATABASE=wikisync
+      - TYPEORM_PORT=3306
+      - TYPEORM_SYNCHRONIZE=true
+      - TYPEORM_LOGGING=true
+      - TYPEORM_ENTITIES=src/orm/*.ts
+      - TYPEORM_MIGRATIONS=src/migration/*.ts=value
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: wikisync
+      MYSQL_ROOT_PASSWORD: root-password
+    volumes:
+      - mysql-datavolume:/var/lib/mysql
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+volumes:
+  mysql-datavolume:
