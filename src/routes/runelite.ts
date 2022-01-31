@@ -4,6 +4,8 @@ import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import { QuestService } from '../services/QuestService';
 import { LeagueService } from '../services/LeagueService';
+import { MusicService } from '../services/MusicService';
+import { CombatAchievementsService } from '../services/CombatAchievementsService';
 import ProfileType from '../enum/ProfileType';
 
 const router = express.Router();
@@ -59,13 +61,17 @@ router.get('/player/:username/:profile?', async (req, res) => {
     return;
   }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
-
   const leagueTasks = await LeagueService.getLeagueTasks(data);
+  const musicTracks = await MusicService.getMusicTracks(data);
+  const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
+
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
     levels: data.levels,
+    music_tracks: musicTracks,
+    combat_achievements: combatAchievements,
     league_tasks: leagueTasks
   });
 });
