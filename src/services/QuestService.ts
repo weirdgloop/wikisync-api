@@ -1,5 +1,5 @@
 import QuestCompletionState from '../enum/QuestCompletionState';
-import { createBinaryString } from '../util/util';
+import { isBitSet } from '../util/util';
 
 /**
  * Quests to their respective completion varbit.
@@ -253,12 +253,10 @@ export class QuestService {
    */
   private static translateQuestComplete_ElementalWorkshopI(varpDict: object) {
     if (varpDict['299'] === undefined) return QuestCompletionState.NOT_STARTED;
-    const var299 = createBinaryString(varpDict['299']);
-
-    if (var299.charAt(20) === '1') {
+    if (isBitSet(varpDict['299'], 20)) {
       return QuestCompletionState.FINISHED;
     }
-    if (var299.charAt(1) !== '1') {
+    if (!isBitSet(varpDict['299'], 1)) {
       return QuestCompletionState.NOT_STARTED;
     }
     return QuestCompletionState.IN_PROGRESS;
