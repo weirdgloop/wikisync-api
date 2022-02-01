@@ -5,6 +5,7 @@ import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import QuestService from '../services/QuestService';
 import LeagueService from '../services/LeagueService';
 import ProfileType from '../enum/ProfileType';
+import AchievementDiaryService from '../services/AchievementDiaryService';
 
 const router = express.Router();
 
@@ -36,6 +37,7 @@ router.post('/submit', async (req, res) => {
   }
 
   await RLService.parseAndSaveData(req.body);
+  console.log(req.body);
   res.json({ success: true });
 });
 
@@ -59,14 +61,16 @@ router.get('/player/:username/:profile?', async (req, res) => {
     return;
   }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
+  const achievementDiarycompletion = AchievementDiaryService.getAchievementDiaryCompletionStates(data);
 
   const leagueTasks = await LeagueService.getLeagueTasks(data);
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
+    achievementDiaries: achievementDiarycompletion,
     levels: data.levels,
-    league_tasks: leagueTasks
+    league_tasks: leagueTasks,
   });
 });
 
