@@ -37,7 +37,6 @@ router.post('/submit', async (req, res) => {
   }
 
   await RLService.parseAndSaveData(req.body);
-  console.log(req.body);
   res.json({ success: true });
 });
 

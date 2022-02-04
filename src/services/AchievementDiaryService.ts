@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import { achievementDiariesSpecs, VarSpec } from '../constants/achievementDiaries';
 import { RuneLiteGetDataReturn } from './RuneLiteService';
+import { isBitSet, isEqual } from '../util/util';
 
 class AchievementDiaryService {
   /**
@@ -17,10 +18,10 @@ class AchievementDiaryService {
   private static resolveSpec(spec: VarSpec, data: RuneLiteGetDataReturn) {
     switch (spec.type) {
       case 'bits': {
-        return data.varbs[spec.var_id] === spec.value;
+        return isEqual(data.varbs[spec.var_id], spec.value);
       }
       case 'player': {
-        return !!((data.varps[spec.var_id] >> spec.offset) & 1);
+        return isBitSet(data.varps[spec.var_id], spec.offset);
       } default: {
         return false;
       }

@@ -1,4 +1,5 @@
 import { LEAGUE_VARP } from '../constants';
+import { isBitSet } from '../util/util';
 
 class LeagueService {
   public static async getLeagueTasks(data) {
@@ -7,7 +8,7 @@ class LeagueService {
     LEAGUE_VARP.forEach((val, index) => {
       const varp = data.varps[val.toString()];
       for (let i = 0; i < 32; i++) {
-        if (varp & (1 << i)) {
+        if (isBitSet(varp, i)) {
           results.push(32 * index + i);
         }
       }
