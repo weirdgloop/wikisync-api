@@ -1,5 +1,4 @@
 import express from 'express';
-import BadRequestError from '../errors/BadRequestError';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants';
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import { AchievementDiaryService } from '../services/AchievementDiaryService';
@@ -35,7 +34,7 @@ router.get('/version', (req, res) => {
  */
 router.post('/submit', async (req, res) => {
   if (!req.body.username || !req.body.data || !req.body.data.varb || !req.body.data.varp) {
-    throw new BadRequestError('Missing required data from this request.');
+    return res.status(400).json({error: "Missing required data."})
   }
 
   await RLService.parseAndSaveData(req.body);
@@ -47,8 +46,7 @@ router.post('/submit', async (req, res) => {
  */
 router.get('/player/:username/:profile?', async (req, res) => {
   if (!req.params.username) {
-    // Should never reach here anyway...
-    throw new BadRequestError('Missing required data for this request.');
+    return res.status(400).json({error: "Missing required data."})
   }
 
   let profile = null;
