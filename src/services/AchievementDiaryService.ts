@@ -27,13 +27,19 @@ class AchievementDiaryService {
    * @param data - Data from the database
    */
   public static getAchievementDiaryCompletionStates(data: RuneLiteGetDataReturn) {
-    return _.mapValues(achievementDiariesSpecs, (diary) => _.mapValues(diary, (tier) => {
-      const tasks = tier.tasks.map((spec) => this.resolveSpec(spec, data));
-      return { complete: this.resolveSpec(tier.complete, data), tasks };
-    }));
+    return _.mapValues(achievementDiariesSpecs, (diaryData, diaryName) =>
+      _.mapValues(diaryData, (tierData, tierName) => {
+        const tasks = tierData.tasks.map((spec, taskId) => this.resolveSpec(spec, data, diaryName, tierName, taskId));
+        return { complete: this.resolveSpec(tierData.complete, data), tasks };
+      })
+    );
   }
 
-  private static resolveSpec(spec: VarSpec, data: RuneLiteGetDataReturn) {
+  private static resolveSpec(spec: VarSpec, data: RuneLiteGetDataReturn, diaryName?: string, tierName?: string, taskId?: number) {
+    if (diaryName === 'Desert' && tierName === 'Medium' && taskId === 10) {
+      // Very weird case: separate varbits for Ironman and non-Ironman task
+      return isBitSet(data.varps['1199'], 9) || isBitSet(data.varps['1198'], 22)
+    }
     switch (spec.type) {
       case 'bits': {
         return isEqual(data.varbs[spec.var_id], spec.value);
