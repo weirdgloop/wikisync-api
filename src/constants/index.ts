@@ -1,10 +1,7 @@
 import { DIARY_VARBITS, DIARY_VARPS } from '../services/AchievementDiaryService';
 import { LEAGUE_TASK_VARPS } from '../services/LeagueService'
 import { QUEST_VARBITS, QUEST_VARPS } from '../services/QuestService';
-/**
- * The varbits that we require from RuneLite.
- * No exceptional cases included, all RFD, Curse of the Empty lord, Arch alliance, and Enchanted key all removed.
- */
+
 export const MANIFEST_VERSION = 1;
 
 /**
