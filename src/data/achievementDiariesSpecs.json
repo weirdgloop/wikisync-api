@@ -325,11 +325,6 @@
                     "var_id": 1199
                 },
                 {
-                    "offset": 3,
-                    "type": "player",
-                    "var_id": 1199
-                },
-                {
                     "offset": 4,
                     "type": "player",
                     "var_id": 1199
@@ -346,6 +341,11 @@
                 },
                 {
                     "offset": 7,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 8,
                     "type": "player",
                     "var_id": 1199
                 }
@@ -2760,17 +2760,7 @@
                     "var_id": 1193
                 },
                 {
-                    "offset": 4,
-                    "type": "player",
-                    "var_id": 1193
-                },
-                {
                     "offset": 5,
-                    "type": "player",
-                    "var_id": 1193
-                },
-                {
-                    "offset": 6,
                     "type": "player",
                     "var_id": 1193
                 },
@@ -2781,6 +2771,16 @@
                 },
                 {
                     "offset": 8,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 10,
                     "type": "player",
                     "var_id": 1193
                 },
