@@ -1,16 +1,16 @@
 import { isBitSet } from '../util/util';
-import LEAGUE_TASK_VARPS from '../data/leagueTaskVarps.json'
+import COMBAT_ACHIEVEMENTS_VARPS from '../data/combatAchievementVarps.json'
 
-class LeagueService {
-  public static async getLeagueTasks(data) {
-    if (data.varps[LEAGUE_TASK_VARPS[0]] === undefined) {
+class CombatAchievementsService {
+  public static async getCombatAchievements(data) {
+    if (data.varps[COMBAT_ACHIEVEMENTS_VARPS[0]] === undefined) {
       // If the user doesn't have the most basic varp set, don't return any data
       return null
     }
 
     const results = [];
 
-    LEAGUE_TASK_VARPS.forEach((val, index) => {
+    COMBAT_ACHIEVEMENTS_VARPS.forEach((val, index) => {
       const varp = data.varps[val.toString()];
       for (let i = 0; i < 32; i++) {
         if (isBitSet(varp, i)) {
@@ -22,4 +22,4 @@ class LeagueService {
   }
 }
 
-export { LeagueService, LEAGUE_TASK_VARPS }
+export {CombatAchievementsService, COMBAT_ACHIEVEMENTS_VARPS }
