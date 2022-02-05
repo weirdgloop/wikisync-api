@@ -2,10 +2,10 @@ import express from 'express';
 import BadRequestError from '../errors/BadRequestError';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants';
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
-import QuestService from '../services/QuestService';
-import LeagueService from '../services/LeagueService';
+import { AchievementDiaryService } from '../services/AchievementDiaryService';
+import { LeagueService } from '../services/LeagueService';
+import { QuestService } from '../services/QuestService';
 import ProfileType from '../enum/ProfileType';
-import AchievementDiaryService from '../services/AchievementDiaryService';
 
 const router = express.Router();
 

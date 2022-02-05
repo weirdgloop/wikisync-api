@@ -1,6 +1,7 @@
-import { QUESTS_TO_COMPLETION_VARBIT, QUESTS_TO_COMPLETION_VARP } from '../constants';
 import QuestCompletionState from '../enum/QuestCompletionState';
 import { isBitSet } from '../util/util';
+import QUEST_VARPS_TO_COMPLETION from '../data/questVarps.json'
+import QUEST_VARBITS_TO_COMPLETION from '../data/questVarbits.json'
 
 class QuestService {
   /**
@@ -10,11 +11,11 @@ class QuestService {
   public static async getQuestCompletionStates(data) {
     const results = {};
 
-    Object.entries(QUESTS_TO_COMPLETION_VARBIT).forEach((v) => {
+    Object.entries(QUEST_VARBITS_TO_COMPLETION).forEach((v) => {
       if (v[1].length !== 3) return;
       results[v[0]] = this.translateQuestComplete(data.varbs, v[1][0], v[1][1], v[1][2]);
     });
-    Object.entries(QUESTS_TO_COMPLETION_VARP).forEach((v) => {
+    Object.entries(QUEST_VARPS_TO_COMPLETION).forEach((v) => {
       if (v[1].length !== 3) return;
       results[v[0]] = this.translateQuestComplete(data.varps, v[1][0], v[1][1], v[1][2]);
     });
@@ -146,4 +147,13 @@ class QuestService {
   }
 }
 
-export default QuestService;
+const STANDARD_VARPS = Object.values(QUEST_VARPS_TO_COMPLETION).map(x => x[0]);
+const STANDARD_VARBITS = Object.values(QUEST_VARBITS_TO_COMPLETION).map(x => x[0]);
+
+const SPECIAL_CASE_VARPS = [77, 145, 146, 203, 299, 399];
+const SPECIAL_CASE_VARBITS = [816, 821, 1391, 4976, 4982];
+
+const QUEST_VARPS = [...STANDARD_VARPS, ...SPECIAL_CASE_VARPS];
+const QUEST_VARBITS = [...STANDARD_VARBITS, ...SPECIAL_CASE_VARBITS];
+
+export { QuestService, QUEST_VARPS, QUEST_VARBITS };
