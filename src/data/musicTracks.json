@@ -1,0 +1,3377 @@
+[
+    {
+        "trackId": 1,
+        "name": "Scape Original",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 2,
+        "name": "Scape Main",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 3,
+        "name": "Scape Ground",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 4,
+        "name": "Scape Scared",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 5,
+        "name": "Scape Santa",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 6,
+        "name": "Harmony",
+        "varpCoord": 32794
+    },
+    {
+        "trackId": 7,
+        "name": "Harmony 2",
+        "varpCoord": 98311
+    },
+    {
+        "trackId": 8,
+        "name": "The Lost Tribe",
+        "varpCoord": 180226
+    },
+    {
+        "trackId": 9,
+        "name": "Autumn Voyage",
+        "varpCoord": 16401
+    },
+    {
+        "trackId": 10,
+        "name": "Venture",
+        "varpCoord": 81928
+    },
+    {
+        "trackId": 11,
+        "name": "Venture 2",
+        "varpCoord": 98312
+    },
+    {
+        "trackId": 12,
+        "name": "Background",
+        "varpCoord": 16402
+    },
+    {
+        "trackId": 13,
+        "name": "Camelot",
+        "varpCoord": 16408
+    },
+    {
+        "trackId": 14,
+        "name": "Flute Salad",
+        "varpCoord": 32783
+    },
+    {
+        "trackId": 15,
+        "name": "Dream",
+        "varpCoord": 32771
+    },
+    {
+        "trackId": 16,
+        "name": "Book of Spells",
+        "varpCoord": 16407
+    },
+    {
+        "trackId": 17,
+        "name": "Doorways",
+        "varpCoord": 32770
+    },
+    {
+        "trackId": 18,
+        "name": "Spirit",
+        "varpCoord": 65552
+    },
+    {
+        "trackId": 19,
+        "name": "Cellar Song",
+        "varpCoord": 98317
+    },
+    {
+        "trackId": 20,
+        "name": "Greatness",
+        "varpCoord": 32793
+    },
+    {
+        "trackId": 21,
+        "name": "Adventure",
+        "varpCoord": 16384
+    },
+    {
+        "trackId": 22,
+        "name": "Scape Wild",
+        "varpCoord": 65545
+    },
+    {
+        "trackId": 23,
+        "name": "Witching",
+        "varpCoord": 81937
+    },
+    {
+        "trackId": 24,
+        "name": "Scape Sad",
+        "varpCoord": 65544
+    },
+    {
+        "trackId": 25,
+        "name": "Garden",
+        "varpCoord": 32786
+    },
+    {
+        "trackId": 26,
+        "name": "Expanse",
+        "varpCoord": 32776
+    },
+    {
+        "trackId": 27,
+        "name": "Scape Cave",
+        "varpCoord": 65542
+    },
+    {
+        "trackId": 28,
+        "name": "Parade",
+        "varpCoord": 49181
+    },
+    {
+        "trackId": 29,
+        "name": "Medieval",
+        "varpCoord": 49170
+    },
+    {
+        "trackId": 30,
+        "name": "Still Night",
+        "varpCoord": 65558
+    },
+    {
+        "trackId": 31,
+        "name": "Arabian 2",
+        "varpCoord": 16389
+    },
+    {
+        "trackId": 32,
+        "name": "Arabian",
+        "varpCoord": 16388
+    },
+    {
+        "trackId": 33,
+        "name": "Al Kharid",
+        "varpCoord": 16385
+    },
+    {
+        "trackId": 34,
+        "name": "Forever",
+        "varpCoord": 32784
+    },
+    {
+        "trackId": 35,
+        "name": "Barbarianism",
+        "varpCoord": 147457
+    },
+    {
+        "trackId": 36,
+        "name": "Spooky",
+        "varpCoord": 65554
+    },
+    {
+        "trackId": 37,
+        "name": "Start",
+        "varpCoord": 65557
+    },
+    {
+        "trackId": 38,
+        "name": "Unknown Land",
+        "varpCoord": 81925
+    },
+    {
+        "trackId": 39,
+        "name": "Vision",
+        "varpCoord": 81929
+    },
+    {
+        "trackId": 40,
+        "name": "Sea Shanty 2",
+        "varpCoord": 65547
+    },
+    {
+        "trackId": 41,
+        "name": "Fishing",
+        "varpCoord": 32782
+    },
+    {
+        "trackId": 42,
+        "name": "High Seas",
+        "varpCoord": 32795
+    },
+    {
+        "trackId": 43,
+        "name": "Jungle Island",
+        "varpCoord": 49154
+    },
+    {
+        "trackId": 44,
+        "name": "Sea Shanty",
+        "varpCoord": 65546
+    },
+    {
+        "trackId": 45,
+        "name": "Arrival",
+        "varpCoord": 16393
+    },
+    {
+        "trackId": 46,
+        "name": "Fanfare",
+        "varpCoord": 32780
+    },
+    {
+        "trackId": 47,
+        "name": "Miles Away",
+        "varpCoord": 49172
+    },
+    {
+        "trackId": 48,
+        "name": "Long Way Home",
+        "varpCoord": 49164
+    },
+    {
+        "trackId": 49,
+        "name": "Wander",
+        "varpCoord": 81932
+    },
+    {
+        "trackId": 50,
+        "name": "Alone",
+        "varpCoord": 16386
+    },
+    {
+        "trackId": 51,
+        "name": "Gaol",
+        "varpCoord": 32785
+    },
+    {
+        "trackId": 52,
+        "name": "Nightfall",
+        "varpCoord": 49178
+    },
+    {
+        "trackId": 53,
+        "name": "Magical Journey",
+        "varpCoord": 49168
+    },
+    {
+        "trackId": 54,
+        "name": "Fruits de Mer",
+        "varpCoord": 147473
+    },
+    {
+        "trackId": 55,
+        "name": "Splendour",
+        "varpCoord": 65553
+    },
+    {
+        "trackId": 56,
+        "name": "Attack 4",
+        "varpCoord": 16397
+    },
+    {
+        "trackId": 57,
+        "name": "Attack 1",
+        "varpCoord": 16394
+    },
+    {
+        "trackId": 58,
+        "name": "Dwarf Theme",
+        "varpCoord": 32788
+    },
+    {
+        "trackId": 59,
+        "name": "Mellow",
+        "varpCoord": 49171
+    },
+    {
+        "trackId": 60,
+        "name": "Lightwalk",
+        "varpCoord": 49162
+    },
+    {
+        "trackId": 61,
+        "name": "The Shadow",
+        "varpCoord": 65561
+    },
+    {
+        "trackId": 62,
+        "name": "Wilderness 3",
+        "varpCoord": 81936
+    },
+    {
+        "trackId": 63,
+        "name": "Wonderous",
+        "varpCoord": 81939
+    },
+    {
+        "trackId": 64,
+        "name": "Trinity",
+        "varpCoord": 81922
+    },
+    {
+        "trackId": 65,
+        "name": "March",
+        "varpCoord": 49169
+    },
+    {
+        "trackId": 66,
+        "name": "Sad Meadow",
+        "varpCoord": 65541
+    },
+    {
+        "trackId": 67,
+        "name": "Knightly",
+        "varpCoord": 49158
+    },
+    {
+        "trackId": 68,
+        "name": "Baroque",
+        "varpCoord": 16404
+    },
+    {
+        "trackId": 69,
+        "name": "Ballad of Enchantment",
+        "varpCoord": 16403
+    },
+    {
+        "trackId": 70,
+        "name": "Monarch Waltz",
+        "varpCoord": 49174
+    },
+    {
+        "trackId": 71,
+        "name": "Overture",
+        "varpCoord": 49180
+    },
+    {
+        "trackId": 72,
+        "name": "Talking Forest",
+        "varpCoord": 65559
+    },
+    {
+        "trackId": 73,
+        "name": "Upcoming",
+        "varpCoord": 81927
+    },
+    {
+        "trackId": 74,
+        "name": "Gnome King",
+        "varpCoord": 32787
+    },
+    {
+        "trackId": 75,
+        "name": "Gnome Village",
+        "varpCoord": 32789
+    },
+    {
+        "trackId": 76,
+        "name": "Jolly R",
+        "varpCoord": 49153
+    },
+    {
+        "trackId": 77,
+        "name": "Nomad",
+        "varpCoord": 98315
+    },
+    {
+        "trackId": 78,
+        "name": "Spooky Jungle",
+        "varpCoord": 65555
+    },
+    {
+        "trackId": 79,
+        "name": "Reggae",
+        "varpCoord": 65536
+    },
+    {
+        "trackId": 80,
+        "name": "Lonesome",
+        "varpCoord": 81941
+    },
+    {
+        "trackId": 81,
+        "name": "Tribal Background",
+        "varpCoord": 65567
+    },
+    {
+        "trackId": 82,
+        "name": "Jungly 3",
+        "varpCoord": 49157
+    },
+    {
+        "trackId": 83,
+        "name": "Landlubber",
+        "varpCoord": 98313
+    },
+    {
+        "trackId": 84,
+        "name": "Tribal",
+        "varpCoord": 81920
+    },
+    {
+        "trackId": 85,
+        "name": "Reggae 2",
+        "varpCoord": 65537
+    },
+    {
+        "trackId": 86,
+        "name": "Tribal 2",
+        "varpCoord": 81921
+    },
+    {
+        "trackId": 87,
+        "name": "Ambient Jungle",
+        "varpCoord": 16387
+    },
+    {
+        "trackId": 88,
+        "name": "Lullaby",
+        "varpCoord": 49165
+    },
+    {
+        "trackId": 89,
+        "name": "Waterfall",
+        "varpCoord": 81933
+    },
+    {
+        "trackId": 90,
+        "name": "Voyage",
+        "varpCoord": 81931
+    },
+    {
+        "trackId": 91,
+        "name": "The Tower",
+        "varpCoord": 65562
+    },
+    {
+        "trackId": 92,
+        "name": "Theme",
+        "varpCoord": 65563
+    },
+    {
+        "trackId": 93,
+        "name": "Lasting",
+        "varpCoord": 49159
+    },
+    {
+        "trackId": 94,
+        "name": "Emotion",
+        "varpCoord": 32774
+    },
+    {
+        "trackId": 95,
+        "name": "Fanfare 3",
+        "varpCoord": 32781
+    },
+    {
+        "trackId": 96,
+        "name": "Horizon",
+        "varpCoord": 32796
+    },
+    {
+        "trackId": 97,
+        "name": "Legion",
+        "varpCoord": 49160
+    },
+    {
+        "trackId": 98,
+        "name": "Egypt",
+        "varpCoord": 32773
+    },
+    {
+        "trackId": 99,
+        "name": "Desert Voyage",
+        "varpCoord": 32769
+    },
+    {
+        "trackId": 100,
+        "name": "Arabian 3",
+        "varpCoord": 16390
+    },
+    {
+        "trackId": 101,
+        "name": "Neverland",
+        "varpCoord": 49176
+    },
+    {
+        "trackId": 102,
+        "name": "Moody",
+        "varpCoord": 49175
+    },
+    {
+        "trackId": 103,
+        "name": "Serenade",
+        "varpCoord": 65548
+    },
+    {
+        "trackId": 104,
+        "name": "Long Ago",
+        "varpCoord": 49163
+    },
+    {
+        "trackId": 105,
+        "name": "Magic Dance",
+        "varpCoord": 49167
+    },
+    {
+        "trackId": 106,
+        "name": "Goblin Village",
+        "varpCoord": 32791
+    },
+    {
+        "trackId": 107,
+        "name": "Inspiration",
+        "varpCoord": 32799
+    },
+    {
+        "trackId": 108,
+        "name": "Army of Darkness",
+        "varpCoord": 16392
+    },
+    {
+        "trackId": 109,
+        "name": "Wildwood",
+        "varpCoord": 147456
+    },
+    {
+        "trackId": 110,
+        "name": "Wild Isle",
+        "varpCoord": 98310
+    },
+    {
+        "trackId": 111,
+        "name": "Undercurrent",
+        "varpCoord": 98314
+    },
+    {
+        "trackId": 112,
+        "name": "Attention",
+        "varpCoord": 16400
+    },
+    {
+        "trackId": 113,
+        "name": "Big Chords",
+        "varpCoord": 16406
+    },
+    {
+        "trackId": 114,
+        "name": "Dangerous",
+        "varpCoord": 16414
+    },
+    {
+        "trackId": 115,
+        "name": "Emperor",
+        "varpCoord": 32775
+    },
+    {
+        "trackId": 116,
+        "name": "Expecting",
+        "varpCoord": 32777
+    },
+    {
+        "trackId": 117,
+        "name": "Gnomeball",
+        "varpCoord": 32792
+    },
+    {
+        "trackId": 118,
+        "name": "Tree Spirits",
+        "varpCoord": 65566
+    },
+    {
+        "trackId": 119,
+        "name": "Faithless",
+        "varpCoord": 147465
+    },
+    {
+        "trackId": 120,
+        "name": "Underground",
+        "varpCoord": 81924
+    },
+    {
+        "trackId": 121,
+        "name": "Dark",
+        "varpCoord": 16415
+    },
+    {
+        "trackId": 122,
+        "name": "Soundscape",
+        "varpCoord": 65551
+    },
+    {
+        "trackId": 123,
+        "name": "In the Manor",
+        "varpCoord": 32798
+    },
+    {
+        "trackId": 124,
+        "name": "Close Quarters",
+        "varpCoord": 98319
+    },
+    {
+        "trackId": 125,
+        "name": "Jungly 2",
+        "varpCoord": 49156
+    },
+    {
+        "trackId": 126,
+        "name": "Crystal Sword",
+        "varpCoord": 16413
+    },
+    {
+        "trackId": 127,
+        "name": "Newbie Melody",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 128,
+        "name": "Wilderness",
+        "varpCoord": 81934
+    },
+    {
+        "trackId": 129,
+        "name": "Wonder",
+        "varpCoord": 81938
+    },
+    {
+        "trackId": 130,
+        "name": "Troubled",
+        "varpCoord": 81923
+    },
+    {
+        "trackId": 131,
+        "name": "Deep Wildy",
+        "varpCoord": 32768
+    },
+    {
+        "trackId": 132,
+        "name": "Wilderness 2",
+        "varpCoord": 81935
+    },
+    {
+        "trackId": 133,
+        "name": "Jungly 1",
+        "varpCoord": 49155
+    },
+    {
+        "trackId": 134,
+        "name": "Faerie",
+        "varpCoord": 32779
+    },
+    {
+        "trackId": 135,
+        "name": "Crystal Cave",
+        "varpCoord": 16412
+    },
+    {
+        "trackId": 136,
+        "name": "Royale",
+        "varpCoord": 65539
+    },
+    {
+        "trackId": 137,
+        "name": "Attack 6",
+        "varpCoord": 16399
+    },
+    {
+        "trackId": 138,
+        "name": "Expedition",
+        "varpCoord": 32778
+    },
+    {
+        "trackId": 139,
+        "name": "Attack 2",
+        "varpCoord": 16395
+    },
+    {
+        "trackId": 140,
+        "name": "Attack 5",
+        "varpCoord": 16398
+    },
+    {
+        "trackId": 141,
+        "name": "Arabique",
+        "varpCoord": 16391
+    },
+    {
+        "trackId": 142,
+        "name": "Dunjun",
+        "varpCoord": 32772
+    },
+    {
+        "trackId": 143,
+        "name": "Woe of the Wyvern",
+        "varpCoord": 196625
+    },
+    {
+        "trackId": 144,
+        "name": "Starlight",
+        "varpCoord": 65556
+    },
+    {
+        "trackId": 145,
+        "name": "Oriental",
+        "varpCoord": 49179
+    },
+    {
+        "trackId": 146,
+        "name": "Cave Background",
+        "varpCoord": 16409
+    },
+    {
+        "trackId": 147,
+        "name": "Attack 3",
+        "varpCoord": 16396
+    },
+    {
+        "trackId": 148,
+        "name": "Courage",
+        "varpCoord": 147460
+    },
+    {
+        "trackId": 149,
+        "name": "Rune Essence",
+        "varpCoord": 65540
+    },
+    {
+        "trackId": 150,
+        "name": "Trawler",
+        "varpCoord": 65564
+    },
+    {
+        "trackId": 151,
+        "name": "Trawler Minor",
+        "varpCoord": 65565
+    },
+    {
+        "trackId": 152,
+        "name": "Underground Pass",
+        "varpCoord": 81926
+    },
+    {
+        "trackId": 153,
+        "name": "Cursed",
+        "varpCoord": 98330
+    },
+    {
+        "trackId": 154,
+        "name": "Intrepid",
+        "varpCoord": 49152
+    },
+    {
+        "trackId": 155,
+        "name": "Voodoo Cult",
+        "varpCoord": 81930
+    },
+    {
+        "trackId": 156,
+        "name": "Superstition",
+        "varpCoord": 147461
+    },
+    {
+        "trackId": 157,
+        "name": "Iban",
+        "varpCoord": 32797
+    },
+    {
+        "trackId": 158,
+        "name": "Chain of Command",
+        "varpCoord": 16411
+    },
+    {
+        "trackId": 159,
+        "name": "Regal",
+        "varpCoord": 49183
+    },
+    {
+        "trackId": 160,
+        "name": "The Desert",
+        "varpCoord": 65560
+    },
+    {
+        "trackId": 161,
+        "name": "Gnome Village 2",
+        "varpCoord": 32790
+    },
+    {
+        "trackId": 162,
+        "name": "Beyond",
+        "varpCoord": 16405
+    },
+    {
+        "trackId": 163,
+        "name": "Workshop",
+        "varpCoord": 81940
+    },
+    {
+        "trackId": 164,
+        "name": "Narnode's Theme",
+        "varpCoord": 147474
+    },
+    {
+        "trackId": 165,
+        "name": "Goblin Game",
+        "varpCoord": 131100
+    },
+    {
+        "trackId": 166,
+        "name": "Escape",
+        "varpCoord": 98320
+    },
+    {
+        "trackId": 167,
+        "name": "Mage Arena",
+        "varpCoord": 49166
+    },
+    {
+        "trackId": 168,
+        "name": "Complication",
+        "varpCoord": 147458
+    },
+    {
+        "trackId": 169,
+        "name": "Heart and Mind",
+        "varpCoord": 98318
+    },
+    {
+        "trackId": 170,
+        "name": "Zealot",
+        "varpCoord": 98316
+    },
+    {
+        "trackId": 171,
+        "name": "Serene",
+        "varpCoord": 65549
+    },
+    {
+        "trackId": 172,
+        "name": "Cavern",
+        "varpCoord": 16410
+    },
+    {
+        "trackId": 173,
+        "name": "Miracle Dance",
+        "varpCoord": 49173
+    },
+    {
+        "trackId": 174,
+        "name": "Quest",
+        "varpCoord": 49182
+    },
+    {
+        "trackId": 175,
+        "name": "Scape Soft",
+        "varpCoord": 81951
+    },
+    {
+        "trackId": 176,
+        "name": "Shining",
+        "varpCoord": 98304
+    },
+    {
+        "trackId": 177,
+        "name": "Yesteryear",
+        "varpCoord": 98305
+    },
+    {
+        "trackId": 178,
+        "name": "Fanfare 2",
+        "varpCoord": 98306
+    },
+    {
+        "trackId": 179,
+        "name": "Duel Arena",
+        "varpCoord": 98308
+    },
+    {
+        "trackId": 180,
+        "name": "Shadowland",
+        "varpCoord": 131076
+    },
+    {
+        "trackId": 181,
+        "name": "Shine",
+        "varpCoord": 65550
+    },
+    {
+        "trackId": 182,
+        "name": "Ice Melody",
+        "varpCoord": 98309
+    },
+    {
+        "trackId": 183,
+        "name": "Grumpy",
+        "varpCoord": 98321
+    },
+    {
+        "trackId": 184,
+        "name": "Chompy Hunt",
+        "varpCoord": 98322
+    },
+    {
+        "trackId": 185,
+        "name": "Twilight",
+        "varpCoord": 98323
+    },
+    {
+        "trackId": 186,
+        "name": "Morytania",
+        "varpCoord": 98324
+    },
+    {
+        "trackId": 187,
+        "name": "Dead Quiet",
+        "varpCoord": 98325
+    },
+    {
+        "trackId": 188,
+        "name": "Village",
+        "varpCoord": 98326
+    },
+    {
+        "trackId": 189,
+        "name": "Bone Dance",
+        "varpCoord": 98327
+    },
+    {
+        "trackId": 190,
+        "name": "Mausoleum",
+        "varpCoord": 98328
+    },
+    {
+        "trackId": 191,
+        "name": "Forbidden",
+        "varpCoord": 98329
+    },
+    {
+        "trackId": 192,
+        "name": "Understanding",
+        "varpCoord": 98331
+    },
+    {
+        "trackId": 193,
+        "name": "Principality",
+        "varpCoord": 98332
+    },
+    {
+        "trackId": 194,
+        "name": "Tremble",
+        "varpCoord": 98333
+    },
+    {
+        "trackId": 195,
+        "name": "Hermit",
+        "varpCoord": 98335
+    },
+    {
+        "trackId": 196,
+        "name": "La Mort",
+        "varpCoord": 114688
+    },
+    {
+        "trackId": 197,
+        "name": "Stagnant",
+        "varpCoord": 114689
+    },
+    {
+        "trackId": 198,
+        "name": "Breeze",
+        "varpCoord": 114690
+    },
+    {
+        "trackId": 199,
+        "name": "Stratosphere",
+        "varpCoord": 114691
+    },
+    {
+        "trackId": 200,
+        "name": "Time Out",
+        "varpCoord": 114692
+    },
+    {
+        "trackId": 201,
+        "name": "Natural",
+        "varpCoord": 114693
+    },
+    {
+        "trackId": 202,
+        "name": "Grotto",
+        "varpCoord": 114694
+    },
+    {
+        "trackId": 203,
+        "name": "Waterlogged",
+        "varpCoord": 114695
+    },
+    {
+        "trackId": 204,
+        "name": "Artistry",
+        "varpCoord": 114696
+    },
+    {
+        "trackId": 205,
+        "name": "Aztec",
+        "varpCoord": 114697
+    },
+    {
+        "trackId": 206,
+        "name": "Elven Mist",
+        "varpCoord": 114698
+    },
+    {
+        "trackId": 207,
+        "name": "Forest",
+        "varpCoord": 114699
+    },
+    {
+        "trackId": 208,
+        "name": "Lost Soul",
+        "varpCoord": 114700
+    },
+    {
+        "trackId": 209,
+        "name": "Meridian",
+        "varpCoord": 114701
+    },
+    {
+        "trackId": 210,
+        "name": "Woodland",
+        "varpCoord": 114702
+    },
+    {
+        "trackId": 211,
+        "name": "Overpass",
+        "varpCoord": 114703
+    },
+    {
+        "trackId": 212,
+        "name": "Contest",
+        "varpCoord": 114704
+    },
+    {
+        "trackId": 213,
+        "name": "Sojourn",
+        "varpCoord": 114705
+    },
+    {
+        "trackId": 214,
+        "name": "Crystal Castle",
+        "varpCoord": 114706
+    },
+    {
+        "trackId": 215,
+        "name": "Marzipan",
+        "varpCoord": 114707
+    },
+    {
+        "trackId": 216,
+        "name": "Insect Queen",
+        "varpCoord": 114708
+    },
+    {
+        "trackId": 217,
+        "name": "Mad Eadgar",
+        "varpCoord": 114709
+    },
+    {
+        "trackId": 218,
+        "name": "Bandit Camp",
+        "varpCoord": 114710
+    },
+    {
+        "trackId": 219,
+        "name": "Sunburn",
+        "varpCoord": 114711
+    },
+    {
+        "trackId": 220,
+        "name": "Bone Dry",
+        "varpCoord": 114712
+    },
+    {
+        "trackId": 221,
+        "name": "Competition",
+        "varpCoord": 114713
+    },
+    {
+        "trackId": 222,
+        "name": "Everywhere",
+        "varpCoord": 114715
+    },
+    {
+        "trackId": 223,
+        "name": "Exposed",
+        "varpCoord": 114716
+    },
+    {
+        "trackId": 224,
+        "name": "Riverside",
+        "varpCoord": 65538
+    },
+    {
+        "trackId": 225,
+        "name": "Well of Voyage",
+        "varpCoord": 114717
+    },
+    {
+        "trackId": 226,
+        "name": "Righteousness",
+        "varpCoord": 114719
+    },
+    {
+        "trackId": 227,
+        "name": "Down to Earth",
+        "varpCoord": 147459
+    },
+    {
+        "trackId": 228,
+        "name": "Haunted Mine",
+        "varpCoord": 114718
+    },
+    {
+        "trackId": 229,
+        "name": "Spooky 2",
+        "varpCoord": 114714
+    },
+    {
+        "trackId": 230,
+        "name": "Deep Down",
+        "varpCoord": 131072
+    },
+    {
+        "trackId": 231,
+        "name": "Chamber",
+        "varpCoord": 131073
+    },
+    {
+        "trackId": 232,
+        "name": "Miscellania",
+        "varpCoord": 131074
+    },
+    {
+        "trackId": 233,
+        "name": "Etceteria",
+        "varpCoord": 131075
+    },
+    {
+        "trackId": 234,
+        "name": "Lair",
+        "varpCoord": 131077
+    },
+    {
+        "trackId": 235,
+        "name": "Deadlands",
+        "varpCoord": 131078
+    },
+    {
+        "trackId": 236,
+        "name": "Rellekka",
+        "varpCoord": 131079
+    },
+    {
+        "trackId": 237,
+        "name": "Saga",
+        "varpCoord": 131080
+    },
+    {
+        "trackId": 238,
+        "name": "Borderland",
+        "varpCoord": 131081
+    },
+    {
+        "trackId": 239,
+        "name": "Legend",
+        "varpCoord": 131083
+    },
+    {
+        "trackId": 240,
+        "name": "Warrior",
+        "varpCoord": 131085
+    },
+    {
+        "trackId": 241,
+        "name": "The Navigator",
+        "varpCoord": 131103
+    },
+    {
+        "trackId": 242,
+        "name": "Technology",
+        "varpCoord": 131086
+    },
+    {
+        "trackId": 243,
+        "name": "Monkey Madness",
+        "varpCoord": 131087
+    },
+    {
+        "trackId": 244,
+        "name": "Anywhere",
+        "varpCoord": 131088
+    },
+    {
+        "trackId": 245,
+        "name": "Marooned",
+        "varpCoord": 131089
+    },
+    {
+        "trackId": 246,
+        "name": "Island Life",
+        "varpCoord": 131090
+    },
+    {
+        "trackId": 247,
+        "name": "Temple",
+        "varpCoord": 131091
+    },
+    {
+        "trackId": 248,
+        "name": "Suspicious",
+        "varpCoord": 131092
+    },
+    {
+        "trackId": 249,
+        "name": "Showdown",
+        "varpCoord": 131093
+    },
+    {
+        "trackId": 250,
+        "name": "Find My Way",
+        "varpCoord": 131094
+    },
+    {
+        "trackId": 251,
+        "name": "Castle Wars",
+        "varpCoord": 131095
+    },
+    {
+        "trackId": 252,
+        "name": "Melodrama",
+        "varpCoord": 131096
+    },
+    {
+        "trackId": 253,
+        "name": "Ready for Battle",
+        "varpCoord": 131097
+    },
+    {
+        "trackId": 254,
+        "name": "Lighthouse",
+        "varpCoord": 131099
+    },
+    {
+        "trackId": 255,
+        "name": "Out of the Deep",
+        "varpCoord": 131101
+    },
+    {
+        "trackId": 256,
+        "name": "Hells Bells",
+        "varpCoord": 131102
+    },
+    {
+        "trackId": 257,
+        "name": "Pirates of Peril",
+        "varpCoord": 147462
+    },
+    {
+        "trackId": 258,
+        "name": "Dangerous Road",
+        "varpCoord": 147463
+    },
+    {
+        "trackId": 259,
+        "name": "Romancing the Crone",
+        "varpCoord": 147464
+    },
+    {
+        "trackId": 260,
+        "name": "Stranded",
+        "varpCoord": 131082
+    },
+    {
+        "trackId": 261,
+        "name": "Stillness",
+        "varpCoord": 131098
+    },
+    {
+        "trackId": 262,
+        "name": "7th Realm",
+        "varpCoord": 147485
+    },
+    {
+        "trackId": 263,
+        "name": "Karamja Jam",
+        "varpCoord": 147486
+    },
+    {
+        "trackId": 264,
+        "name": "Pathways",
+        "varpCoord": 147487
+    },
+    {
+        "trackId": 265,
+        "name": "The Terrible Tower",
+        "varpCoord": 147467
+    },
+    {
+        "trackId": 266,
+        "name": "Masquerade",
+        "varpCoord": 147468
+    },
+    {
+        "trackId": 267,
+        "name": "The Slayer",
+        "varpCoord": 147469
+    },
+    {
+        "trackId": 268,
+        "name": "Body Parts",
+        "varpCoord": 147470
+    },
+    {
+        "trackId": 269,
+        "name": "Fenkenstrain's Refrain",
+        "varpCoord": 147471
+    },
+    {
+        "trackId": 270,
+        "name": "Barking Mad",
+        "varpCoord": 278533
+    },
+    {
+        "trackId": 271,
+        "name": "Shipwrecked",
+        "varpCoord": 147476
+    },
+    {
+        "trackId": 272,
+        "name": "Phasmatys",
+        "varpCoord": 147477
+    },
+    {
+        "trackId": 273,
+        "name": "The Other Side",
+        "varpCoord": 147478
+    },
+    {
+        "trackId": 274,
+        "name": "Dragontooth Island",
+        "varpCoord": 147481
+    },
+    {
+        "trackId": 275,
+        "name": "Monster Melee",
+        "varpCoord": 147472
+    },
+    {
+        "trackId": 276,
+        "name": "Settlement",
+        "varpCoord": 147479
+    },
+    {
+        "trackId": 277,
+        "name": "Cave of Beasts",
+        "varpCoord": 147480
+    },
+    {
+        "trackId": 278,
+        "name": "Cave of the Goblins",
+        "varpCoord": 163856
+    },
+    {
+        "trackId": 279,
+        "name": "Land of the Dwarves",
+        "varpCoord": 163862
+    },
+    {
+        "trackId": 280,
+        "name": "Tale of Keldagrim",
+        "varpCoord": 163861
+    },
+    {
+        "trackId": 281,
+        "name": "Time to Mine",
+        "varpCoord": 163841
+    },
+    {
+        "trackId": 282,
+        "name": "In Between",
+        "varpCoord": 163842
+    },
+    {
+        "trackId": 283,
+        "name": "Claustrophobia",
+        "varpCoord": 163843
+    },
+    {
+        "trackId": 284,
+        "name": "Dynasty",
+        "varpCoord": 147475
+    },
+    {
+        "trackId": 285,
+        "name": "The Golem",
+        "varpCoord": 163847
+    },
+    {
+        "trackId": 286,
+        "name": "Throne of the Demon",
+        "varpCoord": 163849
+    },
+    {
+        "trackId": 287,
+        "name": "Forgotten",
+        "varpCoord": 163848
+    },
+    {
+        "trackId": 288,
+        "name": "Incantation",
+        "varpCoord": 196619
+    },
+    {
+        "trackId": 289,
+        "name": "Grip of the Talon",
+        "varpCoord": 196620
+    },
+    {
+        "trackId": 290,
+        "name": "Frostbite",
+        "varpCoord": 131084
+    },
+    {
+        "trackId": 291,
+        "name": "Scarab",
+        "varpCoord": 147482
+    },
+    {
+        "trackId": 292,
+        "name": "Sarcophagus",
+        "varpCoord": 147483
+    },
+    {
+        "trackId": 293,
+        "name": "Path of Peril",
+        "varpCoord": 163859
+    },
+    {
+        "trackId": 294,
+        "name": "Down Below",
+        "varpCoord": 147484
+    },
+    {
+        "trackId": 295,
+        "name": "City of the Dead",
+        "varpCoord": 163852
+    },
+    {
+        "trackId": 296,
+        "name": "Sphinx",
+        "varpCoord": 163854
+    },
+    {
+        "trackId": 297,
+        "name": "Hypnotized",
+        "varpCoord": 163853
+    },
+    {
+        "trackId": 298,
+        "name": "Mirage",
+        "varpCoord": 163855
+    },
+    {
+        "trackId": 299,
+        "name": "Tears of Guthix",
+        "varpCoord": 163863
+    },
+    {
+        "trackId": 300,
+        "name": "The Power of Tears",
+        "varpCoord": 163871
+    },
+    {
+        "trackId": 301,
+        "name": "Dance of the Undead",
+        "varpCoord": 163850
+    },
+    {
+        "trackId": 302,
+        "name": "Dangerous Way",
+        "varpCoord": 163851
+    },
+    {
+        "trackId": 303,
+        "name": "Zogre Dance",
+        "varpCoord": 163858
+    },
+    {
+        "trackId": 304,
+        "name": "Wayward",
+        "varpCoord": 163860
+    },
+    {
+        "trackId": 305,
+        "name": "Romper Chomper",
+        "varpCoord": 163864
+    },
+    {
+        "trackId": 306,
+        "name": "The Lost Melody",
+        "varpCoord": 163867
+    },
+    {
+        "trackId": 307,
+        "name": "Into the Abyss",
+        "varpCoord": 163869
+    },
+    {
+        "trackId": 308,
+        "name": "The Rogues' Den",
+        "varpCoord": 163865
+    },
+    {
+        "trackId": 309,
+        "name": "The Far Side",
+        "varpCoord": 163866
+    },
+    {
+        "trackId": 310,
+        "name": "The Chosen",
+        "varpCoord": 180228
+    },
+    {
+        "trackId": 311,
+        "name": "Far Away",
+        "varpCoord": 163844
+    },
+    {
+        "trackId": 312,
+        "name": "Fight or Flight",
+        "varpCoord": 163845
+    },
+    {
+        "trackId": 313,
+        "name": "Forgettable Melody",
+        "varpCoord": 180230
+    },
+    {
+        "trackId": 314,
+        "name": "Right on Track",
+        "varpCoord": 180231
+    },
+    {
+        "trackId": 315,
+        "name": "The Monsters Below",
+        "varpCoord": 180233
+    },
+    {
+        "trackId": 316,
+        "name": "The Desolate Isle",
+        "varpCoord": 180234
+    },
+    {
+        "trackId": 317,
+        "name": "Evil Bob's Island",
+        "varpCoord": 163868
+    },
+    {
+        "trackId": 318,
+        "name": "Pheasant Peasant",
+        "varpCoord": 180225
+    },
+    {
+        "trackId": 319,
+        "name": "Frogland",
+        "varpCoord": 180240
+    },
+    {
+        "trackId": 320,
+        "name": "The Quizmaster",
+        "varpCoord": 163870
+    },
+    {
+        "trackId": 321,
+        "name": "Brew Hoo Hoo!",
+        "varpCoord": 180242
+    },
+    {
+        "trackId": 322,
+        "name": "Wild Side",
+        "varpCoord": 180244
+    },
+    {
+        "trackId": 323,
+        "name": "Lightness",
+        "varpCoord": 49161
+    },
+    {
+        "trackId": 324,
+        "name": "Dead Can Dance",
+        "varpCoord": 180245
+    },
+    {
+        "trackId": 325,
+        "name": "The Cellar Dwellers",
+        "varpCoord": 180246
+    },
+    {
+        "trackId": 326,
+        "name": "Jungle Troubles",
+        "varpCoord": 180247
+    },
+    {
+        "trackId": 327,
+        "name": "Have a Blast",
+        "varpCoord": 180229
+    },
+    {
+        "trackId": 328,
+        "name": "Fire and Brimstone",
+        "varpCoord": 180238
+    },
+    {
+        "trackId": 329,
+        "name": "In the Pits",
+        "varpCoord": 180239
+    },
+    {
+        "trackId": 330,
+        "name": "TzHaar!",
+        "varpCoord": 180243
+    },
+    {
+        "trackId": 331,
+        "name": "Strange Place",
+        "varpCoord": 180241
+    },
+    {
+        "trackId": 332,
+        "name": "Temple of Light",
+        "varpCoord": 163846
+    },
+    {
+        "trackId": 333,
+        "name": "Corporal Punishment",
+        "varpCoord": 180227
+    },
+    {
+        "trackId": 334,
+        "name": "Mudskipper Melody",
+        "varpCoord": 196617
+    },
+    {
+        "trackId": 335,
+        "name": "Aye Car Rum Ba",
+        "varpCoord": 180255
+    },
+    {
+        "trackId": 336,
+        "name": "Blistering Barnacles",
+        "varpCoord": 196608
+    },
+    {
+        "trackId": 337,
+        "name": "Subterranea",
+        "varpCoord": 196618
+    },
+    {
+        "trackId": 338,
+        "name": "Dagannoth Dawn",
+        "varpCoord": 196621
+    },
+    {
+        "trackId": 339,
+        "name": "Xenophobe",
+        "varpCoord": 196622
+    },
+    {
+        "trackId": 340,
+        "name": "Rat Hunt",
+        "varpCoord": 180253
+    },
+    {
+        "trackId": 341,
+        "name": "Rat a Tat Tat",
+        "varpCoord": 180249
+    },
+    {
+        "trackId": 342,
+        "name": "The Noble Rodent",
+        "varpCoord": 180250
+    },
+    {
+        "trackId": 343,
+        "name": "Bubble and Squeak",
+        "varpCoord": 180251
+    },
+    {
+        "trackId": 344,
+        "name": "Sarim's Vermin",
+        "varpCoord": 180252
+    },
+    {
+        "trackId": 345,
+        "name": "Catch Me If You Can",
+        "varpCoord": 180248
+    },
+    {
+        "trackId": 346,
+        "name": "Over to Nardah",
+        "varpCoord": 180232
+    },
+    {
+        "trackId": 347,
+        "name": "Spirits of the Elid",
+        "varpCoord": 180235
+    },
+    {
+        "trackId": 348,
+        "name": "The Genie",
+        "varpCoord": 180236
+    },
+    {
+        "trackId": 349,
+        "name": "Desert Heat",
+        "varpCoord": 180237
+    },
+    {
+        "trackId": 350,
+        "name": "Title Fight",
+        "varpCoord": 196623
+    },
+    {
+        "trackId": 351,
+        "name": "Victory is Mine",
+        "varpCoord": 196624
+    },
+    {
+        "trackId": 352,
+        "name": "Diango's Little Helpers",
+        "varpCoord": 196627
+    },
+    {
+        "trackId": 353,
+        "name": "The Enchanter",
+        "varpCoord": 196632
+    },
+    {
+        "trackId": 354,
+        "name": "Roll the Bones",
+        "varpCoord": 196628
+    },
+    {
+        "trackId": 355,
+        "name": "Golden Touch",
+        "varpCoord": 196630
+    },
+    {
+        "trackId": 356,
+        "name": "Mind over Matter",
+        "varpCoord": 196629
+    },
+    {
+        "trackId": 357,
+        "name": "In the Clink",
+        "varpCoord": 196616
+    },
+    {
+        "trackId": 358,
+        "name": "Tiptoe",
+        "varpCoord": 147466
+    },
+    {
+        "trackId": 359,
+        "name": "Scape Hunter",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 360,
+        "name": "Eagles' Peak",
+        "varpCoord": 163840
+    },
+    {
+        "trackId": 361,
+        "name": "Where Eagles Lair",
+        "varpCoord": 245760
+    },
+    {
+        "trackId": 362,
+        "name": "Poles Apart",
+        "varpCoord": 196638
+    },
+    {
+        "trackId": 363,
+        "name": "Jungle Hunt",
+        "varpCoord": 212992
+    },
+    {
+        "trackId": 364,
+        "name": "Joy of the Hunt",
+        "varpCoord": 212994
+    },
+    {
+        "trackId": 365,
+        "name": "On the Wing",
+        "varpCoord": 229385
+    },
+    {
+        "trackId": 366,
+        "name": "Distant Land",
+        "varpCoord": 196609
+    },
+    {
+        "trackId": 367,
+        "name": "Fangs for the Memory",
+        "varpCoord": 196610
+    },
+    {
+        "trackId": 368,
+        "name": "Pharaoh's Tomb",
+        "varpCoord": 196611
+    },
+    {
+        "trackId": 369,
+        "name": "Land Down Under",
+        "varpCoord": 196612
+    },
+    {
+        "trackId": 370,
+        "name": "Meddling Kids",
+        "varpCoord": 196613
+    },
+    {
+        "trackId": 371,
+        "name": "Corridors of Power",
+        "varpCoord": 196614
+    },
+    {
+        "trackId": 372,
+        "name": "Slither and Thither",
+        "varpCoord": 196615
+    },
+    {
+        "trackId": 373,
+        "name": "In the Brine",
+        "varpCoord": 196626
+    },
+    {
+        "trackId": 374,
+        "name": "Cabin Fever",
+        "varpCoord": 196635
+    },
+    {
+        "trackId": 375,
+        "name": "Making Waves",
+        "varpCoord": 196634
+    },
+    {
+        "trackId": 376,
+        "name": "Last Stand",
+        "varpCoord": 196636
+    },
+    {
+        "trackId": 377,
+        "name": "Lament",
+        "varpCoord": 196637
+    },
+    {
+        "trackId": 378,
+        "name": "Home Sweet Home",
+        "varpCoord": 212993
+    },
+    {
+        "trackId": 379,
+        "name": "Scape Home",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 380,
+        "name": "Dogs of War",
+        "varpCoord": 212995
+    },
+    {
+        "trackId": 381,
+        "name": "Food for Thought",
+        "varpCoord": 212996
+    },
+    {
+        "trackId": 382,
+        "name": "Malady",
+        "varpCoord": 212997
+    },
+    {
+        "trackId": 383,
+        "name": "Dance of Death",
+        "varpCoord": 212998
+    },
+    {
+        "trackId": 384,
+        "name": "Storm Brew",
+        "varpCoord": 213000
+    },
+    {
+        "trackId": 385,
+        "name": "Wrath and Ruin",
+        "varpCoord": 212999
+    },
+    {
+        "trackId": 386,
+        "name": "No Way Out",
+        "varpCoord": 213011
+    },
+    {
+        "trackId": 387,
+        "name": "Method of Madness",
+        "varpCoord": 213012
+    },
+    {
+        "trackId": 388,
+        "name": "Fear and Loathing",
+        "varpCoord": 213013
+    },
+    {
+        "trackId": 389,
+        "name": "The Mad Mole",
+        "varpCoord": 213001
+    },
+    {
+        "trackId": 390,
+        "name": "Davy Jones' Locker",
+        "varpCoord": 213002
+    },
+    {
+        "trackId": 391,
+        "name": "Chickened Out",
+        "varpCoord": 213003
+    },
+    {
+        "trackId": 392,
+        "name": "Mastermindless",
+        "varpCoord": 213005
+    },
+    {
+        "trackId": 393,
+        "name": "Too Many Cooks...",
+        "varpCoord": 213006
+    },
+    {
+        "trackId": 394,
+        "name": "Chef Surprise",
+        "varpCoord": 213007
+    },
+    {
+        "trackId": 395,
+        "name": "Null and Void",
+        "varpCoord": 213008
+    },
+    {
+        "trackId": 396,
+        "name": "Pest Control",
+        "varpCoord": 213009
+    },
+    {
+        "trackId": 397,
+        "name": "Tomb Raider",
+        "varpCoord": 213010
+    },
+    {
+        "trackId": 398,
+        "name": "Funny Bunnies",
+        "varpCoord": 213014
+    },
+    {
+        "trackId": 399,
+        "name": "Everlasting Fire",
+        "varpCoord": 229377
+    },
+    {
+        "trackId": 400,
+        "name": "Distillery Hilarity",
+        "varpCoord": 213017
+    },
+    {
+        "trackId": 401,
+        "name": "Trouble Brewing",
+        "varpCoord": 213018
+    },
+    {
+        "trackId": 402,
+        "name": "Head to Head",
+        "varpCoord": 213019
+    },
+    {
+        "trackId": 403,
+        "name": "Pinball Wizard",
+        "varpCoord": 213020
+    },
+    {
+        "trackId": 404,
+        "name": "Life's a Beach!",
+        "varpCoord": 229384
+    },
+    {
+        "trackId": 405,
+        "name": "Little Cave of Horrors",
+        "varpCoord": 229386
+    },
+    {
+        "trackId": 406,
+        "name": "The Depths",
+        "varpCoord": 213016
+    },
+    {
+        "trackId": 407,
+        "name": "Labyrinth",
+        "varpCoord": 213023
+    },
+    {
+        "trackId": 408,
+        "name": "Beetle Juice",
+        "varpCoord": 213021
+    },
+    {
+        "trackId": 409,
+        "name": "Back to Life",
+        "varpCoord": 213022
+    },
+    {
+        "trackId": 410,
+        "name": "Waking Dream",
+        "varpCoord": 229378
+    },
+    {
+        "trackId": 411,
+        "name": "Dreamstate",
+        "varpCoord": 229379
+    },
+    {
+        "trackId": 412,
+        "name": "The Lunar Isle",
+        "varpCoord": 229380
+    },
+    {
+        "trackId": 413,
+        "name": "Isle of Everywhere",
+        "varpCoord": 229381
+    },
+    {
+        "trackId": 414,
+        "name": "Way of the Enchanter",
+        "varpCoord": 229382
+    },
+    {
+        "trackId": 415,
+        "name": "The Galleon",
+        "varpCoord": 229388
+    },
+    {
+        "trackId": 416,
+        "name": "Warriors' Guild",
+        "varpCoord": 229383
+    },
+    {
+        "trackId": 417,
+        "name": "Kingdom",
+        "varpCoord": 98334
+    },
+    {
+        "trackId": 418,
+        "name": "Tomorrow",
+        "varpCoord": 98307
+    },
+    {
+        "trackId": 419,
+        "name": "H.A.M. Fisted",
+        "varpCoord": 229389
+    },
+    {
+        "trackId": 420,
+        "name": "Sigmund's Showdown",
+        "varpCoord": 229391
+    },
+    {
+        "trackId": 421,
+        "name": "We are the Fairies",
+        "varpCoord": 229394
+    },
+    {
+        "trackId": 422,
+        "name": "Dimension X",
+        "varpCoord": 229395
+    },
+    {
+        "trackId": 423,
+        "name": "All's Fairy in Love & War",
+        "varpCoord": 229396
+    },
+    {
+        "trackId": 424,
+        "name": "Brimstail's Scales",
+        "varpCoord": 229403
+    },
+    {
+        "trackId": 425,
+        "name": "Lament of Meiyerditch",
+        "varpCoord": 229390
+    },
+    {
+        "trackId": 426,
+        "name": "The Last Shanty",
+        "varpCoord": 229392
+    },
+    {
+        "trackId": 427,
+        "name": "Night of the Vampyre",
+        "varpCoord": 229393
+    },
+    {
+        "trackId": 428,
+        "name": "My Arm's Journey",
+        "varpCoord": 229404
+    },
+    {
+        "trackId": 429,
+        "name": "Roc and Roll",
+        "varpCoord": 245768
+    },
+    {
+        "trackId": 430,
+        "name": "The Mollusc Menace",
+        "varpCoord": 229387
+    },
+    {
+        "trackId": 431,
+        "name": "Slug a Bug Ball",
+        "varpCoord": 229405
+    },
+    {
+        "trackId": 432,
+        "name": "Prime Time",
+        "varpCoord": 229406
+    },
+    {
+        "trackId": 433,
+        "name": "Floating Free",
+        "varpCoord": 245767
+    },
+    {
+        "trackId": 434,
+        "name": "High Spirits",
+        "varpCoord": 245769
+    },
+    {
+        "trackId": 435,
+        "name": "Major Miner",
+        "varpCoord": 229397
+    },
+    {
+        "trackId": 436,
+        "name": "Jester Minute",
+        "varpCoord": 229398
+    },
+    {
+        "trackId": 437,
+        "name": "Norse Code",
+        "varpCoord": 229399
+    },
+    {
+        "trackId": 438,
+        "name": "Volcanic Vikings",
+        "varpCoord": 229400
+    },
+    {
+        "trackId": 439,
+        "name": "Island of the Trolls",
+        "varpCoord": 229401
+    },
+    {
+        "trackId": 440,
+        "name": "Ogre the Top",
+        "varpCoord": 245761
+    },
+    {
+        "trackId": 441,
+        "name": "Rising Damp",
+        "varpCoord": 229407
+    },
+    {
+        "trackId": 442,
+        "name": "Work, Work, Work",
+        "varpCoord": 245762
+    },
+    {
+        "trackId": 443,
+        "name": "Magic, Magic, Magic",
+        "varpCoord": 245763
+    },
+    {
+        "trackId": 444,
+        "name": "Creature Cruelty",
+        "varpCoord": 245780
+    },
+    {
+        "trackId": 445,
+        "name": "Mutant Medley",
+        "varpCoord": 245764
+    },
+    {
+        "trackId": 446,
+        "name": "Dorgeshuun City",
+        "varpCoord": 245765
+    },
+    {
+        "trackId": 447,
+        "name": "Dorgeshuun Deep",
+        "varpCoord": 245766
+    },
+    {
+        "trackId": 448,
+        "name": "Assault and Battery",
+        "varpCoord": 213015
+    },
+    {
+        "trackId": 449,
+        "name": "Pirates of Penance",
+        "varpCoord": 229402
+    },
+    {
+        "trackId": 450,
+        "name": "Jungle Island Xmas",
+        "varpCoord": 245771
+    },
+    {
+        "trackId": 451,
+        "name": "Sea Shanty Xmas",
+        "varpCoord": 245772
+    },
+    {
+        "trackId": 452,
+        "name": "Jungle Bells",
+        "varpCoord": 245773
+    },
+    {
+        "trackId": 453,
+        "name": "Garden of Spring",
+        "varpCoord": 245775
+    },
+    {
+        "trackId": 454,
+        "name": "Garden of Summer",
+        "varpCoord": 245774
+    },
+    {
+        "trackId": 455,
+        "name": "Garden of Autumn",
+        "varpCoord": 245777
+    },
+    {
+        "trackId": 456,
+        "name": "Garden of Winter",
+        "varpCoord": 245776
+    },
+    {
+        "trackId": 457,
+        "name": "Have an Ice Day",
+        "varpCoord": 245778
+    },
+    {
+        "trackId": 458,
+        "name": "Espionage",
+        "varpCoord": 245782
+    },
+    {
+        "trackId": 459,
+        "name": "Zombiism",
+        "varpCoord": 245779
+    },
+    {
+        "trackId": 460,
+        "name": "Alternative Root",
+        "varpCoord": 245781
+    },
+    {
+        "trackId": 461,
+        "name": "Undead Dungeon",
+        "varpCoord": 245783
+    },
+    {
+        "trackId": 462,
+        "name": "Easter Jig",
+        "varpCoord": 245787
+    },
+    {
+        "trackId": 463,
+        "name": "H.A.M. Attack",
+        "varpCoord": 245788
+    },
+    {
+        "trackId": 464,
+        "name": "Slice of Silent Movie",
+        "varpCoord": 245789
+    },
+    {
+        "trackId": 465,
+        "name": "H.A.M. and Seek",
+        "varpCoord": 245790
+    },
+    {
+        "trackId": 466,
+        "name": "Slice of Station",
+        "varpCoord": 245784
+    },
+    {
+        "trackId": 467,
+        "name": "Looking Back",
+        "varpCoord": 245770
+    },
+    {
+        "trackId": 468,
+        "name": "Barb Wire",
+        "varpCoord": 245785
+    },
+    {
+        "trackId": 469,
+        "name": "Impetuous",
+        "varpCoord": 245786
+    },
+    {
+        "trackId": 470,
+        "name": "School's Out",
+        "varpCoord": 262146
+    },
+    {
+        "trackId": 471,
+        "name": "Down and Out",
+        "varpCoord": 262151
+    },
+    {
+        "trackId": 472,
+        "name": "On the Up",
+        "varpCoord": 262152
+    },
+    {
+        "trackId": 473,
+        "name": "Inadequacy",
+        "varpCoord": 262147
+    },
+    {
+        "trackId": 474,
+        "name": "Illusive",
+        "varpCoord": 262148
+    },
+    {
+        "trackId": 475,
+        "name": "Everlasting",
+        "varpCoord": 262149
+    },
+    {
+        "trackId": 476,
+        "name": "Untouchable",
+        "varpCoord": 262150
+    },
+    {
+        "trackId": 477,
+        "name": "Mouse Trap",
+        "varpCoord": 262144
+    },
+    {
+        "trackId": 478,
+        "name": "Fe Fi Fo Fum",
+        "varpCoord": 262145
+    },
+    {
+        "trackId": 479,
+        "name": "The Maze",
+        "varpCoord": 262153
+    },
+    {
+        "trackId": 480,
+        "name": "Knightmare",
+        "varpCoord": 262162
+    },
+    {
+        "trackId": 481,
+        "name": "Lore and Order",
+        "varpCoord": 262163
+    },
+    {
+        "trackId": 482,
+        "name": "Armageddon",
+        "varpCoord": 262158
+    },
+    {
+        "trackId": 483,
+        "name": "Armadyl Alliance",
+        "varpCoord": 262157
+    },
+    {
+        "trackId": 484,
+        "name": "Bandos Battalion",
+        "varpCoord": 262156
+    },
+    {
+        "trackId": 485,
+        "name": "Strength of Saradomin",
+        "varpCoord": 262155
+    },
+    {
+        "trackId": 486,
+        "name": "Zamorak Zoo",
+        "varpCoord": 262154
+    },
+    {
+        "trackId": 487,
+        "name": "Gnome Village Party",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 488,
+        "name": "Beneath the Stronghold",
+        "varpCoord": 245791
+    },
+    {
+        "trackId": 489,
+        "name": "Troubled Waters",
+        "varpCoord": 262159
+    },
+    {
+        "trackId": 490,
+        "name": "Nether Realm",
+        "varpCoord": 262160
+    },
+    {
+        "trackId": 491,
+        "name": "Scorpia Dances",
+        "varpCoord": 262161
+    },
+    {
+        "trackId": 492,
+        "name": "Devils May Care",
+        "varpCoord": 262164
+    },
+    {
+        "trackId": 493,
+        "name": "Pick & Shovel",
+        "varpCoord": 262165
+    },
+    {
+        "trackId": 494,
+        "name": "Clan Wars",
+        "varpCoord": 262166
+    },
+    {
+        "trackId": 495,
+        "name": "Warpath",
+        "varpCoord": 262167
+    },
+    {
+        "trackId": 497,
+        "name": "Shining Spirit",
+        "varpCoord": 262168
+    },
+    {
+        "trackId": 498,
+        "name": "Bane",
+        "varpCoord": 262169
+    },
+    {
+        "trackId": 496,
+        "name": "Grimly Fiendish",
+        "varpCoord": 262173
+    },
+    {
+        "trackId": 499,
+        "name": "Coil",
+        "varpCoord": 229376
+    },
+    {
+        "trackId": 500,
+        "name": "Thrall of the Serpent",
+        "varpCoord": 213004
+    },
+    {
+        "trackId": 501,
+        "name": "The Trade Parade",
+        "varpCoord": 180254
+    },
+    {
+        "trackId": 502,
+        "name": "Bunny's Sugar Rush",
+        "varpCoord": 180224
+    },
+    {
+        "trackId": 503,
+        "name": "Maws, Jaws & Claws",
+        "varpCoord": 262170
+    },
+    {
+        "trackId": 504,
+        "name": "That Sullen Hall",
+        "varpCoord": 262171
+    },
+    {
+        "trackId": 505,
+        "name": "Invader",
+        "varpCoord": 262172
+    },
+    {
+        "trackId": 506,
+        "name": "Dies Irae",
+        "varpCoord": 196631
+    },
+    {
+        "trackId": 507,
+        "name": "Nox Irae",
+        "varpCoord": 196633
+    },
+    {
+        "trackId": 508,
+        "name": "Kourend the Magnificent",
+        "varpCoord": 196639
+    },
+    {
+        "trackId": 513,
+        "name": "The Militia",
+        "varpCoord": 163857
+    },
+    {
+        "trackId": 511,
+        "name": "Dwarven Domain",
+        "varpCoord": 81942
+    },
+    {
+        "trackId": 509,
+        "name": "Arcane",
+        "varpCoord": 81943
+    },
+    {
+        "trackId": 510,
+        "name": "Country Jig",
+        "varpCoord": 81944
+    },
+    {
+        "trackId": 512,
+        "name": "Down by the Docks",
+        "varpCoord": 81945
+    },
+    {
+        "trackId": 514,
+        "name": "The Forlorn Homestead",
+        "varpCoord": 81946
+    },
+    {
+        "trackId": 515,
+        "name": "Soul Fall",
+        "varpCoord": 81947
+    },
+    {
+        "trackId": 516,
+        "name": "Rugged Terrain",
+        "varpCoord": 81948
+    },
+    {
+        "trackId": 517,
+        "name": "Monkey Trouble",
+        "varpCoord": 81949
+    },
+    {
+        "trackId": 518,
+        "name": "Monkey Sadness",
+        "varpCoord": 262174
+    },
+    {
+        "trackId": 519,
+        "name": "Monkey Business",
+        "varpCoord": 262175
+    },
+    {
+        "trackId": 520,
+        "name": "Monkey Badness",
+        "varpCoord": 278528
+    },
+    {
+        "trackId": 521,
+        "name": "Scape Ape",
+        "varpCoord": 278529
+    },
+    {
+        "trackId": 522,
+        "name": "Darkly Altared",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 523,
+        "name": "Last Man Standing",
+        "varpCoord": 81950
+    },
+    {
+        "trackId": 524,
+        "name": "The Doors of Dinh",
+        "varpCoord": 278530
+    },
+    {
+        "trackId": 525,
+        "name": "Ice and Fire",
+        "varpCoord": 65543
+    },
+    {
+        "trackId": 526,
+        "name": "Altar Ego",
+        "varpCoord": 278531
+    },
+    {
+        "trackId": 527,
+        "name": "March of the Shayzien",
+        "varpCoord": 278532
+    },
+    {
+        "trackId": 528,
+        "name": "Lower Depths",
+        "varpCoord": 278534
+    },
+    {
+        "trackId": 529,
+        "name": "The Desolate Mage",
+        "varpCoord": 278535
+    },
+    {
+        "trackId": 530,
+        "name": "Fire in the Deep",
+        "varpCoord": 278536
+    },
+    {
+        "trackId": 531,
+        "name": "Upper Depths",
+        "varpCoord": 278537
+    },
+    {
+        "trackId": 532,
+        "name": "Ascent",
+        "varpCoord": 278538
+    },
+    {
+        "trackId": 533,
+        "name": "Darkness in the Depths",
+        "varpCoord": 278539
+    },
+    {
+        "trackId": 534,
+        "name": "Inferno",
+        "varpCoord": 278540
+    },
+    {
+        "trackId": 535,
+        "name": "Mor Ul Rek",
+        "varpCoord": 278541
+    },
+    {
+        "trackId": 536,
+        "name": "Lagoon",
+        "varpCoord": 278542
+    },
+    {
+        "trackId": 537,
+        "name": "Lava is Mine",
+        "varpCoord": 278543
+    },
+    {
+        "trackId": 538,
+        "name": "Fossilised",
+        "varpCoord": 278544
+    },
+    {
+        "trackId": 539,
+        "name": "Preserved",
+        "varpCoord": 278545
+    },
+    {
+        "trackId": 540,
+        "name": "Preservation",
+        "varpCoord": 278546
+    },
+    {
+        "trackId": 541,
+        "name": "Tempest",
+        "varpCoord": 278547
+    },
+    {
+        "trackId": 542,
+        "name": "Revenants",
+        "varpCoord": 278548
+    },
+    {
+        "trackId": 543,
+        "name": "On the Shore",
+        "varpCoord": 278549
+    },
+    {
+        "trackId": 544,
+        "name": "Land of Snow",
+        "varpCoord": 278550
+    },
+    {
+        "trackId": 545,
+        "name": "Winter Funfair",
+        "varpCoord": 278551
+    },
+    {
+        "trackId": 546,
+        "name": "Relics",
+        "varpCoord": 278552
+    },
+    {
+        "trackId": 547,
+        "name": "The Dragon Slayer",
+        "varpCoord": 278553
+    },
+    {
+        "trackId": 548,
+        "name": "Mythical",
+        "varpCoord": 278554
+    },
+    {
+        "trackId": 549,
+        "name": "On Thin Ice",
+        "varpCoord": 278555
+    },
+    {
+        "trackId": 550,
+        "name": "The Walking Dead",
+        "varpCoord": 278556
+    },
+    {
+        "trackId": 551,
+        "name": "The Forsaken",
+        "varpCoord": 278557
+    },
+    {
+        "trackId": 552,
+        "name": "Oncoming Foe",
+        "varpCoord": 278558
+    },
+    {
+        "trackId": 553,
+        "name": "Lucid Dream",
+        "varpCoord": 278559
+    },
+    {
+        "trackId": 554,
+        "name": "Lucid Nightmare",
+        "varpCoord": 294912
+    },
+    {
+        "trackId": 555,
+        "name": "Museum Medley",
+        "varpCoord": 294913
+    },
+    {
+        "trackId": 556,
+        "name": "Scape Five",
+        "varpCoord": 294914
+    },
+    {
+        "trackId": 557,
+        "name": "Roots and Flutes",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 558,
+        "name": "Conspiracy",
+        "varpCoord": 294915
+    },
+    {
+        "trackId": 559,
+        "name": "Bait",
+        "varpCoord": 294916
+    },
+    {
+        "trackId": 560,
+        "name": "Vanescula",
+        "varpCoord": 294917
+    },
+    {
+        "trackId": 561,
+        "name": "Bloodbath",
+        "varpCoord": 294918
+    },
+    {
+        "trackId": 562,
+        "name": "Welcome to the Theatre",
+        "varpCoord": 294919
+    },
+    {
+        "trackId": 563,
+        "name": "A Taste of Hope",
+        "varpCoord": 294920
+    },
+    {
+        "trackId": 564,
+        "name": "The Maiden's Sorrow",
+        "varpCoord": 294921
+    },
+    {
+        "trackId": 565,
+        "name": "The Maiden's Anger",
+        "varpCoord": 294922
+    },
+    {
+        "trackId": 566,
+        "name": "Welcome to my Nightmare",
+        "varpCoord": 294923
+    },
+    {
+        "trackId": 567,
+        "name": "The Nightmare Continues",
+        "varpCoord": 294924
+    },
+    {
+        "trackId": 568,
+        "name": "The Dark Beast Sotetseg",
+        "varpCoord": 294925
+    },
+    {
+        "trackId": 569,
+        "name": "Power of the Shadow Realm",
+        "varpCoord": 294926
+    },
+    {
+        "trackId": 570,
+        "name": "It's not over 'til...",
+        "varpCoord": 294927
+    },
+    {
+        "trackId": 571,
+        "name": "The Fat Lady Sings",
+        "varpCoord": 294928
+    },
+    {
+        "trackId": 572,
+        "name": "The Curtain Closes",
+        "varpCoord": 294929
+    },
+    {
+        "trackId": 573,
+        "name": "Dance of the Nylocas",
+        "varpCoord": 294930
+    },
+    {
+        "trackId": 574,
+        "name": "Arachnids of Vampyrium",
+        "varpCoord": 294931
+    },
+    {
+        "trackId": 575,
+        "name": "Predator Xarpus",
+        "varpCoord": 294932
+    },
+    {
+        "trackId": 576,
+        "name": "Last King of the Yarasa",
+        "varpCoord": 294933
+    },
+    {
+        "trackId": 577,
+        "name": "Barren Land",
+        "varpCoord": 294934
+    },
+    {
+        "trackId": 578,
+        "name": "Lumbering",
+        "varpCoord": 294935
+    },
+    {
+        "trackId": 579,
+        "name": "Troll Shuffle",
+        "varpCoord": 294936
+    },
+    {
+        "trackId": 580,
+        "name": "Snowflake & My Arm",
+        "varpCoord": 294937
+    },
+    {
+        "trackId": 581,
+        "name": "Mother Ruckus",
+        "varpCoord": 294938
+    },
+    {
+        "trackId": 582,
+        "name": "Gill Bill",
+        "varpCoord": 294939
+    },
+    {
+        "trackId": 583,
+        "name": "Way of the Wyrm",
+        "varpCoord": 294940
+    },
+    {
+        "trackId": 584,
+        "name": "Kanon of Kahlith",
+        "varpCoord": 294941
+    },
+    {
+        "trackId": 585,
+        "name": "Ful to the Brim",
+        "varpCoord": 294942
+    },
+    {
+        "trackId": 586,
+        "name": "Hoe Down",
+        "varpCoord": 294943
+    },
+    {
+        "trackId": 587,
+        "name": "A Walk in the Woods",
+        "varpCoord": 311296
+    },
+    {
+        "trackId": 588,
+        "name": "Burning Desire",
+        "varpCoord": 311297
+    },
+    {
+        "trackId": 589,
+        "name": "Alchemical Attack!",
+        "varpCoord": 311298
+    },
+    {
+        "trackId": 590,
+        "name": "Stuck in the Mire",
+        "varpCoord": 311299
+    },
+    {
+        "trackId": 591,
+        "name": "Newbie Farming",
+        "varpCoord": 311300
+    },
+    {
+        "trackId": 592,
+        "name": "A Farmer's Grind",
+        "varpCoord": 311301
+    },
+    {
+        "trackId": 593,
+        "name": "Getting Down to Business",
+        "varpCoord": 311302
+    },
+    {
+        "trackId": 594,
+        "name": "Grow Grow Grow",
+        "varpCoord": 311303
+    },
+    {
+        "trackId": 595,
+        "name": "A Thorn in My Side",
+        "varpCoord": 311304
+    },
+    {
+        "trackId": 596,
+        "name": "The Forsaken Tower",
+        "varpCoord": 311305
+    },
+    {
+        "trackId": 597,
+        "name": "On the Frontline",
+        "varpCoord": 311306
+    },
+    {
+        "trackId": 598,
+        "name": "Servants of Strife",
+        "varpCoord": 311307
+    },
+    {
+        "trackId": 599,
+        "name": "Creeping Vines",
+        "varpCoord": 311308
+    },
+    {
+        "trackId": 600,
+        "name": "Box of Delights",
+        "varpCoord": 311309
+    },
+    {
+        "trackId": 601,
+        "name": "A Forgotten Religion",
+        "varpCoord": 311310
+    },
+    {
+        "trackId": 602,
+        "name": "Sarachnis",
+        "varpCoord": 311311
+    },
+    {
+        "trackId": 603,
+        "name": "Elven Seed",
+        "varpCoord": 311312
+    },
+    {
+        "trackId": 604,
+        "name": "Faith of the Hefin",
+        "varpCoord": 311313
+    },
+    {
+        "trackId": 605,
+        "name": "The Tower of Voices",
+        "varpCoord": 311314
+    },
+    {
+        "trackId": 606,
+        "name": "Dance of the Meilyr",
+        "varpCoord": 311315
+    },
+    {
+        "trackId": 607,
+        "name": "Iorwerth's Lament",
+        "varpCoord": 311316
+    },
+    {
+        "trackId": 608,
+        "name": "Mystics of Nature",
+        "varpCoord": 311317
+    },
+    {
+        "trackId": 609,
+        "name": "The Seed of Crwys",
+        "varpCoord": 311318
+    },
+    {
+        "trackId": 610,
+        "name": "Architects of Prifddinas",
+        "varpCoord": 311319
+    },
+    {
+        "trackId": 611,
+        "name": "Trahaearn Toil",
+        "varpCoord": 311320
+    },
+    {
+        "trackId": 612,
+        "name": "The Gauntlet",
+        "varpCoord": 311321
+    },
+    {
+        "trackId": 613,
+        "name": "The Spurned Demon",
+        "varpCoord": 311322
+    },
+    {
+        "trackId": 614,
+        "name": "Sharp End of the Crystal",
+        "varpCoord": 311323
+    },
+    {
+        "trackId": 615,
+        "name": "Scape Crystal",
+        "varpCoord": 311324
+    },
+    {
+        "trackId": 616,
+        "name": "Song of the Elves",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 617,
+        "name": "Elven Guardians",
+        "varpCoord": 311325
+    },
+    {
+        "trackId": 618,
+        "name": "The Fires of Lletya",
+        "varpCoord": 311326
+    },
+    {
+        "trackId": 619,
+        "name": "Stand Up and Be Counted",
+        "varpCoord": 311327
+    },
+    {
+        "trackId": 620,
+        "name": "No Pasaran",
+        "varpCoord": 327680
+    },
+    {
+        "trackId": 621,
+        "name": "The Fragment",
+        "varpCoord": 327681
+    },
+    {
+        "trackId": 622,
+        "name": "Jaws of the Basilisk",
+        "varpCoord": 327682
+    },
+    {
+        "trackId": 623,
+        "name": "Lair of the Basilisk",
+        "varpCoord": 327683
+    },
+    {
+        "trackId": 624,
+        "name": "Fight of the Basilisk",
+        "varpCoord": 327684
+    },
+    {
+        "trackId": 625,
+        "name": "Reign of the Basilisk",
+        "varpCoord": 327685
+    },
+    {
+        "trackId": 626,
+        "name": "Ballad of the Basilisk",
+        "varpCoord": 327686
+    },
+    {
+        "trackId": 627,
+        "name": "Arboretum",
+        "varpCoord": 327687
+    },
+    {
+        "trackId": 628,
+        "name": "Darkmeyer",
+        "varpCoord": 327688
+    },
+    {
+        "trackId": 629,
+        "name": "Upir Likhyi",
+        "varpCoord": 327689
+    },
+    {
+        "trackId": 630,
+        "name": "The Terrible Caverns",
+        "varpCoord": 327690
+    },
+    {
+        "trackId": 631,
+        "name": "The Terrible Tunnels",
+        "varpCoord": 327691
+    },
+    {
+        "trackId": 632,
+        "name": "The Bane of Ashihama",
+        "varpCoord": 327692
+    },
+    {
+        "trackId": 633,
+        "name": "The Everlasting Slumber",
+        "varpCoord": 327693
+    },
+    {
+        "trackId": 634,
+        "name": "Domain of the Vampyres",
+        "varpCoord": 327694
+    },
+    {
+        "trackId": 635,
+        "name": "Lament for the Hallowed",
+        "varpCoord": 327695
+    },
+    {
+        "trackId": 636,
+        "name": "Well Hallowed Air",
+        "varpCoord": 327696
+    },
+    {
+        "trackId": 637,
+        "name": "Morytanian Mystery",
+        "varpCoord": 327697
+    },
+    {
+        "trackId": 638,
+        "name": "Vampyre Assault",
+        "varpCoord": 327698
+    },
+    {
+        "trackId": 639,
+        "name": "You Have My Attention",
+        "varpCoord": 327699
+    },
+    {
+        "trackId": 640,
+        "name": "Watch Your Step",
+        "varpCoord": 327700
+    },
+    {
+        "trackId": 641,
+        "name": "Rest in Peace",
+        "varpCoord": 327701
+    },
+    {
+        "trackId": 642,
+        "name": "The Enclave",
+        "varpCoord": 327702
+    },
+    {
+        "trackId": 643,
+        "name": "Safety in Numbers",
+        "varpCoord": 327703
+    },
+    {
+        "trackId": 644,
+        "name": "Eve's Epinette",
+        "varpCoord": 327704
+    },
+    {
+        "trackId": 645,
+        "name": "Sea Minor Shanty",
+        "varpCoord": 327705
+    },
+    {
+        "trackId": 646,
+        "name": "A Dangerous Game",
+        "varpCoord": 327706
+    },
+    {
+        "trackId": 647,
+        "name": "Scrubfoot's Descent",
+        "varpCoord": 327707
+    },
+    {
+        "trackId": 648,
+        "name": "The Waiting Game",
+        "varpCoord": 327708
+    },
+    {
+        "trackId": 649,
+        "name": "Soul Wars",
+        "varpCoord": 327709
+    },
+    {
+        "trackId": 650,
+        "name": "Tempor of the Storm",
+        "varpCoord": 327710
+    },
+    {
+        "trackId": 651,
+        "name": "The Ruins of Camdozaal",
+        "varpCoord": 327711
+    },
+    {
+        "trackId": 652,
+        "name": "Race Against the Clock",
+        "varpCoord": 344064
+    },
+    {
+        "trackId": 653,
+        "name": "Barbarian Workout",
+        "varpCoord": 344065
+    },
+    {
+        "trackId": 654,
+        "name": "Organ Music 1",
+        "varpCoord": 344066
+    },
+    {
+        "trackId": 655,
+        "name": "Organ Music 2",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 656,
+        "name": "Rhapsody",
+        "varpCoord": -1
+    },
+    {
+        "trackId": 657,
+        "name": "Clanliness",
+        "varpCoord": 344067
+    },
+    {
+        "trackId": 658,
+        "name": "Rose",
+        "varpCoord": 344068
+    },
+    {
+        "trackId": 659,
+        "name": "Confrontation",
+        "varpCoord": 344069
+    },
+    {
+        "trackId": 660,
+        "name": "Beneath the Kingdom",
+        "varpCoord": 344070
+    },
+    {
+        "trackId": 661,
+        "name": "Military Life",
+        "varpCoord": 344071
+    },
+    {
+        "trackId": 662,
+        "name": "The Houses of Kourend",
+        "varpCoord": 344072
+    },
+    {
+        "trackId": 663,
+        "name": "The Part Where You Die",
+        "varpCoord": 344073
+    },
+    {
+        "trackId": 664,
+        "name": "Judgement of the Depths",
+        "varpCoord": 344074
+    },
+    {
+        "trackId": 665,
+        "name": "Regal Pomp",
+        "varpCoord": 344075
+    },
+    {
+        "trackId": 666,
+        "name": "Itsy Bitsy...",
+        "varpCoord": 344076
+    },
+    {
+        "trackId": 667,
+        "name": "Beyond the Meadow",
+        "varpCoord": 344077
+    },
+    {
+        "trackId": 668,
+        "name": "Not a Moment of Relief",
+        "varpCoord": 344078
+    },
+    {
+        "trackId": 669,
+        "name": "The Forests of Shayzien",
+        "varpCoord": 344079
+    },
+    {
+        "trackId": 670,
+        "name": "Out at the Mines",
+        "varpCoord": 344080
+    },
+    {
+        "trackId": 671,
+        "name": "What Happens Below...",
+        "varpCoord": 344081
+    },
+    {
+        "trackId": 672,
+        "name": "A Festive Party",
+        "varpCoord": 344082
+    },
+    {
+        "trackId": 673,
+        "name": "Zaros Zeitgeist",
+        "varpCoord": 344083
+    },
+    {
+        "trackId": 674,
+        "name": "The Ancient Prison",
+        "varpCoord": 344084
+    },
+    {
+        "trackId": 675,
+        "name": "The Angel's Fury",
+        "varpCoord": 344085
+    }
+]
