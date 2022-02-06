@@ -103,8 +103,8 @@ if music_id2name['size'] != music_id2varpcoord['size']:
 
 MUSIC_TRACKS = []
 
-for trackId, name, varpCoord in zip(music_id2name['keys'], music_id2name['stringVals'], music_id2varpcoord['intVals']):
-	MUSIC_TRACKS.append({"trackId": trackId, "name": name, "varpCoord": varpCoord})
+for trackId, varpCoord in zip(music_id2varpcoord['keys'], music_id2varpcoord['intVals']):
+	MUSIC_TRACKS.append({"trackId": trackId, "varpCoord": varpCoord})
 
 MUSIC_VARPS = get_music_varps()
 
@@ -114,9 +114,9 @@ LEAGUE_TASK_VARPS = get_league_task_varps()
 
 COMBAT_ACHIEVEMENT_VARPS = get_combat_achievement_varps()
 
-set_json(MUSIC_TRACKS, '../data/musicTracks.json')
-set_json(MUSIC_VARPS, '../data/musicVarps.json')
-set_json(QUEST_VARPS, '../data/questVarps.json')
-set_json(QUEST_VARBITS, '../data/questVarbits.json')
-set_json(LEAGUE_TASK_VARPS, '../data/leagueTaskVarps.json')
-set_json(COMBAT_ACHIEVEMENT_VARPS, '../data/combatAchievementVarps.json')
+set_json(MUSIC_TRACKS, 'musicTracks.json')
+set_json(MUSIC_VARPS, 'musicVarps.json')
+set_json(QUEST_VARPS, 'questVarps.json')
+set_json(QUEST_VARBITS, 'questVarbits.json')
+set_json(LEAGUE_TASK_VARPS, 'leagueTaskVarps.json')
+set_json(COMBAT_ACHIEVEMENT_VARPS, 'combatAchievementVarps.json')
