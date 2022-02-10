@@ -2698,5 +2698,25 @@
     {
         "trackId": 675,
         "varpCoord": 344085
+    },
+    {
+        "trackId": 676,
+        "varpCoord": 344086
+    },
+    {
+        "trackId": 677,
+        "varpCoord": 344087
+    },
+    {
+        "trackId": 678,
+        "varpCoord": 344088
+    },
+    {
+        "trackId": 679,
+        "varpCoord": 344089
+    },
+    {
+        "trackId": 680,
+        "varpCoord": 344090
     }
 ]
