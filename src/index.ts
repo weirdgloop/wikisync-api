@@ -4,7 +4,6 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import runelite from './routes/runelite';
-import BadRequestError from './errors/BadRequestError';
 import DBService from './services/DBService';
 
 dotenv.config();
@@ -29,12 +28,8 @@ app.use('/runelite', runelite);
 
 // Error handling
 app.use((err, req, res, next) => {
-  if (err instanceof BadRequestError) {
-    res.status(400).json({ error: err.message });
-  } else {
-    console.error(err);
-    res.status(500).json({ error: 'There was an internal error. Please try again later.' });
-  }
+  console.error(err);
+  res.status(500).json({ error: 'There was an internal error. Please try again later.' });
   next();
 });
 

@@ -1,8 +1,11 @@
 import express from 'express';
-import BadRequestError from '../errors/BadRequestError';
-import { REQUIRED_VARBITS, REQUIRED_VARPS } from '../constants';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants';
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
-import QuestService from '../services/QuestService';
+import { AchievementDiaryService } from '../services/AchievementDiaryService';
+import { CombatAchievementsService } from '../services/CombatAchievementsService';
+import { LeagueService } from '../services/LeagueService';
+import { MusicService } from '../services/MusicService';
+import { QuestService } from '../services/QuestService';
 import ProfileType from '../enum/ProfileType';
 
 const router = express.Router();
@@ -14,6 +17,14 @@ router.get('/manifest', (req, res) => {
   res.json({
     varbits: REQUIRED_VARBITS,
     varps: REQUIRED_VARPS,
+    version: MANIFEST_VERSION,
+    timestamp: new Date(),
+  });
+});
+
+router.get('/version', (req, res) => {
+  res.json({
+    version: MANIFEST_VERSION,
     timestamp: new Date(),
   });
 });
@@ -29,27 +40,12 @@ const submitDataValidation = (obj) => {
  * Submits player data from the RuneLite plugin to our database
  */
 router.post('/submit', async (req, res) => {
-  const dataToParse = [];
-
-  if (req.body.length) {
-    // Array
-    req.body.forEach((el) => {
-      const val = submitDataValidation(el);
-      if (!val) return;
-      dataToParse.push(el);
-    });
-  } else {
-    // Not an array
-    const val = submitDataValidation(req.body);
-    if (val) dataToParse.push(req.body);
+  if (!req.body.username || !req.body.data || !req.body.data.varb || !req.body.data.varp) {
+    return res.status(400).json({error: "Missing required data."})
   }
 
-  if (!dataToParse.length) {
-    res.json({ success: false });
-  } else {
-    await RLService.parseAndSaveData(dataToParse);
-    res.json({ success: true });
-  }
+  await RLService.parseAndSaveData(req.body);
+  res.json({ success: true });
 });
 
 /**
@@ -57,8 +53,7 @@ router.post('/submit', async (req, res) => {
  */
 router.get('/player/:username/:profile?', async (req, res) => {
   if (!req.params.username) {
-    // Should never reach here anyway...
-    throw new BadRequestError('Missing required data for this request.');
+    return res.status(400).json({error: "Missing required data."})
   }
 
   let profile = null;
@@ -72,12 +67,20 @@ router.get('/player/:username/:profile?', async (req, res) => {
     return;
   }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
+  const achievementDiaryCompletion = AchievementDiaryService.getAchievementDiaryCompletionStates(data);
+  const leagueTasks = await LeagueService.getLeagueTasks(data);
+  const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
+  const musicTracks = await MusicService.getMusicTracks(data);
 
   res.json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
+    achievement_diaries: achievementDiaryCompletion,
     levels: data.levels,
+    music_tracks: musicTracks,
+    combat_achievements: combatAchievements,
+    league_tasks: leagueTasks,
   });
 });
 

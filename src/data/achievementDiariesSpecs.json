@@ -1,0 +1,2918 @@
+{
+    "Ardougne": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4499
+            },
+            "tasks": [
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1196
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4502
+            },
+            "tasks": [
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1197
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4501
+            },
+            "tasks": [
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1197
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1197
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4500
+            },
+            "tasks": [
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1196
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1196
+                }
+            ]
+        }
+    },
+    "Desert": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4523
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1198
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4526
+            },
+            "tasks": [
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1199
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4525
+            },
+            "tasks": [
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1199
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1199
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4524
+            },
+            "tasks": [
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1198
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1198
+                }
+            ]
+        }
+    },
+    "Falador": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4503
+            },
+            "tasks": [
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1186
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4506
+            },
+            "tasks": [
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1187
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4505
+            },
+            "tasks": [
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1187
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1187
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4504
+            },
+            "tasks": [
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1186
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1186
+                }
+            ]
+        }
+    },
+    "Fremennik": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4531
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1184
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4534
+            },
+            "tasks": [
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1185
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1185
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1185
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1185
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1185
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4533
+            },
+            "tasks": [
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1184
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4532
+            },
+            "tasks": [
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1184
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1184
+                }
+            ]
+        }
+    },
+    "Kandarin": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4515
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1178
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4518
+            },
+            "tasks": [
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1179
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4517
+            },
+            "tasks": [
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1179
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1179
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4516
+            },
+            "tasks": [
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1178
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1178
+                }
+            ]
+        }
+    },
+    "Karamja": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 3577
+            },
+            "tasks": [
+                {
+                    "type": "bits",
+                    "value": 5,
+                    "var_id": 3566
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3567
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3568
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3569
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3570
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3571
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3572
+                },
+                {
+                    "type": "bits",
+                    "value": 5,
+                    "var_id": 3573
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3574
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3575
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4567
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1200
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1200
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1200
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1200
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1200
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 3610
+            },
+            "tasks": [
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3600
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3601
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3602
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3603
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3604
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3605
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3606
+                },
+                {
+                    "type": "bits",
+                    "value": 5,
+                    "var_id": 3607
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3608
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3609
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 3598
+            },
+            "tasks": [
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3579
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3580
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3581
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3582
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3583
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3584
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3585
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3586
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3587
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3588
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3589
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3590
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3591
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3592
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3593
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3594
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3595
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3596
+                },
+                {
+                    "type": "bits",
+                    "value": 1,
+                    "var_id": 3597
+                }
+            ]
+        }
+    },
+    "Kourend & Kebos": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 7929
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 2085
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 7932
+            },
+            "tasks": [
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 2086
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 7931
+            },
+            "tasks": [
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 2086
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 2086
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 7930
+            },
+            "tasks": [
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 2085
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 2085
+                }
+            ]
+        }
+    },
+    "Lumbridge & Draynor": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4535
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1194
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4538
+            },
+            "tasks": [
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1195
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4537
+            },
+            "tasks": [
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1195
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1195
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4536
+            },
+            "tasks": [
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1194
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1194
+                }
+            ]
+        }
+    },
+    "Morytania": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4527
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1180
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4530
+            },
+            "tasks": [
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1181
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4529
+            },
+            "tasks": [
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1181
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1181
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4528
+            },
+            "tasks": [
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1180
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1180
+                }
+            ]
+        }
+    },
+    "Varrock": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4519
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1176
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4522
+            },
+            "tasks": [
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1177
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4521
+            },
+            "tasks": [
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1177
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1177
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4520
+            },
+            "tasks": [
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1176
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1176
+                }
+            ]
+        }
+    },
+    "Western Provinces": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4519
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1182
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4522
+            },
+            "tasks": [
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1183
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4521
+            },
+            "tasks": [
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1183
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1183
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4520
+            },
+            "tasks": [
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 17,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1182
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1182
+                }
+            ]
+        }
+    },
+    "Wilderness": {
+        "Easy": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4507
+            },
+            "tasks": [
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 4,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 6,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 12,
+                    "type": "player",
+                    "var_id": 1192
+                }
+            ]
+        },
+        "Elite": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4510
+            },
+            "tasks": [
+                {
+                    "offset": 3,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 5,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 7,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 8,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 9,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 10,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 11,
+                    "type": "player",
+                    "var_id": 1193
+                }
+            ]
+        },
+        "Hard": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4509
+            },
+            "tasks": [
+                {
+                    "offset": 25,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 26,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 27,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 28,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 29,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 30,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 31,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 0,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 1,
+                    "type": "player",
+                    "var_id": 1193
+                },
+                {
+                    "offset": 2,
+                    "type": "player",
+                    "var_id": 1193
+                }
+            ]
+        },
+        "Medium": {
+            "complete": {
+                "type": "bits",
+                "value": 1,
+                "var_id": 4508
+            },
+            "tasks": [
+                {
+                    "offset": 13,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 14,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 15,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 16,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 18,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 19,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 20,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 21,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 22,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 23,
+                    "type": "player",
+                    "var_id": 1192
+                },
+                {
+                    "offset": 24,
+                    "type": "player",
+                    "var_id": 1192
+                }
+            ]
+        }
+    }
+}
