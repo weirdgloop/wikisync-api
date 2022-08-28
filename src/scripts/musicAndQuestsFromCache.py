@@ -22,8 +22,13 @@ def set_json(data, filepath):
 	with open(filepath, 'w') as f:
 		json.dump(data, f, indent=4, sort_keys=type(data) == dict)
 
-def get_quest_params(struct_id):
-	return get_json('structs/%s.json' % struct_id)['params']
+def get_quest_dbrow(dbrow_id):
+	quest_dbrow = get_json('dbrow/%s.json' % dbrow_id)['columnValues']
+	quest_name = quest_dbrow[2][0]
+	low_value = quest_dbrow[15][0] if quest_dbrow[15] is not None else 0
+	high_value = quest_dbrow[16][0]
+
+	return { "quest_name": quest_name, "low_value": low_value, "high_value": high_value}
 
 def get_quest_vars():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cquest_progress_get%5D.cs2
@@ -47,14 +52,11 @@ def get_quest_vars():
 				# handle Dwarf Cannon...
 				cmd, var_id = split[0], 0
 			var_id = int(var_id)
-			quest_params = get_quest_params(quest_label2id[current_label])
-			low_value = quest_params.get('1161', 0)
-			high_value = quest_params['1162']
-			quest_name = quest_params['610']
+			quest_info = get_quest_dbrow(quest_label2id[current_label])
 			if cmd == 'get_varbit':
-				VARBITS[quest_name] = [var_id, low_value, high_value]
+				VARBITS[quest_info["quest_name"]] = [var_id, quest_info["low_value"], quest_info["high_value"]]
 			elif cmd == 'get_varp':
-				VARPS[quest_name] = [var_id, low_value, high_value]
+				VARPS[quest_info["quest_name"]] = [var_id, quest_info["low_value"], quest_info["high_value"]]
 			else:
 				raise ValueError
 	return VARPS, VARBITS
