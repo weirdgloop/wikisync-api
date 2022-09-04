@@ -234,6 +234,11 @@
         0,
         3
     ],
+    "Into the Tombs": [
+        13836,
+        0,
+        24
+    ],
     "King's Ransom": [
         3888,
         0,
@@ -309,6 +314,56 @@
         0,
         5
     ],
+    "Recipe for Disaster - Another Cook's Quest": [
+        1850,
+        0,
+        2
+    ],
+    "Recipe for Disaster - Culinaromancer": [
+        1850,
+        3,
+        5
+    ],
+    "Recipe for Disaster - Evil Dave": [
+        1878,
+        0,
+        5
+    ],
+    "Recipe for Disaster - King Awowogei": [
+        1914,
+        0,
+        50
+    ],
+    "Recipe for Disaster - Lumbridge Guide": [
+        1896,
+        0,
+        5
+    ],
+    "Recipe for Disaster - Mountain Dwarf": [
+        1892,
+        0,
+        60
+    ],
+    "Recipe for Disaster - Pirate Pete": [
+        1895,
+        0,
+        110
+    ],
+    "Recipe for Disaster - Sir Amik Varze": [
+        1910,
+        0,
+        20
+    ],
+    "Recipe for Disaster - Skrach Uglogwee": [
+        1904,
+        0,
+        170
+    ],
+    "Recipe for Disaster - Wartface & Bentnoze": [
+        1867,
+        0,
+        40
+    ],
     "Recruitment Drive": [
         657,
         0,
@@ -338,6 +393,11 @@
         1344,
         0,
         3
+    ],
+    "Sleeping Giants": [
+        13902,
+        0,
+        30
     ],
     "Song of the Elves": [
         9016,

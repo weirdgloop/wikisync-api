@@ -20,15 +20,6 @@ class QuestService {
       results[v[0]] = this.translateQuestComplete(data.varps, v[1][0], v[1][1], v[1][2]);
     });
 
-    // Special cases (https://github.com/RuneStar/cs2-scripts/blob/b0eb330380e04db807620c234c486dc2e1bc7ac3/scripts/%5Bproc%2Cquest_status_get_exceptions%5D.cs2)
-    results['Shield of Arrav'] = this.translateQuestComplete_ShieldOfArrav(data.varps);
-    results['Creature of Fenkenstrain'] = this.translateQuestComplete_CreatureOfFenkenstrain(data.varps, data.varbs);
-    results['Elemental Workshop I'] = this.translateQuestComplete_ElementalWorkshopI(data.varps);
-    results['Architectural Alliance'] = this.translateQuestComplete_ArchitecturalAlliance(data.varbs);
-    results["Alfred Grimhand's Barcrawl"] = this.translateQuestComplete_AlfredGrimhandsBarcrawl(data.varps);
-    results['Curse of the Empty Lord'] = this.translateQuestComplete_CurseOfTheEmptyLord(data.varbs);
-    results['The Enchanted Key'] = this.translateQuestComplete_TheEnchantedKey(data.varbs);
-
     return results;
   }
 
