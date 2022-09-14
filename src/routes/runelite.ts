@@ -36,6 +36,9 @@ router.post('/submit', async (req, res) => {
   if (!req.body.username || !req.body.data || !req.body.data.varb || !req.body.data.varp) {
     return res.status(400).json({error: "Missing required data."})
   }
+  if (!req.body.profile || !(req.body.profile in AllowedProfileType)) {
+    return res.status(400).json({ error: 'Cannot save data for this world type.' });
+  }
 
   await RLService.parseAndSaveData(req.body);
   res.json({ success: true });
@@ -52,6 +55,9 @@ router.get('/player/:username/:profile?', async (req, res) => {
   let profile = null;
   if (req.params.profile) {
     profile = ProfileType[req.params.profile];
+  }
+  if (!(profile in AllowedProfileType)) {
+    return res.status(400).json({ error: 'Cannot query data for this world type.' });
   }
 
   const data = await RLService.getDataForUser(req.params.username, profile) as RuneLiteGetDataReturn;
