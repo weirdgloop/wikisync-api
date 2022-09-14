@@ -1,4 +1,4 @@
-import ProfileType from '../enum/ProfileType';
+import { ProfileType } from '../enum/ProfileType';
 import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';

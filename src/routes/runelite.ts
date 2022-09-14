@@ -6,7 +6,7 @@ import { CombatAchievementsService } from '../services/CombatAchievementsService
 import { LeagueService } from '../services/LeagueService';
 import { MusicService } from '../services/MusicService';
 import { QuestService } from '../services/QuestService';
-import ProfileType from '../enum/ProfileType';
+import { AllowedProfileType, ProfileType } from '../enum/ProfileType';
 
 const router = express.Router();
 
