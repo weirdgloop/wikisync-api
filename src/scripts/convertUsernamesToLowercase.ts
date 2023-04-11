@@ -3,7 +3,7 @@
  * and with spaces replaced with underscores.
  */
 import dotenv from 'dotenv';
-import PlayerData from '../orm/PlayerData';
+import PlayerDataJson from '../orm/PlayerDataJson';
 import DBService from '../services/DBService';
 
 dotenv.config();
@@ -12,7 +12,7 @@ dotenv.config();
   console.log('Running script to convert usernames to lowercase...');
   const rows = await (await DBService.getConnection())
     .createQueryBuilder()
-    .update(PlayerData)
+    .update(PlayerDataJson)
     .set({
       username: () => "LOWER(REPLACE(username, ' ', '_'))",
     })
