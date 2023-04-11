@@ -3,7 +3,7 @@ import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, SKILL_NAMES } from '../constants';
-import NewPlayerData from '../orm/NewPlayerData';
+import PlayerDataJson from '../orm/PlayerDataJson';
 
 interface RuneLiteSubmitData {
   username: string;
@@ -149,7 +149,7 @@ class RuneLiteService {
     );
 
     // Fetch the existing player data in our new table, if there is any
-    let newPlayerData: NewPlayerData = await conn.getRepository(NewPlayerData).findOne({
+    let newPlayerData: PlayerDataJson = await conn.getRepository(PlayerDataJson).findOne({
       where: {
         username,
         profile: data.profile,
@@ -168,7 +168,7 @@ class RuneLiteService {
 
     // If we didn't find a DB row for this user, create a new entity
     if (!newPlayerData) {
-      newPlayerData = new NewPlayerData();
+      newPlayerData = new PlayerDataJson();
       newPlayerData.username = username;
       newPlayerData.profile = data.profile as ProfileType;
       newPlayerData.value = { varps: {}, varbs: {}, skills: {} };

@@ -1,9 +1,11 @@
-import { Entity, Column, PrimaryColumn, BaseEntity } from 'typeorm';
+import {
+  Entity, Column, PrimaryColumn, BaseEntity,
+} from 'typeorm';
 import { ProfileType } from '../enum/ProfileType';
 import { PlayerDataValue } from '../types/PlayerDataValue';
 
-@Entity()
-export default class NewPlayerData extends BaseEntity {
+@Entity('player_data_json')
+export default class PlayerDataJson extends BaseEntity {
   @PrimaryColumn()
     username: string;
 
