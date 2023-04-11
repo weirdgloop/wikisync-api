@@ -34,7 +34,7 @@ router.get('/version', (req, res) => {
  */
 router.post('/submit', async (req, res) => {
   if (!req.body.username || !req.body.data || !req.body.data.varb || !req.body.data.varp) {
-    return res.status(400).json({error: "Missing required data."})
+    return res.status(400).json({ error: 'Missing required data.' });
   }
   if (!req.body.profile || !(req.body.profile in AllowedProfileType)) {
     return res.status(400).json({ error: 'Cannot save data for this world type.' });
@@ -49,7 +49,7 @@ router.post('/submit', async (req, res) => {
  */
 router.get('/player/:username/:profile?', async (req, res) => {
   if (!req.params.username) {
-    return res.status(400).json({error: "Missing required data."})
+    return res.status(400).json({ error: 'Missing required data.' });
   }
 
   let profile = null;

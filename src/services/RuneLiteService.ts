@@ -3,6 +3,7 @@ import PlayerDataType from '../enum/PlayerDataType';
 import PlayerData from '../orm/PlayerData';
 import DBService from './DBService';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, SKILL_NAMES } from '../constants';
+import NewPlayerData from '../orm/NewPlayerData';
 
 interface RuneLiteSubmitData {
   username: string;
@@ -72,16 +73,18 @@ class RuneLiteService {
     };
   }
 
-  public static async parseAndSaveData(data: RuneLiteSubmitData) {
+  /**
+   * Temporary while we're migrating data
+   */
+  public static async parseAndSaveDataOldFormat(username: string, data: RuneLiteSubmitData) {
     const inserts: PlayerData[] = [];
-    const formattedUsername = data.username.toLowerCase().replace(/ /g, '_');
 
     // Varbs
     Object.entries(data.data.varb).forEach(([k, v]) => {
       // Ensure that this is a requested varb to protect against polluting the database.
       if (REQUIRED_VARBITS.includes(parseInt(k))) {
         inserts.push({
-          username: formattedUsername,
+          username,
           profile: ProfileType[data.profile],
           type: PlayerDataType.VARBIT,
           data_key: k.toString(),
@@ -95,7 +98,7 @@ class RuneLiteService {
       // Ensure that this is a requested varp to protect against polluting the database.
       if (REQUIRED_VARPS.includes(parseInt(k))) {
         inserts.push({
-          username: formattedUsername,
+          username,
           profile: ProfileType[data.profile],
           type: PlayerDataType.VARPLAYER,
           data_key: k.toString(),
@@ -110,7 +113,7 @@ class RuneLiteService {
         // Ensure that this is a valid skill name to protect against polluting the database.
         if (SKILL_NAMES.includes(k)) {
           inserts.push({
-            username: formattedUsername,
+            username,
             profile: ProfileType[data.profile],
             type: PlayerDataType.SKILLLEVEL,
             data_key: k.toString(),
@@ -129,6 +132,67 @@ class RuneLiteService {
         overwrite: ['data_value'],
       })
       .execute();
+  }
+
+  public static async parseAndSaveData(data: RuneLiteSubmitData) {
+    const username = data.username.toLowerCase().replace(/ /g, '_');
+    const conn = await DBService.getConnection();
+
+    // Save in the old format first
+    await RuneLiteService.parseAndSaveDataOldFormat(username, data);
+
+    // Slightly hacky way of determining whether this is a "full update", AKA, not an incremental one
+    const isFullUpdate = (
+      Object.keys(data.data.varb).length > 100
+      && Object.keys(data.data.varp).length > 100
+      && Object.keys(data.data.level).length > 20
+    );
+
+    // Fetch the existing player data in our new table, if there is any
+    let newPlayerData: NewPlayerData = await conn.getRepository(NewPlayerData).findOne({
+      where: {
+        username,
+        profile: data.profile,
+      },
+    });
+
+    if (!isFullUpdate && !newPlayerData) {
+      // If this is an incremental update, and there is no data in our new table for this user,
+      // do nothing. We've already saved to the old table. We will migrate it later.
+      return;
+    }
+
+    // Anything past this point is either:
+    // - a full update, OR
+    // - an incremental update, but they have data in our new table already.
+
+    // If we didn't find a DB row for this user, create a new entity
+    if (!newPlayerData) {
+      newPlayerData = new NewPlayerData();
+      newPlayerData.username = username;
+      newPlayerData.profile = data.profile as ProfileType;
+      newPlayerData.value = { varps: {}, varbs: {}, skills: {} };
+    }
+
+    // Merge the old data with the new data
+    newPlayerData.value = {
+      ...newPlayerData.value,
+      varps: {
+        ...newPlayerData.value.varps,
+        ...data.data.varp,
+      },
+      varbs: {
+        ...newPlayerData.value.varbs,
+        ...data.data.varb,
+      },
+      skills: {
+        ...newPlayerData.value.skills,
+        ...data.data.level,
+      },
+    };
+
+    // Save to our new table
+    await newPlayerData.save();
   }
 }
 

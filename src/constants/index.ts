@@ -1,7 +1,7 @@
 import { DIARY_VARBITS, DIARY_VARPS } from '../services/AchievementDiaryService';
 import { COMBAT_ACHIEVEMENTS_VARPS } from '../services/CombatAchievementsService';
-import { LEAGUE_TASK_VARPS } from '../services/LeagueService'
-import { MUSIC_TRACK_VARPS } from '../services/MusicService'
+import { LEAGUE_TASK_VARPS } from '../services/LeagueService';
+import { MUSIC_TRACK_VARPS } from '../services/MusicService';
 import { QUEST_VARBITS, QUEST_VARPS } from '../services/QuestService';
 
 export const MANIFEST_VERSION = 1;
