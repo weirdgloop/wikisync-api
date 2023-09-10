@@ -22,7 +22,7 @@ jobs:
               id: cpr
               uses: peter-evans/create-pull-request@v5
               with:
-                base: master
+                base: actions
             - name: Check outputs
               if: ${{ steps.cpr.outputs.pull-request-number }}
               run: |
