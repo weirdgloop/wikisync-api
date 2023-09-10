@@ -8,7 +8,7 @@ jobs:
     regenerate-data:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v1
+            - uses: actions/checkout@v4
             - name: echo tempdir
               run: echo ${{ runner.temp }}
             - uses: actions/setup-python@v4
@@ -21,6 +21,8 @@ jobs:
             - name: Create Pull Request
               id: cpr
               uses: peter-evans/create-pull-request@v5
+              with:
+                base: master
             - name: Check outputs
               if: ${{ steps.cpr.outputs.pull-request-number }}
               run: |
