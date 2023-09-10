@@ -16,14 +16,14 @@ cache_latest_url = "https://github.com/abextm/osrs-cache/releases/latest"
 tag_name = requests.get(cache_latest_url, headers={"Accept": "application/json"}).json()['tag_name']
 dump_url = f"https://github.com/abextm/osrs-cache/releases/download/{tag_name}/dump-{tag_name}.tar.gz"
 
-with open('/tmp/cache.tar.gz', 'wb') as f:
+with open(f'{tempdir}/cache.tar.gz', 'wb') as f:
 	f.write(requests.get(dump_url).content)
 
 # tarfile.extractall is very slow, using subprocess instead...
-subprocess.Popen(["/usr/bin/tar", "-xzf", '/tmp/cache.tar.gz', "-C", '/tmp'], shell=False, stdout=subprocess.PIPE).wait()
+subprocess.Popen(["/usr/bin/tar", "-xzf", f'{tempdir}/cache.tar.gz', "-C", tempdir], shell=False, stdout=subprocess.PIPE).wait()
 
 def get_json(filepath):
-	with open('/tmp/dump/' + filepath) as f:
+	with open(f'{tempdir}/dump/' + filepath) as f:
 		return json.load(f)
 
 def set_json(data, filepath):
@@ -34,14 +34,13 @@ def get_quest_dbrow(dbrow_id):
 	quest_dbrow = get_json('dbrow/%s.json' % dbrow_id)['columnValues']
 	quest_name = quest_dbrow[2][0]
 	low_value = quest_dbrow[16][0] if quest_dbrow[16] is not None else 0
-	print(quest_dbrow)
 	high_value = quest_dbrow[17][0]
 
 	return { "quest_name": quest_name, "low_value": low_value, "high_value": high_value}
 
 def get_quest_vars():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cquest_progress_get%5D.cs2
-	with open('/tmp/dump/rs2asm/4024.rs2asm') as f:
+	with open(f'{tempdir}/dump/rs2asm/4024.rs2asm') as f:
 		content = f.read()
 	VARPS = {}
 	VARBITS = {}
@@ -87,7 +86,7 @@ def get_music_tracks():
 def get_music_varps():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bclientscript%2Cmusic_init_counter%5D.cs2
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cscript7305%5D.cs2
-	with open('/tmp/dump/rs2asm/7305.rs2asm') as f:
+	with open(f'{tempdir}/dump/rs2asm/7305.rs2asm') as f:
 		content = f.read()
 	varps = []
 	for line in content.split('\n'):
@@ -100,7 +99,7 @@ def get_music_varps():
 
 def get_league_task_varps():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cleague_task_is_completed%5D.cs2
-	with open('/tmp/dump/rs2asm/3216.rs2asm') as f:
+	with open(f'{tempdir}/dump/rs2asm/3216.rs2asm') as f:
 		content = f.read()
 	varps = []
 	for line in content.split('\n'):
@@ -111,7 +110,7 @@ def get_league_task_varps():
 
 def get_combat_achievement_varps():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cscript4834%5D.cs2
-	with open('/tmp/dump/rs2asm/4834.rs2asm') as f:
+	with open(f'{tempdir}/dump/rs2asm/4834.rs2asm') as f:
 		content = f.read()
 	varps = []
 	for line in content.split('\n'):
