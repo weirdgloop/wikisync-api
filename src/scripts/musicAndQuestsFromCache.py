@@ -2,6 +2,14 @@ import requests
 import subprocess
 import glob
 import json
+import os
+
+tempdir = "/tmp"
+
+if "RUNNER_TEMP" in os.environ:
+	tempdir = os.getenv("RUNNER_TEMP")
+
+print("Tempdir is", tempdir)
 
 cache_latest_url = "https://github.com/abextm/osrs-cache/releases/latest"
 

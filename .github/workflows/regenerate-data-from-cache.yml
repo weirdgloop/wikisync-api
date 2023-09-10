@@ -1,10 +1,17 @@
 name: Regenerate data from cache
 on:
     push:
+    schedule:
+        - cron: '30 13 * * *'
 
 jobs:
     regenerate-data:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
-            - run: pwd
+            - uses: actions/setup-python@v4
+              with:
+                python-version: 3.11
+            - run: pip install requests
+            - working-directory: src/data
+              run: python ../scripts/musicAndQuestsFromCache.py
