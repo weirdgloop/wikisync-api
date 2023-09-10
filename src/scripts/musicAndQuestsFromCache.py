@@ -62,14 +62,29 @@ def get_quest_vars():
 				raise ValueError
 	return VARPS, VARBITS
 	
+def get_music_tracks():
+	tracks = []
+	musicDbRows = get_json('dbtable_index/44/master.json')['tupleIndexes'][0]['0']
+	for dbRow in musicDbRows:
+		trackDbColumns = get_json('dbrow/' + str(dbRow) + '.json')['columnValues']
+		trackId = trackDbColumns[4][0]
+		varpIndex = -1
+		varpBitIndex = -1
+		if (trackDbColumns[5] is not None and len(trackDbColumns[5]) > 0): 
+			varpIndex = trackDbColumns[5][0]
+			varpBitIndex = trackDbColumns[5][1]
+		tracks.append({ "trackId": trackId, "varpIndex": varpIndex, "varpBitIndex": varpBitIndex })
+	return tracks
+
 def get_music_varps():
 	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bclientscript%2Cmusic_init_counter%5D.cs2
-	with open('/tmp/dump/rs2asm/2257.rs2asm') as f:
+	# https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bproc%2Cscript7305%5D.cs2
+	with open('/tmp/dump/rs2asm/7305.rs2asm') as f:
 		content = f.read()
 	varps = []
 	for line in content.split('\n'):
 		if line.startswith('LABEL'):
-			break
+			continue
 		if line.startswith('   get_varp'):
 			cmd, varp_id = line.strip().split()
 			varps.append(int(varp_id))
@@ -97,17 +112,7 @@ def get_combat_achievement_varps():
 			varps.append(int(varp_id))
 	return varps
 
-
-music_id2name = get_json("enums/812.json")
-music_id2varpcoord = get_json("enums/819.json")
-
-if music_id2name['size'] != music_id2varpcoord['size']:
-	raise ValueError
-
-MUSIC_TRACKS = []
-
-for trackId, varpCoord in zip(music_id2varpcoord['keys'], music_id2varpcoord['intVals']):
-	MUSIC_TRACKS.append({"trackId": trackId, "varpCoord": varpCoord})
+MUSIC_TRACKS = get_music_tracks()
 
 MUSIC_VARPS = get_music_varps()
 
