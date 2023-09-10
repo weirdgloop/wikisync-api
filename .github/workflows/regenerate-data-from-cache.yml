@@ -1,6 +1,8 @@
 name: Regenerate data from cache
 on:
     push:
+        branches:
+            '*'
     schedule:
         - cron: '30 13 * * *'
 
