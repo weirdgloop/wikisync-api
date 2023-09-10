@@ -1,0 +1,11 @@
+name: Regenerate data from cache
+on:
+    schedule:
+        - cron: '30 13 * * *'
+
+jobs:
+    regenerate-data:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v1
+            - run: pwd
