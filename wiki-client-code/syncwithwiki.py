@@ -1,4 +1,5 @@
 import argparse
+import subprocess
 import time
 import threading
 import pywikibot
@@ -30,7 +31,8 @@ elif args.command == "write":
     page = pywikibot.Page(site, filename)
 
     def save_page():
-        with open(filename, "r") as f:
+        subprocess.run(["npm", "run", "build"])
+        with open(f"build/{filename}", "r") as f:
             page.text = f.read()
         page.save("syncing latest version from file via API")
 
@@ -66,6 +68,7 @@ elif args.command == "write":
         class EventHandler(FileSystemEventHandler):
             @debounce(args.put_throttle)
             def on_modified(self, event):
+                print(time.time())
                 save_page()
 
         event_handler = EventHandler()

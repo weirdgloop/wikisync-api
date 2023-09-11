@@ -13,13 +13,17 @@
  * @author Haidro
  */
 
-var QC_ACTIVATOR_CLASS = ".qc-active",
-  QC_INPUT_CLASS = ".qc-input",
-  ENDPOINTS = {
-    osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
-    shatteredrelics:
-      "https://sync.runescape.wiki/runelite/player/username/SHATTERED_RELICS_LEAGUE", //use actual url
-  };
+const CLASSES = {
+  QC_ACTIVE: "qc-active",
+  QC_INPUT: "qc-input",
+  QC_ICON: "rs-qc-icon",
+};
+
+const ENDPOINTS = {
+  osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
+  shatteredrelics:
+    "https://sync.runescape.wiki/runelite/player/username/SHATTERED_RELICS_LEAGUE", //use actual url
+};
 
 var questCorrections = {
     // Add corrections for API quest names -> wiki names here.
@@ -27,8 +31,8 @@ var questCorrections = {
   },
   conf = mw.config.get(["wgArticlePath"]),
   icons = {
-    yes: ' <span class="rs-qc-icon"><img class="qc-complete" src="/images/Yes_check.svg?00000" width="15px" ></span>',
-    no: ' <span class="rs-qc-icon"><img class="qc-not-started" src="/images/X_mark.svg?00000" width="13px" ></span>',
+    yes: ` <span class="${CLASSES.QC_ICON}"><img class="qc-complete" src="//oldschool.runescape.wiki/images/Yes_check.svg?00000" width="15px" ></span>`,
+    no: ` <span class="${CLASSES.QC_ICON}"><img class="qc-not-started" src="//oldschool.runescape.wiki/images/X_mark.svg?00000" width="13px" ></span>`,
   };
 
 wikisync = {
@@ -67,7 +71,7 @@ wikisync = {
 
     var gamemode = "osrs";
 
-    $(QC_INPUT_CLASS).each(function () {
+    $(`.${CLASSES.QC_INPUT}`).each(function () {
       var input1 = new OO.ui.TextInputWidget({
         placeholder: "Display name",
         id: "rs-qc-rsn",
@@ -257,11 +261,14 @@ wikisync = {
             v = q[1];
           userSkills[k] = v;
         });
-        $(".rs-qc-icon").remove();
+        $(`.${CLASSES.QC_ICON}`).remove();
         $(".wikisync-completed").show();
         $(".wikisync-completed").removeClass("wikisync-completed");
         $("<img>")
-          .attr("src", "/images/f/fb/Yes_check.svg?00000")
+          .attr(
+            "src",
+            "//oldschool.runescape.wiki/images/f/fb/Yes_check.svg?00000"
+          )
           .addClass("wikisync-success")
           .css("width", "20px")
           .css("height", "20px")
@@ -289,7 +296,7 @@ wikisync = {
         }
       },
       error: function (req) {
-        $(".rs-qc-icon").remove();
+        $(`.${CLASSES.QC_ICON}`).remove();
         wikisync.setCheckboxText("Hide completed");
         if (
           req.responseJSON &&
@@ -308,7 +315,7 @@ wikisync = {
    * Clicks the Combat Achievement rows
    */
   addCombatAchievementTasks: function (combatAchievements) {
-    var combatAchievementTable = $("table.qc-active.ca-tasks");
+    var combatAchievementTable = $(`table.${CLASSES.QC_ACTIVE}.ca-tasks`);
     if (combatAchievementTable.length === 0) {
       // Page doesn't have Combat Achievement tasks on it
       return true;
@@ -343,7 +350,7 @@ wikisync = {
    * Clicks the music track rows
    */
   addMusicTracks: function (musicTracks) {
-    var musicTable = $("table.qc-active.music-tracks");
+    var musicTable = $(`table.${CLASSES.QC_ACTIVE}.music-tracks`);
     if (musicTable.length === 0) {
       // Not a music track page
       return true;
@@ -387,7 +394,7 @@ wikisync = {
    */
   addQuestTable: function (quests, skills, achievementDiaries) {
     // Quest and diary completion
-    $("table.qc-active.oqg-table tr[data-rowid]").each(function () {
+    $(`table.${CLASSES.QC_ACTIVE}.oqg-table tr[data-rowid]`).each(function () {
       var rowID = $(this).data("rowid");
       var isAchievementDiary = rowID.includes("Diary#");
 
@@ -424,72 +431,72 @@ wikisync = {
     });
 
     // Skill training complete
-    $("table.qc-active.oqg-table tr[data-skill][data-skill-level]").each(
-      function () {
-        var skillName = $(this).data("skill");
-        skillName = skillName.charAt(0).toUpperCase() + skillName.slice(1);
-        var skillLevel = $(this).data("skill-level");
-        var row = $(this).find("th");
-        if (skills[skillName] >= skillLevel) {
-          row.append(icons.yes);
-        } else {
-          row.append(icons.no);
-        }
+    $(
+      `table.${CLASSES.QC_ACTIVE}.oqg-table tr[data-skill][data-skill-level]`
+    ).each(function () {
+      var skillName = $(this).data("skill");
+      skillName = skillName.charAt(0).toUpperCase() + skillName.slice(1);
+      var skillLevel = $(this).data("skill-level");
+      var row = $(this).find("th");
+      if (skills[skillName] >= skillLevel) {
+        row.append(icons.yes);
+      } else {
+        row.append(icons.no);
       }
-    );
+    });
     return true;
   },
 
   // Clicks cells/rows in a table based on skill levels.
   addSkillTable: function (skills) {
-    $("table.qc-active.skill-table [data-skill][data-skill-level]").each(
-      function () {
-        var skillName = $(this).data("skill");
-        var skillLevel = $(this).data("skill-level");
-        var skillCompleted = skills[skillName] >= skillLevel;
-        if (skillCompleted !== $(this).hasClass("highlight-on")) {
-          $(this).click();
-        }
+    $(
+      `table.${CLASSES.QC_ACTIVE}.skill-table [data-skill][data-skill-level]`
+    ).each(function () {
+      var skillName = $(this).data("skill");
+      var skillLevel = $(this).data("skill-level");
+      var skillCompleted = skills[skillName] >= skillLevel;
+      if (skillCompleted !== $(this).hasClass("highlight-on")) {
+        $(this).click();
       }
-    );
+    });
     return true;
   },
 
   // Clicks rows in a table based on achievement diary task completion
   addDiaryTable: function (achievementDiaries) {
     var hasAllData = true;
-    $("table.qc-active.diary-table[data-diary-name][data-diary-tier]").each(
-      function () {
-        var task_index = -1;
-        var diaryName = $(this).data("diary-name");
-        var diaryTier = $(this).data("diary-tier");
-        $(this)
-          .find("tr")
-          .each(function () {
-            if (task_index < 0) {
-              task_index += 1;
-              return;
-            }
-            if (
-              diaryName in achievementDiaries &&
-              diaryTier in achievementDiaries[diaryName] &&
-              achievementDiaries[diaryName][diaryTier].tasks.length > task_index
-            ) {
-              var task_completed =
-                achievementDiaries[diaryName][diaryTier].tasks[task_index];
-
-              if (task_completed !== null) {
-                if (task_completed !== $(this).hasClass("highlight-on")) {
-                  $(this).click();
-                }
-              } else {
-                hasAllData = false;
-              }
-            }
+    $(
+      `table.${CLASSES.QC_ACTIVE}.diary-table[data-diary-name][data-diary-tier]`
+    ).each(function () {
+      var task_index = -1;
+      var diaryName = $(this).data("diary-name");
+      var diaryTier = $(this).data("diary-tier");
+      $(this)
+        .find("tr")
+        .each(function () {
+          if (task_index < 0) {
             task_index += 1;
-          });
-      }
-    );
+            return;
+          }
+          if (
+            diaryName in achievementDiaries &&
+            diaryTier in achievementDiaries[diaryName] &&
+            achievementDiaries[diaryName][diaryTier].tasks.length > task_index
+          ) {
+            var task_completed =
+              achievementDiaries[diaryName][diaryTier].tasks[task_index];
+
+            if (task_completed !== null) {
+              if (task_completed !== $(this).hasClass("highlight-on")) {
+                $(this).click();
+              }
+            } else {
+              hasAllData = false;
+            }
+          }
+          task_index += 1;
+        });
+    });
     return hasAllData;
   },
 
@@ -497,13 +504,13 @@ wikisync = {
    * Adds the icons next to respective quests
    */
   addQuestIcons: function (quests) {
-    $(QC_ACTIVATOR_CLASS + " a").each(function () {
+    $(`.${CLASSES.QC_ACTIVE} a`).each(function () {
       if (
         $(this).html().toLowerCase() != "expand" ||
         $(this).html().toLowerCase() != "collapse"
       ) {
         var questTitle = $(this).text().trim(),
-          icon = $(this).find(".rs-qc-icon"),
+          icon = $(this).find(`.${CLASSES.QC_ICON}`),
           imgsrc = "";
         if (quests[questTitle] === 2) {
           $(this).append(icons.yes);
@@ -520,7 +527,7 @@ wikisync = {
    * Adds the icons next to respective skills
    */
   addSkillIcons: function (userLevels) {
-    $(QC_ACTIVATOR_CLASS + " .scp").each(function () {
+    $(`.${CLASSES.QC_ACTIVE} scp`).each(function () {
       var level = $(this).data("level");
       var skill = $(this).data("skill");
       if (typeof level !== "number" || userLevels[skill] === undefined) {
