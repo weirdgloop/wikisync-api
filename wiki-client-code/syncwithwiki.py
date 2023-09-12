@@ -12,6 +12,7 @@ filename = "MediaWiki:Gadget-wikisync-core.js"
 parser = argparse.ArgumentParser()
 subparsers = parser.add_subparsers(dest="command")
 get_parser = subparsers.add_parser("get")
+get_parser.add_argument("--suffix", default=".dev")
 write_parser = subparsers.add_parser("write")
 write_parser.add_argument("--username", required=True)
 write_parser.add_argument("--watch", action="store_true")
@@ -21,8 +22,7 @@ args = parser.parse_args()
 if args.command == "get":
     site = pywikibot.Site(url=url)
     page = pywikibot.Page(site, filename)
-    print(page.text)
-    with open(filename, "w") as f:
+    with open(filename + args.suffix, "w") as f:
         f.write(page.text)
 
 elif args.command == "write":

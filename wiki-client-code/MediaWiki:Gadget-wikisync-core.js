@@ -2,7 +2,7 @@
  * WikiSync:
  * - Utilises our WikiSync API, with data provided by users via RuneLite.
  * - Adds the ability to check a user's completed quests.
- *
+ * 
  * Slightly adapted from https://runescape.wiki/w/MediaWiki:Gadget-questchecker-core.js
  *
  * @author Jayden
@@ -20,7 +20,8 @@ var CLASSES = {
 };
 
 var ENDPOINTS = {
-  osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
+  // osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
+  osrs: "http://localhost:3000/runelite/player/username/STANDARD",
   shatteredrelics:
     "https://sync.runescape.wiki/runelite/player/username/SHATTERED_RELICS_LEAGUE", //use actual url
 };
@@ -361,21 +362,18 @@ var wikisync = {
       return false;
     }
 
-    var seen = {};
     var total = 0;
     var completed = 0;
-    musicTracks.forEach(function (trackId) {
-      seen[trackId] = true;
-    });
     musicTable.each(function () {
       $(this)
-        .find("tr[data-music-id]")
+        .find("tr[data-music-track-name]")
         .each(function () {
-          var music_id = $(this).data("music-id");
-          if (!!seen[music_id] !== $(this).hasClass("highlight-on")) {
+          debugger
+          var music_track_name = $(this).data("music-track-name");
+          if (!!musicTracks[music_track_name] !== $(this).hasClass("highlight-on")) {
             $(this).click();
           }
-          if (seen[music_id]) {
+          if (musicTracks[music_track_name]) {
             $(this).addClass("wikisync-completed");
             completed++;
           }
