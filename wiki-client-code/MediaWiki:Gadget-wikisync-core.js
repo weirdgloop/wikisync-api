@@ -35,7 +35,7 @@ var questCorrections = {
     no: ` <span class="${CLASSES.QC_ICON}"><img class="qc-not-started" src="//oldschool.runescape.wiki/images/X_mark.svg?00000" width="13px" ></span>`,
   };
 
-wikisync = {
+var wikisync = {
   /**
    * Startup method
    */
@@ -390,6 +390,17 @@ wikisync = {
   },
 
   /**
+   * Append a checkmark/X icon to `element`.
+   */
+  append_icon: function (element, completed) {
+    if (completed) {
+      $(element).append(icons.yes);
+    } else {
+      $(element).append(icons.no);
+    }
+  },
+
+  /**
    * Clicks the rows in a table of question and diary tiers. Also appends icons to rows dedicated to skill training
    */
   addQuestTable: function (quests, skills, achievementDiaries) {
@@ -438,11 +449,7 @@ wikisync = {
       skillName = skillName.charAt(0).toUpperCase() + skillName.slice(1);
       var skillLevel = $(this).data("skill-level");
       var row = $(this).find("th");
-      if (skills[skillName] >= skillLevel) {
-        row.append(icons.yes);
-      } else {
-        row.append(icons.no);
-      }
+      wikisync.append_icon(row, skills[skillName] >= skillLevel);
     });
     return true;
   },
@@ -512,11 +519,9 @@ wikisync = {
         var questTitle = $(this).text().trim(),
           icon = $(this).find(`.${CLASSES.QC_ICON}`),
           imgsrc = "";
-        if (quests[questTitle] === 2) {
-          $(this).append(icons.yes);
-        }
-        if (quests[questTitle] === 0 || quests[questTitle] === 1) {
-          $(this).append(icons.no);
+        if (questTitle in quests) {
+          console.log(questTitle);
+          wikisync.append_icon(this, quests[questTitle] === 2);
         }
       }
     });
@@ -527,17 +532,13 @@ wikisync = {
    * Adds the icons next to respective skills
    */
   addSkillIcons: function (userLevels) {
-    $(`.${CLASSES.QC_ACTIVE} scp`).each(function () {
+    $(`.${CLASSES.QC_ACTIVE} .scp`).each(function () {
       var level = $(this).data("level");
       var skill = $(this).data("skill");
       if (typeof level !== "number" || userLevels[skill] === undefined) {
         return;
       }
-      if (userLevels[skill] >= level) {
-        $(this).append(icons.yes);
-      } else {
-        $(this).append(icons.no);
-      }
+      wikisync.append_icon(this, userLevels[skill] >= level);
     });
     return true;
   },
