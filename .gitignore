@@ -1,7 +1,2 @@
 node_modules/
 .env
-
-# pywikibot
-throttle.ctrl
-apicache-py3
-pywikibot-*.lwp
