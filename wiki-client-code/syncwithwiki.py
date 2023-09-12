@@ -31,8 +31,7 @@ elif args.command == "write":
     page = pywikibot.Page(site, filename)
 
     def save_page():
-        subprocess.run(["npm", "run", "build"])
-        with open(f"build/{filename}", "r") as f:
+        with open(filename, "r") as f:
             page.text = f.read()
         page.save("syncing latest version from file via API")
 
