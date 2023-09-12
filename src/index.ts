@@ -33,6 +33,11 @@ app.use((err, req, res, next) => {
   next();
 });
 
+if ('ONLY_TYPECHECK_AND_DO_NOT_RUN' in process.env) {
+  console.log('ONLY_TYPECHECK_AND_DO_NOT_RUN env variable was set. Exiting.');
+  process.exit();
+}
+
 const server = app.listen(port, async () => {
   await DBService.getConnection();
   console.log(`Running server on http://localhost:${port}`);
