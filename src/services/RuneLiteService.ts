@@ -56,7 +56,7 @@ class RuneLiteService {
     let newPlayerData: PlayerDataJson = await conn.getRepository(PlayerDataJson).findOne({
       where: {
         username,
-        profile: data.profile,
+        profile: data.profile as ProfileType,
       },
     });
 
