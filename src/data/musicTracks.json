@@ -497,6 +497,13 @@
         "varpBitIndex": 14
     },
     {
+        "trackName": "Bolrie's Diary",
+        "trackNameForSorting": "Bolrie's Diary",
+        "midiId": 769,
+        "varpIndex": 23,
+        "varpBitIndex": 26
+    },
+    {
         "trackName": "Bone Dance",
         "trackNameForSorting": "Bone Dance",
         "midiId": 154,
@@ -2058,6 +2065,13 @@
         "varpBitIndex": 27
     },
     {
+        "trackName": "Healin' Feelin'",
+        "trackNameForSorting": "Healin' Feelin'",
+        "midiId": 767,
+        "varpIndex": 23,
+        "varpBitIndex": 27
+    },
+    {
         "trackName": "Heart and Mind",
         "trackNameForSorting": "Heart and Mind",
         "midiId": 190,
@@ -2672,6 +2686,13 @@
         "midiId": 12,
         "varpIndex": 3,
         "varpBitIndex": 12
+    },
+    {
+        "trackName": "The Longramble Scramble",
+        "trackNameForSorting": "Longramble Scramble, The",
+        "midiId": 771,
+        "varpIndex": 23,
+        "varpBitIndex": 28
     },
     {
         "trackName": "Look to the Stars",
@@ -4333,6 +4354,13 @@
         "varpBitIndex": 26
     },
     {
+        "trackName": "Storeroom Shuffle",
+        "trackNameForSorting": "Storeroom Shuffle",
+        "midiId": 772,
+        "varpIndex": 23,
+        "varpBitIndex": 29
+    },
+    {
         "trackName": "Storm Brew",
         "trackNameForSorting": "Storm Brew",
         "midiId": 568,
@@ -4520,6 +4548,13 @@
         "midiId": 675,
         "varpIndex": 20,
         "varpBitIndex": 12
+    },
+    {
+        "trackName": "Terrorbird Tussle",
+        "trackNameForSorting": "Terrorbird Tussle",
+        "midiId": 768,
+        "varpIndex": 23,
+        "varpBitIndex": 30
     },
     {
         "trackName": "Test of Companionship",
@@ -5038,6 +5073,13 @@
         "midiId": 634,
         "varpIndex": 14,
         "varpBitIndex": 7
+    },
+    {
+        "trackName": "Waste Defaced",
+        "trackNameForSorting": "Waste Defaced",
+        "midiId": 770,
+        "varpIndex": 23,
+        "varpBitIndex": 31
     },
     {
         "trackName": "Watch Your Step",
