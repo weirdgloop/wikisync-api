@@ -23,7 +23,7 @@ jobs:
           python-version: 3.11
       - run: pip install requests
       - working-directory: src/data
-        run: python ../scripts/musicAndQuestsFromCache.py
+        run: python ../scripts/musicAndQuestsFromCache.py write
       - name: Print `git status`
         run: "git status --porcelain"
 

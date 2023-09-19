@@ -3,6 +3,20 @@ import subprocess
 import glob
 import json
 import os
+import argparse
+import subprocess
+
+parser = argparse.ArgumentParser()
+subparsers = parser.add_subparsers(dest="command")
+write_parser = subparsers.add_parser("write")
+print_differences_in_music_tracks_parser = subparsers.add_parser(
+    "print-differences-in-music-tracks"
+)
+args = parser.parse_args()
+
+if args.command is None:
+    parser.print_help()
+    exit(1)
 
 tempdir = "/tmp"
 
@@ -95,7 +109,13 @@ def get_music_tracks():
         trackDbColumns = get_json("dbrow/" + str(dbRow) + ".json")["columnValues"]
         midiId = trackDbColumns[4][0]
         trackNameForSorting = trackDbColumns[0][0]
-        trackName = trackDbColumns[1][0]
+        trackName = trackDbColumns[1][0].replace("\t", "")
+        ignored = False
+        if trackName == "":
+            continue
+        if trackDbColumns[8] is not None and trackDbColumns[8][0] == True:
+            # This track is hidden from the music list
+            ignored = True
         varpIndex = -1
         varpBitIndex = -1
         if trackDbColumns[5] is not None and len(trackDbColumns[5]) > 0:
@@ -106,6 +126,7 @@ def get_music_tracks():
                 "trackName": trackName,
                 "trackNameForSorting": trackNameForSorting,
                 "midiId": midiId,
+                "ignored": ignored,
                 "varpIndex": varpIndex,
                 "varpBitIndex": varpBitIndex,
             }
@@ -163,9 +184,42 @@ LEAGUE_TASK_VARPS = get_league_task_varps()
 
 COMBAT_ACHIEVEMENT_VARPS = get_combat_achievement_varps()
 
-set_json(MUSIC_TRACKS, "musicTracks.json")
-set_json(MUSIC_VARPS, "musicVarps.json")
-set_json(QUEST_VARPS, "questVarps.json")
-set_json(QUEST_VARBITS, "questVarbits.json")
-set_json(LEAGUE_TASK_VARPS, "leagueTaskVarps.json")
-set_json(COMBAT_ACHIEVEMENT_VARPS, "combatAchievementVarps.json")
+if args.command == "write":
+    set_json(MUSIC_TRACKS, "musicTracks.json")
+    set_json(MUSIC_VARPS, "musicVarps.json")
+    set_json(QUEST_VARPS, "questVarps.json")
+    set_json(QUEST_VARBITS, "questVarbits.json")
+    set_json(LEAGUE_TASK_VARPS, "leagueTaskVarps.json")
+    set_json(COMBAT_ACHIEVEMENT_VARPS, "combatAchievementVarps.json")
+
+elif args.command == "print-differences-in-music-tracks":
+    names_from_cache = set()
+    for m in MUSIC_TRACKS:
+        if m["ignored"] == True:
+            continue
+        names_from_cache.add(m["trackName"])
+
+    names_from_wiki = set()
+    tracks = subprocess.run(
+        [
+            "curl --silent https://oldschool.runescape.wiki/w/Music?action=raw | rg name= | sed -e 's/.name=//'"
+        ],
+        capture_output=True,
+        text=True,
+        shell=True,
+    ).stdout.splitlines()
+    for t in tracks:
+        names_from_wiki.add(t.rstrip())
+
+    # print(names_from_cache)
+    # print(names_from_file)
+    print("only in cache:")
+    print(sorted(names_from_cache - names_from_wiki))
+    print("only on wiki")
+    print(sorted(names_from_wiki - names_from_cache))
+    print("same?")
+    print(names_from_cache == names_from_wiki)
+
+else:
+    print("Invalid command: ", args.command)
+    exit(2)
