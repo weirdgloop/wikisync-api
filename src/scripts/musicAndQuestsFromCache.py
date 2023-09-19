@@ -95,7 +95,7 @@ def get_music_tracks():
         trackDbColumns = get_json("dbrow/" + str(dbRow) + ".json")["columnValues"]
         midiId = trackDbColumns[4][0]
         trackNameForSorting = trackDbColumns[0][0]
-        trackName = trackDbColumns[1][0]
+        trackName = trackDbColumns[1][0].replace("\t", "")
         varpIndex = -1
         varpBitIndex = -1
         if trackDbColumns[5] is not None and len(trackDbColumns[5]) > 0:

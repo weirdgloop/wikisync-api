@@ -2807,7 +2807,7 @@
         "varpBitIndex": 15
     },
     {
-        "trackName": "Magic\t Magic\t Magic",
+        "trackName": "Magic Magic Magic",
         "trackNameForSorting": "Magic, Magic, Magic",
         "midiId": 235,
         "varpIndex": 15,
@@ -2912,7 +2912,7 @@
         "varpBitIndex": 24
     },
     {
-        "trackName": "Maws\t Jaws & Claws",
+        "trackName": "Maws Jaws & Claws",
         "trackNameForSorting": "Maws, Jaws & Claws",
         "midiId": 439,
         "varpIndex": 16,
@@ -5257,7 +5257,7 @@
         "varpBitIndex": 14
     },
     {
-        "trackName": "Work\t Work\t Work",
+        "trackName": "Work Work Work",
         "trackNameForSorting": "Work, Work, Work",
         "midiId": 237,
         "varpIndex": 15,
