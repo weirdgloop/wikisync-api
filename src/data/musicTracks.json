@@ -1,15 +1,9 @@
 [
     {
-        "trackName": "",
-        "trackNameForSorting": "",
-        "midiId": 765,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
         "trackName": "7th Realm",
         "trackNameForSorting": "7th Realm",
         "midiId": 363,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 29
     },
@@ -17,6 +11,7 @@
         "trackName": "Adventure",
         "trackNameForSorting": "Adventure",
         "midiId": 177,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 0
     },
@@ -24,6 +19,7 @@
         "trackName": "The Adventurer",
         "trackNameForSorting": "Adventurer, The",
         "midiId": 401,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -31,6 +27,7 @@
         "trackName": "Al Kharid",
         "trackNameForSorting": "Al Kharid",
         "midiId": 50,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 1
     },
@@ -38,6 +35,7 @@
         "trackName": "Alchemical Attack!",
         "trackNameForSorting": "Alchemical Attack",
         "midiId": 598,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 3
     },
@@ -45,6 +43,7 @@
         "trackName": "All's Fairy in Love & War",
         "trackNameForSorting": "All's Fairy in Love & War",
         "midiId": 73,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 20
     },
@@ -52,6 +51,7 @@
         "trackName": "Alone",
         "trackNameForSorting": "Alone",
         "midiId": 102,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 2
     },
@@ -59,6 +59,7 @@
         "trackName": "Altar Ego",
         "trackNameForSorting": "Altar Ego",
         "midiId": 486,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 4
     },
@@ -66,6 +67,7 @@
         "trackName": "Alternative Root",
         "trackNameForSorting": "Alternative Root",
         "midiId": 272,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 21
     },
@@ -73,6 +75,7 @@
         "trackName": "Amascut's Promise",
         "trackNameForSorting": "Amascut's Promise",
         "midiId": 735,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 7
     },
@@ -80,6 +83,7 @@
         "trackName": "Ambient Jungle",
         "trackNameForSorting": "Ambient Jungle",
         "midiId": 90,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 3
     },
@@ -87,6 +91,7 @@
         "trackName": "The Ancient Prison",
         "trackNameForSorting": "Ancient Prison, The",
         "midiId": 709,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 19
     },
@@ -94,6 +99,7 @@
         "trackName": "The Angel's Fury",
         "trackNameForSorting": "Angel's Fury, The",
         "midiId": 711,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 21
     },
@@ -101,6 +107,7 @@
         "trackName": "Anywhere",
         "trackNameForSorting": "Anywhere",
         "midiId": 305,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 16
     },
@@ -108,6 +115,7 @@
         "trackName": "Ape-ex Predator",
         "trackNameForSorting": "Ape-ex Predator",
         "midiId": 740,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 5
     },
@@ -115,6 +123,7 @@
         "trackName": "Arabian",
         "trackNameForSorting": "Arabian",
         "midiId": 36,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 4
     },
@@ -122,6 +131,7 @@
         "trackName": "Arabian 2",
         "trackNameForSorting": "Arabian 2",
         "midiId": 123,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 5
     },
@@ -129,6 +139,7 @@
         "trackName": "Arabian 3",
         "trackNameForSorting": "Arabian 3",
         "midiId": 124,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 6
     },
@@ -136,6 +147,7 @@
         "trackName": "Arabique",
         "trackNameForSorting": "Arabique",
         "midiId": 19,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 7
     },
@@ -143,6 +155,7 @@
         "trackName": "Arachnids of Vampyrium",
         "trackNameForSorting": "Arachnids of Vampyrium",
         "midiId": 579,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 20
     },
@@ -150,6 +163,7 @@
         "trackName": "Arboretum",
         "trackNameForSorting": "Arboretum",
         "midiId": 670,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 8
     },
@@ -157,6 +171,7 @@
         "trackName": "Arcane",
         "trackNameForSorting": "Arcane",
         "midiId": 455,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 24
     },
@@ -164,6 +179,7 @@
         "trackName": "Architects of Prifddinas",
         "trackNameForSorting": "Architects of Prifddinas",
         "midiId": 651,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 24
     },
@@ -171,6 +187,7 @@
         "trackName": "Armadyl Alliance",
         "trackNameForSorting": "Armadyl Alliance",
         "midiId": 414,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 13
     },
@@ -178,6 +195,7 @@
         "trackName": "Armageddon",
         "trackNameForSorting": "Armageddon",
         "midiId": 404,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 14
     },
@@ -185,6 +203,7 @@
         "trackName": "Army of Darkness",
         "trackNameForSorting": "Army of Darkness",
         "midiId": 160,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 8
     },
@@ -192,6 +211,7 @@
         "trackName": "Arrival",
         "trackNameForSorting": "Arrival",
         "midiId": 186,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 9
     },
@@ -199,6 +219,7 @@
         "trackName": "Artistry",
         "trackNameForSorting": "Artistry",
         "midiId": 247,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 8
     },
@@ -206,6 +227,7 @@
         "trackName": "Ascent",
         "trackNameForSorting": "Ascent",
         "midiId": 494,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 11
     },
@@ -213,6 +235,7 @@
         "trackName": "Assault and Battery",
         "trackNameForSorting": "Assault and Battery",
         "midiId": 604,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 23
     },
@@ -220,6 +243,7 @@
         "trackName": "Athletes Foot",
         "trackNameForSorting": "Athletes Foot",
         "midiId": 415,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -227,6 +251,7 @@
         "trackName": "Attack 1",
         "trackNameForSorting": "Attack 1",
         "midiId": 24,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 10
     },
@@ -234,6 +259,7 @@
         "trackName": "Attack 2",
         "trackNameForSorting": "Attack 2",
         "midiId": 25,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 11
     },
@@ -241,6 +267,7 @@
         "trackName": "Attack 3",
         "trackNameForSorting": "Attack 3",
         "midiId": 26,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 12
     },
@@ -248,6 +275,7 @@
         "trackName": "Attack 4",
         "trackNameForSorting": "Attack 4",
         "midiId": 27,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 13
     },
@@ -255,6 +283,7 @@
         "trackName": "Attack 5",
         "trackNameForSorting": "Attack 5",
         "midiId": 28,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 14
     },
@@ -262,6 +291,7 @@
         "trackName": "Attack 6",
         "trackNameForSorting": "Attack 6",
         "midiId": 29,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 15
     },
@@ -269,6 +299,7 @@
         "trackName": "Attention",
         "trackNameForSorting": "Attention",
         "midiId": 180,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 16
     },
@@ -276,6 +307,7 @@
         "trackName": "Autumn Voyage",
         "trackNameForSorting": "Autumn Voyage",
         "midiId": 2,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 17
     },
@@ -283,6 +315,7 @@
         "trackName": "Autumn in Bridgelum",
         "trackNameForSorting": "Autumn in Bridgelum",
         "midiId": 538,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -290,6 +323,7 @@
         "trackName": "Awful Anthem",
         "trackNameForSorting": "Awful Anthem",
         "midiId": 297,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 14
     },
@@ -297,6 +331,7 @@
         "trackName": "Aye Car Rum Ba",
         "trackNameForSorting": "Aye Car Rum Ba",
         "midiId": 497,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 31
     },
@@ -304,6 +339,7 @@
         "trackName": "Aztec",
         "trackNameForSorting": "Aztec",
         "midiId": 248,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 9
     },
@@ -311,6 +347,7 @@
         "trackName": "Back to Life",
         "trackNameForSorting": "Back to Life",
         "midiId": 616,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 30
     },
@@ -318,6 +355,7 @@
         "trackName": "Background",
         "trackNameForSorting": "Background",
         "midiId": 324,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 18
     },
@@ -325,6 +363,7 @@
         "trackName": "Bait",
         "trackNameForSorting": "Bait",
         "midiId": 563,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 5
     },
@@ -332,6 +371,7 @@
         "trackName": "Ballad of Enchantment",
         "trackNameForSorting": "Ballad of Enchantment",
         "midiId": 152,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 19
     },
@@ -339,6 +379,7 @@
         "trackName": "Ballad of the Basilisk",
         "trackNameForSorting": "Ballad of the Basilisk",
         "midiId": 139,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 7
     },
@@ -346,6 +387,7 @@
         "trackName": "Bandit Camp",
         "trackNameForSorting": "Bandit Camp",
         "midiId": 263,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 22
     },
@@ -353,6 +395,7 @@
         "trackName": "Bandos Battalion",
         "trackNameForSorting": "Bandos Battalion",
         "midiId": 408,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 12
     },
@@ -360,6 +403,7 @@
         "trackName": "Bane",
         "trackNameForSorting": "Bane",
         "midiId": 430,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 25
     },
@@ -367,6 +411,7 @@
         "trackName": "The Bane of Ashihama",
         "trackNameForSorting": "Bane of Ashihama, The",
         "midiId": 663,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 13
     },
@@ -374,6 +419,7 @@
         "trackName": "Barb Wire",
         "trackNameForSorting": "Barb Wire",
         "midiId": 367,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 25
     },
@@ -381,6 +427,7 @@
         "trackName": "Barbarian Workout",
         "trackNameForSorting": "Barbarian Workout",
         "midiId": 689,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 2
     },
@@ -388,6 +435,7 @@
         "trackName": "Barbarianism",
         "trackNameForSorting": "Barbarianism",
         "midiId": 141,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 1
     },
@@ -395,6 +443,7 @@
         "trackName": "Barking Mad",
         "trackNameForSorting": "Barking Mad",
         "midiId": 345,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 5
     },
@@ -402,6 +451,7 @@
         "trackName": "Baroque",
         "trackNameForSorting": "Baroque",
         "midiId": 99,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 20
     },
@@ -409,6 +459,7 @@
         "trackName": "Barren Land",
         "trackNameForSorting": "Barren Land",
         "midiId": 585,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 23
     },
@@ -416,6 +467,7 @@
         "trackName": "Beetle Juice",
         "trackNameForSorting": "Beetle Juice",
         "midiId": 615,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 29
     },
@@ -423,6 +475,7 @@
         "trackName": "Beneath Cursed Sands",
         "trackNameForSorting": "Beneath Cursed Sands",
         "midiId": 730,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 29
     },
@@ -430,6 +483,7 @@
         "trackName": "Beneath the Kingdom",
         "trackNameForSorting": "Beneath the Kingdom",
         "midiId": 694,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 6
     },
@@ -437,6 +491,7 @@
         "trackName": "Beneath the Stronghold",
         "trackNameForSorting": "Beneath the Stronghold",
         "midiId": 417,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 31
     },
@@ -444,6 +499,7 @@
         "trackName": "Beyond",
         "trackNameForSorting": "Beyond",
         "midiId": 100,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 21
     },
@@ -451,6 +507,7 @@
         "trackName": "Beyond the Meadow",
         "trackNameForSorting": "Beyond the Meadow",
         "midiId": 707,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 13
     },
@@ -458,6 +515,7 @@
         "trackName": "Big Chords",
         "trackNameForSorting": "Big Chords",
         "midiId": 83,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 22
     },
@@ -465,6 +523,7 @@
         "trackName": "Blistering Barnacles",
         "trackNameForSorting": "Blistering Barnacles",
         "midiId": 498,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 0
     },
@@ -472,6 +531,7 @@
         "trackName": "Blood Rush",
         "trackNameForSorting": "Blood Rush",
         "midiId": 761,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 19
     },
@@ -479,6 +539,7 @@
         "trackName": "Bloodbath",
         "trackNameForSorting": "Bloodbath",
         "midiId": 557,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 7
     },
@@ -486,6 +547,7 @@
         "trackName": "Bob's on Holiday",
         "trackNameForSorting": "Bob's on Holiday",
         "midiId": 484,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 4
     },
@@ -493,6 +555,7 @@
         "trackName": "Body Parts",
         "trackNameForSorting": "Body Parts",
         "midiId": 342,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 14
     },
@@ -500,6 +563,7 @@
         "trackName": "Bolrie's Diary",
         "trackNameForSorting": "Bolrie's Diary",
         "midiId": 769,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 26
     },
@@ -507,6 +571,7 @@
         "trackName": "Bone Dance",
         "trackNameForSorting": "Bone Dance",
         "midiId": 154,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 23
     },
@@ -514,6 +579,7 @@
         "trackName": "Bone Dry",
         "trackNameForSorting": "Bone Dry",
         "midiId": 266,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 24
     },
@@ -521,6 +587,7 @@
         "trackName": "Book of Spells",
         "trackNameForSorting": "Book of Spells",
         "midiId": 64,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 23
     },
@@ -528,6 +595,7 @@
         "trackName": "Borderland",
         "trackNameForSorting": "Borderland",
         "midiId": 291,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 9
     },
@@ -535,6 +603,7 @@
         "trackName": "Box of Delights",
         "trackNameForSorting": "Box of Delights",
         "midiId": 637,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 14
     },
@@ -542,6 +611,7 @@
         "trackName": "Brain Battle",
         "trackNameForSorting": "Brain Battle",
         "midiId": 239,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 5
     },
@@ -549,6 +619,7 @@
         "trackName": "Breeze",
         "trackNameForSorting": "Breeze",
         "midiId": 132,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 2
     },
@@ -556,6 +627,7 @@
         "trackName": "Brew Hoo Hoo!",
         "trackNameForSorting": "Brew Hoo Hoo!",
         "midiId": 471,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 18
     },
@@ -563,6 +635,7 @@
         "trackName": "Brimstail's Scales",
         "trackNameForSorting": "Brimstail's Scales",
         "midiId": 194,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 27
     },
@@ -570,6 +643,7 @@
         "trackName": "Bubble and Squeak",
         "trackNameForSorting": "Bubble and Squeak",
         "midiId": 489,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 27
     },
@@ -577,6 +651,7 @@
         "trackName": "Bunny's Sugar Rush",
         "trackNameForSorting": "Bunny's Sugar Rush",
         "midiId": 437,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 0
     },
@@ -584,6 +659,7 @@
         "trackName": "Burning Desire",
         "trackNameForSorting": "Burning Desire",
         "midiId": 629,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 2
     },
@@ -591,6 +667,7 @@
         "trackName": "Cabin Fever",
         "trackNameForSorting": "Cabin Fever",
         "midiId": 545,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 27
     },
@@ -598,6 +675,7 @@
         "trackName": "Cain's Tutorial",
         "trackNameForSorting": "Cain's Tutorial",
         "midiId": 212,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 0
     },
@@ -605,6 +683,7 @@
         "trackName": "Camelot",
         "trackNameForSorting": "Camelot",
         "midiId": 104,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 24
     },
@@ -612,6 +691,7 @@
         "trackName": "Castle Wars",
         "trackNameForSorting": "Castle Wars",
         "midiId": 314,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 23
     },
@@ -619,6 +699,7 @@
         "trackName": "Catacombs and Tombs",
         "trackNameForSorting": "Catacombs and Tombs",
         "midiId": 715,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 22
     },
@@ -626,6 +707,7 @@
         "trackName": "Catch Me If You Can",
         "trackNameForSorting": "Catch Me If You Can",
         "midiId": 481,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 24
     },
@@ -633,6 +715,7 @@
         "trackName": "Cave Background",
         "trackNameForSorting": "Cave Background",
         "midiId": 325,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 25
     },
@@ -640,6 +723,7 @@
         "trackName": "Cave of Beasts",
         "trackNameForSorting": "Cave of Beasts",
         "midiId": 357,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 24
     },
@@ -647,6 +731,7 @@
         "trackName": "Cave of the Goblins",
         "trackNameForSorting": "Cave of the Goblins",
         "midiId": 389,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 16
     },
@@ -654,6 +739,7 @@
         "trackName": "Cavern",
         "trackNameForSorting": "Cavern",
         "midiId": 68,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 26
     },
@@ -661,6 +747,7 @@
         "trackName": "The Cellar Dwellers",
         "trackNameForSorting": "Cellar Dwellers, The",
         "midiId": 478,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 22
     },
@@ -668,6 +755,7 @@
         "trackName": "Cellar Song",
         "trackNameForSorting": "Cellar Song",
         "midiId": 330,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 13
     },
@@ -675,6 +763,7 @@
         "trackName": "Chain of Command",
         "trackNameForSorting": "Chain of Command",
         "midiId": 63,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 27
     },
@@ -682,6 +771,7 @@
         "trackName": "Chamber",
         "trackNameForSorting": "Chamber",
         "midiId": 282,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 1
     },
@@ -689,6 +779,7 @@
         "trackName": "Chef Surprise",
         "trackNameForSorting": "Chef Surprise",
         "midiId": 583,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 15
     },
@@ -696,6 +787,7 @@
         "trackName": "Chickened Out",
         "trackNameForSorting": "Chickened Out",
         "midiId": 575,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 11
     },
@@ -703,6 +795,7 @@
         "trackName": "Chompy Hunt",
         "trackNameForSorting": "Chompy Hunt",
         "midiId": 71,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 18
     },
@@ -710,6 +803,7 @@
         "trackName": "The Chosen",
         "trackNameForSorting": "Chosen, The",
         "midiId": 425,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 4
     },
@@ -717,6 +811,7 @@
         "trackName": "City of the Dead",
         "trackNameForSorting": "City of the Dead",
         "midiId": 383,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 12
     },
@@ -724,6 +819,7 @@
         "trackName": "Clan Wars",
         "trackNameForSorting": "Clan Wars",
         "midiId": 428,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 22
     },
@@ -731,6 +827,7 @@
         "trackName": "Clanliness",
         "trackNameForSorting": "Clanliness",
         "midiId": 693,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 3
     },
@@ -738,6 +835,7 @@
         "trackName": "Claustrophobia",
         "trackNameForSorting": "Claustrophobia",
         "midiId": 373,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 3
     },
@@ -745,6 +843,7 @@
         "trackName": "Close Quarters",
         "trackNameForSorting": "Close Quarters",
         "midiId": 67,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 15
     },
@@ -752,6 +851,7 @@
         "trackName": "Coil",
         "trackNameForSorting": "Coil",
         "midiId": 432,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 0
     },
@@ -759,6 +859,7 @@
         "trackName": "Colossus of the Deep",
         "trackNameForSorting": "Colossus of the Deep",
         "midiId": 750,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 17
     },
@@ -766,6 +867,7 @@
         "trackName": "Competition",
         "trackNameForSorting": "Competition",
         "midiId": 269,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 25
     },
@@ -773,6 +875,7 @@
         "trackName": "Complication",
         "trackNameForSorting": "Complication",
         "midiId": 142,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 2
     },
@@ -780,6 +883,7 @@
         "trackName": "Confrontation",
         "trackNameForSorting": "Confrontation",
         "midiId": 701,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 5
     },
@@ -787,6 +891,7 @@
         "trackName": "The Consortium",
         "trackNameForSorting": "Consortium, The",
         "midiId": 405,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 31
     },
@@ -794,6 +899,7 @@
         "trackName": "Conspiracy",
         "trackNameForSorting": "Conspiracy",
         "midiId": 561,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 4
     },
@@ -801,6 +907,7 @@
         "trackName": "Contest",
         "trackNameForSorting": "Contest",
         "midiId": 258,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 16
     },
@@ -808,6 +915,7 @@
         "trackName": "Corporal Punishment",
         "trackNameForSorting": "Corporal Punishment",
         "midiId": 418,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 3
     },
@@ -815,6 +923,7 @@
         "trackName": "Corridors of Power",
         "trackNameForSorting": "Corridors of Power",
         "midiId": 509,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 6
     },
@@ -822,6 +931,7 @@
         "trackName": "Country Jig",
         "trackNameForSorting": "Country Jig",
         "midiId": 456,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 25
     },
@@ -829,6 +939,7 @@
         "trackName": "Courage",
         "trackNameForSorting": "Courage",
         "midiId": 178,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 4
     },
@@ -836,6 +947,7 @@
         "trackName": "Creature Cruelty",
         "trackNameForSorting": "Creature Cruelty",
         "midiId": 234,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 20
     },
@@ -843,6 +955,7 @@
         "trackName": "Creeping Vines",
         "trackNameForSorting": "Creeping Vines",
         "midiId": 596,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 13
     },
@@ -850,6 +963,7 @@
         "trackName": "Crest of a Wave",
         "trackNameForSorting": "Crest of a Wave",
         "midiId": 350,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -857,6 +971,7 @@
         "trackName": "Crystal Castle",
         "trackNameForSorting": "Crystal Castle",
         "midiId": 259,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 18
     },
@@ -864,6 +979,7 @@
         "trackName": "Crystal Cave",
         "trackNameForSorting": "Crystal Cave",
         "midiId": 181,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 28
     },
@@ -871,6 +987,7 @@
         "trackName": "Crystal Sword",
         "trackNameForSorting": "Crystal Sword",
         "midiId": 169,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 29
     },
@@ -878,6 +995,7 @@
         "trackName": "Cursed",
         "trackNameForSorting": "Cursed",
         "midiId": 59,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 26
     },
@@ -885,6 +1003,7 @@
         "trackName": "The Curtain Closes",
         "trackNameForSorting": "Curtain Closes, The",
         "midiId": 582,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 18
     },
@@ -892,6 +1011,7 @@
         "trackName": "Dagannoth Dawn",
         "trackNameForSorting": "Dagannoth Dawn",
         "midiId": 198,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 13
     },
@@ -899,6 +1019,7 @@
         "trackName": "Dance of Death",
         "trackNameForSorting": "Dance of Death",
         "midiId": 560,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 6
     },
@@ -906,6 +1027,7 @@
         "trackName": "Dance of the Meilyr",
         "trackNameForSorting": "Dance of the Meilyr",
         "midiId": 660,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 20
     },
@@ -913,6 +1035,7 @@
         "trackName": "Dance of the Nylocas",
         "trackNameForSorting": "Dance of the Nylocas",
         "midiId": 580,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 19
     },
@@ -920,6 +1043,7 @@
         "trackName": "Dance of the Undead",
         "trackNameForSorting": "Dance of the Undead",
         "midiId": 380,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 10
     },
@@ -927,6 +1051,7 @@
         "trackName": "Dangerous",
         "trackNameForSorting": "Dangerous",
         "midiId": 182,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 30
     },
@@ -934,6 +1059,7 @@
         "trackName": "A Dangerous Game",
         "trackNameForSorting": "Dangerous Game, A",
         "midiId": 684,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 27
     },
@@ -941,6 +1067,7 @@
         "trackName": "Dangerous Road",
         "trackNameForSorting": "Dangerous Road",
         "midiId": 336,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 7
     },
@@ -948,6 +1075,7 @@
         "trackName": "Dangerous Way",
         "trackNameForSorting": "Dangerous Way",
         "midiId": 381,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 11
     },
@@ -955,6 +1083,7 @@
         "trackName": "Dark",
         "trackNameForSorting": "Dark",
         "midiId": 326,
+        "ignored": false,
         "varpIndex": 1,
         "varpBitIndex": 31
     },
@@ -962,6 +1091,7 @@
         "trackName": "The Dark Beast Sotetseg",
         "trackNameForSorting": "Dark Beast Sotetseg, The",
         "midiId": 584,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 14
     },
@@ -969,6 +1099,7 @@
         "trackName": "Darkly Altared",
         "trackNameForSorting": "Darkly Altared",
         "midiId": 472,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 30
     },
@@ -976,6 +1107,7 @@
         "trackName": "Darkmeyer",
         "trackNameForSorting": "Darkmeyer",
         "midiId": 671,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 9
     },
@@ -983,6 +1115,7 @@
         "trackName": "Darkness in the Depths",
         "trackNameForSorting": "Darkness in the Depths",
         "midiId": 499,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 12
     },
@@ -990,6 +1123,7 @@
         "trackName": "Davy Jones' Locker",
         "trackNameForSorting": "Davy Jones' Locker",
         "midiId": 576,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 10
     },
@@ -997,6 +1131,7 @@
         "trackName": "Dead Can Dance",
         "trackNameForSorting": "Dead Can Dance",
         "midiId": 476,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 21
     },
@@ -1004,6 +1139,7 @@
         "trackName": "Dead Quiet",
         "trackNameForSorting": "Dead Quiet",
         "midiId": 84,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 21
     },
@@ -1011,6 +1147,7 @@
         "trackName": "Deadlands",
         "trackNameForSorting": "Deadlands",
         "midiId": 288,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 6
     },
@@ -1018,6 +1155,7 @@
         "trackName": "Deep Down",
         "trackNameForSorting": "Deep Down",
         "midiId": 278,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 0
     },
@@ -1025,6 +1163,7 @@
         "trackName": "Deep Wildy",
         "trackNameForSorting": "Deep Wildy",
         "midiId": 37,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 0
     },
@@ -1032,6 +1171,7 @@
         "trackName": "Delrith",
         "trackNameForSorting": "Delrith",
         "midiId": 195,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 18
     },
@@ -1039,6 +1179,7 @@
         "trackName": "The Depths",
         "trackNameForSorting": "Depths, The",
         "midiId": 606,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 24
     },
@@ -1046,6 +1187,7 @@
         "trackName": "Desert Heat",
         "trackNameForSorting": "Desert Heat",
         "midiId": 465,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 13
     },
@@ -1053,6 +1195,7 @@
         "trackName": "Desert Voyage",
         "trackNameForSorting": "Desert Voyage",
         "midiId": 174,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 1
     },
@@ -1060,6 +1203,7 @@
         "trackName": "The Desert",
         "trackNameForSorting": "Desert, The",
         "midiId": 79,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 24
     },
@@ -1067,6 +1211,7 @@
         "trackName": "The Desolate Isle",
         "trackNameForSorting": "Desolate Isle, The",
         "midiId": 461,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 10
     },
@@ -1074,6 +1219,7 @@
         "trackName": "The Desolate Mage",
         "trackNameForSorting": "Desolate Mage, The",
         "midiId": 495,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 8
     },
@@ -1081,6 +1227,7 @@
         "trackName": "Devils May Care",
         "trackNameForSorting": "Devils May Care",
         "midiId": 424,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 20
     },
@@ -1088,6 +1235,7 @@
         "trackName": "Diango's Little Helpers",
         "trackNameForSorting": "Diango's Little Helpers",
         "midiId": 532,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 19
     },
@@ -1095,6 +1243,7 @@
         "trackName": "Dies Irae",
         "trackNameForSorting": "Dies Irae",
         "midiId": 442,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 25
     },
@@ -1102,6 +1251,7 @@
         "trackName": "Dimension X",
         "trackNameForSorting": "Dimension X",
         "midiId": 86,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 19
     },
@@ -1109,6 +1259,7 @@
         "trackName": "Distant Land",
         "trackNameForSorting": "Distant Land",
         "midiId": 501,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 1
     },
@@ -1116,6 +1267,7 @@
         "trackName": "Distillery Hilarity",
         "trackNameForSorting": "Distillery Hilarity",
         "midiId": 610,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 25
     },
@@ -1123,6 +1275,7 @@
         "trackName": "Dogfight",
         "trackNameForSorting": "Dogfight",
         "midiId": 233,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 9
     },
@@ -1130,6 +1283,7 @@
         "trackName": "Dogs of War",
         "trackNameForSorting": "Dogs of War",
         "midiId": 537,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 3
     },
@@ -1137,6 +1291,7 @@
         "trackName": "Domain of the Vampyres",
         "trackNameForSorting": "Domain of the Vampyres",
         "midiId": 677,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 15
     },
@@ -1144,6 +1299,7 @@
         "trackName": "Don't Panic Zanik",
         "trackNameForSorting": "Don't Panic Zanik",
         "midiId": 714,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 26
     },
@@ -1151,6 +1307,7 @@
         "trackName": "The Doors of Dinh",
         "trackNameForSorting": "Doors of Dinh, The",
         "midiId": 477,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 7
     },
@@ -1158,6 +1315,7 @@
         "trackName": "Doorways",
         "trackNameForSorting": "Doorways",
         "midiId": 56,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 2
     },
@@ -1165,6 +1323,7 @@
         "trackName": "Dorgeshuun City",
         "trackNameForSorting": "Dorgeshuun City",
         "midiId": 240,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 5
     },
@@ -1172,6 +1331,7 @@
         "trackName": "Dorgeshuun Deep",
         "trackNameForSorting": "Dorgeshuun Deep",
         "midiId": 249,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 6
     },
@@ -1179,6 +1339,7 @@
         "trackName": "Dorgeshuun Treaty",
         "trackNameForSorting": "Dorgeshuun Treaty",
         "midiId": 410,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 12
     },
@@ -1186,6 +1347,7 @@
         "trackName": "Down Below",
         "trackNameForSorting": "Down Below",
         "midiId": 361,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 28
     },
@@ -1193,6 +1355,7 @@
         "trackName": "Down and Out",
         "trackNameForSorting": "Down and Out",
         "midiId": 301,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 7
     },
@@ -1200,6 +1363,7 @@
         "trackName": "Down by the Docks",
         "trackNameForSorting": "Down by the Docks",
         "midiId": 450,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 26
     },
@@ -1207,6 +1371,7 @@
         "trackName": "Down to Earth",
         "trackNameForSorting": "Down to Earth",
         "midiId": 143,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 3
     },
@@ -1214,6 +1379,7 @@
         "trackName": "The Dragon Slayer",
         "trackNameForSorting": "Dragon Slayer, The",
         "midiId": 543,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 26
     },
@@ -1221,6 +1387,7 @@
         "trackName": "Dragontooth Island",
         "trackNameForSorting": "Dragontooth Island",
         "midiId": 358,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 25
     },
@@ -1228,6 +1395,7 @@
         "trackName": "Dream",
         "trackNameForSorting": "Dream",
         "midiId": 327,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 3
     },
@@ -1235,6 +1403,7 @@
         "trackName": "Dreamstate",
         "trackNameForSorting": "Dreamstate",
         "midiId": 623,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 3
     },
@@ -1242,6 +1411,7 @@
         "trackName": "Drunken Dwarf",
         "trackNameForSorting": "Drunken Dwarf",
         "midiId": 438,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -1249,6 +1419,7 @@
         "trackName": "Dunes of Eternity",
         "trackNameForSorting": "Dunes of Eternity",
         "midiId": 722,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 22
     },
@@ -1256,6 +1427,7 @@
         "trackName": "Dunjun",
         "trackNameForSorting": "Dunjun",
         "midiId": 173,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 4
     },
@@ -1263,6 +1435,7 @@
         "trackName": "Dusk in Yu'biusk",
         "trackNameForSorting": "Dusk in Yu'biusk",
         "midiId": 713,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 23
     },
@@ -1270,6 +1443,7 @@
         "trackName": "Dwarf Theme",
         "trackNameForSorting": "Dwarf Theme",
         "midiId": 310,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 20
     },
@@ -1277,6 +1451,7 @@
         "trackName": "Dwarven Domain",
         "trackNameForSorting": "Dwarven Domain",
         "midiId": 446,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 23
     },
@@ -1284,6 +1459,7 @@
         "trackName": "Dynasty",
         "trackNameForSorting": "Dynasty",
         "midiId": 351,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 19
     },
@@ -1291,6 +1467,7 @@
         "trackName": "Eagles' Peak",
         "trackNameForSorting": "Eagles' Peak",
         "midiId": 366,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 0
     },
@@ -1298,6 +1475,7 @@
         "trackName": "Easter Jig",
         "trackNameForSorting": "Easter Jig",
         "midiId": 273,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 27
     },
@@ -1305,6 +1483,7 @@
         "trackName": "Egypt",
         "trackNameForSorting": "Egypt",
         "midiId": 69,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 5
     },
@@ -1312,6 +1491,7 @@
         "trackName": "Elven Guardians",
         "trackNameForSorting": "Elven Guardians",
         "midiId": 647,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 30
     },
@@ -1319,6 +1499,7 @@
         "trackName": "Elven Mist",
         "trackNameForSorting": "Elven Mist",
         "midiId": 252,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 10
     },
@@ -1326,6 +1507,7 @@
         "trackName": "Elven Seed",
         "trackNameForSorting": "Elven Seed",
         "midiId": 654,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 17
     },
@@ -1333,6 +1515,7 @@
         "trackName": "The Emir's Arena",
         "trackNameForSorting": "Emir's Arena, The",
         "midiId": 47,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 4
     },
@@ -1340,6 +1523,7 @@
         "trackName": "Emotion",
         "trackNameForSorting": "Emotion",
         "midiId": 148,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 6
     },
@@ -1347,6 +1531,7 @@
         "trackName": "Emperor",
         "trackNameForSorting": "Emperor",
         "midiId": 138,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 7
     },
@@ -1354,6 +1539,7 @@
         "trackName": "The Enchanter",
         "trackNameForSorting": "Enchanter, The",
         "midiId": 541,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 24
     },
@@ -1361,6 +1547,7 @@
         "trackName": "The Enclave",
         "trackNameForSorting": "Enclave, The",
         "midiId": 680,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 23
     },
@@ -1368,6 +1555,7 @@
         "trackName": "Escape",
         "trackNameForSorting": "Escape",
         "midiId": 17,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 16
     },
@@ -1375,6 +1563,7 @@
         "trackName": "Espionage",
         "trackNameForSorting": "Espionage",
         "midiId": 216,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 22
     },
@@ -1382,6 +1571,7 @@
         "trackName": "Etceteria",
         "trackNameForSorting": "Etceteria",
         "midiId": 285,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 3
     },
@@ -1389,6 +1579,7 @@
         "trackName": "Eve's Epinette",
         "trackNameForSorting": "Eve's Epinette",
         "midiId": 682,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 25
     },
@@ -1396,6 +1587,7 @@
         "trackName": "Everlasting",
         "trackNameForSorting": "Everlasting",
         "midiId": 283,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 5
     },
@@ -1403,6 +1595,7 @@
         "trackName": "Everlasting Fire",
         "trackNameForSorting": "Everlasting Fire",
         "midiId": 586,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 1
     },
@@ -1410,6 +1603,7 @@
         "trackName": "The Everlasting Slumber",
         "trackNameForSorting": "Everlasting Slumber, The",
         "midiId": 664,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 14
     },
@@ -1417,6 +1611,7 @@
         "trackName": "Everywhere",
         "trackNameForSorting": "Everywhere",
         "midiId": 268,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 27
     },
@@ -1424,6 +1619,7 @@
         "trackName": "Evil Bob's Island",
         "trackNameForSorting": "Evil Bob's Island",
         "midiId": 411,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 28
     },
@@ -1431,6 +1627,7 @@
         "trackName": "Expanse",
         "trackNameForSorting": "Expanse",
         "midiId": 106,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 8
     },
@@ -1438,6 +1635,7 @@
         "trackName": "Expecting",
         "trackNameForSorting": "Expecting",
         "midiId": 41,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 9
     },
@@ -1445,6 +1643,7 @@
         "trackName": "Expedition",
         "trackNameForSorting": "Expedition",
         "midiId": 153,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 10
     },
@@ -1452,6 +1651,7 @@
         "trackName": "Exposed",
         "trackNameForSorting": "Exposed",
         "midiId": 270,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 28
     },
@@ -1459,6 +1659,7 @@
         "trackName": "Eye See You",
         "trackNameForSorting": "Eye See You",
         "midiId": 763,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 18
     },
@@ -1466,6 +1667,7 @@
         "trackName": "Eye of the Storm",
         "trackNameForSorting": "Eye of the Storm",
         "midiId": 360,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 10
     },
@@ -1473,6 +1675,7 @@
         "trackName": "Faerie",
         "trackNameForSorting": "Faerie",
         "midiId": 118,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 11
     },
@@ -1480,6 +1683,7 @@
         "trackName": "The Fairy Dragon",
         "trackNameForSorting": "Fairy Dragon, The",
         "midiId": 574,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 8
     },
@@ -1487,6 +1691,7 @@
         "trackName": "Faith of the Hefin",
         "trackNameForSorting": "Faith of the Hefin",
         "midiId": 653,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 18
     },
@@ -1494,6 +1699,7 @@
         "trackName": "Faithless",
         "trackNameForSorting": "Faithless",
         "midiId": 337,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 9
     },
@@ -1501,6 +1707,7 @@
         "trackName": "The Fallen Empire",
         "trackNameForSorting": "Fallen Empire, The",
         "midiId": 756,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 13
     },
@@ -1508,6 +1715,7 @@
         "trackName": "Fanfare",
         "trackNameForSorting": "Fanfare",
         "midiId": 72,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 12
     },
@@ -1515,6 +1723,7 @@
         "trackName": "Fanfare 2",
         "trackNameForSorting": "Fanfare 2",
         "midiId": 166,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 2
     },
@@ -1522,6 +1731,7 @@
         "trackName": "Fanfare 3",
         "trackNameForSorting": "Fanfare 3",
         "midiId": 167,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 13
     },
@@ -1529,6 +1739,7 @@
         "trackName": "Fangs for the Memory",
         "trackNameForSorting": "Fangs for the Memory",
         "midiId": 504,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 2
     },
@@ -1536,6 +1747,7 @@
         "trackName": "Far Away",
         "trackNameForSorting": "Far Away",
         "midiId": 372,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 4
     },
@@ -1543,6 +1755,7 @@
         "trackName": "The Far Side",
         "trackNameForSorting": "Far Side, The",
         "midiId": 403,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 26
     },
@@ -1550,6 +1763,7 @@
         "trackName": "A Farmer's Grind",
         "trackNameForSorting": "Farmer's Grind, A",
         "midiId": 609,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 6
     },
@@ -1557,6 +1771,7 @@
         "trackName": "The Fat Lady Sings",
         "trackNameForSorting": "Fat Lady Sings, The",
         "midiId": 572,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 17
     },
@@ -1564,6 +1779,7 @@
         "trackName": "Fe Fi Fo Fum",
         "trackNameForSorting": "Fe Fi Fo Fum",
         "midiId": 23,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 1
     },
@@ -1571,6 +1787,7 @@
         "trackName": "Fear and Loathing",
         "trackNameForSorting": "Fear and Loathing",
         "midiId": 602,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 21
     },
@@ -1578,6 +1795,7 @@
         "trackName": "Fenkenstrain's Refrain",
         "trackNameForSorting": "Fenkenstrain's Refrain",
         "midiId": 344,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 15
     },
@@ -1585,6 +1803,7 @@
         "trackName": "A Festive Party",
         "trackNameForSorting": "Festive Party, A",
         "midiId": 708,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 18
     },
@@ -1592,6 +1811,7 @@
         "trackName": "Fight of the Basilisk",
         "trackNameForSorting": "Fight of the Basilisk",
         "midiId": 31,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 5
     },
@@ -1599,6 +1819,7 @@
         "trackName": "Fight or Flight",
         "trackNameForSorting": "Fight or Flight",
         "midiId": 375,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 5
     },
@@ -1606,6 +1827,7 @@
         "trackName": "Find My Way",
         "trackNameForSorting": "Find My Way",
         "midiId": 312,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 22
     },
@@ -1613,6 +1835,7 @@
         "trackName": "Fire and Brimstone",
         "trackNameForSorting": "Fire and Brimstone",
         "midiId": 463,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 14
     },
@@ -1620,6 +1843,7 @@
         "trackName": "Fire in the Deep",
         "trackNameForSorting": "Fire in the Deep",
         "midiId": 493,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 9
     },
@@ -1627,6 +1851,7 @@
         "trackName": "The Fires of Lletya",
         "trackNameForSorting": "Fires of Lletya, The",
         "midiId": 658,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 31
     },
@@ -1634,6 +1859,7 @@
         "trackName": "Fishing",
         "trackNameForSorting": "Fishing",
         "midiId": 119,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 14
     },
@@ -1641,6 +1867,7 @@
         "trackName": "Floating Free",
         "trackNameForSorting": "Floating Free",
         "midiId": 206,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 7
     },
@@ -1648,6 +1875,7 @@
         "trackName": "Flute Salad",
         "trackNameForSorting": "Flute Salad",
         "midiId": 163,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 15
     },
@@ -1655,6 +1883,7 @@
         "trackName": "Food for Thought",
         "trackNameForSorting": "Food for Thought",
         "midiId": 558,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 4
     },
@@ -1662,6 +1891,7 @@
         "trackName": "Forbidden",
         "trackNameForSorting": "Forbidden",
         "midiId": 121,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 25
     },
@@ -1669,6 +1899,7 @@
         "trackName": "Forest",
         "trackNameForSorting": "Forest",
         "midiId": 251,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 11
     },
@@ -1676,6 +1907,7 @@
         "trackName": "The Forests of Shayzien",
         "trackNameForSorting": "Forests of Shayzien, The",
         "midiId": 706,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 15
     },
@@ -1683,6 +1915,7 @@
         "trackName": "Forever",
         "trackNameForSorting": "Forever",
         "midiId": 98,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 16
     },
@@ -1690,6 +1923,7 @@
         "trackName": "Forgettable Melody",
         "trackNameForSorting": "Forgettable Melody",
         "midiId": 436,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 6
     },
@@ -1697,6 +1931,7 @@
         "trackName": "Forgotten",
         "trackNameForSorting": "Forgotten",
         "midiId": 378,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 8
     },
@@ -1704,6 +1939,7 @@
         "trackName": "A Forgotten Religion",
         "trackNameForSorting": "Forgotten Religion, A",
         "midiId": 639,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 15
     },
@@ -1711,6 +1947,7 @@
         "trackName": "The Forgotten Tomb",
         "trackNameForSorting": "Forgotten Tomb, The",
         "midiId": 724,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 24
     },
@@ -1718,6 +1955,7 @@
         "trackName": "The Forlorn Homestead",
         "trackNameForSorting": "Forlorn Homestead, The",
         "midiId": 452,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 27
     },
@@ -1725,6 +1963,7 @@
         "trackName": "The Forsaken Tower",
         "trackNameForSorting": "Forsaken Tower, The",
         "midiId": 624,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 10
     },
@@ -1732,6 +1971,7 @@
         "trackName": "The Forsaken",
         "trackNameForSorting": "Forsaken, The",
         "midiId": 527,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 30
     },
@@ -1739,6 +1979,7 @@
         "trackName": "Fossilised",
         "trackNameForSorting": "Fossilised",
         "midiId": 514,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 17
     },
@@ -1746,6 +1987,7 @@
         "trackName": "The Foundry",
         "trackNameForSorting": "Foundry, The",
         "midiId": 406,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 27
     },
@@ -1753,6 +1995,7 @@
         "trackName": "The Fragment",
         "trackNameForSorting": "Fragment, The",
         "midiId": 652,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 2
     },
@@ -1760,6 +2003,7 @@
         "trackName": "The Fremennik Kings",
         "trackNameForSorting": "Fremennik Kings, The",
         "midiId": 227,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 2
     },
@@ -1767,6 +2011,7 @@
         "trackName": "Frogland",
         "trackNameForSorting": "Frogland",
         "midiId": 409,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 16
     },
@@ -1774,6 +2019,7 @@
         "trackName": "Frostbite",
         "trackNameForSorting": "Frostbite",
         "midiId": 294,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 12
     },
@@ -1781,6 +2027,7 @@
         "trackName": "Fruits de Mer",
         "trackNameForSorting": "Fruits de Mer",
         "midiId": 347,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 17
     },
@@ -1788,6 +2035,7 @@
         "trackName": "Ful to the Brim",
         "trackNameForSorting": "Ful to the Brim",
         "midiId": 635,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 31
     },
@@ -1795,6 +2043,7 @@
         "trackName": "Funny Bunnies",
         "trackNameForSorting": "Funny Bunnies",
         "midiId": 603,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 22
     },
@@ -1802,6 +2051,7 @@
         "trackName": "The Galleon",
         "trackNameForSorting": "Galleon, The",
         "midiId": 630,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 12
     },
@@ -1809,6 +2059,7 @@
         "trackName": "Gaol",
         "trackNameForSorting": "Gaol",
         "midiId": 159,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 17
     },
@@ -1816,6 +2067,7 @@
         "trackName": "Garden",
         "trackNameForSorting": "Garden",
         "midiId": 125,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 18
     },
@@ -1823,6 +2075,7 @@
         "trackName": "Garden of Autumn",
         "trackNameForSorting": "Garden of Autumn",
         "midiId": 228,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 17
     },
@@ -1830,6 +2083,7 @@
         "trackName": "Garden of Spring",
         "trackNameForSorting": "Garden of Spring",
         "midiId": 229,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 15
     },
@@ -1837,6 +2091,7 @@
         "trackName": "Garden of Summer",
         "trackNameForSorting": "Garden of Summer",
         "midiId": 230,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 14
     },
@@ -1844,6 +2099,7 @@
         "trackName": "Garden of Winter",
         "trackNameForSorting": "Garden of Winter",
         "midiId": 231,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 16
     },
@@ -1851,6 +2107,7 @@
         "trackName": "The Gates of Menaphos",
         "trackNameForSorting": "Gates of Menaphos, The",
         "midiId": 727,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 20
     },
@@ -1858,6 +2115,7 @@
         "trackName": "The Gauntlet",
         "trackNameForSorting": "Gauntlet, The",
         "midiId": 650,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 26
     },
@@ -1865,6 +2123,7 @@
         "trackName": "The Genie",
         "trackNameForSorting": "Genie, The",
         "midiId": 464,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 12
     },
@@ -1872,6 +2131,7 @@
         "trackName": "Getting Down to Business",
         "trackNameForSorting": "Getting Down to Business",
         "midiId": 617,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 7
     },
@@ -1879,6 +2139,7 @@
         "trackName": "Gill Bill",
         "trackNameForSorting": "Gill Bill",
         "midiId": 618,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 28
     },
@@ -1886,6 +2147,7 @@
         "trackName": "Gnome King",
         "trackNameForSorting": "Gnome King",
         "midiId": 22,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 19
     },
@@ -1893,6 +2155,7 @@
         "trackName": "Gnome Village",
         "trackNameForSorting": "Gnome Village",
         "midiId": 33,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 21
     },
@@ -1900,6 +2163,7 @@
         "trackName": "Gnome Village 2",
         "trackNameForSorting": "Gnome Village 2",
         "midiId": 101,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 22
     },
@@ -1907,6 +2171,7 @@
         "trackName": "Gnome Village Party",
         "trackNameForSorting": "Gnome Village Party",
         "midiId": 416,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -1914,6 +2179,7 @@
         "trackName": "Gnomeball",
         "trackNameForSorting": "Gnomeball",
         "midiId": 112,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 24
     },
@@ -1921,6 +2187,7 @@
         "trackName": "Goblin Game",
         "trackNameForSorting": "Goblin Game",
         "midiId": 346,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 28
     },
@@ -1928,6 +2195,7 @@
         "trackName": "Goblin Village",
         "trackNameForSorting": "Goblin Village",
         "midiId": 313,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 23
     },
@@ -1935,6 +2203,7 @@
         "trackName": "Golden Touch",
         "trackNameForSorting": "Golden Touch",
         "midiId": 535,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 22
     },
@@ -1942,6 +2211,7 @@
         "trackName": "The Golem",
         "trackNameForSorting": "Golem, The",
         "midiId": 377,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 7
     },
@@ -1949,6 +2219,7 @@
         "trackName": "Greatness",
         "trackNameForSorting": "Greatness",
         "midiId": 116,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 25
     },
@@ -1956,6 +2227,7 @@
         "trackName": "Grimly Fiendish",
         "trackNameForSorting": "Grimly Fiendish",
         "midiId": 431,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 29
     },
@@ -1963,6 +2235,7 @@
         "trackName": "Grip of the Talon",
         "trackNameForSorting": "Grip of the Talon",
         "midiId": 520,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 12
     },
@@ -1970,6 +2243,7 @@
         "trackName": "Grotto",
         "trackNameForSorting": "Grotto",
         "midiId": 246,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 6
     },
@@ -1977,6 +2251,7 @@
         "trackName": "Grow Grow Grow",
         "trackNameForSorting": "Grow Grow Grow",
         "midiId": 613,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 8
     },
@@ -1984,6 +2259,7 @@
         "trackName": "Grumpy",
         "trackNameForSorting": "Grumpy",
         "midiId": 128,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 17
     },
@@ -1991,6 +2267,7 @@
         "trackName": "The Guardians Prepare",
         "trackNameForSorting": "Guardians Prepare, The",
         "midiId": 718,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 28
     },
@@ -1998,6 +2275,7 @@
         "trackName": "Guardians of the Rift",
         "trackNameForSorting": "Guardians of the Rift",
         "midiId": 720,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 29
     },
@@ -2005,6 +2283,7 @@
         "trackName": "H.A.M. Attack",
         "trackNameForSorting": "H.A.M. Attack",
         "midiId": 279,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 28
     },
@@ -2012,6 +2291,7 @@
         "trackName": "H.A.M. Fisted",
         "trackNameForSorting": "H.A.M. Fisted",
         "midiId": 638,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 13
     },
@@ -2019,6 +2299,7 @@
         "trackName": "H.A.M. and Seek",
         "trackNameForSorting": "H.A.M. and Seek",
         "midiId": 276,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 30
     },
@@ -2026,6 +2307,7 @@
         "trackName": "Harmony",
         "trackNameForSorting": "Harmony",
         "midiId": 76,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 26
     },
@@ -2033,6 +2315,7 @@
         "trackName": "Harmony 2",
         "trackNameForSorting": "Harmony 2",
         "midiId": 46,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 7
     },
@@ -2040,6 +2323,7 @@
         "trackName": "Haunted Mine",
         "trackNameForSorting": "Haunted Mine",
         "midiId": 277,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 30
     },
@@ -2047,6 +2331,7 @@
         "trackName": "Have a Blast",
         "trackNameForSorting": "Have a Blast",
         "midiId": 434,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 5
     },
@@ -2054,6 +2339,7 @@
         "trackName": "Have an Ice Day",
         "trackNameForSorting": "Have an Ice Day",
         "midiId": 217,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 18
     },
@@ -2061,6 +2347,7 @@
         "trackName": "Head to Head",
         "trackNameForSorting": "Head to Head",
         "midiId": 612,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 27
     },
@@ -2068,6 +2355,7 @@
         "trackName": "Healin' Feelin'",
         "trackNameForSorting": "Healin' Feelin'",
         "midiId": 767,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 27
     },
@@ -2075,6 +2363,7 @@
         "trackName": "Heart and Mind",
         "trackNameForSorting": "Heart and Mind",
         "midiId": 190,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 14
     },
@@ -2082,6 +2371,7 @@
         "trackName": "Hells Bells",
         "trackNameForSorting": "Hells Bells",
         "midiId": 4,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 30
     },
@@ -2089,6 +2379,7 @@
         "trackName": "Hermit",
         "trackNameForSorting": "Hermit",
         "midiId": 97,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 31
     },
@@ -2096,6 +2387,7 @@
         "trackName": "High Seas",
         "trackNameForSorting": "High Seas",
         "midiId": 55,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 27
     },
@@ -2103,6 +2395,7 @@
         "trackName": "High Spirits",
         "trackNameForSorting": "High Spirits",
         "midiId": 205,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 9
     },
@@ -2110,6 +2403,7 @@
         "trackName": "His Faithful Servants",
         "trackNameForSorting": "His Faithful Servants",
         "midiId": 746,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 23
     },
@@ -2117,6 +2411,7 @@
         "trackName": "Hoe Down",
         "trackNameForSorting": "Hoe Down",
         "midiId": 599,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 0
     },
@@ -2124,6 +2419,7 @@
         "trackName": "Home Sweet Home",
         "trackNameForSorting": "Home Sweet Home",
         "midiId": 454,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 1
     },
@@ -2131,6 +2427,7 @@
         "trackName": "Horizon",
         "trackNameForSorting": "Horizon",
         "midiId": 18,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 28
     },
@@ -2138,6 +2435,7 @@
         "trackName": "The Houses of Kourend",
         "trackNameForSorting": "Houses of Kourend, The",
         "midiId": 699,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 8
     },
@@ -2145,6 +2443,7 @@
         "trackName": "Hypnotised",
         "trackNameForSorting": "Hypnotised",
         "midiId": 384,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 13
     },
@@ -2152,6 +2451,7 @@
         "trackName": "Iban",
         "trackNameForSorting": "Iban",
         "midiId": 1,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 29
     },
@@ -2159,6 +2459,7 @@
         "trackName": "Ice Melody",
         "trackNameForSorting": "Ice Melody",
         "midiId": 87,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 5
     },
@@ -2166,6 +2467,7 @@
         "trackName": "Ice and Fire",
         "trackNameForSorting": "Ice and Fire",
         "midiId": 483,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 3
     },
@@ -2173,6 +2475,7 @@
         "trackName": "Illusive",
         "trackNameForSorting": "Illusive",
         "midiId": 298,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 4
     },
@@ -2180,6 +2483,7 @@
         "trackName": "Impetuous",
         "trackNameForSorting": "Impetuous",
         "midiId": 349,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 26
     },
@@ -2187,6 +2491,7 @@
         "trackName": "Impulses",
         "trackNameForSorting": "Impulses",
         "midiId": 315,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 30
     },
@@ -2194,6 +2499,7 @@
         "trackName": "In Between",
         "trackNameForSorting": "In Between",
         "midiId": 370,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 2
     },
@@ -2201,6 +2507,7 @@
         "trackName": "In the Brine",
         "trackNameForSorting": "In the Brine",
         "midiId": 530,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 18
     },
@@ -2208,6 +2515,7 @@
         "trackName": "In the Clink",
         "trackNameForSorting": "In the Clink",
         "midiId": 511,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 8
     },
@@ -2215,6 +2523,7 @@
         "trackName": "In the Manor",
         "trackNameForSorting": "In the Manor",
         "midiId": 188,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 30
     },
@@ -2222,6 +2531,7 @@
         "trackName": "In the Pits",
         "trackNameForSorting": "In the Pits",
         "midiId": 469,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 15
     },
@@ -2229,6 +2539,7 @@
         "trackName": "In the Shadows",
         "trackNameForSorting": "In the Shadows",
         "midiId": 744,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 10
     },
@@ -2236,6 +2547,7 @@
         "trackName": "Inadequacy",
         "trackNameForSorting": "Inadequacy",
         "midiId": 299,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 3
     },
@@ -2243,6 +2555,7 @@
         "trackName": "Incantation",
         "trackNameForSorting": "Incantation",
         "midiId": 519,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 11
     },
@@ -2250,6 +2563,7 @@
         "trackName": "Inferno",
         "trackNameForSorting": "Inferno",
         "midiId": 500,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 13
     },
@@ -2257,6 +2571,7 @@
         "trackName": "Insect Queen",
         "trackNameForSorting": "Insect Queen",
         "midiId": 260,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 20
     },
@@ -2264,6 +2579,7 @@
         "trackName": "Inspiration",
         "trackNameForSorting": "Inspiration",
         "midiId": 96,
+        "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 31
     },
@@ -2271,6 +2587,7 @@
         "trackName": "Into the Abyss",
         "trackNameForSorting": "Into the Abyss",
         "midiId": 412,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 29
     },
@@ -2278,6 +2595,7 @@
         "trackName": "Into the Tombs",
         "trackNameForSorting": "Into the Tombs",
         "midiId": 734,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 28
     },
@@ -2285,6 +2603,7 @@
         "trackName": "Intrepid",
         "trackNameForSorting": "Intrepid",
         "midiId": 95,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 0
     },
@@ -2292,6 +2611,7 @@
         "trackName": "Invader",
         "trackNameForSorting": "Invader",
         "midiId": 441,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 23
     },
@@ -2299,6 +2619,7 @@
         "trackName": "Iorwerth's Lament",
         "trackNameForSorting": "Iorwerths Lament",
         "midiId": 644,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 21
     },
@@ -2306,6 +2627,7 @@
         "trackName": "Island Life",
         "trackNameForSorting": "Island Life",
         "midiId": 306,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 18
     },
@@ -2313,6 +2635,7 @@
         "trackName": "Island of the Trolls",
         "trackNameForSorting": "Island of the Trolls",
         "midiId": 220,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 25
     },
@@ -2320,6 +2643,7 @@
         "trackName": "Isle of Everywhere",
         "trackNameForSorting": "Isle of Everywhere",
         "midiId": 627,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 5
     },
@@ -2327,6 +2651,7 @@
         "trackName": "It's not over 'til...",
         "trackNameForSorting": "It's not over 'til...",
         "midiId": 566,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 16
     },
@@ -2334,6 +2659,7 @@
         "trackName": "Itsy Bitsy...",
         "trackNameForSorting": "Itsy Bitsy...",
         "midiId": 702,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 12
     },
@@ -2341,6 +2667,7 @@
         "trackName": "Jaws of Gluttony",
         "trackNameForSorting": "Jaws of Gluttony",
         "midiId": 736,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 6
     },
@@ -2348,6 +2675,7 @@
         "trackName": "Jaws of the Basilisk",
         "trackNameForSorting": "Jaws of the Basilisk",
         "midiId": 135,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 3
     },
@@ -2355,6 +2683,7 @@
         "trackName": "Jester Minute",
         "trackNameForSorting": "Jester Minute",
         "midiId": 221,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 22
     },
@@ -2362,6 +2691,7 @@
         "trackName": "Jolly R",
         "trackNameForSorting": "Jolly R",
         "midiId": 6,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 1
     },
@@ -2369,6 +2699,7 @@
         "trackName": "Joy of the Hunt",
         "trackNameForSorting": "Joy of the Hunt",
         "midiId": 460,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 2
     },
@@ -2376,6 +2707,7 @@
         "trackName": "Judgement of the Depths",
         "trackNameForSorting": "Judgement of the Depths",
         "midiId": 696,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 10
     },
@@ -2383,6 +2715,7 @@
         "trackName": "Jungle Bells",
         "trackNameForSorting": "Jungle Bells",
         "midiId": 209,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 13
     },
@@ -2390,6 +2723,7 @@
         "trackName": "Jungle Hunt",
         "trackNameForSorting": "Jungle Hunt",
         "midiId": 453,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 0
     },
@@ -2397,6 +2731,7 @@
         "trackName": "Jungle Island",
         "trackNameForSorting": "Jungle Island",
         "midiId": 172,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 2
     },
@@ -2404,6 +2739,7 @@
         "trackName": "Jungle Island Xmas",
         "trackNameForSorting": "Jungle Island Xmas",
         "midiId": 208,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 11
     },
@@ -2411,6 +2747,7 @@
         "trackName": "Jungle Troubles",
         "trackNameForSorting": "Jungle Troubles",
         "midiId": 479,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 23
     },
@@ -2418,6 +2755,7 @@
         "trackName": "Jungly 1",
         "trackNameForSorting": "Jungly 1",
         "midiId": 114,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 3
     },
@@ -2425,6 +2763,7 @@
         "trackName": "Jungly 2",
         "trackNameForSorting": "Jungly 2",
         "midiId": 115,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 4
     },
@@ -2432,6 +2771,7 @@
         "trackName": "Jungly 3",
         "trackNameForSorting": "Jungly 3",
         "midiId": 117,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 5
     },
@@ -2439,6 +2779,7 @@
         "trackName": "Kanon of Kahlith",
         "trackNameForSorting": "Kanon of Kahlith",
         "midiId": 608,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 30
     },
@@ -2446,6 +2787,7 @@
         "trackName": "Karamja Jam",
         "trackNameForSorting": "Karamja Jam",
         "midiId": 362,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 30
     },
@@ -2453,6 +2795,7 @@
         "trackName": "King of the Trolls",
         "trackNameForSorting": "King of the Trolls",
         "midiId": 226,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 6
     },
@@ -2460,6 +2803,7 @@
         "trackName": "Kingdom",
         "trackNameForSorting": "Kingdom",
         "midiId": 9,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 30
     },
@@ -2467,6 +2811,7 @@
         "trackName": "Knightly",
         "trackNameForSorting": "Knightly",
         "midiId": 191,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 6
     },
@@ -2474,6 +2819,7 @@
         "trackName": "Knightmare",
         "trackNameForSorting": "Knightmare",
         "midiId": 374,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 18
     },
@@ -2481,6 +2827,7 @@
         "trackName": "Kourend the Magnificent",
         "trackNameForSorting": "Kourend the Magnificent",
         "midiId": 451,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 17
     },
@@ -2488,6 +2835,7 @@
         "trackName": "La Mort",
         "trackNameForSorting": "La Mort",
         "midiId": 134,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 0
     },
@@ -2495,6 +2843,7 @@
         "trackName": "Labyrinth",
         "trackNameForSorting": "Labyrinth",
         "midiId": 213,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 31
     },
@@ -2502,6 +2851,7 @@
         "trackName": "Lagoon",
         "trackNameForSorting": "Lagoon",
         "midiId": 503,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 15
     },
@@ -2509,6 +2859,7 @@
         "trackName": "Laid to Rest",
         "trackNameForSorting": "Laid to Rest",
         "midiId": 731,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 30
     },
@@ -2516,6 +2867,7 @@
         "trackName": "Lair",
         "trackNameForSorting": "Lair",
         "midiId": 287,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 5
     },
@@ -2523,6 +2875,7 @@
         "trackName": "Lair of the Basilisk",
         "trackNameForSorting": "Lair of the Basilisk",
         "midiId": 136,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 4
     },
@@ -2530,6 +2883,7 @@
         "trackName": "Lament",
         "trackNameForSorting": "Lament",
         "midiId": 542,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 29
     },
@@ -2537,6 +2891,7 @@
         "trackName": "Lament for the Hallowed",
         "trackNameForSorting": "Lament for the Hallowed",
         "midiId": 665,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 16
     },
@@ -2544,6 +2899,7 @@
         "trackName": "Lament of Meiyerditch",
         "trackNameForSorting": "Lament of Meiyerditch",
         "midiId": 197,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 14
     },
@@ -2551,6 +2907,7 @@
         "trackName": "Land Down Under",
         "trackNameForSorting": "Land Down Under",
         "midiId": 506,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 4
     },
@@ -2558,6 +2915,7 @@
         "trackName": "Land of Snow",
         "trackNameForSorting": "Land of Snow",
         "midiId": 523,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 23
     },
@@ -2565,6 +2923,7 @@
         "trackName": "Land of the Dwarves",
         "trackNameForSorting": "Land of the Dwarves",
         "midiId": 396,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 22
     },
@@ -2572,6 +2931,7 @@
         "trackName": "Landlubber",
         "trackNameForSorting": "Landlubber",
         "midiId": 164,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 9
     },
@@ -2579,6 +2939,7 @@
         "trackName": "Last King of the Yarasa",
         "trackNameForSorting": "Last King of the Yarasa",
         "midiId": 564,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 22
     },
@@ -2586,6 +2947,7 @@
         "trackName": "Last Man Standing",
         "trackNameForSorting": "Last Man Standing",
         "midiId": 474,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 2
     },
@@ -2593,6 +2955,7 @@
         "trackName": "The Last Shanty",
         "trackNameForSorting": "Last Shanty, The",
         "midiId": 643,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 16
     },
@@ -2600,6 +2963,7 @@
         "trackName": "Last Stand",
         "trackNameForSorting": "Last Stand",
         "midiId": 546,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 28
     },
@@ -2607,6 +2971,7 @@
         "trackName": "Lasting",
         "trackNameForSorting": "Lasting",
         "midiId": 60,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 7
     },
@@ -2614,6 +2979,7 @@
         "trackName": "Lava is Mine",
         "trackNameForSorting": "Lava is Mine",
         "midiId": 507,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 16
     },
@@ -2621,6 +2987,7 @@
         "trackName": "Legend",
         "trackNameForSorting": "Legend",
         "midiId": 293,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 11
     },
@@ -2628,6 +2995,7 @@
         "trackName": "Legion",
         "trackNameForSorting": "Legion",
         "midiId": 66,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 8
     },
@@ -2635,6 +3003,7 @@
         "trackName": "Life's a Beach!",
         "trackNameForSorting": "Life's a Beach!",
         "midiId": 631,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 8
     },
@@ -2642,6 +3011,7 @@
         "trackName": "Lighthouse",
         "trackNameForSorting": "Lighthouse",
         "midiId": 320,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 27
     },
@@ -2649,6 +3019,7 @@
         "trackName": "Lightness",
         "trackNameForSorting": "Lightness",
         "midiId": 113,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 9
     },
@@ -2656,6 +3027,7 @@
         "trackName": "Lightwalk",
         "trackNameForSorting": "Lightwalk",
         "midiId": 74,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 10
     },
@@ -2663,6 +3035,7 @@
         "trackName": "Little Cave of Horrors",
         "trackNameForSorting": "Little Cave of Horrors",
         "midiId": 632,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 10
     },
@@ -2670,6 +3043,7 @@
         "trackName": "Lonesome",
         "trackNameForSorting": "Lonesome",
         "midiId": 168,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 21
     },
@@ -2677,6 +3051,7 @@
         "trackName": "Long Ago",
         "trackNameForSorting": "Long Ago",
         "midiId": 161,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 11
     },
@@ -2684,6 +3059,7 @@
         "trackName": "Long Way Home",
         "trackNameForSorting": "Long Way Home",
         "midiId": 12,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 12
     },
@@ -2691,6 +3067,7 @@
         "trackName": "The Longramble Scramble",
         "trackNameForSorting": "Longramble Scramble, The",
         "midiId": 771,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 28
     },
@@ -2698,6 +3075,7 @@
         "trackName": "Look to the Stars",
         "trackNameForSorting": "Look to the Stars",
         "midiId": 368,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 7
     },
@@ -2705,6 +3083,7 @@
         "trackName": "Looking Back",
         "trackNameForSorting": "Looking Back",
         "midiId": 309,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 10
     },
@@ -2712,6 +3091,7 @@
         "trackName": "Lore and Order",
         "trackNameForSorting": "Lore and Order",
         "midiId": 382,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 19
     },
@@ -2719,6 +3099,7 @@
         "trackName": "The Lost Melody",
         "trackNameForSorting": "Lost Melody, The",
         "midiId": 407,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 27
     },
@@ -2726,6 +3107,7 @@
         "trackName": "Lost Soul",
         "trackNameForSorting": "Lost Soul",
         "midiId": 253,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 12
     },
@@ -2733,6 +3115,7 @@
         "trackName": "The Lost Tribe",
         "trackNameForSorting": "Lost Tribe, The",
         "midiId": 420,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 2
     },
@@ -2740,6 +3123,7 @@
         "trackName": "Lower Depths",
         "trackNameForSorting": "Lower Depths",
         "midiId": 487,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 7
     },
@@ -2747,6 +3131,7 @@
         "trackName": "Lucid Dream",
         "trackNameForSorting": "Lucid Dream",
         "midiId": 539,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 0
     },
@@ -2754,6 +3139,7 @@
         "trackName": "Lucid Nightmare",
         "trackNameForSorting": "Lucid Nightmare",
         "midiId": 531,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 1
     },
@@ -2761,6 +3147,7 @@
         "trackName": "Lullaby",
         "trackNameForSorting": "Lullaby",
         "midiId": 20,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 13
     },
@@ -2768,6 +3155,7 @@
         "trackName": "Lumbering",
         "trackNameForSorting": "Lumbering",
         "midiId": 590,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 24
     },
@@ -2775,6 +3163,7 @@
         "trackName": "The Lunar Isle",
         "trackNameForSorting": "Lunar Isle, The",
         "midiId": 625,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 4
     },
@@ -2782,6 +3171,7 @@
         "trackName": "Mad Eadgar",
         "trackNameForSorting": "Mad Eadgar",
         "midiId": 264,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 21
     },
@@ -2789,6 +3179,7 @@
         "trackName": "The Mad Mole",
         "trackNameForSorting": "Mad Mole, The",
         "midiId": 573,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 9
     },
@@ -2796,6 +3187,7 @@
         "trackName": "Mage Arena",
         "trackNameForSorting": "Mage Arena",
         "midiId": 13,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 14
     },
@@ -2803,6 +3195,7 @@
         "trackName": "Magic Dance",
         "trackNameForSorting": "Magic Dance",
         "midiId": 185,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 15
     },
@@ -2810,6 +3203,7 @@
         "trackName": "Magic Magic Magic",
         "trackNameForSorting": "Magic, Magic, Magic",
         "midiId": 235,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 3
     },
@@ -2817,6 +3211,7 @@
         "trackName": "Magical Journey",
         "trackNameForSorting": "Magical Journey",
         "midiId": 184,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 16
     },
@@ -2824,6 +3219,7 @@
         "trackName": "The Maiden's Anger",
         "trackNameForSorting": "Maiden's Anger, The",
         "midiId": 569,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 11
     },
@@ -2831,6 +3227,7 @@
         "trackName": "The Maiden's Sorrow",
         "trackNameForSorting": "Maiden's Sorrow, The",
         "midiId": 570,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 10
     },
@@ -2838,6 +3235,7 @@
         "trackName": "Major Miner",
         "trackNameForSorting": "Major Miner",
         "midiId": 222,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 21
     },
@@ -2845,6 +3243,7 @@
         "trackName": "Making Waves",
         "trackNameForSorting": "Making Waves",
         "midiId": 544,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 26
     },
@@ -2852,6 +3251,7 @@
         "trackName": "Malady",
         "trackNameForSorting": "Malady",
         "midiId": 559,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 5
     },
@@ -2859,6 +3259,7 @@
         "trackName": "March",
         "trackNameForSorting": "March",
         "midiId": 328,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 17
     },
@@ -2866,6 +3267,7 @@
         "trackName": "March of the Shayzien",
         "trackNameForSorting": "March of the Shayzien",
         "midiId": 488,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 6
     },
@@ -2873,6 +3275,7 @@
         "trackName": "Marooned",
         "trackNameForSorting": "Marooned",
         "midiId": 304,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 17
     },
@@ -2880,6 +3283,7 @@
         "trackName": "Marzipan",
         "trackNameForSorting": "Marzipan",
         "midiId": 261,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 19
     },
@@ -2887,6 +3291,7 @@
         "trackName": "Masquerade",
         "trackNameForSorting": "Masquerade",
         "midiId": 340,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 12
     },
@@ -2894,6 +3299,7 @@
         "trackName": "Master of Puppets",
         "trackNameForSorting": "Master of Puppets",
         "midiId": 752,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 22
     },
@@ -2901,6 +3307,7 @@
         "trackName": "Mastermindless",
         "trackNameForSorting": "Mastermindless",
         "midiId": 577,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 13
     },
@@ -2908,6 +3315,7 @@
         "trackName": "Mausoleum",
         "trackNameForSorting": "Mausoleum",
         "midiId": 156,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 24
     },
@@ -2915,6 +3323,7 @@
         "trackName": "Maws Jaws & Claws",
         "trackNameForSorting": "Maws, Jaws & Claws",
         "midiId": 439,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 26
     },
@@ -2922,6 +3331,7 @@
         "trackName": "The Maze",
         "trackNameForSorting": "Maze, The",
         "midiId": 365,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 9
     },
@@ -2929,6 +3339,7 @@
         "trackName": "Meddling Kids",
         "trackNameForSorting": "Meddling Kids",
         "midiId": 508,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 5
     },
@@ -2936,6 +3347,7 @@
         "trackName": "Medieval",
         "trackNameForSorting": "Medieval",
         "midiId": 157,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 18
     },
@@ -2943,6 +3355,7 @@
         "trackName": "Mellow",
         "trackNameForSorting": "Mellow",
         "midiId": 193,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 19
     },
@@ -2950,6 +3363,7 @@
         "trackName": "Melodrama",
         "trackNameForSorting": "Melodrama",
         "midiId": 317,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 24
     },
@@ -2957,6 +3371,7 @@
         "trackName": "Meridian",
         "trackNameForSorting": "Meridian",
         "midiId": 254,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 13
     },
@@ -2964,6 +3379,7 @@
         "trackName": "Method of Madness",
         "trackNameForSorting": "Method of Madness",
         "midiId": 600,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 20
     },
@@ -2971,6 +3387,7 @@
         "trackName": "Miles Away",
         "trackNameForSorting": "Miles Away",
         "midiId": 107,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 20
     },
@@ -2978,6 +3395,7 @@
         "trackName": "Military Life",
         "trackNameForSorting": "Military Life",
         "midiId": 695,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 7
     },
@@ -2985,6 +3403,7 @@
         "trackName": "The Militia",
         "trackNameForSorting": "Militia, The",
         "midiId": 449,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 22
     },
@@ -2992,6 +3411,7 @@
         "trackName": "Mind over Matter",
         "trackNameForSorting": "Mind over Matter",
         "midiId": 534,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 21
     },
@@ -2999,6 +3419,7 @@
         "trackName": "Mined Out",
         "trackNameForSorting": "Mined Out",
         "midiId": 480,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3006,6 +3427,7 @@
         "trackName": "Miracle Dance",
         "trackNameForSorting": "Miracle Dance",
         "midiId": 65,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 21
     },
@@ -3013,6 +3435,7 @@
         "trackName": "Mirage",
         "trackNameForSorting": "Mirage",
         "midiId": 388,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 15
     },
@@ -3020,6 +3443,7 @@
         "trackName": "Miscellania",
         "trackNameForSorting": "Miscellania",
         "midiId": 284,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 2
     },
@@ -3027,6 +3451,7 @@
         "trackName": "The Mollusc Menace",
         "trackNameForSorting": "Mollusc Menace, The",
         "midiId": 200,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 11
     },
@@ -3034,6 +3459,7 @@
         "trackName": "Monarch Waltz",
         "trackNameForSorting": "Monarch Waltz",
         "midiId": 21,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 22
     },
@@ -3041,6 +3467,7 @@
         "trackName": "Monkey Badness",
         "trackNameForSorting": "Monkey Badness",
         "midiId": 468,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 1
     },
@@ -3048,6 +3475,7 @@
         "trackName": "Monkey Business",
         "trackNameForSorting": "Monkey Business",
         "midiId": 467,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 0
     },
@@ -3055,6 +3483,7 @@
         "trackName": "Monkey Madness",
         "trackNameForSorting": "Monkey Madness",
         "midiId": 303,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 15
     },
@@ -3062,6 +3491,7 @@
         "trackName": "Monkey Sadness",
         "trackNameForSorting": "Monkey Sadness",
         "midiId": 459,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 31
     },
@@ -3069,6 +3499,7 @@
         "trackName": "Monkey Trouble",
         "trackNameForSorting": "Monkey Trouble",
         "midiId": 457,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 30
     },
@@ -3076,6 +3507,7 @@
         "trackName": "Monster Melee",
         "trackNameForSorting": "Monster Melee",
         "midiId": 343,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 16
     },
@@ -3083,6 +3515,7 @@
         "trackName": "The Monsters Below",
         "trackNameForSorting": "Monsters Below, The",
         "midiId": 448,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 9
     },
@@ -3090,6 +3523,7 @@
         "trackName": "Moody",
         "trackNameForSorting": "Moody",
         "midiId": 10,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 23
     },
@@ -3097,6 +3531,7 @@
         "trackName": "Mor Ul Rek",
         "trackNameForSorting": "Mor Ul Rek",
         "midiId": 502,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 14
     },
@@ -3104,6 +3539,7 @@
         "trackName": "More Than Meets the Eye",
         "trackNameForSorting": "More Than Meets the Eye",
         "midiId": 742,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 11
     },
@@ -3111,6 +3547,7 @@
         "trackName": "Morytania",
         "trackNameForSorting": "Morytania",
         "midiId": 48,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 20
     },
@@ -3118,6 +3555,7 @@
         "trackName": "Morytanian Mystery",
         "trackNameForSorting": "Morytanian Mystery",
         "midiId": 676,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 18
     },
@@ -3125,6 +3563,7 @@
         "trackName": "Mother Ruckus",
         "trackNameForSorting": "Mother Ruckus",
         "midiId": 593,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 27
     },
@@ -3132,6 +3571,7 @@
         "trackName": "A Mother's Curse",
         "trackNameForSorting": "Mother's Curse, A",
         "midiId": 737,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 3
     },
@@ -3139,6 +3579,7 @@
         "trackName": "Mouse Trap",
         "trackNameForSorting": "Mouse Trap",
         "midiId": 150,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 0
     },
@@ -3146,6 +3587,7 @@
         "trackName": "Mudskipper Melody",
         "trackNameForSorting": "Mudskipper Melody",
         "midiId": 515,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 9
     },
@@ -3153,6 +3595,7 @@
         "trackName": "Museum Medley",
         "trackNameForSorting": "Museum Medley",
         "midiId": 553,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 2
     },
@@ -3160,6 +3603,7 @@
         "trackName": "Mutant Medley",
         "trackNameForSorting": "Mutant Medley",
         "midiId": 236,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 4
     },
@@ -3167,6 +3611,7 @@
         "trackName": "My Arm's Journey",
         "trackNameForSorting": "My Arm's Journey",
         "midiId": 203,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 28
     },
@@ -3174,6 +3619,7 @@
         "trackName": "Mystics of Nature",
         "trackNameForSorting": "Mystics of Nature",
         "midiId": 655,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 22
     },
@@ -3181,6 +3627,7 @@
         "trackName": "Mythical",
         "trackNameForSorting": "Mythical",
         "midiId": 550,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 27
     },
@@ -3188,6 +3635,7 @@
         "trackName": "Narnode's Theme",
         "trackNameForSorting": "Narnode's Theme",
         "midiId": 348,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 18
     },
@@ -3195,6 +3643,7 @@
         "trackName": "Natural",
         "trackNameForSorting": "Natural",
         "midiId": 245,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 5
     },
@@ -3202,6 +3651,7 @@
         "trackName": "The Navigator",
         "trackNameForSorting": "Navigator, The",
         "midiId": 316,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 31
     },
@@ -3209,6 +3659,7 @@
         "trackName": "Nether Realm",
         "trackNameForSorting": "Nether Realm",
         "midiId": 422,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 16
     },
@@ -3216,6 +3667,7 @@
         "trackName": "Neverland",
         "trackNameForSorting": "Neverland",
         "midiId": 155,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 24
     },
@@ -3223,6 +3675,7 @@
         "trackName": "Newbie Farming",
         "trackNameForSorting": "Newbie Farming",
         "midiId": 597,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 5
     },
@@ -3230,6 +3683,7 @@
         "trackName": "Newbie Melody",
         "trackNameForSorting": "Newbie Melody",
         "midiId": 62,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3237,6 +3691,7 @@
         "trackName": "Night of the Vampyre",
         "trackNameForSorting": "Night of the Vampyre",
         "midiId": 646,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 17
     },
@@ -3244,6 +3699,7 @@
         "trackName": "Nightfall",
         "trackNameForSorting": "Nightfall",
         "midiId": 127,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 26
     },
@@ -3251,6 +3707,7 @@
         "trackName": "The Nightmare Continues",
         "trackNameForSorting": "Nightmare Continues, The",
         "midiId": 571,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 13
     },
@@ -3258,6 +3715,7 @@
         "trackName": "No Pasaran",
         "trackNameForSorting": "No Pasaran",
         "midiId": 642,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 1
     },
@@ -3265,6 +3723,7 @@
         "trackName": "No Way Out",
         "trackNameForSorting": "No Way Out",
         "midiId": 594,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 19
     },
@@ -3272,6 +3731,7 @@
         "trackName": "The Noble Rodent",
         "trackNameForSorting": "Noble Rodent, The",
         "midiId": 485,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 26
     },
@@ -3279,6 +3739,7 @@
         "trackName": "Nomad",
         "trackNameForSorting": "Nomad",
         "midiId": 58,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 11
     },
@@ -3286,6 +3747,7 @@
         "trackName": "Norse Code",
         "trackNameForSorting": "Norse Code",
         "midiId": 223,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 23
     },
@@ -3293,6 +3755,7 @@
         "trackName": "Not a Moment of Relief",
         "trackNameForSorting": "Not a Moment of Relief",
         "midiId": 705,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 14
     },
@@ -3300,6 +3763,7 @@
         "trackName": "Nox Irae",
         "trackNameForSorting": "Nox Irae",
         "midiId": 443,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 31
     },
@@ -3307,6 +3771,7 @@
         "trackName": "Null and Void",
         "trackNameForSorting": "Null and Void",
         "midiId": 587,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 16
     },
@@ -3314,6 +3779,7 @@
         "trackName": "Ogre the Top",
         "trackNameForSorting": "Ogre the Top",
         "midiId": 224,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 1
     },
@@ -3321,6 +3787,7 @@
         "trackName": "The Old Ones",
         "trackNameForSorting": "Old Ones, The",
         "midiId": 729,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 8
     },
@@ -3328,6 +3795,7 @@
         "trackName": "On Thin Ice",
         "trackNameForSorting": "On Thin Ice",
         "midiId": 536,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 28
     },
@@ -3335,6 +3803,7 @@
         "trackName": "On the Frontline",
         "trackNameForSorting": "On the Frontline",
         "midiId": 605,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 11
     },
@@ -3342,6 +3811,7 @@
         "trackName": "On the Shore",
         "trackNameForSorting": "On the Shore",
         "midiId": 522,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 22
     },
@@ -3349,6 +3819,7 @@
         "trackName": "On the Up",
         "trackNameForSorting": "On the Up",
         "midiId": 302,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 8
     },
@@ -3356,6 +3827,7 @@
         "trackName": "On the Wing",
         "trackNameForSorting": "On the Wing",
         "midiId": 633,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 9
     },
@@ -3363,6 +3835,7 @@
         "trackName": "Oncoming Foe",
         "trackNameForSorting": "Oncoming Foe",
         "midiId": 540,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 31
     },
@@ -3370,6 +3843,7 @@
         "trackName": "Organ Music 1",
         "trackNameForSorting": "Organ Music 1",
         "midiId": 39,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3377,6 +3851,7 @@
         "trackName": "Organ Music 2",
         "trackNameForSorting": "Organ Music 2",
         "midiId": 40,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3384,6 +3859,7 @@
         "trackName": "Oriental",
         "trackNameForSorting": "Oriental",
         "midiId": 103,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 27
     },
@@ -3391,6 +3867,7 @@
         "trackName": "The Other Side",
         "trackNameForSorting": "Other Side, The",
         "midiId": 355,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 22
     },
@@ -3398,6 +3875,7 @@
         "trackName": "Out at the Mines",
         "trackNameForSorting": "Out at the Mines",
         "midiId": 704,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 16
     },
@@ -3405,6 +3883,7 @@
         "trackName": "Out of the Deep",
         "trackNameForSorting": "Out of the Deep",
         "midiId": 322,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 29
     },
@@ -3412,6 +3891,7 @@
         "trackName": "Over to Nardah",
         "trackNameForSorting": "Over to Nardah",
         "midiId": 447,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 8
     },
@@ -3419,6 +3899,7 @@
         "trackName": "Overpass",
         "trackNameForSorting": "Overpass",
         "midiId": 256,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 15
     },
@@ -3426,6 +3907,7 @@
         "trackName": "Overture",
         "trackNameForSorting": "Overture",
         "midiId": 7,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 28
     },
@@ -3433,6 +3915,7 @@
         "trackName": "Parade",
         "trackNameForSorting": "Parade",
         "midiId": 93,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 29
     },
@@ -3440,6 +3923,7 @@
         "trackName": "The Part Where You Die",
         "trackNameForSorting": "Part Where You Die, The",
         "midiId": 698,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 9
     },
@@ -3447,6 +3931,7 @@
         "trackName": "Path of Peril",
         "trackNameForSorting": "Path of Peril",
         "midiId": 393,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 19
     },
@@ -3454,6 +3939,7 @@
         "trackName": "Pathways",
         "trackNameForSorting": "Pathways",
         "midiId": 364,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 31
     },
@@ -3461,6 +3947,7 @@
         "trackName": "The Penguin Bards",
         "trackNameForSorting": "Penguin Bards, The",
         "midiId": 218,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 11
     },
@@ -3468,6 +3955,7 @@
         "trackName": "Penguin Plots",
         "trackNameForSorting": "Penguin Plots",
         "midiId": 219,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 17
     },
@@ -3475,6 +3963,7 @@
         "trackName": "Pest Control",
         "trackNameForSorting": "Pest Control",
         "midiId": 588,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 17
     },
@@ -3482,6 +3971,7 @@
         "trackName": "Pharaoh's Tomb",
         "trackNameForSorting": "Pharaoh's Tomb",
         "midiId": 505,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 3
     },
@@ -3489,6 +3979,7 @@
         "trackName": "The Pharaoh",
         "trackNameForSorting": "Pharaoh, The",
         "midiId": 723,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 26
     },
@@ -3496,6 +3987,7 @@
         "trackName": "Phasmatys",
         "trackNameForSorting": "Phasmatys",
         "midiId": 354,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 21
     },
@@ -3503,6 +3995,7 @@
         "trackName": "Pheasant Peasant",
         "trackNameForSorting": "Pheasant Peasant",
         "midiId": 419,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 1
     },
@@ -3510,6 +4003,7 @@
         "trackName": "Pick & Shovel",
         "trackNameForSorting": "Pick & Shovel",
         "midiId": 426,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 21
     },
@@ -3517,6 +4011,7 @@
         "trackName": "Pinball Wizard",
         "trackNameForSorting": "Pinball Wizard",
         "midiId": 614,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 28
     },
@@ -3524,6 +4019,7 @@
         "trackName": "Pirates of Penance",
         "trackNameForSorting": "Pirates of Penance",
         "midiId": 211,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 26
     },
@@ -3531,6 +4027,7 @@
         "trackName": "Pirates of Peril",
         "trackNameForSorting": "Pirates of Peril",
         "midiId": 334,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 6
     },
@@ -3538,6 +4035,7 @@
         "trackName": "Poles Apart",
         "trackNameForSorting": "Poles Apart",
         "midiId": 548,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 30
     },
@@ -3545,6 +4043,7 @@
         "trackName": "The Power of Tears",
         "trackNameForSorting": "Power of Tears, The",
         "midiId": 398,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 31
     },
@@ -3552,6 +4051,7 @@
         "trackName": "Power of the Shadow Realm",
         "trackNameForSorting": "Power of the Shadow Realm",
         "midiId": 581,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 15
     },
@@ -3559,6 +4059,7 @@
         "trackName": "Predator Xarpus",
         "trackNameForSorting": "Predator Xarpus",
         "midiId": 567,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 21
     },
@@ -3566,6 +4067,7 @@
         "trackName": "Preservation",
         "trackNameForSorting": "Preservation",
         "midiId": 512,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 19
     },
@@ -3573,6 +4075,7 @@
         "trackName": "Preserved",
         "trackNameForSorting": "Preserved",
         "midiId": 513,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 18
     },
@@ -3580,6 +4083,7 @@
         "trackName": "Prime Time",
         "trackNameForSorting": "Prime Time",
         "midiId": 202,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 30
     },
@@ -3587,6 +4091,7 @@
         "trackName": "Principality",
         "trackNameForSorting": "Principality",
         "midiId": 149,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 28
     },
@@ -3594,6 +4099,7 @@
         "trackName": "Prison Break",
         "trackNameForSorting": "Prison Break",
         "midiId": 759,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 14
     },
@@ -3601,6 +4107,7 @@
         "trackName": "Quest",
         "trackNameForSorting": "Quest",
         "midiId": 158,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 30
     },
@@ -3608,6 +4115,7 @@
         "trackName": "The Quizmaster",
         "trackNameForSorting": "Quizmaster, The",
         "midiId": 413,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 30
     },
@@ -3615,6 +4123,7 @@
         "trackName": "Race Against the Clock",
         "trackNameForSorting": "Race Against the Clock",
         "midiId": 690,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 1
     },
@@ -3622,6 +4131,7 @@
         "trackName": "Rat Hunt",
         "trackNameForSorting": "Rat Hunt",
         "midiId": 491,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 29
     },
@@ -3629,6 +4139,7 @@
         "trackName": "Rat a Tat Tat",
         "trackNameForSorting": "Rat a Tat Tat",
         "midiId": 482,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 25
     },
@@ -3636,6 +4147,7 @@
         "trackName": "Ready for Battle",
         "trackNameForSorting": "Ready for Battle",
         "midiId": 318,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 25
     },
@@ -3643,6 +4155,7 @@
         "trackName": "Regal",
         "trackNameForSorting": "Regal",
         "midiId": 329,
+        "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 31
     },
@@ -3650,6 +4163,7 @@
         "trackName": "Regal Pomp",
         "trackNameForSorting": "Regal Pomp",
         "midiId": 697,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 11
     },
@@ -3657,6 +4171,7 @@
         "trackName": "Reggae",
         "trackNameForSorting": "Reggae",
         "midiId": 78,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 0
     },
@@ -3664,6 +4179,7 @@
         "trackName": "Reggae 2",
         "trackNameForSorting": "Reggae 2",
         "midiId": 89,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 1
     },
@@ -3671,6 +4187,7 @@
         "trackName": "Reign of the Basilisk",
         "trackNameForSorting": "Reign of the Basilisk",
         "midiId": 199,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 6
     },
@@ -3678,6 +4195,7 @@
         "trackName": "Relics",
         "trackNameForSorting": "Relics",
         "midiId": 549,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 25
     },
@@ -3685,6 +4203,7 @@
         "trackName": "Rellekka",
         "trackNameForSorting": "Rellekka",
         "midiId": 289,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 7
     },
@@ -3692,6 +4211,7 @@
         "trackName": "Rest in Peace",
         "trackNameForSorting": "Rest in Peace",
         "midiId": 679,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 22
     },
@@ -3699,6 +4219,7 @@
         "trackName": "Revenants",
         "trackNameForSorting": "Revenants",
         "midiId": 521,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 21
     },
@@ -3706,6 +4227,7 @@
         "trackName": "Rhapsody",
         "trackNameForSorting": "Rhapsody",
         "midiId": 692,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 28
     },
@@ -3713,6 +4235,7 @@
         "trackName": "Right on Track",
         "trackNameForSorting": "Right on Track",
         "midiId": 44,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 7
     },
@@ -3720,6 +4243,7 @@
         "trackName": "Righteousness",
         "trackNameForSorting": "Righteousness",
         "midiId": 262,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 31
     },
@@ -3727,6 +4251,7 @@
         "trackName": "Rising Damp",
         "trackNameForSorting": "Rising Damp",
         "midiId": 274,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 31
     },
@@ -3734,6 +4259,7 @@
         "trackName": "Riverside",
         "trackNameForSorting": "Riverside",
         "midiId": 91,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 2
     },
@@ -3741,6 +4267,7 @@
         "trackName": "Roc and Roll",
         "trackNameForSorting": "Roc and Roll",
         "midiId": 204,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 8
     },
@@ -3748,6 +4275,7 @@
         "trackName": "The Rogues' Den",
         "trackNameForSorting": "Rogues Den, The",
         "midiId": 402,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 25
     },
@@ -3755,6 +4283,7 @@
         "trackName": "Roll the Bones",
         "trackNameForSorting": "Roll the Bones",
         "midiId": 533,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 20
     },
@@ -3762,6 +4291,7 @@
         "trackName": "Romancing the Crone",
         "trackNameForSorting": "Romancing the Crone",
         "midiId": 335,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 8
     },
@@ -3769,6 +4299,7 @@
         "trackName": "Romper Chomper",
         "trackNameForSorting": "Romper Chomper",
         "midiId": 390,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 24
     },
@@ -3776,6 +4307,7 @@
         "trackName": "Roots and Flutes",
         "trackNameForSorting": "Roots and Flutes",
         "midiId": 554,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 3
     },
@@ -3783,6 +4315,7 @@
         "trackName": "Rose",
         "trackNameForSorting": "Rose",
         "midiId": 700,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 4
     },
@@ -3790,6 +4323,7 @@
         "trackName": "Royale",
         "trackNameForSorting": "Royale",
         "midiId": 53,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 3
     },
@@ -3797,6 +4331,7 @@
         "trackName": "Rugged Terrain",
         "trackNameForSorting": "Rugged Terrain",
         "midiId": 445,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 29
     },
@@ -3804,6 +4339,7 @@
         "trackName": "The Ruins of Camdozaal",
         "trackNameForSorting": "Ruins of Camdozaal, The",
         "midiId": 691,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 0
     },
@@ -3811,6 +4347,7 @@
         "trackName": "Ruins of Isolation",
         "trackNameForSorting": "Ruins of Isolation",
         "midiId": 725,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 23
     },
@@ -3818,6 +4355,7 @@
         "trackName": "Rune Essence",
         "trackNameForSorting": "Rune Essence",
         "midiId": 57,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 4
     },
@@ -3825,6 +4363,7 @@
         "trackName": "Sad Meadow",
         "trackNameForSorting": "Sad Meadow",
         "midiId": 5,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 5
     },
@@ -3832,6 +4371,7 @@
         "trackName": "Safety in Numbers",
         "trackNameForSorting": "Safety in Numbers",
         "midiId": 681,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 24
     },
@@ -3839,6 +4379,7 @@
         "trackName": "Saga",
         "trackNameForSorting": "Saga",
         "midiId": 290,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 8
     },
@@ -3846,6 +4387,7 @@
         "trackName": "Sands of Time",
         "trackNameForSorting": "Sands of Time",
         "midiId": 739,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 4
     },
@@ -3853,6 +4395,7 @@
         "trackName": "Sarachnis",
         "trackNameForSorting": "Sarachnis",
         "midiId": 641,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 16
     },
@@ -3860,6 +4403,7 @@
         "trackName": "Sarcophagus",
         "trackNameForSorting": "Sarcophagus",
         "midiId": 359,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 27
     },
@@ -3867,6 +4411,7 @@
         "trackName": "Sarim's Vermin",
         "trackNameForSorting": "Sarim's Vermin",
         "midiId": 490,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 28
     },
@@ -3874,6 +4419,7 @@
         "trackName": "Scape Ape",
         "trackNameForSorting": "Scape Ape",
         "midiId": 458,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3881,6 +4427,7 @@
         "trackName": "Scape Cave",
         "trackNameForSorting": "Scape Cave",
         "midiId": 144,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 6
     },
@@ -3888,6 +4435,7 @@
         "trackName": "Scape Crystal",
         "trackNameForSorting": "Scape Crystal",
         "midiId": 661,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3895,6 +4443,7 @@
         "trackName": "Scape Five",
         "trackNameForSorting": "Scape Five",
         "midiId": 552,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3902,6 +4451,7 @@
         "trackName": "Scape Ground",
         "trackNameForSorting": "Scape Ground",
         "midiId": 466,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3909,6 +4459,7 @@
         "trackName": "Scape Home",
         "trackNameForSorting": "Scape Home",
         "midiId": 621,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3916,6 +4467,7 @@
         "trackName": "Scape Hunter",
         "trackNameForSorting": "Scape Hunter",
         "midiId": 207,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3923,6 +4475,7 @@
         "trackName": "Scape Main",
         "trackNameForSorting": "Scape Main",
         "midiId": 16,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3930,6 +4483,7 @@
         "trackName": "Scape Original",
         "trackNameForSorting": "Scape Original",
         "midiId": 400,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3937,6 +4491,7 @@
         "trackName": "Scape Sad",
         "trackNameForSorting": "Scape Sad",
         "midiId": 331,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 8
     },
@@ -3944,6 +4499,7 @@
         "trackName": "Scape Santa",
         "trackNameForSorting": "Scape Santa",
         "midiId": 547,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3951,6 +4507,7 @@
         "trackName": "Scape Scared",
         "trackNameForSorting": "Scape Scared",
         "midiId": 321,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3958,6 +4515,7 @@
         "trackName": "Scape Soft",
         "trackNameForSorting": "Scape Soft",
         "midiId": 54,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 31
     },
@@ -3965,6 +4523,7 @@
         "trackName": "Scape Wild",
         "trackNameForSorting": "Scape Wild",
         "midiId": 332,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 9
     },
@@ -3972,6 +4531,7 @@
         "trackName": "Scar Tissue",
         "trackNameForSorting": "Scar Tissue",
         "midiId": 745,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 15
     },
@@ -3979,6 +4539,7 @@
         "trackName": "Scarab",
         "trackNameForSorting": "Scarab",
         "midiId": 352,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 26
     },
@@ -3986,6 +4547,7 @@
         "trackName": "School's Out",
         "trackNameForSorting": "School's Out",
         "midiId": 371,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 2
     },
@@ -3993,6 +4555,7 @@
         "trackName": "Scorpia Dances",
         "trackNameForSorting": "Scorpia Dances",
         "midiId": 423,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 17
     },
@@ -4000,6 +4563,7 @@
         "trackName": "Scrubfoot's Descent",
         "trackNameForSorting": "Scrubfoot's Descent",
         "midiId": 687,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 30
     },
@@ -4007,6 +4571,7 @@
         "trackName": "Sea Minor Shanty",
         "trackNameForSorting": "Sea Minor Shanty",
         "midiId": 683,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 26
     },
@@ -4014,6 +4579,7 @@
         "trackName": "Sea Shanty",
         "trackNameForSorting": "Sea Shanty",
         "midiId": 92,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 10
     },
@@ -4021,6 +4587,7 @@
         "trackName": "Sea Shanty 2",
         "trackNameForSorting": "Sea Shanty 2",
         "midiId": 35,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 11
     },
@@ -4028,6 +4595,7 @@
         "trackName": "Sea Shanty Xmas",
         "trackNameForSorting": "Sea Shanty Xmas",
         "midiId": 210,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 12
     },
@@ -4035,6 +4603,7 @@
         "trackName": "Secrets of the North",
         "trackNameForSorting": "Secrets of the North",
         "midiId": 743,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 9
     },
@@ -4042,6 +4611,7 @@
         "trackName": "The Seed of Crwys",
         "trackNameForSorting": "Seed of Crwys, The",
         "midiId": 659,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 23
     },
@@ -4049,6 +4619,7 @@
         "trackName": "Serenade",
         "trackNameForSorting": "Serenade",
         "midiId": 110,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 12
     },
@@ -4056,6 +4627,7 @@
         "trackName": "Serene",
         "trackNameForSorting": "Serene",
         "midiId": 52,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 13
     },
@@ -4063,6 +4635,7 @@
         "trackName": "Servants of Strife",
         "trackNameForSorting": "Servants of Strife",
         "midiId": 628,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 12
     },
@@ -4070,6 +4643,7 @@
         "trackName": "Settlement",
         "trackNameForSorting": "Settlement",
         "midiId": 356,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 23
     },
@@ -4077,6 +4651,7 @@
         "trackName": "The Shadow",
         "trackNameForSorting": "Shadow, The",
         "midiId": 170,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 25
     },
@@ -4084,6 +4659,7 @@
         "trackName": "Shadowland",
         "trackNameForSorting": "Shadowland",
         "midiId": 286,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 4
     },
@@ -4091,6 +4667,7 @@
         "trackName": "Sharp End of the Crystal",
         "trackNameForSorting": "Sharp End of the Crystal",
         "midiId": 657,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 28
     },
@@ -4098,6 +4675,7 @@
         "trackName": "Shattered Relics",
         "trackNameForSorting": "Shattered Relics",
         "midiId": 712,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4105,6 +4683,7 @@
         "trackName": "Shine",
         "trackNameForSorting": "Shine",
         "midiId": 122,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 14
     },
@@ -4112,6 +4691,7 @@
         "trackName": "Shining",
         "trackNameForSorting": "Shining",
         "midiId": 120,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 0
     },
@@ -4119,6 +4699,7 @@
         "trackName": "Shining Spirit",
         "trackNameForSorting": "Shining Spirit",
         "midiId": 429,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 24
     },
@@ -4126,6 +4707,7 @@
         "trackName": "Shipwrecked",
         "trackNameForSorting": "Shipwrecked",
         "midiId": 353,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 20
     },
@@ -4133,6 +4715,7 @@
         "trackName": "Showdown",
         "trackNameForSorting": "Showdown",
         "midiId": 311,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 21
     },
@@ -4140,6 +4723,7 @@
         "trackName": "Sigmund's Showdown",
         "trackNameForSorting": "Sigmund's Showdown",
         "midiId": 640,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 15
     },
@@ -4147,6 +4731,7 @@
         "trackName": "The Sinclairs",
         "trackNameForSorting": "Sinclairs, The",
         "midiId": 385,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 13
     },
@@ -4154,6 +4739,7 @@
         "trackName": "The Slayer",
         "trackNameForSorting": "Slayer, The",
         "midiId": 341,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 13
     },
@@ -4161,6 +4747,7 @@
         "trackName": "Slice of Silent Movie",
         "trackNameForSorting": "Slice of Silent Movie",
         "midiId": 281,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 29
     },
@@ -4168,6 +4755,7 @@
         "trackName": "Slice of Station",
         "trackNameForSorting": "Slice of Station",
         "midiId": 275,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 24
     },
@@ -4175,6 +4763,7 @@
         "trackName": "Slither and Thither",
         "trackNameForSorting": "Slither and Thither",
         "midiId": 510,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 7
     },
@@ -4182,6 +4771,7 @@
         "trackName": "Slug a Bug Ball",
         "trackNameForSorting": "Slug a Bug Ball",
         "midiId": 201,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 29
     },
@@ -4189,6 +4779,7 @@
         "trackName": "Snowflake & My Arm",
         "trackNameForSorting": "Snowflake & My Arm",
         "midiId": 589,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 26
     },
@@ -4196,6 +4787,7 @@
         "trackName": "Sojourn",
         "trackNameForSorting": "Sojourn",
         "midiId": 257,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 17
     },
@@ -4203,6 +4795,7 @@
         "trackName": "Song of the Elves",
         "trackNameForSorting": "Song of the Elves",
         "midiId": 645,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 29
     },
@@ -4210,6 +4803,7 @@
         "trackName": "Song of the Silent Choir",
         "trackNameForSorting": "Song of the Silent Choir",
         "midiId": 749,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 20
     },
@@ -4217,6 +4811,7 @@
         "trackName": "Sorceress's Garden",
         "trackNameForSorting": "Sorceress's Garden",
         "midiId": 232,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 16
     },
@@ -4224,6 +4819,7 @@
         "trackName": "Soul Fall",
         "trackNameForSorting": "Soul Fall",
         "midiId": 444,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 28
     },
@@ -4231,6 +4827,7 @@
         "trackName": "Soul Wars",
         "trackNameForSorting": "Soul Wars",
         "midiId": 685,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 29
     },
@@ -4238,6 +4835,7 @@
         "trackName": "Soundscape",
         "trackNameForSorting": "Soundscape",
         "midiId": 80,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 15
     },
@@ -4245,6 +4843,7 @@
         "trackName": "Sphinx",
         "trackNameForSorting": "Sphinx",
         "midiId": 387,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 14
     },
@@ -4252,6 +4851,7 @@
         "trackName": "Spirit",
         "trackNameForSorting": "Spirit",
         "midiId": 175,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 16
     },
@@ -4259,6 +4859,7 @@
         "trackName": "Spirits of the Elid",
         "trackNameForSorting": "Spirits of the Elid",
         "midiId": 462,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 11
     },
@@ -4266,6 +4867,7 @@
         "trackName": "Splendour",
         "trackNameForSorting": "Splendour",
         "midiId": 77,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 17
     },
@@ -4273,6 +4875,7 @@
         "trackName": "Spooky",
         "trackNameForSorting": "Spooky",
         "midiId": 333,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 18
     },
@@ -4280,6 +4883,7 @@
         "trackName": "Spooky 2",
         "trackNameForSorting": "Spooky 2",
         "midiId": 11,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 26
     },
@@ -4287,6 +4891,7 @@
         "trackName": "Spooky Jungle",
         "trackNameForSorting": "Spooky Jungle",
         "midiId": 129,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 19
     },
@@ -4294,6 +4899,7 @@
         "trackName": "The Spurned Demon",
         "trackNameForSorting": "Spurned Demon, The",
         "midiId": 662,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 27
     },
@@ -4301,6 +4907,7 @@
         "trackName": "Spy Games",
         "trackNameForSorting": "Spy Games",
         "midiId": 619,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4308,6 +4915,7 @@
         "trackName": "The Spymaster",
         "trackNameForSorting": "Spymaster, The",
         "midiId": 728,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 21
     },
@@ -4315,6 +4923,7 @@
         "trackName": "Stagnant",
         "trackNameForSorting": "Stagnant",
         "midiId": 241,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 1
     },
@@ -4322,6 +4931,7 @@
         "trackName": "Stand Up and Be Counted",
         "trackNameForSorting": "Stand Up and Be Counted",
         "midiId": 656,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 0
     },
@@ -4329,6 +4939,7 @@
         "trackName": "Starlight",
         "trackNameForSorting": "Starlight",
         "midiId": 108,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 20
     },
@@ -4336,6 +4947,7 @@
         "trackName": "Start",
         "trackNameForSorting": "Start",
         "midiId": 151,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 21
     },
@@ -4343,6 +4955,7 @@
         "trackName": "Still Night",
         "trackNameForSorting": "Still Night",
         "midiId": 111,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 22
     },
@@ -4350,6 +4963,7 @@
         "trackName": "Stillness",
         "trackNameForSorting": "Stillness",
         "midiId": 319,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 26
     },
@@ -4357,6 +4971,7 @@
         "trackName": "Storeroom Shuffle",
         "trackNameForSorting": "Storeroom Shuffle",
         "midiId": 772,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 29
     },
@@ -4364,6 +4979,7 @@
         "trackName": "Storm Brew",
         "trackNameForSorting": "Storm Brew",
         "midiId": 568,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 8
     },
@@ -4371,6 +4987,7 @@
         "trackName": "Stranded",
         "trackNameForSorting": "Stranded",
         "midiId": 292,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 10
     },
@@ -4378,6 +4995,7 @@
         "trackName": "Strange Place",
         "trackNameForSorting": "Strange Place",
         "midiId": 470,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 17
     },
@@ -4385,6 +5003,7 @@
         "trackName": "Strangled",
         "trackNameForSorting": "Strangled",
         "midiId": 764,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 25
     },
@@ -4392,6 +5011,7 @@
         "trackName": "Stratosphere",
         "trackNameForSorting": "Stratosphere",
         "midiId": 243,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 3
     },
@@ -4399,6 +5019,7 @@
         "trackName": "Strength of Saradomin",
         "trackNameForSorting": "Strength of Saradomin",
         "midiId": 391,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 11
     },
@@ -4406,6 +5027,7 @@
         "trackName": "Stuck in the Mire",
         "trackNameForSorting": "Stuck in the Mire",
         "midiId": 607,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 4
     },
@@ -4413,6 +5035,7 @@
         "trackName": "Subterranea",
         "trackNameForSorting": "Subterranea",
         "midiId": 517,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 10
     },
@@ -4420,6 +5043,7 @@
         "trackName": "Sunburn",
         "trackNameForSorting": "Sunburn",
         "midiId": 267,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 23
     },
@@ -4427,6 +5051,7 @@
         "trackName": "Superstition",
         "trackNameForSorting": "Superstition",
         "midiId": 265,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 5
     },
@@ -4434,6 +5059,7 @@
         "trackName": "Surok's Theme",
         "trackNameForSorting": "Surok's Theme",
         "midiId": 250,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 1
     },
@@ -4441,6 +5067,7 @@
         "trackName": "Suspicious",
         "trackNameForSorting": "Suspicious",
         "midiId": 308,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 20
     },
@@ -4448,6 +5075,7 @@
         "trackName": "Tale of Keldagrim",
         "trackNameForSorting": "Tale of Keldagrim",
         "midiId": 395,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 21
     },
@@ -4455,6 +5083,7 @@
         "trackName": "Talking Forest",
         "trackNameForSorting": "Talking Forest",
         "midiId": 140,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 23
     },
@@ -4462,6 +5091,7 @@
         "trackName": "Tarn Razorlor",
         "trackNameForSorting": "Tarn Razorlor",
         "midiId": 215,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 3
     },
@@ -4469,6 +5099,7 @@
         "trackName": "A Taste of Hope",
         "trackNameForSorting": "Taste Of Hope, A",
         "midiId": 555,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 9
     },
@@ -4476,6 +5107,7 @@
         "trackName": "Tears of Guthix",
         "trackNameForSorting": "Tears of Guthix",
         "midiId": 397,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 23
     },
@@ -4483,6 +5115,7 @@
         "trackName": "Technology",
         "trackNameForSorting": "Technology",
         "midiId": 296,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 14
     },
@@ -4490,6 +5123,7 @@
         "trackName": "Tempest",
         "trackNameForSorting": "Tempest",
         "midiId": 518,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 20
     },
@@ -4497,6 +5131,7 @@
         "trackName": "Temple",
         "trackNameForSorting": "Temple",
         "midiId": 307,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 19
     },
@@ -4504,6 +5139,7 @@
         "trackName": "Temple of Light",
         "trackNameForSorting": "Temple of Light",
         "midiId": 376,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 6
     },
@@ -4511,6 +5147,7 @@
         "trackName": "Temple of Tribes",
         "trackNameForSorting": "Temple of Tribes",
         "midiId": 717,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 24
     },
@@ -4518,6 +5155,7 @@
         "trackName": "Temple of the Eye",
         "trackNameForSorting": "Temple of the Eye",
         "midiId": 719,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 27
     },
@@ -4525,6 +5163,7 @@
         "trackName": "Tempor of the Storm",
         "trackNameForSorting": "Tempoross",
         "midiId": 688,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 31
     },
@@ -4532,6 +5171,7 @@
         "trackName": "The Terrible Caverns",
         "trackNameForSorting": "Terrible Caverns, The",
         "midiId": 667,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 11
     },
@@ -4539,6 +5179,7 @@
         "trackName": "The Terrible Tower",
         "trackNameForSorting": "Terrible Tower, The",
         "midiId": 339,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 11
     },
@@ -4546,6 +5187,7 @@
         "trackName": "The Terrible Tunnels",
         "trackNameForSorting": "Terrible Tunnels, The",
         "midiId": 675,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 12
     },
@@ -4553,6 +5195,7 @@
         "trackName": "Terrorbird Tussle",
         "trackNameForSorting": "Terrorbird Tussle",
         "midiId": 768,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 30
     },
@@ -4560,6 +5203,7 @@
         "trackName": "Test of Companionship",
         "trackNameForSorting": "Test of Companionship",
         "midiId": 741,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 1
     },
@@ -4567,6 +5211,7 @@
         "trackName": "Test of Isolation",
         "trackNameForSorting": "Test of Isolation",
         "midiId": 738,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 31
     },
@@ -4574,6 +5219,7 @@
         "trackName": "Test of Resourcefulness",
         "trackNameForSorting": "Test of Resourcefulness",
         "midiId": 733,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 2
     },
@@ -4581,6 +5227,7 @@
         "trackName": "Test of Strength",
         "trackNameForSorting": "Test of Strength",
         "midiId": 732,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 0
     },
@@ -4588,6 +5235,7 @@
         "trackName": "That Sullen Hall",
         "trackNameForSorting": "That Sullen Hall",
         "midiId": 440,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 27
     },
@@ -4595,6 +5243,7 @@
         "trackName": "Theme",
         "trackNameForSorting": "Theme",
         "midiId": 109,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 27
     },
@@ -4602,6 +5251,7 @@
         "trackName": "A Thorn in My Side",
         "trackNameForSorting": "Thorn in My Side, A",
         "midiId": 601,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 9
     },
@@ -4609,6 +5259,7 @@
         "trackName": "Thrall of the Devourer",
         "trackNameForSorting": "Thrall of the Devourer",
         "midiId": 726,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 25
     },
@@ -4616,6 +5267,7 @@
         "trackName": "Thrall of the Serpent",
         "trackNameForSorting": "Thrall of the Serpent",
         "midiId": 433,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 12
     },
@@ -4623,6 +5275,7 @@
         "trackName": "Throne of the Demon",
         "trackNameForSorting": "Throne of the Demon",
         "midiId": 379,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 9
     },
@@ -4630,6 +5283,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 748,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 24
     },
@@ -4637,6 +5291,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 760,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4644,6 +5299,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 758,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4651,6 +5307,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 751,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4658,6 +5315,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 754,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4665,6 +5323,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 755,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4672,6 +5331,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 753,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4679,6 +5339,7 @@
         "trackName": "Time Out",
         "trackNameForSorting": "Time Out",
         "midiId": 242,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 4
     },
@@ -4686,6 +5347,7 @@
         "trackName": "Time to Mine",
         "trackNameForSorting": "Time to Mine",
         "midiId": 369,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 1
     },
@@ -4693,6 +5355,7 @@
         "trackName": "Tiptoe",
         "trackNameForSorting": "Tiptoe",
         "midiId": 338,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 10
     },
@@ -4700,6 +5363,7 @@
         "trackName": "Title Fight",
         "trackNameForSorting": "Title Fight",
         "midiId": 525,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 15
     },
@@ -4707,6 +5371,7 @@
         "trackName": "Tomb Raider",
         "trackNameForSorting": "Tomb Raider",
         "midiId": 591,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 18
     },
@@ -4714,6 +5379,7 @@
         "trackName": "Tomorrow",
         "trackNameForSorting": "Tomorrow",
         "midiId": 105,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 3
     },
@@ -4721,6 +5387,7 @@
         "trackName": "Too Many Cooks...",
         "trackNameForSorting": "Too Many Cooks...",
         "midiId": 386,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 14
     },
@@ -4728,6 +5395,7 @@
         "trackName": "The Tower of Voices",
         "trackNameForSorting": "Tower of Voices, The",
         "midiId": 648,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 19
     },
@@ -4735,6 +5403,7 @@
         "trackName": "The Tower",
         "trackNameForSorting": "Tower, The",
         "midiId": 133,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 26
     },
@@ -4742,6 +5411,7 @@
         "trackName": "The Trade Parade",
         "trackNameForSorting": "Trade Parade, The",
         "midiId": 496,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 30
     },
@@ -4749,6 +5419,7 @@
         "trackName": "Trahaearn Toil",
         "trackNameForSorting": "Trahaearn Toil",
         "midiId": 649,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 25
     },
@@ -4756,6 +5427,7 @@
         "trackName": "Trawler",
         "trackNameForSorting": "Trawler",
         "midiId": 38,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 28
     },
@@ -4763,6 +5435,7 @@
         "trackName": "Trawler Minor",
         "trackNameForSorting": "Trawler Minor",
         "midiId": 51,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 29
     },
@@ -4770,6 +5443,7 @@
         "trackName": "Tree Spirits",
         "trackNameForSorting": "Tree Spirits",
         "midiId": 130,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 30
     },
@@ -4777,6 +5451,7 @@
         "trackName": "Tremble",
         "trackNameForSorting": "Tremble",
         "midiId": 187,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 29
     },
@@ -4784,6 +5459,7 @@
         "trackName": "Tribal",
         "trackNameForSorting": "Tribal",
         "midiId": 165,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 0
     },
@@ -4791,6 +5467,7 @@
         "trackName": "Tribal 2",
         "trackNameForSorting": "Tribal 2",
         "midiId": 94,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 1
     },
@@ -4798,6 +5475,7 @@
         "trackName": "Tribal Background",
         "trackNameForSorting": "Tribal Background",
         "midiId": 162,
+        "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 31
     },
@@ -4805,6 +5483,7 @@
         "trackName": "Trinity",
         "trackNameForSorting": "Trinity",
         "midiId": 192,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 2
     },
@@ -4812,6 +5491,7 @@
         "trackName": "Troll Shuffle",
         "trackNameForSorting": "Troll Shuffle",
         "midiId": 592,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 25
     },
@@ -4819,6 +5499,7 @@
         "trackName": "Trouble Brewing",
         "trackNameForSorting": "Trouble Brewing",
         "midiId": 611,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 26
     },
@@ -4826,6 +5507,7 @@
         "trackName": "Troubled",
         "trackNameForSorting": "Troubled",
         "midiId": 183,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 3
     },
@@ -4833,6 +5515,7 @@
         "trackName": "Troubled Waters",
         "trackNameForSorting": "Troubled Waters",
         "midiId": 421,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 15
     },
@@ -4840,6 +5523,7 @@
         "trackName": "Twilight",
         "trackNameForSorting": "Twilight",
         "midiId": 88,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 19
     },
@@ -4847,6 +5531,7 @@
         "trackName": "TzHaar!",
         "trackNameForSorting": "TzHaar!",
         "midiId": 473,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 19
     },
@@ -4854,6 +5539,7 @@
         "trackName": "Undead Dungeon",
         "trackNameForSorting": "Undead Dungeon",
         "midiId": 214,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 23
     },
@@ -4861,6 +5547,7 @@
         "trackName": "Undercurrent",
         "trackNameForSorting": "Undercurrent",
         "midiId": 176,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 10
     },
@@ -4868,6 +5555,7 @@
         "trackName": "Underground",
         "trackNameForSorting": "Underground",
         "midiId": 179,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 4
     },
@@ -4875,6 +5563,7 @@
         "trackName": "Underground Pass",
         "trackNameForSorting": "Underground Pass",
         "midiId": 323,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 6
     },
@@ -4882,6 +5571,7 @@
         "trackName": "Understanding",
         "trackNameForSorting": "Understanding",
         "midiId": 131,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 27
     },
@@ -4889,6 +5579,7 @@
         "trackName": "Unknown Land",
         "trackNameForSorting": "Unknown Land",
         "midiId": 3,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 5
     },
@@ -4896,6 +5587,7 @@
         "trackName": "Untouchable",
         "trackNameForSorting": "Untouchable",
         "midiId": 300,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 6
     },
@@ -4903,6 +5595,7 @@
         "trackName": "Unturned Stones",
         "trackNameForSorting": "Unturned Stones",
         "midiId": 757,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 21
     },
@@ -4910,6 +5603,7 @@
         "trackName": "Upcoming",
         "trackNameForSorting": "Upcoming",
         "midiId": 70,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 7
     },
@@ -4917,6 +5611,7 @@
         "trackName": "Upir Likhyi",
         "trackNameForSorting": "Upir Likhyi",
         "midiId": 672,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 10
     },
@@ -4924,6 +5619,7 @@
         "trackName": "Upper Depths",
         "trackNameForSorting": "Upper Depths",
         "midiId": 492,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 10
     },
@@ -4931,6 +5627,7 @@
         "trackName": "Vampyre Assault",
         "trackNameForSorting": "Vampyre Assault",
         "midiId": 678,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 19
     },
@@ -4938,6 +5635,7 @@
         "trackName": "Vanescula",
         "trackNameForSorting": "Vanescula",
         "midiId": 562,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 6
     },
@@ -4945,6 +5643,7 @@
         "trackName": "The Vault",
         "trackNameForSorting": "Vault, The",
         "midiId": 762,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 12
     },
@@ -4952,6 +5651,7 @@
         "trackName": "Venomous",
         "trackNameForSorting": "Venomous",
         "midiId": 721,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 19
     },
@@ -4959,6 +5659,7 @@
         "trackName": "Venture",
         "trackNameForSorting": "Venture",
         "midiId": 75,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 8
     },
@@ -4966,6 +5667,7 @@
         "trackName": "Venture 2",
         "trackNameForSorting": "Venture 2",
         "midiId": 45,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 8
     },
@@ -4973,6 +5675,7 @@
         "trackName": "Victory is Mine",
         "trackNameForSorting": "Victory is Mine",
         "midiId": 528,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 16
     },
@@ -4980,6 +5683,7 @@
         "trackName": "Village",
         "trackNameForSorting": "Village",
         "midiId": 61,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 22
     },
@@ -4987,6 +5691,7 @@
         "trackName": "Vision",
         "trackNameForSorting": "Vision",
         "midiId": 85,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 9
     },
@@ -4994,6 +5699,7 @@
         "trackName": "Volcanic Vikings",
         "trackNameForSorting": "Volcanic Vikings",
         "midiId": 225,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 24
     },
@@ -5001,6 +5707,7 @@
         "trackName": "Voodoo Cult",
         "trackNameForSorting": "Voodoo Cult",
         "midiId": 30,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 10
     },
@@ -5008,6 +5715,7 @@
         "trackName": "Voyage",
         "trackNameForSorting": "Voyage",
         "midiId": 32,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 11
     },
@@ -5015,6 +5723,7 @@
         "trackName": "The Waiting Game",
         "trackNameForSorting": "Waiting Game, The",
         "midiId": 686,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 28
     },
@@ -5022,6 +5731,7 @@
         "trackName": "Waking Dream",
         "trackNameForSorting": "Waking Dream",
         "midiId": 622,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 2
     },
@@ -5029,6 +5739,7 @@
         "trackName": "A Walk in the Woods",
         "trackNameForSorting": "Walk in the Woods, A",
         "midiId": 636,
+        "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 1
     },
@@ -5036,6 +5747,7 @@
         "trackName": "The Walking Dead",
         "trackNameForSorting": "Walking Dead, The",
         "midiId": 551,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 29
     },
@@ -5043,6 +5755,7 @@
         "trackName": "Wally the Hero",
         "trackNameForSorting": "Wally the Hero",
         "midiId": 196,
+        "ignored": false,
         "varpIndex": 22,
         "varpBitIndex": 15
     },
@@ -5050,6 +5763,7 @@
         "trackName": "Wander",
         "trackNameForSorting": "Wander",
         "midiId": 49,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 12
     },
@@ -5057,6 +5771,7 @@
         "trackName": "Warpath",
         "trackNameForSorting": "Warpath",
         "midiId": 427,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 23
     },
@@ -5064,6 +5779,7 @@
         "trackName": "Warrior",
         "trackNameForSorting": "Warrior",
         "midiId": 295,
+        "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 13
     },
@@ -5071,6 +5787,7 @@
         "trackName": "Warriors' Guild",
         "trackNameForSorting": "Warriors' Guild",
         "midiId": 634,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 7
     },
@@ -5078,6 +5795,7 @@
         "trackName": "Waste Defaced",
         "trackNameForSorting": "Waste Defaced",
         "midiId": 770,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 31
     },
@@ -5085,6 +5803,7 @@
         "trackName": "Watch Your Step",
         "trackNameForSorting": "Watch Your Step",
         "midiId": 674,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 21
     },
@@ -5092,6 +5811,7 @@
         "trackName": "Waterfall",
         "trackNameForSorting": "Waterfall",
         "midiId": 82,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 13
     },
@@ -5099,6 +5819,7 @@
         "trackName": "Waterlogged",
         "trackNameForSorting": "Waterlogged",
         "midiId": 244,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 7
     },
@@ -5106,6 +5827,7 @@
         "trackName": "Way of the Enchanter",
         "trackNameForSorting": "Way of the Enchanter",
         "midiId": 626,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 6
     },
@@ -5113,6 +5835,7 @@
         "trackName": "Way of the Wyrm",
         "trackNameForSorting": "Way of the Wyrm",
         "midiId": 595,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 29
     },
@@ -5120,6 +5843,7 @@
         "trackName": "Wayward",
         "trackNameForSorting": "Wayward",
         "midiId": 394,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 20
     },
@@ -5127,6 +5851,7 @@
         "trackName": "We are the Fairies",
         "trackNameForSorting": "We are the Fairies",
         "midiId": 126,
+        "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 18
     },
@@ -5134,6 +5859,7 @@
         "trackName": "Welcome to my Nightmare",
         "trackNameForSorting": "Welcome to my Nightmare",
         "midiId": 578,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 12
     },
@@ -5141,6 +5867,7 @@
         "trackName": "Welcome to the Theatre",
         "trackNameForSorting": "Welcome to the Theatre",
         "midiId": 556,
+        "ignored": false,
         "varpIndex": 18,
         "varpBitIndex": 8
     },
@@ -5148,6 +5875,7 @@
         "trackName": "Well Hallowed Air",
         "trackNameForSorting": "Well Hallowed Air",
         "midiId": 669,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 17
     },
@@ -5155,6 +5883,7 @@
         "trackName": "Well of Voyage",
         "trackNameForSorting": "Well of Voyage",
         "midiId": 271,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 29
     },
@@ -5162,6 +5891,7 @@
         "trackName": "What Happens Below...",
         "trackNameForSorting": "What Happens Below...",
         "midiId": 703,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 17
     },
@@ -5169,6 +5899,7 @@
         "trackName": "Where Eagles Lair",
         "trackNameForSorting": "Where Eagles Lair",
         "midiId": 620,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 0
     },
@@ -5176,6 +5907,7 @@
         "trackName": "Wild Isle",
         "trackNameForSorting": "Wild Isle",
         "midiId": 189,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 6
     },
@@ -5183,6 +5915,7 @@
         "trackName": "Wild Side",
         "trackNameForSorting": "Wild Side",
         "midiId": 475,
+        "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 20
     },
@@ -5190,6 +5923,7 @@
         "trackName": "Wilderness",
         "trackNameForSorting": "Wilderness",
         "midiId": 435,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 14
     },
@@ -5197,6 +5931,7 @@
         "trackName": "Wilderness 2",
         "trackNameForSorting": "Wilderness 2",
         "midiId": 42,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 15
     },
@@ -5204,6 +5939,7 @@
         "trackName": "Wilderness 3",
         "trackNameForSorting": "Wilderness 3",
         "midiId": 43,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 16
     },
@@ -5211,6 +5947,7 @@
         "trackName": "Wildwood",
         "trackNameForSorting": "Wildwood",
         "midiId": 8,
+        "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 0
     },
@@ -5218,6 +5955,7 @@
         "trackName": "Winter Funfair",
         "trackNameForSorting": "Winter Funfair",
         "midiId": 526,
+        "ignored": false,
         "varpIndex": 17,
         "varpBitIndex": 24
     },
@@ -5225,6 +5963,7 @@
         "trackName": "Witching",
         "trackNameForSorting": "Witching",
         "midiId": 14,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 17
     },
@@ -5232,6 +5971,7 @@
         "trackName": "Woe of the Wyvern",
         "trackNameForSorting": "Woe of the Wyvern",
         "midiId": 529,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 17
     },
@@ -5239,6 +5979,7 @@
         "trackName": "Wonder",
         "trackNameForSorting": "Wonder",
         "midiId": 34,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 18
     },
@@ -5246,6 +5987,7 @@
         "trackName": "Wonderous",
         "trackNameForSorting": "Wonderous",
         "midiId": 81,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 19
     },
@@ -5253,6 +5995,7 @@
         "trackName": "Woodland",
         "trackNameForSorting": "Woodland",
         "midiId": 255,
+        "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 14
     },
@@ -5260,6 +6003,7 @@
         "trackName": "Work Work Work",
         "trackNameForSorting": "Work, Work, Work",
         "midiId": 237,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 2
     },
@@ -5267,6 +6011,7 @@
         "trackName": "Workshop",
         "trackNameForSorting": "Workshop",
         "midiId": 15,
+        "ignored": false,
         "varpIndex": 5,
         "varpBitIndex": 20
     },
@@ -5274,6 +6019,7 @@
         "trackName": "A Worthy Foe",
         "trackNameForSorting": "Worthy Foe, A",
         "midiId": 747,
+        "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 16
     },
@@ -5281,6 +6027,7 @@
         "trackName": "Wrath and Ruin",
         "trackNameForSorting": "Wrath and Ruin",
         "midiId": 565,
+        "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 7
     },
@@ -5288,6 +6035,7 @@
         "trackName": "Xenophobe",
         "trackNameForSorting": "Xenophobe",
         "midiId": 524,
+        "ignored": false,
         "varpIndex": 12,
         "varpBitIndex": 14
     },
@@ -5295,6 +6043,7 @@
         "trackName": "Yesteryear",
         "trackNameForSorting": "Yesteryear",
         "midiId": 145,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 1
     },
@@ -5302,6 +6051,7 @@
         "trackName": "You Have My Attention",
         "trackNameForSorting": "You Have My Attention",
         "midiId": 666,
+        "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 20
     },
@@ -5309,6 +6059,7 @@
         "trackName": "You Have My Attention",
         "trackNameForSorting": "You Have My Attention",
         "midiId": 673,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5316,6 +6067,7 @@
         "trackName": "You Have My Attention",
         "trackNameForSorting": "You Have My Attention",
         "midiId": 668,
+        "ignored": true,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5323,6 +6075,7 @@
         "trackName": "Zamorak Zoo",
         "trackNameForSorting": "Zamorak Zoo",
         "midiId": 399,
+        "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 10
     },
@@ -5330,6 +6083,7 @@
         "trackName": "Zanik's Theme",
         "trackNameForSorting": "Zanik's Theme",
         "midiId": 716,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 25
     },
@@ -5337,6 +6091,7 @@
         "trackName": "Zaros Zeitgeist",
         "trackNameForSorting": "Zaros Zeitgeist",
         "midiId": 710,
+        "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 20
     },
@@ -5344,6 +6099,7 @@
         "trackName": "Zealot",
         "trackNameForSorting": "Zealot",
         "midiId": 146,
+        "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 12
     },
@@ -5351,6 +6107,7 @@
         "trackName": "Zogre Dance",
         "trackNameForSorting": "Zogre Dance",
         "midiId": 392,
+        "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 18
     },
@@ -5358,6 +6115,7 @@
         "trackName": "Zombiism",
         "trackNameForSorting": "Zombiism",
         "midiId": 238,
+        "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 19
     }
