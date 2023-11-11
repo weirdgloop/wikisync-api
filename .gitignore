@@ -6,3 +6,5 @@ build
 throttle.ctrl
 apicache-py3
 pywikibot-*.lwp
+
+.venv

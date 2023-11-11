@@ -22,8 +22,9 @@ args = parser.parse_args()
 if args.command == "get":
     site = pywikibot.Site(url=url)
     page = pywikibot.Page(site, filename)
-    with open(filename + args.suffix, "w") as f:
-        f.write(page.text)
+    print(page.text)
+    # with open(filename + args.suffix, "w") as f:
+    #     f.write(page.text)
 
 elif args.command == "write":
     pywikibot.config.put_throttle = args.put_throttle

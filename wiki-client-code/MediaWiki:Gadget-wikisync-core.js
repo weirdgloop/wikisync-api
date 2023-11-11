@@ -20,8 +20,7 @@ var CLASSES = {
 };
 
 var ENDPOINTS = {
-  // osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
-  osrs: "http://localhost:3000/runelite/player/username/STANDARD",
+  osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
   shatteredrelics:
     "https://sync.runescape.wiki/runelite/player/username/SHATTERED_RELICS_LEAGUE", //use actual url
 };
@@ -368,7 +367,6 @@ var wikisync = {
       $(this)
         .find("tr[data-music-track-name]")
         .each(function () {
-          debugger
           var music_track_name = $(this).data("music-track-name");
           if (!!musicTracks[music_track_name] !== $(this).hasClass("highlight-on")) {
             $(this).click();
