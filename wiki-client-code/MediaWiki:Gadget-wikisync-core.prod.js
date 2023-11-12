@@ -21,8 +21,8 @@ var CLASSES = {
 
 var ENDPOINTS = {
   osrs: "https://sync.runescape.wiki/runelite/player/username/STANDARD",
-  shatteredrelics:
-    "https://sync.runescape.wiki/runelite/player/username/SHATTERED_RELICS_LEAGUE", //use actual url
+  trailblazerreloaded:
+    "https://sync.runescape.wiki/runelite/player/username/TRAILBLAZER_RELOADED_LEAGUE", //use actual url
 };
 
 var questCorrections = {
@@ -69,7 +69,7 @@ var wikisync = {
       name = wikisync.getCookie("RSN");
     }
 
-    var gamemode = "osrs";
+    var gamemode = localStorage.getItem('wikisync-gamemode') || "osrs";
 
     $("." + CLASSES.QC_INPUT).each(function () {
       var input1 = new OO.ui.TextInputWidget({
@@ -94,15 +94,41 @@ var wikisync = {
         flags: ["primary", "progressive"],
         classes: ["wikisync-lookup-button"],
       });
+      
+      var buttonOptionOSRS = new OO.ui.ButtonOptionWidget({
+        data: 'osrs',
+        label: new OO.ui.HtmlSnippet('<img src="https://oldschool.runescape.wiki/images/Wikisync_icon_(standard).png" width="20px" />' + ' OSRS'),
+        classes: ['wikisync-gamemode-osrs'],
+        selected: gamemode !== 'trailblazerreloaded',
+      }),
+      buttonOptionShatner = new OO.ui.ButtonOptionWidget({
+        data: 'trailblazerreloaded',
+        label: new OO.ui.HtmlSnippet('<img src="https://oldschool.runescape.wiki/images/thumb/Leagues_icon.png/40px-Leagues_icon.png?0570b" width="20px" />' + ' League'),
+        classes: ['wikisync-gamemode-trailblazerreloaded'],
+        selected: gamemode === 'trailblazerreloaded',
+      }),
+      buttonSelect = new OO.ui.ButtonSelectWidget({
+        items: [
+          buttonOptionOSRS,
+          buttonOptionShatner
+        ]
+      });      
 
       var leagueOnly = $(this).hasClass("league-only");
       if (leagueOnly) {
-        gamemode = "shatteredrelics";
+        gamemode = "trailblazerreloaded";
       }
 
       var button1action = function () {
+      	if (!leagueOnly) {
+			var gamemodeButton = buttonSelect.findSelectedItem();
+			if (gamemodeButton !== null) {
+				gamemode = gamemodeButton.getData();
+			}
+		}
         if (rs.hasLocalStorage() === true) {
           localStorage.setItem("rsn", input1.value); // save in localStorage
+          localStorage.setItem('wikisync-gamemode', gamemode);
         } else {
           wikisync.setCookie("RSN", input1.value, 30); // set a cookie for 30 days
         }
@@ -138,9 +164,11 @@ var wikisync = {
       });
 
       var fieldSetItems = [
-        new OO.ui.FieldLayout(input1, { label: "Username:", align: "inline" }),
+        new OO.ui.FieldLayout(input1, {}),
       ];
-
+	  if (!leagueOnly) {
+	    fieldSetItems.push(new OO.ui.FieldLayout(buttonSelect, {}));
+	  }
       fieldSetItems.push(button1);
       fieldset.addItems([
         new OO.ui.HorizontalLayout({
@@ -174,7 +202,7 @@ var wikisync = {
       // Hide all of the help elements to start with
       $(".rs-wikisync-help").hide();
       $(".rs-wikisync-missingdata").hide();
-      if ($(".srl-tasks, .music-tracks").length === 0) {
+      if ($(".tbrl-tasks, .music-tracks").length === 0) {
         // only show checkbox if it's a table with hide-able tasks
         $(".rs-wikisync-hide-completed").hide();
       }
@@ -287,6 +315,7 @@ var wikisync = {
           wikisync.addSkillIcons(userSkills),
           wikisync.addMusicTracks(msg.music_tracks),
           wikisync.addCombatAchievementTasks(msg.combat_achievements),
+          wikisync.addLeagueTasks([])
         ].every(function (result) {
           return result;
         });
@@ -535,6 +564,48 @@ var wikisync = {
       }
       wikisync.append_icon(this, userLevels[skill] >= level);
     });
+    return true;
+  },
+  
+  /**
+   * Clicks the league task rows
+   */
+  addLeagueTasks: function (tasks) {
+    var taskTables = $('table.qc-active.tbrl-tasks');
+    if (taskTables.length === 0) {
+      // Nothing to do...
+      return true;
+    }
+
+    var seen = {};
+    var total = 0;
+    var completed = 0;
+    $(".table-completed").remove();
+    tasks.forEach(function(taskId) {
+      seen[taskId] = true;
+    });
+    taskTables.each(function() {
+      var table_total = 0;
+      var table_completed = 0;
+      $(this).find('tr[data-taskid]').each(function() {
+        var taskid = $(this).data("taskid");
+        if (!!seen[taskid] !== $(this).hasClass("highlight-on")) {
+          $(this).click();
+        }
+        if (seen[taskid]) {
+          $(this).addClass("wikisync-completed");
+          table_completed++;
+          completed++;
+        }
+        table_total++;
+        total++;
+      })
+      if (taskTables.length > 1) {
+        $(this).before($("<span class='table-completed' style='font-style: italic;'>Showing "+(table_total - table_completed)+" of "+table_total+" tasks ("+table_completed+" completed)</span>"));
+      }
+    })
+    wikisync.setCheckboxText("Hide completed (" + completed + "/" + total + " completed)");
+    wikisync.hideCompletedEntries();
     return true;
   },
 };
