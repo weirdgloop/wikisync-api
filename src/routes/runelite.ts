@@ -71,7 +71,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
   const musicTracks = await MusicService.getMusicTracks(data);
 
-  res.json({
+  res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
