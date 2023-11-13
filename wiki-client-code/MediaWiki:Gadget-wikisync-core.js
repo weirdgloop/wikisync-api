@@ -315,7 +315,7 @@ var wikisync = {
           wikisync.addSkillIcons(userSkills),
           wikisync.addMusicTracks(msg.music_tracks),
           wikisync.addCombatAchievementTasks(msg.combat_achievements),
-          wikisync.addLeagueTasks([])
+          wikisync.addLeagueTasks(msg.league_tasks)
         ].every(function (result) {
           return result;
         });
