@@ -40,6 +40,7 @@ var wikisync = {
    */
   init: function () {
     wikisync.createFields();
+    wikisync.intializeTasksPage();
   },
 
   setCheckboxText: function (text) {
@@ -50,11 +51,19 @@ var wikisync = {
     );
   },
 
-  hideCompletedEntries: function () {
-    var selected = wikisync.hideCompletedCheckbox.isSelected();
-    if (selected) {
-      $(".wikisync-completed").hide();
-    }
+  updateHiddenEntries: function () {
+    var hideCompleted = wikisync.hideCompletedCheckbox.isSelected();
+    $(".wikisync-completed, [data-tbz-area-for-filtering]").each(function () {
+      var should_hide_based_on_completed = hideCompleted && $(this).hasClass("wikisync-completed");
+      var area_checkbox = wikisync.tbz_areas[$(this).data("tbz-area-for-filtering")];
+      var should_hide_based_on_area = area_checkbox === undefined ? false : !area_checkbox.checked;
+      var should_hide = should_hide_based_on_completed || should_hide_based_on_area;
+      if (should_hide) {
+        $(this).hide()
+      } else {
+        $(this).show();
+      }
+    })
   },
 
   /**
@@ -156,7 +165,7 @@ var wikisync = {
         if (rs.hasLocalStorage() === true) {
           localStorage.setItem("wikisync-hide-completed", selected); // save in localStorage
         }
-        $(".wikisync-completed").toggle(!selected);
+        wikisync.updateHiddenEntries();
       });
 
       var fieldset = new OO.ui.FieldsetLayout({
@@ -206,12 +215,36 @@ var wikisync = {
         // only show checkbox if it's a table with hide-able tasks
         $(".rs-wikisync-hide-completed").hide();
       }
+      if ($(".tbrl-tasks, .music-tracks").length === 0) {
+        // only show checkbox if it's a table with hide-able tasks
+        $(".rs-wikisync-hide-completed").hide();
+      }
     });
 
     if (name) {
       // If there is a saved name, load the data for it.
       wikisync.loadData(name, gamemode);
     }
+  },
+
+  /**
+   * Initialize the leagues task table page
+   */
+  intializeTasksPage: function () {
+    wikisync.tbz_areas = {};
+    window.wikisync = wikisync;
+    $(".tbz-wikisync-filter").each(function () {
+      $(this).find(".tbz-wikisync-filter-cell").each(function () {
+        var area = $(this).data("tbz-area");
+        var checkbox = $("<input class='tbz-wikisync-filter-checkbox' type=checkbox checked />")[0];
+        wikisync.tbz_areas[area] = checkbox;
+        $(this).prepend(checkbox);
+      });
+      $(this).on("change", ".tbz-wikisync-filter-checkbox", function () {
+        wikisync.updateHiddenEntries();
+      });
+      $(this).show();
+    });
   },
 
   /**
@@ -410,7 +443,7 @@ var wikisync = {
     wikisync.setCheckboxText(
       "Hide unlocked tracks (" + completed + "/" + total + " unlocked)"
     );
-    wikisync.hideCompletedEntries();
+    wikisync.updateHiddenEntries();
     return true;
   },
 
@@ -605,7 +638,7 @@ var wikisync = {
       }
     })
     wikisync.setCheckboxText("Hide completed (" + completed + "/" + total + " completed)");
-    wikisync.hideCompletedEntries();
+    wikisync.updateHiddenEntries();
     return true;
   },
 };
