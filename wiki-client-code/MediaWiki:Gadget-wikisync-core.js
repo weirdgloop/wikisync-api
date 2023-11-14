@@ -236,14 +236,25 @@ var wikisync = {
     $(".tbz-wikisync-filter").each(function () {
       $(this).find(".tbz-wikisync-filter-cell").each(function () {
         var area = $(this).data("tbz-area");
-        var checkbox = $("<input class='tbz-wikisync-filter-checkbox' type=checkbox checked />")[0];
+        var inital_state = true;
+        if (rs.hasLocalStorage()) {
+          if (localStorage.getItem("wikisync-tbz-filter-show-" + area) === "false") {
+            inital_state = false;
+          }
+        }
+        var checkbox = $("<input class='tbz-wikisync-filter-checkbox' type=checkbox />")[0];
+        checkbox.checked = inital_state;
         wikisync.tbz_areas[area] = checkbox;
         $(this).prepend(checkbox);
-      });
-      $(this).on("change", ".tbz-wikisync-filter-checkbox", function () {
-        wikisync.updateHiddenEntries();
+        $(checkbox).on("change", function () {
+          if (rs.hasLocalStorage() === true) {
+            localStorage.setItem("wikisync-tbz-filter-show-" + area, this.checked); // save in localStorage
+          }
+          wikisync.updateHiddenEntries();
+        });
       });
       $(this).show();
+      wikisync.updateHiddenEntries();
     });
   },
 
