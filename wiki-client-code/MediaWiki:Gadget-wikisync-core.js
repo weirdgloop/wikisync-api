@@ -56,7 +56,7 @@ var wikisync = {
     $(".wikisync-completed, [data-tbz-area-for-filtering]").each(function () {
       var should_hide_based_on_completed = hideCompleted && $(this).hasClass("wikisync-completed");
       var area_checkbox = wikisync.tbz_areas[$(this).data("tbz-area-for-filtering")];
-      var should_hide_based_on_area = area_checkbox === undefined ? false : !area_checkbox.checked;
+      var should_hide_based_on_area = area_checkbox === undefined ? false : !area_checkbox.isSelected();
       var should_hide = should_hide_based_on_completed || should_hide_based_on_area;
       if (should_hide) {
         $(this).hide()
@@ -242,13 +242,14 @@ var wikisync = {
             inital_state = false;
           }
         }
-        var checkbox = $("<input class='tbz-wikisync-filter-checkbox' type=checkbox />")[0];
-        checkbox.checked = inital_state;
+        checkbox = new OO.ui.CheckboxInputWidget({
+          selected: inital_state,
+        });
         wikisync.tbz_areas[area] = checkbox;
-        $(this).prepend(checkbox);
-        $(checkbox).on("change", function () {
+        $(this).prepend(checkbox.$element);
+        checkbox.on("change", function () {
           if (rs.hasLocalStorage() === true) {
-            localStorage.setItem("wikisync-tbz-filter-show-" + area, this.checked); // save in localStorage
+            localStorage.setItem("wikisync-tbz-filter-show-" + area, checkbox.isSelected()); // save in localStorage
           }
           wikisync.updateHiddenEntries();
         });

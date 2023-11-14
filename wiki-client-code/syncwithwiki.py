@@ -6,10 +6,9 @@ import pywikibot
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-url = "https://osrs-dev.weirdgloop.org/api.php"
-filename = "MediaWiki:Gadget-wikisync-core.js"
-
 parser = argparse.ArgumentParser()
+parser.add_argument("--url", default="https://osrs-dev.weirdgloop.org/api.php")
+parser.add_argument("--filename", default="MediaWiki:Gadget-wikisync-core.js")
 subparsers = parser.add_subparsers(dest="command")
 get_parser = subparsers.add_parser("get")
 get_parser.add_argument("--suffix", default=".dev")
@@ -20,19 +19,19 @@ write_parser.add_argument("--put_throttle", type=int, default=1)
 args = parser.parse_args()
 
 if args.command == "get":
-    site = pywikibot.Site(url=url)
-    page = pywikibot.Page(site, filename)
+    site = pywikibot.Site(url=args.url)
+    page = pywikibot.Page(site, args.filename)
     print(page.text)
-    # with open(filename + args.suffix, "w") as f:
+    # with open(args.filename + args.suffix, "w") as f:
     #     f.write(page.text)
 
 elif args.command == "write":
     pywikibot.config.put_throttle = args.put_throttle
-    site = pywikibot.Site(url=url, user=args.username)
-    page = pywikibot.Page(site, filename)
+    site = pywikibot.Site(url=args.url, user=args.username)
+    page = pywikibot.Page(site, args.filename)
 
     def save_page():
-        with open(filename, "r") as f:
+        with open(args.filename, "r") as f:
             page.text = f.read()
         page.save("syncing latest version from file via API")
 
@@ -73,7 +72,7 @@ elif args.command == "write":
 
         event_handler = EventHandler()
         observer = Observer()
-        observer.schedule(event_handler, filename)
+        observer.schedule(event_handler, args.filename)
         observer.start()
         try:
             while True:
