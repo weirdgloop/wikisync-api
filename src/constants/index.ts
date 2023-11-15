@@ -9,7 +9,7 @@ export const MANIFEST_VERSION = 1;
 /**
  * The varbits that we require from RuneLite.
  */
-export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS];
+export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS, 3637, 3202, 3207, 3208, 5358, 10663, 10664, 10665, 10666];
 
 /**
  * The varps that we require from RuneLite.
