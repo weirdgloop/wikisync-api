@@ -55,14 +55,15 @@ var wikisync = {
   updateHiddenEntries: function () {
     var hideCompleted = wikisync.hideCompletedCheckbox.isSelected();
     var shown = 0;
-    var shown_in_regions = 0;
+    var completed_total = 0;
     $(".wikisync-completed, [data-tbz-area-for-filtering]").each(function () {
-      var should_hide_based_on_completed = hideCompleted && $(this).hasClass("wikisync-completed");
+      var completed = $(this).hasClass("highlight-on");
+      if (completed) {
+        completed_total++;
+      }
+      var should_hide_based_on_completed = hideCompleted && completed;
       var area_checkbox = wikisync.tbz_areas[$(this).data("tbz-area-for-filtering")];
       var should_hide_based_on_area = area_checkbox === undefined ? false : !area_checkbox.isSelected();
-      if (!should_hide_based_on_area) {
-        shown_in_regions++;
-      }
       if (should_hide_based_on_completed || should_hide_based_on_area) {
         $(this).hide()
       } else {
@@ -70,8 +71,22 @@ var wikisync = {
         $(this).show();
       }
     });
+    
+    wikisync.setCheckboxText("Hide " + completed_total + " completed tasks");
     $("#tbz-wikisync-number-of-shown-tasks").text("Currently showning " + shown + " tasks");
-    $("#tbz-wikisync-number-of-region-tasks").text(shown_in_regions);
+    
+    $("[data-wikisync-total-column]").each(function() {
+      var total_column = $(this).data("wikisync-total-column");
+      var total = 0;
+      $(".tbz-wikisync-filter tbody tr").each(function () {
+        var region = $($(this).children()[0]).data("tbz-area");
+        if (wikisync.tbz_areas[region].isSelected()) {
+          var amount = parseInt($($(this).children()[total_column]).text().trim());
+          total += amount;
+        }
+      });
+      $(this).text(total);
+    });
   },
 
   /**
@@ -203,7 +218,7 @@ var wikisync = {
           classes: ["rs-wikisync-missingdata"],
         }),
         new OO.ui.FieldLayout(wikisync.hideCompletedCheckbox, {
-          label: "Hide completed",
+          label: "Hide completed tasks",
           align: "inline",
           classes: ["rs-wikisync-hide-completed"],
         }),
@@ -258,13 +273,12 @@ var wikisync = {
         var children = $(this).children();
         var label = $("<label></label>");
         label.height("100%");
-        label.css("display", "block");
+        label.css("display", "flex");
         label.attr("for", "tbz-wikisync-checkbox-" + area);
         label.prepend(children);
         label.prepend(checkbox.$element);
         $(this).prepend(label);
         checkbox.on("change", function (e) {
-          console.log(checkbox);
           if (rs.hasLocalStorage() === true) {
             localStorage.setItem("wikisync-tbz-filter-show-" + area, checkbox.isSelected()); // save in localStorage
           }
@@ -274,15 +288,6 @@ var wikisync = {
       $(this).show();
       wikisync.updateHiddenEntries();
     });
-    var show_all_regions_button = new OO.ui.ButtonInputWidget({
-      label: "Show all areas"
-    });
-    show_all_regions_button.on("click", function () {
-      $.each(wikisync.tbz_areas, function (region, checkbox) {
-        checkbox.setSelected(true);
-      });
-    });
-    $("#tbz-wikisync-show-all-regions-button").prepend(show_all_regions_button.$element);
   },
 
   /**
@@ -397,7 +402,6 @@ var wikisync = {
       },
       error: function (req) {
         $("." + CLASSES.QC_ICON).remove();
-        wikisync.setCheckboxText("Hide completed");
         if (
           req.responseJSON &&
           req.responseJSON.code &&
@@ -675,7 +679,6 @@ var wikisync = {
         $(this).before($("<span class='table-completed' style='font-style: italic;'>Showing "+(table_total - table_completed)+" of "+table_total+" tasks ("+table_completed+" completed)</span>"));
       }
     })
-    wikisync.setCheckboxText("Hide " + completed + " completed tasks");
     wikisync.updateHiddenEntries();
     return true;
   },
