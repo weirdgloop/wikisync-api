@@ -28,6 +28,7 @@ var ENDPOINTS = {
 var questCorrections = {
     // Add corrections for API quest names -> wiki names here.
     // API quest name is the key and the wiki page name is the value.
+    "Desert Treasure II - The Fallen Empire": "Desert Treasure II"
   },
   icons = {
     yes: ' <span class="' + CLASSES.QC_ICON + '"><img class="qc-complete" src="//oldschool.runescape.wiki/images/Yes_check.svg?00000" width="15px" ></span>',
@@ -53,17 +54,24 @@ var wikisync = {
 
   updateHiddenEntries: function () {
     var hideCompleted = wikisync.hideCompletedCheckbox.isSelected();
+    var shown = 0;
+    var shown_in_regions = 0;
     $(".wikisync-completed, [data-tbz-area-for-filtering]").each(function () {
       var should_hide_based_on_completed = hideCompleted && $(this).hasClass("wikisync-completed");
       var area_checkbox = wikisync.tbz_areas[$(this).data("tbz-area-for-filtering")];
       var should_hide_based_on_area = area_checkbox === undefined ? false : !area_checkbox.isSelected();
-      var should_hide = should_hide_based_on_completed || should_hide_based_on_area;
-      if (should_hide) {
+      if (!should_hide_based_on_area) {
+        shown_in_regions++;
+      }
+      if (should_hide_based_on_completed || should_hide_based_on_area) {
         $(this).hide()
       } else {
+        shown++;
         $(this).show();
       }
-    })
+    });
+    $("#tbz-wikisync-number-of-shown-tasks").text("Currently showning " + shown + " tasks");
+    $("#tbz-wikisync-number-of-region-tasks").text(shown_in_regions);
   },
 
   /**
@@ -242,12 +250,21 @@ var wikisync = {
             inital_state = false;
           }
         }
-        checkbox = new OO.ui.CheckboxInputWidget({
-          selected: inital_state,
+        var checkbox = new OO.ui.CheckboxInputWidget({
+          selected: inital_state
         });
+        $(checkbox.$input).attr("id", "tbz-wikisync-checkbox-" + area);
         wikisync.tbz_areas[area] = checkbox;
-        $(this).prepend(checkbox.$element);
-        checkbox.on("change", function () {
+        var children = $(this).children();
+        var label = $("<label></label>");
+        label.height("100%");
+        label.css("display", "block");
+        label.attr("for", "tbz-wikisync-checkbox-" + area);
+        label.prepend(children);
+        label.prepend(checkbox.$element);
+        $(this).prepend(label);
+        checkbox.on("change", function (e) {
+          console.log(checkbox);
           if (rs.hasLocalStorage() === true) {
             localStorage.setItem("wikisync-tbz-filter-show-" + area, checkbox.isSelected()); // save in localStorage
           }
@@ -318,14 +335,14 @@ var wikisync = {
       success: function (msg) {
         var userQuests = {};
         Object.entries(msg.quests).forEach(function (q) {
-          var k = q[0],
-            v = q[1];
+          var k = q[0];
+          var v = q[1];
+          userQuests[k] = v;
+
           // Correct quest names to wiki page names
           if (k in questCorrections) {
             var correctName = questCorrections[k];
             userQuests[correctName] = v;
-          } else {
-            userQuests[k] = v;
           }
         });
         var userSkills = {};
@@ -649,7 +666,7 @@ var wikisync = {
         $(this).before($("<span class='table-completed' style='font-style: italic;'>Showing "+(table_total - table_completed)+" of "+table_total+" tasks ("+table_completed+" completed)</span>"));
       }
     })
-    wikisync.setCheckboxText("Hide completed (" + completed + "/" + total + " completed)");
+    wikisync.setCheckboxText("Hide " + completed + " completed tasks");
     wikisync.updateHiddenEntries();
     return true;
   },
