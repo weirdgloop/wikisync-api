@@ -274,6 +274,15 @@ var wikisync = {
       $(this).show();
       wikisync.updateHiddenEntries();
     });
+    var show_all_regions_button = new OO.ui.ButtonInputWidget({
+      label: "Show all areas"
+    });
+    show_all_regions_button.on("click", function () {
+      $.each(wikisync.tbz_areas, function (region, checkbox) {
+        checkbox.setSelected(true);
+      });
+    });
+    $("#tbz-wikisync-show-all-regions-button").prepend(show_all_regions_button.$element);
   },
 
   /**
