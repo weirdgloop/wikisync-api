@@ -1344,6 +1344,14 @@
         "varpBitIndex": 12
     },
     {
+        "trackName": "Dot's Yuletide",
+        "trackNameForSorting": "Dot's Yuletide",
+        "midiId": 773,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 0
+    },
+    {
         "trackName": "Down Below",
         "trackNameForSorting": "Down Below",
         "midiId": 361,
