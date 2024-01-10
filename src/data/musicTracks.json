@@ -664,6 +664,14 @@
         "varpBitIndex": 2
     },
     {
+        "trackName": "The Burning Sun",
+        "trackNameForSorting": "Burning Sun, The",
+        "midiId": 775,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 3
+    },
+    {
         "trackName": "Cabin Fever",
         "trackNameForSorting": "Cabin Fever",
         "midiId": 545,
@@ -790,6 +798,14 @@
         "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 11
+    },
+    {
+        "trackName": "Children of the Sun",
+        "trackNameForSorting": "Children of the Sun",
+        "midiId": 776,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 1
     },
     {
         "trackName": "Chompy Hunt",
@@ -4038,6 +4054,14 @@
         "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 6
+    },
+    {
+        "trackName": "Plots and Plans",
+        "trackNameForSorting": "Plots and Plans",
+        "midiId": 774,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 2
     },
     {
         "trackName": "Poles Apart",
