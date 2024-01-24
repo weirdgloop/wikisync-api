@@ -3808,6 +3808,14 @@
         "varpBitIndex": 1
     },
     {
+        "trackName": "Oh Rats!",
+        "trackNameForSorting": "Oh Rats!",
+        "midiId": 777,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 4
+    },
+    {
         "trackName": "The Old Ones",
         "trackNameForSorting": "Old Ones, The",
         "midiId": 729,
