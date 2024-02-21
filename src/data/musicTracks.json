@@ -1424,6 +1424,14 @@
         "varpBitIndex": 3
     },
     {
+        "trackName": "The Dream Theatre",
+        "trackNameForSorting": "Dream Theatre, The",
+        "midiId": 780,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 6
+    },
+    {
         "trackName": "Dreamstate",
         "trackNameForSorting": "Dreamstate",
         "midiId": 623,
@@ -5576,6 +5584,14 @@
         "varpBitIndex": 19
     },
     {
+        "trackName": "Undead Army",
+        "trackNameForSorting": "Undead Army",
+        "midiId": 779,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 5
+    },
+    {
         "trackName": "Undead Dungeon",
         "trackNameForSorting": "Undead Dungeon",
         "midiId": 214,
@@ -6150,6 +6166,14 @@
         "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 18
+    },
+    {
+        "trackName": "Zombie Invasion",
+        "trackNameForSorting": "Zombie Invasion",
+        "midiId": 778,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 7
     },
     {
         "trackName": "Zombiism",
