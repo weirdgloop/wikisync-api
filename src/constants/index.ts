@@ -13,7 +13,7 @@ export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS, 3637, 3202,
   // 13784 used to be required by the quest Architectural Alliance.
   // We tried removing this varbit, but it caused the RL plugin to send empty updates every 10 seconds.
   // For now, we will continue to ask for this varbit. We can remove this varbit once the RL plugin is updated to handle varbit removal.
-  13784];
+  13784, 9653, 9655];
 
 /**
  * The varps that we require from RuneLite.
