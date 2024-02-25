@@ -1,367 +1,367 @@
 {
     "Big Chompy Bird Hunting": [
         293,
-        0,
-        65
+        706,
+        2
     ],
     "Biohazard": [
         68,
-        0,
-        16
+        707,
+        3
     ],
     "Black Knights' Fortress": [
         130,
-        0,
-        4
+        708,
+        3
     ],
     "Cabin Fever": [
         655,
-        0,
-        140
+        710,
+        2
     ],
     "Clock Tower": [
         10,
-        0,
-        8
+        712,
+        1
     ],
     "Cook's Assistant": [
         29,
-        0,
-        2
+        715,
+        1
     ],
     "Death Plateau": [
         314,
-        0,
-        80
+        719,
+        1
     ],
     "Doric's Quest": [
         31,
-        0,
-        100
+        726,
+        1
     ],
     "Dragon Slayer I": [
         176,
-        0,
-        10
+        727,
+        2
     ],
     "Druidic Ritual": [
         80,
-        0,
+        730,
         4
     ],
     "Dwarf Cannon": [
         0,
-        0,
-        11
+        731,
+        1
     ],
     "Eadgar's Ruse": [
         335,
-        0,
-        110
+        732,
+        1
     ],
     "Enter the Abyss": [
         492,
         0,
-        4
+        0
     ],
     "Ernest the Chicken": [
         32,
-        0,
-        3
+        738,
+        4
     ],
     "Family Crest": [
         148,
-        0,
-        11
+        742,
+        1
     ],
     "Fight Arena": [
         17,
-        0,
-        14
+        744,
+        2
     ],
     "Fishing Contest": [
         11,
-        0,
-        5
+        745,
+        1
     ],
     "Gertrude's Cat": [
         180,
-        0,
-        6
+        752,
+        1
     ],
     "Haunted Mine": [
         382,
-        0,
-        11
+        762,
+        2
     ],
     "Hazeel Cult": [
         223,
-        0,
-        9
+        763,
+        1
     ],
     "Heroes' Quest": [
         188,
-        0,
-        15
+        764,
+        1
     ],
     "Holy Grail": [
         5,
-        0,
-        10
+        765,
+        2
     ],
     "Imp Catcher": [
         160,
-        0,
-        2
+        768,
+        1
     ],
     "In Search of the Myreque": [
         387,
-        0,
-        105
+        770,
+        2
     ],
     "Jungle Potion": [
         175,
-        0,
-        12
+        771,
+        1
     ],
     "Legends' Quest": [
         139,
-        0,
-        75
+        775,
+        4
     ],
     "Lost City": [
         147,
-        0,
-        6
+        776,
+        3
     ],
     "Mage Arena I": [
         267,
         0,
-        8
+        0
     ],
     "Merlin's Crystal": [
         14,
-        0,
-        7
+        781,
+        6
     ],
     "Monk's Friend": [
         30,
-        0,
-        80
+        785,
+        1
     ],
     "Monkey Madness I": [
         365,
-        0,
-        9
+        783,
+        3
     ],
     "Mourning's End Part I": [
         517,
-        0,
-        9
+        787,
+        2
     ],
     "Murder Mystery": [
         192,
-        0,
-        2
+        789,
+        3
     ],
     "Nature Spirit": [
         307,
-        0,
-        110
+        791,
+        2
     ],
     "Observatory Quest": [
         112,
-        0,
-        7
+        793,
+        2
     ],
     "One Small Favour": [
         416,
-        0,
-        285
+        795,
+        2
     ],
     "Pirate's Treasure": [
         71,
-        0,
-        4
+        796,
+        2
     ],
     "Plague City": [
         165,
-        0,
-        29
+        797,
+        1
     ],
     "Priest in Peril": [
         302,
-        0,
-        60
+        799,
+        1
     ],
     "Prince Ali Rescue": [
         273,
-        0,
-        110
+        800,
+        3
     ],
     "Rag and Bone Man I": [
         714,
-        0,
-        4
+        802,
+        1
     ],
     "Rag and Bone Man II": [
         714,
-        3,
-        6
+        803,
+        1
     ],
     "Regicide": [
         328,
-        0,
-        15
+        807,
+        3
     ],
     "Romeo & Juliet": [
         144,
-        0,
-        100
+        809,
+        5
     ],
     "Roving Elves": [
         402,
-        0,
-        6
+        810,
+        1
     ],
     "Rum Deal": [
         600,
-        0,
-        19
+        812,
+        2
     ],
     "Rune Mysteries": [
         63,
-        0,
-        6
+        813,
+        1
     ],
     "Scorpion Catcher": [
         76,
-        0,
-        6
+        814,
+        1
     ],
     "Sea Slug": [
         159,
-        0,
-        12
+        815,
+        1
     ],
     "Shades of Mort'ton": [
         339,
-        0,
-        85
+        816,
+        3
     ],
     "Sheep Herder": [
         60,
-        0,
-        3
+        818,
+        4
     ],
     "Sheep Shearer": [
         179,
-        0,
-        21
+        819,
+        1
     ],
     "Shilo Village": [
         116,
-        0,
-        15
+        821,
+        2
     ],
     "Tai Bwo Wannai Trio": [
         320,
-        2,
-        6
+        828,
+        2
     ],
     "Temple of Ikov": [
         26,
-        0,
-        80
+        833,
+        1
     ],
     "The Dig Site": [
         131,
-        0,
-        9
+        725,
+        2
     ],
     "The Fremennik Trials": [
         347,
-        0,
-        10
+        750,
+        3
     ],
     "The Grand Tree": [
         150,
-        0,
-        160
+        758,
+        5
     ],
     "The Great Brain Robbery": [
         980,
-        0,
-        130
+        759,
+        2
     ],
     "The Knight's Sword": [
         122,
-        0,
-        7
+        774,
+        1
     ],
     "The Restless Ghost": [
         107,
-        0,
-        5
+        808,
+        1
     ],
     "The Tourist Trap": [
         197,
-        0,
-        30
+        835,
+        2
     ],
     "Throne of Miscellania": [
         359,
-        0,
-        100
+        834,
+        1
     ],
     "Tree Gnome Village": [
         111,
-        0,
-        9
+        837,
+        2
     ],
     "Tribal Totem": [
         200,
-        0,
-        5
+        838,
+        1
     ],
     "Troll Romance": [
         385,
-        0,
-        45
+        839,
+        2
     ],
     "Troll Stronghold": [
         317,
-        0,
-        50
+        840,
+        1
     ],
     "Underground Pass": [
         161,
-        0,
-        11
+        841,
+        5
     ],
     "Vampyre Slayer": [
         178,
-        0,
+        842,
         3
     ],
     "Watchtower": [
         212,
-        0,
-        13
+        844,
+        4
     ],
     "Waterfall Quest": [
         65,
-        0,
-        10
+        845,
+        1
     ],
     "Witch's House": [
         226,
-        0,
-        7
+        847,
+        4
     ],
     "Witch's Potion": [
         67,
-        0,
-        3
+        848,
+        1
     ]
 }
