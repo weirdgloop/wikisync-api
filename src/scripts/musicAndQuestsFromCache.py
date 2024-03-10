@@ -56,8 +56,8 @@ def set_json(data, filepath):
 def get_quest_dbrow(dbrow_id):
     quest_dbrow = get_json("dbrow/%s.json" % dbrow_id)["columnValues"]
     quest_name = quest_dbrow[2][0]
-    low_value = quest_dbrow[16][0] if quest_dbrow[16] is not None else 0
-    high_value = quest_dbrow[17][0]
+    low_value = quest_dbrow[18][0] if quest_dbrow[18] is not None else 0
+    high_value = quest_dbrow[19][0]
 
     return {"quest_name": quest_name, "low_value": low_value, "high_value": high_value}
 
