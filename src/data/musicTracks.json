@@ -184,6 +184,14 @@
         "varpBitIndex": 24
     },
     {
+        "trackName": "Are You Not Entertained?",
+        "trackNameForSorting": "Are You Not Entertained?",
+        "midiId": 782,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 13
+    },
+    {
         "trackName": "Armadyl Alliance",
         "trackNameForSorting": "Armadyl Alliance",
         "midiId": 414,
@@ -822,6 +830,14 @@
         "ignored": false,
         "varpIndex": 11,
         "varpBitIndex": 4
+    },
+    {
+        "trackName": "The City of Sun",
+        "trackNameForSorting": "City of Sun, The",
+        "midiId": 787,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 8
     },
     {
         "trackName": "City of the Dead",
@@ -2312,6 +2328,14 @@
         "varpBitIndex": 29
     },
     {
+        "trackName": "The Guidance of Ralos",
+        "trackNameForSorting": "Guidance of Ralos, The",
+        "midiId": 766,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 10
+    },
+    {
         "trackName": "H.A.M. Attack",
         "trackNameForSorting": "H.A.M. Attack",
         "midiId": 279,
@@ -3152,6 +3176,14 @@
         "varpBitIndex": 2
     },
     {
+        "trackName": "Lost to Time",
+        "trackNameForSorting": "Lost to Time",
+        "midiId": 785,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 15
+    },
+    {
         "trackName": "Lower Depths",
         "trackNameForSorting": "Lower Depths",
         "midiId": 487,
@@ -3558,6 +3590,14 @@
         "ignored": false,
         "varpIndex": 3,
         "varpBitIndex": 23
+    },
+    {
+        "trackName": "The Moons of Ruin",
+        "trackNameForSorting": "Moons of Ruin, The",
+        "midiId": 786,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 14
     },
     {
         "trackName": "Mor Ul Rek",
@@ -4198,6 +4238,14 @@
         "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 25
+    },
+    {
+        "trackName": "Ready for the Hunt",
+        "trackNameForSorting": "Ready for the Hunt",
+        "midiId": 781,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 12
     },
     {
         "trackName": "Regal",
@@ -5600,6 +5648,14 @@
         "varpBitIndex": 23
     },
     {
+        "trackName": "Under the Mountain",
+        "trackNameForSorting": "Under the Mountain",
+        "midiId": 784,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 11
+    },
+    {
         "trackName": "Undercurrent",
         "trackNameForSorting": "Undercurrent",
         "midiId": 176,
@@ -5630,6 +5686,14 @@
         "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 27
+    },
+    {
+        "trackName": "The Undying Light",
+        "trackNameForSorting": "Undying Light, The",
+        "midiId": 783,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 9
     },
     {
         "trackName": "Unknown Land",
