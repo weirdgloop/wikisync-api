@@ -5144,6 +5144,14 @@
         "varpBitIndex": 23
     },
     {
+        "trackName": "Sunny Side Up",
+        "trackNameForSorting": "Sunny Side Up",
+        "midiId": 788,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 8
+    },
+    {
         "trackName": "Superstition",
         "trackNameForSorting": "Superstition",
         "midiId": 265,
