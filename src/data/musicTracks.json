@@ -5149,7 +5149,7 @@
         "midiId": 788,
         "ignored": false,
         "varpIndex": 24,
-        "varpBitIndex": 8
+        "varpBitIndex": 16
     },
     {
         "trackName": "Superstition",
