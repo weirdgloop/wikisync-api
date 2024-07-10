@@ -528,6 +528,14 @@
         "varpBitIndex": 22
     },
     {
+        "trackName": "Black of Knight",
+        "trackNameForSorting": "Black of Knight",
+        "midiId": 798,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 17
+    },
+    {
         "trackName": "Blistering Barnacles",
         "trackNameForSorting": "Blistering Barnacles",
         "midiId": 498,
@@ -1094,6 +1102,14 @@
         "ignored": false,
         "varpIndex": 20,
         "varpBitIndex": 27
+    },
+    {
+        "trackName": "Dangerous Logic",
+        "trackNameForSorting": "Dangerous Logic",
+        "midiId": 795,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 18
     },
     {
         "trackName": "Dangerous Road",
@@ -1670,6 +1686,14 @@
         "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 28
+    },
+    {
+        "trackName": "The Evil Within",
+        "trackNameForSorting": "Evil Within, The",
+        "midiId": 790,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 20
     },
     {
         "trackName": "Expanse",
@@ -2616,6 +2640,14 @@
         "varpBitIndex": 11
     },
     {
+        "trackName": "Incarceration",
+        "trackNameForSorting": "Incarceration",
+        "midiId": 789,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 24
+    },
+    {
         "trackName": "Inferno",
         "trackNameForSorting": "Inferno",
         "midiId": 500,
@@ -2846,6 +2878,22 @@
         "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 30
+    },
+    {
+        "trackName": "The Kin",
+        "trackNameForSorting": "Kin, The",
+        "midiId": 793,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 21
+    },
+    {
+        "trackName": "The Kin",
+        "trackNameForSorting": "Kin, The",
+        "midiId": 794,
+        "ignored": true,
+        "varpIndex": -1,
+        "varpBitIndex": -1
     },
     {
         "trackName": "King of the Trolls",
@@ -4416,6 +4464,22 @@
         "varpBitIndex": 4
     },
     {
+        "trackName": "The Route of All Evil",
+        "trackNameForSorting": "Route of All Evil, The",
+        "midiId": 797,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 22
+    },
+    {
+        "trackName": "The Route of the Problem",
+        "trackNameForSorting": "Route of the Problem, The",
+        "midiId": 799,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 25
+    },
+    {
         "trackName": "Royale",
         "trackNameForSorting": "Royale",
         "midiId": 53,
@@ -4928,6 +4992,22 @@
         "varpBitIndex": 29
     },
     {
+        "trackName": "The Sound of Guthix",
+        "trackNameForSorting": "Sound of Guthix, The",
+        "midiId": 791,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 23
+    },
+    {
+        "trackName": "The Sound of Guthix",
+        "trackNameForSorting": "Sound of Guthix, The",
+        "midiId": 796,
+        "ignored": true,
+        "varpIndex": -1,
+        "varpBitIndex": -1
+    },
+    {
         "trackName": "Soundscape",
         "trackNameForSorting": "Soundscape",
         "midiId": 80,
@@ -5237,6 +5317,14 @@
         "midiId": 307,
         "ignored": false,
         "varpIndex": 8,
+        "varpBitIndex": 19
+    },
+    {
+        "trackName": "Temple Desecrated",
+        "trackNameForSorting": "Temple Desecrated",
+        "midiId": 792,
+        "ignored": false,
+        "varpIndex": 24,
         "varpBitIndex": 19
     },
     {
