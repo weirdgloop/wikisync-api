@@ -6,6 +6,7 @@ import { CombatAchievementsService } from '../services/CombatAchievementsService
 import { LeagueService } from '../services/LeagueService';
 import { MusicService } from '../services/MusicService';
 import { QuestService } from '../services/QuestService';
+import { SlayerService } from '../services/SlayerService';
 import { AllowedProfileType, ProfileType } from '../enum/ProfileType';
 
 const router = express.Router();
@@ -66,6 +67,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
     return;
   }
   const questCompletion = await QuestService.getQuestCompletionStates(data);
+  const slayerInfo = await SlayerService.getSlayerInfo(data);
   const achievementDiaryCompletion = AchievementDiaryService.getAchievementDiaryCompletionStates(data);
   const leagueTasks = await LeagueService.getLeagueTasks(data);
   const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
@@ -75,6 +77,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
     username: req.params.username,
     timestamp: new Date(),
     quests: questCompletion,
+    slayer: slayerInfo,
     achievement_diaries: achievementDiaryCompletion,
     levels: data.levels,
     music_tracks: musicTracks,
