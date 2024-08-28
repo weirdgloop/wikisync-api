@@ -3888,6 +3888,14 @@
         "varpBitIndex": 31
     },
     {
+        "trackName": "Noxious Awakening",
+        "trackNameForSorting": "Noxious Awakening",
+        "midiId": 800,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 26
+    },
+    {
         "trackName": "Null and Void",
         "trackNameForSorting": "Null and Void",
         "midiId": 587,
