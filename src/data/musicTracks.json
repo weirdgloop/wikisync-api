@@ -992,6 +992,14 @@
         "varpBitIndex": 20
     },
     {
+        "trackName": "Creatures of Varlamore",
+        "trackNameForSorting": "Creatures of Varlamore",
+        "midiId": 808,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 4
+    },
+    {
         "trackName": "Creeping Vines",
         "trackNameForSorting": "Creeping Vines",
         "midiId": 596,
@@ -1584,6 +1592,14 @@
         "varpBitIndex": 4
     },
     {
+        "trackName": "Emissaries of Twilight",
+        "trackNameForSorting": "Emissaries of Twilight",
+        "midiId": 809,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 28
+    },
+    {
         "trackName": "Emotion",
         "trackNameForSorting": "Emotion",
         "midiId": 148,
@@ -1862,6 +1878,14 @@
         "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 21
+    },
+    {
+        "trackName": "The Feathered Serpent",
+        "trackNameForSorting": "Feathered Serpent, The",
+        "midiId": 801,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 1
     },
     {
         "trackName": "Fenkenstrain's Refrain",
@@ -2336,6 +2360,14 @@
         "varpBitIndex": 17
     },
     {
+        "trackName": "The Guardian of Tapoyauik",
+        "trackNameForSorting": "Guardian of Tapoyauik, The",
+        "midiId": 807,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 0
+    },
+    {
         "trackName": "The Guardians Prepare",
         "trackNameForSorting": "Guardians Prepare, The",
         "midiId": 718,
@@ -2734,6 +2766,14 @@
         "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 5
+    },
+    {
+        "trackName": "Isle of Serenity",
+        "trackNameForSorting": "Isle of Serenity",
+        "midiId": 805,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 29
     },
     {
         "trackName": "It's not over 'til...",
@@ -3424,6 +3464,14 @@
         "varpBitIndex": 13
     },
     {
+        "trackName": "A Matter of Intrigue",
+        "trackNameForSorting": "Matter of Intrigue, A",
+        "midiId": 810,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 3
+    },
+    {
         "trackName": "Mausoleum",
         "trackNameForSorting": "Mausoleum",
         "midiId": 156,
@@ -3558,6 +3606,14 @@
         "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 2
+    },
+    {
+        "trackName": "Mistrock",
+        "trackNameForSorting": "Mistrock",
+        "midiId": 806,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 30
     },
     {
         "trackName": "The Mollusc Menace",
@@ -4080,6 +4136,14 @@
         "varpBitIndex": 31
     },
     {
+        "trackName": "Peace and Prosperity",
+        "trackNameForSorting": "Peace and Prosperity",
+        "midiId": 804,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 2
+    },
+    {
         "trackName": "The Penguin Bards",
         "trackNameForSorting": "Penguin Bards, The",
         "midiId": 218,
@@ -4246,6 +4310,14 @@
         "ignored": false,
         "varpIndex": 23,
         "varpBitIndex": 14
+    },
+    {
+        "trackName": "Prospering Fortune",
+        "trackNameForSorting": "Prospering Fortune",
+        "midiId": 811,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 5
     },
     {
         "trackName": "Quest",
@@ -5152,6 +5224,14 @@
         "varpBitIndex": 26
     },
     {
+        "trackName": "Stones of Old",
+        "trackNameForSorting": "Stones of Old",
+        "midiId": 802,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 27
+    },
+    {
         "trackName": "Storeroom Shuffle",
         "trackNameForSorting": "Storeroom Shuffle",
         "midiId": 772,
@@ -5864,6 +5944,14 @@
         "varpBitIndex": 6
     },
     {
+        "trackName": "Varlamore's Sunset",
+        "trackNameForSorting": "Varlamore's Sunset",
+        "midiId": 803,
+        "ignored": false,
+        "varpIndex": 24,
+        "varpBitIndex": 31
+    },
+    {
         "trackName": "The Vault",
         "trackNameForSorting": "Vault, The",
         "midiId": 762,
@@ -6126,6 +6214,14 @@
         "ignored": false,
         "varpIndex": 15,
         "varpBitIndex": 0
+    },
+    {
+        "trackName": "Whispering Wind",
+        "trackNameForSorting": "Whispering Wind",
+        "midiId": 813,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 6
     },
     {
         "trackName": "Wild Isle",
