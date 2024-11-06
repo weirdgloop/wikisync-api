@@ -2480,6 +2480,22 @@
         "varpBitIndex": 14
     },
     {
+        "trackName": "Heavy Security",
+        "trackNameForSorting": "Heavy Security",
+        "midiId": 815,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 10
+    },
+    {
+        "trackName": "The Heist",
+        "trackNameForSorting": "Heist, The",
+        "midiId": 816,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 9
+    },
+    {
         "trackName": "Hells Bells",
         "trackNameForSorting": "Hells Bells",
         "midiId": 4,
@@ -3046,6 +3062,14 @@
         "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 14
+    },
+    {
+        "trackName": "Lamistard's Labyrinth",
+        "trackNameForSorting": "Lamistard's Labyrinth",
+        "midiId": 814,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 7
     },
     {
         "trackName": "Land Down Under",
@@ -3928,6 +3952,14 @@
         "varpBitIndex": 23
     },
     {
+        "trackName": "The North",
+        "trackNameForSorting": "North, The",
+        "midiId": 817,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 8
+    },
+    {
         "trackName": "Not a Moment of Relief",
         "trackNameForSorting": "Not a Moment of Relief",
         "midiId": 705,
@@ -4238,6 +4270,14 @@
         "ignored": false,
         "varpIndex": 24,
         "varpBitIndex": 2
+    },
+    {
+        "trackName": "The Plundered Tomb",
+        "trackNameForSorting": "Plundered Tomb, The",
+        "midiId": 812,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 11
     },
     {
         "trackName": "Poles Apart",
