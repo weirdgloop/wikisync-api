@@ -1,7 +1,7 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 WORKDIR /home/node/app/
 
-ADD package.json package-lock.json yarn.lock ./
+ADD package.json yarn.lock ./
 
 RUN yarn install
