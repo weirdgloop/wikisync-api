@@ -18,7 +18,7 @@ export interface RuneLiteGetDataReturn {
   varbs: object;
   varps: object;
   levels: object;
-  collections: string;
+  collectionLog: string;
 }
 
 class RuneLiteService {
@@ -48,7 +48,7 @@ class RuneLiteService {
       varbs: data?.value?.varbs || {},
       varps: data?.value?.varps || {},
       levels: data?.value?.skills || {},
-      collections: data?.value.collectionLog || "",
+      collectionLog: data?.value.collectionLog || "",
     };
   }
 

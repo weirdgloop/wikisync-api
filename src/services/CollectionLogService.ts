@@ -1,6 +1,6 @@
 class CollectionLogService {
   public static async getCollectionLogData(data) {
-    return data.collections;
+    return data.collectionLog;
   }
 }
 
