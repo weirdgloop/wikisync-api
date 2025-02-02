@@ -12,7 +12,7 @@ export const isEqual = (varp, val) => {
   return varp === val
 };
 
-const base64ToUint8Array = (base64: string): Uint8Array => {
+export const base64ToUint8Array = (base64: string): Uint8Array => {
   const binaryString = Buffer.from(base64, 'base64').toString('binary');
   const len = binaryString.length;
   const bytes = new Uint8Array(len);
