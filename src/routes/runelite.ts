@@ -48,6 +48,9 @@ router.post('/submit', async (req, res) => {
   if (!req.body.profile || !(req.body.profile in AllowedProfileType)) {
     return res.status(400).json({ error: 'Cannot save data for this world type.' });
   }
+  if (req.body.data?.data?.collection_log?.length > 500) {
+    return res.status(400).json({ error: 'Collection log data too large' });
+  }
 
   await RLService.parseAndSaveData(req.body);
   res.json({ success: true });
