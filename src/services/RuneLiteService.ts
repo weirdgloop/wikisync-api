@@ -48,7 +48,7 @@ class RuneLiteService {
       varbs: data?.value?.varbs || {},
       varps: data?.value?.varps || {},
       levels: data?.value?.skills || {},
-      collectionLog: data?.value.collectionLog || "",
+      collectionLog: data?.value?.collectionLog || "",
     };
   }
 
