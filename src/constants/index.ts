@@ -21,7 +21,8 @@ export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS, 3637, 3202,
 /**
  * The varps that we require from RuneLite.
  */
-export const REQUIRED_VARPS = [...DIARY_VARPS, ...LEAGUE_TASK_VARPS, ...QUEST_VARPS, ...COMBAT_ACHIEVEMENTS_VARPS, ...MUSIC_TRACK_VARPS];
+// 2943 is number of unique items in the collection log obtained (according to Jagex, though this seems wrong)
+export const REQUIRED_VARPS = [...DIARY_VARPS, ...LEAGUE_TASK_VARPS, ...QUEST_VARPS, ...COMBAT_ACHIEVEMENTS_VARPS, ...MUSIC_TRACK_VARPS, 2943];
 
 /**
  * Valid skills to save in the database.
