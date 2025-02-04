@@ -8,4 +8,5 @@ export interface PlayerDataValue {
   skills: {
     [k: string]: number
   }
+  collectionLog: string;
 }

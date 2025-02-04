@@ -1,11 +1,12 @@
 import express from 'express';
-import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION } from '../constants';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from '../constants';
 import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
 import { AchievementDiaryService } from '../services/AchievementDiaryService';
 import { CombatAchievementsService } from '../services/CombatAchievementsService';
 import { LeagueService } from '../services/LeagueService';
 import { MusicService } from '../services/MusicService';
 import { QuestService } from '../services/QuestService';
+import { CollectionLogService } from '../services/CollectionLogService';
 import { AllowedProfileType, ProfileType } from '../enum/ProfileType';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
@@ -22,6 +23,7 @@ router.get('/manifest', (req, res) => {
     varbits: REQUIRED_VARBITS,
     varps: REQUIRED_VARPS,
     version: MANIFEST_VERSION,
+    collections: COLLECTION_LOG_ORDER,
     timestamp: new Date(),
   });
 });
@@ -45,6 +47,9 @@ router.post('/submit', async (req, res) => {
   }
   if (!req.body.profile || !(req.body.profile in AllowedProfileType)) {
     return res.status(400).json({ error: 'Cannot save data for this world type.' });
+  }
+  if (req.body.data?.data?.collection_log?.length > 500) {
+    return res.status(400).json({ error: 'Collection log data too large' });
   }
 
   await RLService.parseAndSaveData(req.body);
@@ -80,6 +85,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const leagueTasks = await LeagueService.getLeagueTasks(data);
   const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
   const musicTracks = await MusicService.getMusicTracks(data);
+  const collectionLog = await CollectionLogService.getCollectionLogData(data);
 
   res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
@@ -90,6 +96,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
     music_tracks: musicTracks,
     combat_achievements: combatAchievements,
     league_tasks: leagueTasks,
+    collection_log: collectionLog
   });
 });
 

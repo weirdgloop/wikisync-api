@@ -1,6 +1,7 @@
 import { ProfileType } from '../enum/ProfileType';
 import DBService from './DBService';
 import PlayerDataJson from '../orm/PlayerDataJson';
+import { base64Union } from '../util/util';
 
 interface RuneLiteSubmitData {
   username: string;
@@ -9,6 +10,7 @@ interface RuneLiteSubmitData {
     varb: object;
     varp: object;
     level: object;
+    collectionLog: string;
   }
 }
 
@@ -16,6 +18,7 @@ export interface RuneLiteGetDataReturn {
   varbs: object;
   varps: object;
   levels: object;
+  collectionLog: string;
 }
 
 class RuneLiteService {
@@ -45,6 +48,7 @@ class RuneLiteService {
       varbs: data?.value?.varbs || {},
       varps: data?.value?.varps || {},
       levels: data?.value?.skills || {},
+      collectionLog: data?.value?.collectionLog || "",
     };
   }
 
@@ -65,7 +69,7 @@ class RuneLiteService {
       newPlayerData = new PlayerDataJson();
       newPlayerData.username = username;
       newPlayerData.profile = data.profile as ProfileType;
-      newPlayerData.value = { varps: {}, varbs: {}, skills: {} };
+      newPlayerData.value = { varps: {}, varbs: {}, skills: {}, collectionLog: "" };
     }
 
     // Merge the old data with the new data
@@ -83,6 +87,7 @@ class RuneLiteService {
         ...newPlayerData.value.skills,
         ...data.data.level,
       },
+      collectionLog: base64Union(newPlayerData.value.collectionLog ?? "", data.data.collectionLog ?? "")
     };
 
     // Save to our new table
