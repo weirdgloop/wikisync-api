@@ -9,4 +9,5 @@ export interface PlayerDataValue {
     [k: string]: number
   }
   collectionLog: string;
+  collectionLogItemCount: number | null;
 }

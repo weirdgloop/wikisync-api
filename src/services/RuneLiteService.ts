@@ -11,6 +11,7 @@ interface RuneLiteSubmitData {
     varp: object;
     level: object;
     collectionLog: string;
+    collectionLogItemCount: number | null;
   }
 }
 
@@ -19,6 +20,7 @@ export interface RuneLiteGetDataReturn {
   varps: object;
   levels: object;
   collectionLog: string;
+  collectionLogItemCount: number | null;
 }
 
 class RuneLiteService {
@@ -49,6 +51,7 @@ class RuneLiteService {
       varps: data?.value?.varps || {},
       levels: data?.value?.skills || {},
       collectionLog: data?.value?.collectionLog || "",
+      collectionLogItemCount: data?.value.collectionLogItemCount ?? null
     };
   }
 
@@ -69,7 +72,7 @@ class RuneLiteService {
       newPlayerData = new PlayerDataJson();
       newPlayerData.username = username;
       newPlayerData.profile = data.profile as ProfileType;
-      newPlayerData.value = { varps: {}, varbs: {}, skills: {}, collectionLog: "" };
+      newPlayerData.value = { varps: {}, varbs: {}, skills: {}, collectionLog: "", collectionLogItemCount: null };
     }
 
     // Merge the old data with the new data
@@ -87,7 +90,8 @@ class RuneLiteService {
         ...newPlayerData.value.skills,
         ...data.data.level,
       },
-      collectionLog: base64Union(newPlayerData.value.collectionLog ?? "", data.data.collectionLog ?? "")
+      collectionLog: base64Union(newPlayerData.value.collectionLog ?? "", data.data.collectionLog ?? ""),
+      collectionLogItemCount: newPlayerData.value.collectionLogItemCount ?? data.data.collectionLogItemCount
     };
 
     // Save to our new table

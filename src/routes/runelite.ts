@@ -96,7 +96,8 @@ router.get('/player/:username/:profile?', async (req, res) => {
     music_tracks: musicTracks,
     combat_achievements: combatAchievements,
     league_tasks: leagueTasks,
-    collection_log: collectionLog
+    collection_log: collectionLog,
+    collectionLogItemCount: data.collectionLogItemCount
   });
 });
 
