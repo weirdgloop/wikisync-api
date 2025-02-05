@@ -91,7 +91,7 @@ class RuneLiteService {
         ...data.data.level,
       },
       collectionLog: base64Union(newPlayerData.value.collectionLog ?? "", data.data.collectionLog ?? ""),
-      collectionLogItemCount: newPlayerData.value.collectionLogItemCount ?? data.data.collectionLogItemCount
+      collectionLogItemCount: data.data.collectionLogItemCount ?? newPlayerData.value.collectionLogItemCount
     };
 
     // Save to our new table
