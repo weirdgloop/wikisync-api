@@ -8,6 +8,6 @@ export interface PlayerDataValue {
   skills: {
     [k: string]: number
   }
-  collectionLog: string;
+  collectionLogSlots: string;
   collectionLogItemCount: number | null;
 }
