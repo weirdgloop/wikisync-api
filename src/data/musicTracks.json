@@ -5008,6 +5008,14 @@
         "varpBitIndex": 15
     },
     {
+        "trackName": "Sign Here",
+        "trackNameForSorting": "Sign Here",
+        "midiId": 280,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 12
+    },
+    {
         "trackName": "The Sinclairs",
         "trackNameForSorting": "Sinclairs, The",
         "midiId": 385,
