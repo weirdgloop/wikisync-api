@@ -1,5 +1,5 @@
 import { COLLECTION_LOG_ORDER } from "../constants";
-import { base64ToUint8Array } from "../util/util";
+import { base64ToUint8Array } from "../../util/util";
 
 class CollectionLogService {
   public static async getCollectionLogData(data) {

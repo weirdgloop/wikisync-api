@@ -1,5 +1,5 @@
-import { ProfileType } from '../enum/ProfileType';
-import DBService from './DBService';
+import { ProfileType } from './enum/ProfileType';
+import DBService from '../services/DBService';
 import PlayerDataJson from '../orm/PlayerDataJson';
 import { base64Union } from '../util/util';
 

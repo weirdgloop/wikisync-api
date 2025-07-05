@@ -1,4 +1,4 @@
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import LEAGUE_TASK_VARPS from '../data/leagueTaskVarps.json'
 
 class LeagueService {

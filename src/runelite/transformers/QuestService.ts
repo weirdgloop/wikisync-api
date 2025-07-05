@@ -1,5 +1,5 @@
 import QuestCompletionState from '../enum/QuestCompletionState';
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import QUEST_VARPS_TO_COMPLETION from '../data/questVarps.json'
 import QUEST_VARBITS_TO_COMPLETION from '../data/questVarbits.json'
 

@@ -1,19 +1,19 @@
 import express from 'express';
-import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from '../constants';
-import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
-import { AchievementDiaryService } from '../services/AchievementDiaryService';
-import { CombatAchievementsService } from '../services/CombatAchievementsService';
-import { LeagueService } from '../services/LeagueService';
-import { MusicService } from '../services/MusicService';
-import { QuestService } from '../services/QuestService';
-import { CollectionLogService } from '../services/CollectionLogService';
-import { AllowedProfileType, ProfileType } from '../enum/ProfileType';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
+import RLService, { RuneLiteGetDataReturn } from './index';
+import { AchievementDiaryService } from './transformers/AchievementDiaryService';
+import { CombatAchievementsService } from './transformers/CombatAchievementsService';
+import { LeagueService } from './transformers/LeagueService';
+import { MusicService } from './transformers/MusicService';
+import { QuestService } from './transformers/QuestService';
+import { CollectionLogService } from './transformers/CollectionLogService';
+import { AllowedProfileType, ProfileType } from './enum/ProfileType';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
 const PROPORTION_OF_GET_PROFILE_REQUESTS_TO_HANDLE = 1.00;
 
-const router = express.Router();
+export const router = express.Router();
 
 /**
  * Returns the manifest required for the RuneLite plugin
@@ -100,5 +100,3 @@ router.get('/player/:username/:profile?', async (req, res) => {
     collectionLogItemCount: data.collectionLogItemCount
   });
 });
-
-export default router;

@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { RuneLiteGetDataReturn } from './RuneLiteService';
-import { isBitSet, isEqual } from '../util/util';
+import { RuneLiteGetDataReturn } from '../index';
+import { isBitSet, isEqual } from '../../util/util';
 import specs from '../data/achievementDiariesSpecs.json';
 
 interface VarbitsSpec {

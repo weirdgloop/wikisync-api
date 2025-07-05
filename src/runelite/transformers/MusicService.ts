@@ -1,4 +1,4 @@
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import MUSIC_TRACK_VARPS from '../data/musicVarps.json';
 import MUSIC_TRACKS from '../data/musicTracks.json';
 

@@ -1,4 +1,4 @@
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import COMBAT_ACHIEVEMENTS_VARPS from '../data/combatAchievementVarps.json'
 
 class CombatAchievementsService {
