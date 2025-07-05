@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: 3.11
       - run: pip install requests
-      - working-directory: src/data
-        run: python ../scripts/musicAndQuestsFromCache.py write
+      - working-directory: src/runelite/data
+        run: python ../../scripts/musicAndQuestsFromCache.py write
       - name: Print `git status`
         run: "git status --porcelain"
 

@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { RuneLiteGetDataReturn } from './RuneLiteService';
-import { isBitSet, isEqual } from '../util/util';
+import { RuneLiteGetDataReturn } from '../service';
+import { isBitSet, isEqual } from '../../util/util';
 import specs from '../data/achievementDiariesSpecs.json';
 
 interface VarbitsSpec {
@@ -21,7 +21,7 @@ type Specs = { [diary: string]: { [tier: string]: { complete: VarSpec; tasks: Va
 // Warning: this does not really do any type checking...
 const achievementDiariesSpecs = specs as Specs;
 
-class AchievementDiaryService {
+class AchievementDiaryTransformer {
   /**
    * Returns all achievement diary completion states based on a player's data
    * @param data - Data from the database
@@ -81,4 +81,4 @@ _.forEach(achievementDiariesSpecs, (diary) => _.forEach(diary, (tier) => {
 const DIARY_VARBITS : number[] = [...requiredVarbits];
 const DIARY_VARPS : number[] = [...requiredVarplayers];
 
-export { AchievementDiaryService, DIARY_VARPS, DIARY_VARBITS };
+export { AchievementDiaryTransformer, DIARY_VARPS, DIARY_VARBITS };

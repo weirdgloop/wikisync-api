@@ -1,5 +1,5 @@
 import { MigrationInterface, QueryRunner, TableColumn, TableIndex } from 'typeorm';
-import { ProfileType } from '../enum/ProfileType';
+import { ProfileType } from '../runelite/enum/ProfileType';
 
 export class PlayerDataAddProfile1639242709852 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {

@@ -1,7 +1,7 @@
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import LEAGUE_TASK_VARPS from '../data/leagueTaskVarps.json'
 
-class LeagueService {
+class LeagueTransformer {
   public static async getLeagueTasks(data) {
     if (data.varps[LEAGUE_TASK_VARPS[0]] === undefined) {
       // If the user doesn't have the most basic varp set, don't return any data
@@ -22,4 +22,4 @@ class LeagueService {
   }
 }
 
-export { LeagueService, LEAGUE_TASK_VARPS }
+export { LeagueTransformer, LEAGUE_TASK_VARPS }
