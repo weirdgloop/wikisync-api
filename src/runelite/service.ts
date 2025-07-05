@@ -1,6 +1,6 @@
 import { ProfileType } from './enum/ProfileType';
 import DBService from '../services/DBService';
-import PlayerDataJson from '../orm/PlayerDataJson';
+import PlayerDataJson from './orm/PlayerDataJson';
 import { base64Union } from '../util/util';
 
 interface RuneLiteSubmitData {

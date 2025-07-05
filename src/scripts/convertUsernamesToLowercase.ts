@@ -3,7 +3,7 @@
  * and with spaces replaced with underscores.
  */
 import dotenv from 'dotenv';
-import PlayerDataJson from '../orm/PlayerDataJson';
+import PlayerDataJson from '../runelite/orm/PlayerDataJson';
 import DBService from '../services/DBService';
 
 dotenv.config();

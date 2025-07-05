@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { RuneLiteGetDataReturn } from '../index';
+import { RuneLiteGetDataReturn } from '../service';
 import { isBitSet, isEqual } from '../../util/util';
 import specs from '../data/achievementDiariesSpecs.json';
 

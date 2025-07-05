@@ -1,12 +1,12 @@
 import express from 'express';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
-import RLService, { RuneLiteGetDataReturn } from './index';
-import { AchievementDiaryService } from './transformers/AchievementDiaryService';
-import { CombatAchievementsService } from './transformers/CombatAchievementsService';
-import { LeagueService } from './transformers/LeagueService';
-import { MusicService } from './transformers/MusicService';
-import { QuestService } from './transformers/QuestService';
-import { CollectionLogService } from './transformers/CollectionLogService';
+import RLService, { RuneLiteGetDataReturn } from './service';
+import { AchievementDiaryService } from './transformers/AchievementDiaryTransformer';
+import { CombatAchievementsService } from './transformers/CombatAchievementsTransformer';
+import { LeagueService } from './transformers/LeagueTransformer';
+import { MusicService } from './transformers/MusicTransformer';
+import { QuestService } from './transformers/QuestTransformer';
+import { CollectionLogService } from './transformers/CollectionLogTransformer';
 import { AllowedProfileType, ProfileType } from './enum/ProfileType';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
