@@ -3,7 +3,7 @@ import { isBitSet } from '../../util/util';
 import QUEST_VARPS_TO_COMPLETION from '../data/questVarps.json'
 import QUEST_VARBITS_TO_COMPLETION from '../data/questVarbits.json'
 
-class QuestService {
+class QuestTransformer {
   /**
    * Returns all quest completion states based on a player's data
    * @param data - Data from the database
@@ -147,4 +147,4 @@ const SPECIAL_CASE_VARBITS = [816, 821, 1391, 4976, 4982];
 const QUEST_VARPS = [...STANDARD_VARPS, ...SPECIAL_CASE_VARPS];
 const QUEST_VARBITS = [...STANDARD_VARBITS, ...SPECIAL_CASE_VARBITS];
 
-export { QuestService, QUEST_VARPS, QUEST_VARBITS };
+export { QuestTransformer, QUEST_VARPS, QUEST_VARBITS };

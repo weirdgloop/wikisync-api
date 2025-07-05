@@ -1,12 +1,12 @@
 import express from 'express';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
 import RLService, { RuneLiteGetDataReturn } from './service';
-import { AchievementDiaryService } from './transformers/AchievementDiaryTransformer';
-import { CombatAchievementsService } from './transformers/CombatAchievementsTransformer';
-import { LeagueService } from './transformers/LeagueTransformer';
-import { MusicService } from './transformers/MusicTransformer';
-import { QuestService } from './transformers/QuestTransformer';
-import { CollectionLogService } from './transformers/CollectionLogTransformer';
+import { AchievementDiaryTransformer } from './transformers/AchievementDiaryTransformer';
+import { CombatAchievementsTransformer } from './transformers/CombatAchievementsTransformer';
+import { LeagueTransformer } from './transformers/LeagueTransformer';
+import { MusicTransformer } from './transformers/MusicTransformer';
+import { QuestTransformer } from './transformers/QuestTransformer';
+import { CollectionLogTransformer } from './transformers/CollectionLogTransformer';
 import { AllowedProfileType, ProfileType } from './enum/ProfileType';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
@@ -80,12 +80,12 @@ router.get('/player/:username/:profile?', async (req, res) => {
     res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
     return;
   }
-  const questCompletion = await QuestService.getQuestCompletionStates(data);
-  const achievementDiaryCompletion = AchievementDiaryService.getAchievementDiaryCompletionStates(data);
-  const leagueTasks = await LeagueService.getLeagueTasks(data);
-  const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
-  const musicTracks = await MusicService.getMusicTracks(data);
-  const collectionLog = await CollectionLogService.getCollectionLogData(data);
+  const questCompletion = await QuestTransformer.getQuestCompletionStates(data);
+  const achievementDiaryCompletion = AchievementDiaryTransformer.getAchievementDiaryCompletionStates(data);
+  const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
+  const combatAchievements = await CombatAchievementsTransformer.getCombatAchievements(data);
+  const musicTracks = await MusicTransformer.getMusicTracks(data);
+  const collectionLog = await CollectionLogTransformer.getCollectionLogData(data);
 
   res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
