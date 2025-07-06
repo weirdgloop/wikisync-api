@@ -1,11 +1,11 @@
 import {
   DIARY_VARBITS,
   DIARY_VARPS,
-} from "../services/AchievementDiaryService";
-import { COMBAT_ACHIEVEMENTS_VARPS } from "../services/CombatAchievementsService";
-import { LEAGUE_TASK_VARPS } from "../services/LeagueService";
-import { MUSIC_TRACK_VARPS } from "../services/MusicService";
-import { QUEST_VARBITS, QUEST_VARPS } from "../services/QuestService";
+} from "./transformers/AchievementDiaryTransformer";
+import { COMBAT_ACHIEVEMENTS_VARPS } from "./transformers/CombatAchievementsTransformer";
+import { LEAGUE_TASK_VARPS } from "./transformers/LeagueTransformer";
+import { MUSIC_TRACK_VARPS } from "./transformers/MusicTransformer";
+import { QUEST_VARBITS, QUEST_VARPS } from "./transformers/QuestTransformer";
 
 export const MANIFEST_VERSION = 1;
 

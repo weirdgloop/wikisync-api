@@ -1,8 +1,8 @@
-import { isBitSet } from '../util/util';
+import { isBitSet } from '../../util/util';
 import MUSIC_TRACK_VARPS from '../data/musicVarps.json';
 import MUSIC_TRACKS from '../data/musicTracks.json';
 
-class MusicService {
+class MusicTransformer {
   // https://github.com/Joshua-F/cs2-scripts/blob/master/scripts/%5Bclientscript%2Cmusic_init_counter%5D.cs2
   public static async getMusicTracks(data) {
     if (data.varps[MUSIC_TRACK_VARPS[0]] === undefined) {
@@ -40,4 +40,4 @@ class MusicService {
   }
 }
 
-export { MusicService, MUSIC_TRACK_VARPS };
+export { MusicTransformer, MUSIC_TRACK_VARPS };

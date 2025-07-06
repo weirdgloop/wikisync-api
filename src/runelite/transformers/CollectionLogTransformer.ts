@@ -1,7 +1,7 @@
 import { COLLECTION_LOG_ORDER } from "../constants";
-import { base64ToUint8Array } from "../util/util";
+import { base64ToUint8Array } from "../../util/util";
 
-class CollectionLogService {
+class CollectionLogTransformer {
   public static async getCollectionLogData(data) {
     if (data.collectionLog == null || data.collectionLog == "")
       return []
@@ -18,4 +18,4 @@ class CollectionLogService {
   }
 }
 
-export { CollectionLogService };
+export { CollectionLogTransformer };

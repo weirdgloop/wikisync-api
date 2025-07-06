@@ -1,19 +1,19 @@
 import express from 'express';
-import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from '../constants';
-import RLService, { RuneLiteGetDataReturn } from '../services/RuneLiteService';
-import { AchievementDiaryService } from '../services/AchievementDiaryService';
-import { CombatAchievementsService } from '../services/CombatAchievementsService';
-import { LeagueService } from '../services/LeagueService';
-import { MusicService } from '../services/MusicService';
-import { QuestService } from '../services/QuestService';
-import { CollectionLogService } from '../services/CollectionLogService';
-import { AllowedProfileType, ProfileType } from '../enum/ProfileType';
+import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
+import RLService, { RuneLiteGetDataReturn } from './service';
+import { AchievementDiaryTransformer } from './transformers/AchievementDiaryTransformer';
+import { CombatAchievementsTransformer } from './transformers/CombatAchievementsTransformer';
+import { LeagueTransformer } from './transformers/LeagueTransformer';
+import { MusicTransformer } from './transformers/MusicTransformer';
+import { QuestTransformer } from './transformers/QuestTransformer';
+import { CollectionLogTransformer } from './transformers/CollectionLogTransformer';
+import { AllowedProfileType, ProfileType } from './enum/ProfileType';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
 const PROPORTION_OF_GET_PROFILE_REQUESTS_TO_HANDLE = 1.00;
 
-const router = express.Router();
+export const router = express.Router();
 
 /**
  * Returns the manifest required for the RuneLite plugin
@@ -80,12 +80,12 @@ router.get('/player/:username/:profile?', async (req, res) => {
     res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
     return;
   }
-  const questCompletion = await QuestService.getQuestCompletionStates(data);
-  const achievementDiaryCompletion = AchievementDiaryService.getAchievementDiaryCompletionStates(data);
-  const leagueTasks = await LeagueService.getLeagueTasks(data);
-  const combatAchievements = await CombatAchievementsService.getCombatAchievements(data);
-  const musicTracks = await MusicService.getMusicTracks(data);
-  const collectionLog = await CollectionLogService.getCollectionLogData(data);
+  const questCompletion = await QuestTransformer.getQuestCompletionStates(data);
+  const achievementDiaryCompletion = AchievementDiaryTransformer.getAchievementDiaryCompletionStates(data);
+  const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
+  const combatAchievements = await CombatAchievementsTransformer.getCombatAchievements(data);
+  const musicTracks = await MusicTransformer.getMusicTracks(data);
+  const collectionLog = await CollectionLogTransformer.getCollectionLogData(data);
 
   res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
@@ -100,5 +100,3 @@ router.get('/player/:username/:profile?', async (req, res) => {
     collectionLogItemCount: data.collectionLogItemCount
   });
 });
-
-export default router;

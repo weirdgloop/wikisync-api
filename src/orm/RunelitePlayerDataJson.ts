@@ -1,11 +1,11 @@
 import {
   Entity, Column, PrimaryColumn, BaseEntity,
 } from 'typeorm';
-import { ProfileType } from '../enum/ProfileType';
-import { PlayerDataValue } from '../types/PlayerDataValue';
+import { ProfileType } from '../runelite/enum/ProfileType';
+import { PlayerDataValue } from '../runelite/types/PlayerDataValue';
 
 @Entity('player_data_json')
-export default class PlayerDataJson extends BaseEntity {
+export default class RunelitePlayerDataJson extends BaseEntity {
   @PrimaryColumn()
     username: string;
 

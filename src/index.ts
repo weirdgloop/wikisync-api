@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import runelite from './routes/runelite';
+import {router as runeliteRouter } from './runelite/router';
 import DBService from './services/DBService';
 
 dotenv.config();
@@ -24,7 +24,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // Routes
-app.use('/runelite', runelite);
+app.use('/runelite', runeliteRouter);
 
 // Error handling
 app.use((err, req, res, next) => {
