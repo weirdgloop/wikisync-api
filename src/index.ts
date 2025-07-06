@@ -4,6 +4,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import {router as runeliteRouter } from './runelite/router';
+import {router as runescapeRouter } from './runescape/router';
 import DBService from './services/DBService';
 
 dotenv.config();
@@ -25,6 +26,7 @@ app.use(bodyParser.json());
 
 // Routes
 app.use('/runelite', runeliteRouter);
+app.use('/runescape', runescapeRouter);
 
 // Error handling
 app.use((err, req, res, next) => {
