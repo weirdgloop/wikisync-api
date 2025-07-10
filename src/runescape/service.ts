@@ -5,7 +5,12 @@ import { base64Union } from '../util/util';
 interface RunescapeSubmitData {
   username: string;
   profile: string;
-  data: object
+  data: {
+    varp: object,
+    varc: object,
+    varbit: object,
+    level: object,
+  }
 }
 
 export interface RunescapeGetDataReturn { }
@@ -53,13 +58,28 @@ export class RunescapeService {
       newPlayerData = new RunescapePlayerDataJson();
       newPlayerData.username = username;
       newPlayerData.profile = data.profile;
-      newPlayerData.value = {};
+      newPlayerData.value = {varp: {}, varc: {}, varbit: {}, level: {}};
     }
 
     // Merge the old data with the new data
     newPlayerData.value = {
       ...newPlayerData.value,
-      ...data.data
+      varp: {
+        ...newPlayerData.value.varp,
+        ...data.data.varp,
+      },
+      varc: {
+        ...newPlayerData.value.varc,
+        ...data.data.varc,
+      },
+      varbit: {
+        ...newPlayerData.value.varbit,
+        ...data.data.varbit,
+      },
+      level: {
+        ...newPlayerData.value.level,
+        ...data.data.level,
+      },
     };
 
     // Save to our new table

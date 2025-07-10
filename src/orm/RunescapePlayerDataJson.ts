@@ -13,5 +13,10 @@ export class RunescapePlayerDataJson extends BaseEntity {
   @Column({
     type: 'json',
   })
-    value: object;
+    value: {
+      varp: object,
+      varc: object,
+      varbit: object,
+      level: object
+    };
 }
