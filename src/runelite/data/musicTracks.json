@@ -704,6 +704,14 @@
         "varpBitIndex": 0
     },
     {
+        "trackName": "Call of the Tlati",
+        "trackNameForSorting": "Call of the Tlati",
+        "midiId": 825,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 13
+    },
+    {
         "trackName": "Camelot",
         "trackNameForSorting": "Camelot",
         "midiId": 104,
@@ -1280,6 +1288,14 @@
         "varpBitIndex": 8
     },
     {
+        "trackName": "A Desolate Past",
+        "trackNameForSorting": "Desolate Past, A",
+        "midiId": 820,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 23
+    },
+    {
         "trackName": "Devils May Care",
         "trackNameForSorting": "Devils May Care",
         "midiId": 424,
@@ -1358,6 +1374,14 @@
         "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 26
+    },
+    {
+        "trackName": "The Doom",
+        "trackNameForSorting": "Doom, The",
+        "midiId": 828,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 24
     },
     {
         "trackName": "The Doors of Dinh",
@@ -4112,6 +4136,14 @@
         "varpBitIndex": 29
     },
     {
+        "trackName": "Over the Mountains",
+        "trackNameForSorting": "Over the Mountains",
+        "midiId": 826,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 22
+    },
+    {
         "trackName": "Over to Nardah",
         "trackNameForSorting": "Over to Nardah",
         "midiId": 447,
@@ -4520,6 +4552,14 @@
         "varpBitIndex": 31
     },
     {
+        "trackName": "The Rising Sun",
+        "trackNameForSorting": "Rising Sun, The",
+        "midiId": 823,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 18
+    },
+    {
         "trackName": "Riverside",
         "trackNameForSorting": "Riverside",
         "midiId": 91,
@@ -4832,6 +4872,14 @@
         "varpBitIndex": 2
     },
     {
+        "trackName": "Scorching Horizon",
+        "trackNameForSorting": "Scorching Horizon",
+        "midiId": 137,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 21
+    },
+    {
         "trackName": "Scorpia Dances",
         "trackNameForSorting": "Scorpia Dances",
         "midiId": 423,
@@ -4918,6 +4966,14 @@
         "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 12
+    },
+    {
+        "trackName": "The Setting Sun",
+        "trackNameForSorting": "Setting Sun, The",
+        "midiId": 821,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 19
     },
     {
         "trackName": "Settlement",
@@ -5160,6 +5216,22 @@
         "varpBitIndex": 16
     },
     {
+        "trackName": "Spirit of the Forest",
+        "trackNameForSorting": "Spirit of the Forest",
+        "midiId": 829,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 15
+    },
+    {
+        "trackName": "Spiritbloom",
+        "trackNameForSorting": "Spiritbloom",
+        "midiId": 822,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 14
+    },
+    {
         "trackName": "Spirits of the Elid",
         "trackNameForSorting": "Spirits of the Elid",
         "midiId": 462,
@@ -5230,6 +5302,14 @@
         "ignored": false,
         "varpIndex": 7,
         "varpBitIndex": 1
+    },
+    {
+        "trackName": "Stalkers",
+        "trackNameForSorting": "Stalkers",
+        "midiId": 819,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 25
     },
     {
         "trackName": "Stand Up and Be Counted",
@@ -5400,6 +5480,14 @@
         "varpBitIndex": 21
     },
     {
+        "trackName": "The Talkasti People",
+        "trackNameForSorting": "Talkasti People, The",
+        "midiId": 827,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 16
+    },
+    {
         "trackName": "Talking Forest",
         "trackNameForSorting": "Talking Forest",
         "midiId": 140,
@@ -5438,6 +5526,14 @@
         "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 14
+    },
+    {
+        "trackName": "Teklan",
+        "trackNameForSorting": "Teklan",
+        "midiId": 818,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 17
     },
     {
         "trackName": "Tempest",
@@ -5846,6 +5942,14 @@
         "ignored": false,
         "varpIndex": 16,
         "varpBitIndex": 15
+    },
+    {
+        "trackName": "Truth",
+        "trackNameForSorting": "Truth",
+        "midiId": 824,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 20
     },
     {
         "trackName": "Twilight",
