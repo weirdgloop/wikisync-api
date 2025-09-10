@@ -13,7 +13,12 @@ interface RunescapeSubmitData {
   }
 }
 
-export interface RunescapeGetDataReturn { }
+export interface RunescapeGetDataReturn { 
+  varbs: object;
+  varps: object;
+  varcs: object;
+  levels: object;
+}
 
 export class RunescapeService {
   /**
@@ -38,7 +43,12 @@ export class RunescapeService {
       return data || {};
     }
 
-    return data
+    return {
+      varbs: data?.value?.varbit || {},
+      varps: data?.value?.varp || {},
+      varcs: data?.value?.varc || {},
+      levels: data?.value?.level || {},
+    }
   }
 
   public static async parseAndSaveData(data: RunescapeSubmitData) {

@@ -1,5 +1,7 @@
 import express from 'express';
 import { RunescapeService, RunescapeGetDataReturn } from './service';
+import { AllowedProfileType, ProfileType } from './enum/ProfileType';
+import { LeagueTransformer } from './transformers/LeagueTransformer';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
@@ -30,16 +32,31 @@ router.get('/player/:username/:profile', async (req, res) => {
     return res.status(500).json({ error: 'Internal error. Please try again later.' });
   }
   if (!req.params.username || !req.params.profile) {
-    return res.status(400).json({ error: 'Usage: /player/:username/:profile' });
+    return res.status(400).json({ error: 'Missing required data.' });
   }
 
-  // TODO: Add check for a valid profile type
+  let profile = null;
+  if (req.params.profile) {
+    profile = ProfileType[req.params.profile];
+  }
+  if (!(profile in AllowedProfileType)) {
+    return res.status(400).json({ error: 'Cannot query data for this world type.' });
+  }
 
-  const data = await RunescapeService.getDataForUser(req.params.username, req.params.profile) as RunescapeGetDataReturn;
+  // TODO make sure it works for RS data format
+  const data = await RunescapeService.getDataForUser(req.params.username, profile) as RunescapeGetDataReturn;
+  if (!Object.keys(data.varbs).length && !Object.keys(data.varps).length) {
+    res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
+    return;
+  }
+
+  // more transformers here as jagex send us more data
+  const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
 
   res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
     timestamp: new Date(),
-    data: data
+    league_tasks: leagueTasks,
+    levels: data.levels
   });
 });
