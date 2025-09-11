@@ -45,20 +45,36 @@ router.get('/player/:username/:profile', async (req, res) => {
   //   return res.status(400).json({ error: 'Cannot query data for this world type.' });
   // }
 
+  const raw = !!req.query.raw;
+
   // TODO make sure it works for RS data format
-  const data = await RunescapeService.getDataForUser(req.params.username, req.params.profile) as RunescapeGetDataReturn;
-  if (!Object.keys(data.varbs).length && !Object.keys(data.varps).length) {
-    res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
-    return;
-  }
+  const data = await RunescapeService.getDataForUser(req.params.username, req.params.profile, raw) as RunescapeGetDataReturn;
 
-  // more transformers here as jagex send us more data
-  const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
-
-  res.setHeader('Cache-Control', 'no-cache').json({
+  let json: object = {
     username: req.params.username,
     timestamp: new Date(),
-    league_tasks: leagueTasks,
-    levels: data.levels
-  });
+  }
+
+  if (raw) {
+    json = {
+      ...json,
+      ...data
+    }
+  } else {
+    if (!Object.keys(data.varbs).length && !Object.keys(data.varps).length) {
+      res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
+      return;
+    }
+
+    // more transformers here as jagex send us more data
+    const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
+
+    json = {
+      ...json,
+      league_tasks: leagueTasks,
+      levels: data.levels
+    }
+  }
+
+  res.setHeader('Cache-Control', 'no-cache').json(json);
 });
