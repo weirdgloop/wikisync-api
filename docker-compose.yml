@@ -33,6 +33,8 @@ services:
       MYSQL_ROOT_PASSWORD: root-password
     volumes:
       - mysql-datavolume:/var/lib/mysql
+    ports:
+      - 3306:3306
   adminer:
     image: adminer
     restart: always
