@@ -13,7 +13,7 @@ interface RunescapeSubmitData {
   }
 }
 
-export interface RunescapeGetDataReturn { 
+export interface RunescapeGetDataReturn {
   varbs: object;
   varps: object;
   varcs: object;
@@ -52,7 +52,7 @@ export class RunescapeService {
   }
 
   public static async parseAndSaveData(data: RunescapeSubmitData) {
-    const username = data.username.toLowerCase().replace(/ /g, '_');
+    const username = data.username.toLowerCase().replace(/([ \u00a0\uc2a0])/g, '_');
     const conn = await DBService.getConnection();
 
     // Fetch the existing player data in our new table, if there is any
