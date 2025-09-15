@@ -1,6 +1,6 @@
 import DBService from '../services/DBService';
 import { RunescapePlayerDataJson } from '../orm/RunescapePlayerDataJson';
-import { base64Union } from '../util/util';
+import { SKILL_NAMES } from './constants';
 
 interface RunescapeSubmitData {
   username: string;
@@ -43,11 +43,18 @@ export class RunescapeService {
       return data || {};
     }
 
+    // Transform levels into a more readable format
+    const levels = data?.value?.level || {};
+    const transformedLevels = {};
+    Object.entries(levels).forEach(([k, v]) => {
+      transformedLevels[SKILL_NAMES[k]] = v;
+    })
+
     return {
       varbs: data?.value?.varbit || {},
       varps: data?.value?.varp || {},
       varcs: data?.value?.varc || {},
-      levels: data?.value?.level || {},
+      levels: transformedLevels
     }
   }
 

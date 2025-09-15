@@ -1,0 +1,34 @@
+/**
+ * The order matters! These allow us to map integer values to skill names.
+ */
+export const SKILL_NAMES = [
+  'Attack',
+  'Defence',
+  'Strength',
+  'Constitution',
+  'Ranged',
+  'Prayer',
+  'Magic',
+  'Cooking',
+  'Woodcutting',
+  'Fletching',
+  'Fishing',
+  'Firemaking',
+  'Crafting',
+  'Smithing',
+  'Mining',
+  'Herblore',
+  'Agility',
+  'Thieving',
+  'Slayer',
+  'Farming',
+  'Runecrafting',
+  'Hunter',
+  'Construction',
+  'Summoning',
+  'Dungeoneering',
+  'Divination',
+  'Invention',
+  'Archaeology',
+  'Necromancy'
+];
