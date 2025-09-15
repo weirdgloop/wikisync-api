@@ -35,15 +35,13 @@ router.get('/player/:username/:profile', async (req, res) => {
     return res.status(400).json({ error: 'Missing required data.' });
   }
 
-  // TODO: uncomment all this once we know what the league world type is actually called (also change req.params.profile -> profile on line 49)
-
-  // let profile = null;
-  // if (req.params.profile) {
-  //   profile = ProfileType[req.params.profile];
-  // }
-  // if (!(profile in AllowedProfileType)) {
-  //   return res.status(400).json({ error: 'Cannot query data for this world type.' });
-  // }
+  let profile = null;
+  if (req.params.profile) {
+    profile = ProfileType[req.params.profile];
+  }
+  if (!(profile in AllowedProfileType)) {
+    return res.status(400).json({ error: 'Cannot query data for this world type.' });
+  }
 
   const raw = !!req.query.raw;
 
