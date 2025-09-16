@@ -1,9 +1,9 @@
 export enum ProfileType {
   STANDARD = 'STANDARD',
-  LEAGUE_1 = 'LEAGUE_1',
+  CATALYST_LEAGUE = 'CATALYST_LEAGUE',
 }
 
 export enum AllowedProfileType {
   // STANDARD = 'STANDARD', //not yet supported
-  LEAGUE_1 = 'LEAGUE_1'
+  CATALYST_LEAGUE = 'CATALYST_LEAGUE'
 }
