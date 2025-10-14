@@ -2,6 +2,7 @@ import express from 'express';
 import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
 import RLService, { RuneLiteGetDataReturn } from './service';
 import { AchievementDiaryTransformer } from './transformers/AchievementDiaryTransformer';
+import { BingoTransformer } from './transformers/BingoTransformer';
 import { CombatAchievementsTransformer } from './transformers/CombatAchievementsTransformer';
 import { LeagueTransformer } from './transformers/LeagueTransformer';
 import { MusicTransformer } from './transformers/MusicTransformer';
@@ -83,6 +84,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const questCompletion = await QuestTransformer.getQuestCompletionStates(data);
   const achievementDiaryCompletion = AchievementDiaryTransformer.getAchievementDiaryCompletionStates(data);
   const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
+  const bingoTasks = await BingoTransformer.getBingoTasks(data);
   const combatAchievements = await CombatAchievementsTransformer.getCombatAchievements(data);
   const musicTracks = await MusicTransformer.getMusicTracks(data);
   const collectionLog = await CollectionLogTransformer.getCollectionLogData(data);
@@ -96,6 +98,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
     music_tracks: musicTracks,
     combat_achievements: combatAchievements,
     league_tasks: leagueTasks,
+    bingo_tasks: bingoTasks,
     collection_log: collectionLog,
     collectionLogItemCount: data.collectionLogItemCount
   });
