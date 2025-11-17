@@ -1,11 +1,11 @@
 import { isBitSet } from '../../util/util';
-import COMBAT_ACHIEVEMENTS_VARPS from '../data/combatAchievementVarps.json'
+import COMBAT_ACHIEVEMENTS_VARPS from '../data/combatAchievementVarps.json';
 
 class CombatAchievementsTransformer {
   public static async getCombatAchievements(data) {
     if (data.varps[COMBAT_ACHIEVEMENTS_VARPS[0]] === undefined) {
       // If the user doesn't have the most basic varp set, don't return any data
-      return null
+      return null;
     }
 
     const results = [];
@@ -22,4 +22,4 @@ class CombatAchievementsTransformer {
   }
 }
 
-export {CombatAchievementsTransformer, COMBAT_ACHIEVEMENTS_VARPS }
+export { CombatAchievementsTransformer, COMBAT_ACHIEVEMENTS_VARPS };

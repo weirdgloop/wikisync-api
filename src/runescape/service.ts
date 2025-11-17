@@ -34,7 +34,7 @@ export class RunescapeService {
     const data = await (await DBService.getConnection()).getRepository(RunescapePlayerDataJson).findOne({
       where: {
         username: formattedUsername,
-        profile: profile,
+        profile,
       },
     });
 
@@ -48,14 +48,14 @@ export class RunescapeService {
     const transformedLevels = {};
     Object.entries(levels).forEach(([k, v]) => {
       transformedLevels[SKILL_NAMES[k]] = v;
-    })
+    });
 
     return {
       varbs: data?.value?.varbit || {},
       varps: data?.value?.varp || {},
       varcs: data?.value?.varc || {},
-      levels: transformedLevels
-    }
+      levels: transformedLevels,
+    };
   }
 
   public static async parseAndSaveData(data: RunescapeSubmitData) {
@@ -75,7 +75,9 @@ export class RunescapeService {
       newPlayerData = new RunescapePlayerDataJson();
       newPlayerData.username = username;
       newPlayerData.profile = data.profile;
-      newPlayerData.value = {varp: {}, varc: {}, varbit: {}, level: {}};
+      newPlayerData.value = {
+        varp: {}, varc: {}, varbit: {}, level: {},
+      };
     }
 
     // Merge the old data with the new data

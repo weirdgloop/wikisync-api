@@ -1,12 +1,12 @@
 import {
   DIARY_VARBITS,
   DIARY_VARPS,
-} from "./transformers/AchievementDiaryTransformer";
-import { COMBAT_ACHIEVEMENTS_VARPS } from "./transformers/CombatAchievementsTransformer";
-import { LEAGUE_TASK_VARPS } from "./transformers/LeagueTransformer";
-import { BINGO_TASK_VARBITS } from "./transformers/BingoTransformer";
-import { MUSIC_TRACK_VARPS } from "./transformers/MusicTransformer";
-import { QUEST_VARBITS, QUEST_VARPS } from "./transformers/QuestTransformer";
+} from './transformers/AchievementDiaryTransformer';
+import { COMBAT_ACHIEVEMENTS_VARPS } from './transformers/CombatAchievementsTransformer';
+import { LEAGUE_TASK_VARPS } from './transformers/LeagueTransformer';
+import { BINGO_TASK_VARBITS } from './transformers/BingoTransformer';
+import { MUSIC_TRACK_VARPS } from './transformers/MusicTransformer';
+import { QUEST_VARBITS, QUEST_VARPS } from './transformers/QuestTransformer';
 
 export const MANIFEST_VERSION = 1;
 
@@ -17,7 +17,7 @@ export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS, ...BINGO_TA
   // 13784 used to be required by the quest Architectural Alliance.
   // We tried removing this varbit, but it caused the RL plugin to send empty updates every 10 seconds.
   // For now, we will continue to ask for this varbit. We can remove this varbit once the RL plugin is updated to handle varbit removal.
-  13784, 9653, 9655, ];
+  13784, 9653, 9655];
 
 /**
  * The varps that we require from RuneLite.

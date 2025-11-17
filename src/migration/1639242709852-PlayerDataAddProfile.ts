@@ -1,4 +1,6 @@
-import { MigrationInterface, QueryRunner, TableColumn, TableIndex } from 'typeorm';
+import {
+  MigrationInterface, QueryRunner, TableColumn, TableIndex,
+} from 'typeorm';
 import { ProfileType } from '../runelite/enum/ProfileType';
 
 export class PlayerDataAddProfile1639242709852 implements MigrationInterface {

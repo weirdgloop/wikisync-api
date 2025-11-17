@@ -9,7 +9,9 @@
     "typeCheckAndDoNotRun": "ONLY_TYPECHECK_AND_DO_NOT_RUN= ts-node src/index.ts",
     "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
     "convertUsernamesToLowercase": "ts-node src/scripts/convertUsernamesToLowercase.ts",
-    "copyOldPlayerData": "ts-node src/scripts/copyOldPlayerData.ts"
+    "copyOldPlayerData": "ts-node src/scripts/copyOldPlayerData.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -32,16 +34,20 @@
     "typeorm": "^0.3.20"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.0.0",
+    "@eslint/js": "^9.39.1",
     "@types/express": "^4.17.21",
     "@types/lodash": "^4.17.7",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
-    "eslint": "^9.10.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-plugin-import": "^2.30.0",
+    "eslint": "^9.39.1",
+    "eslint-config-airbnb-extended": "^2.3.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
     "nodemon": "^3.1.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
-  }
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.47.0"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }

@@ -1,7 +1,7 @@
 import QuestCompletionState from '../enum/QuestCompletionState';
 import { isBitSet } from '../../util/util';
-import QUEST_VARPS_TO_COMPLETION from '../data/questVarps.json'
-import QUEST_VARBITS_TO_COMPLETION from '../data/questVarbits.json'
+import QUEST_VARPS_TO_COMPLETION from '../data/questVarps.json';
+import QUEST_VARBITS_TO_COMPLETION from '../data/questVarbits.json';
 
 class QuestTransformer {
   /**
@@ -138,8 +138,8 @@ class QuestTransformer {
   }
 }
 
-const STANDARD_VARPS = Object.values(QUEST_VARPS_TO_COMPLETION).map(x => x[0]);
-const STANDARD_VARBITS = Object.values(QUEST_VARBITS_TO_COMPLETION).map(x => x[0]);
+const STANDARD_VARPS = Object.values(QUEST_VARPS_TO_COMPLETION).map((x) => x[0]);
+const STANDARD_VARBITS = Object.values(QUEST_VARBITS_TO_COMPLETION).map((x) => x[0]);
 
 const SPECIAL_CASE_VARPS = [77, 145, 146, 203, 299, 399];
 const SPECIAL_CASE_VARBITS = [816, 821, 1391, 4976, 4982];

@@ -30,5 +30,5 @@ export const SKILL_NAMES = [
   'Divination',
   'Invention',
   'Archaeology',
-  'Necromancy'
+  'Necromancy',
 ];

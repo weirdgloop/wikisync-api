@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import {router as runeliteRouter } from './runelite/router';
-import {router as runescapeRouter } from './runescape/router';
+import { router as runeliteRouter } from './runelite/router';
+import { router as runescapeRouter } from './runescape/router';
 import DBService from './services/DBService';
 
 dotenv.config();

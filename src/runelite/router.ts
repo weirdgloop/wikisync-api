@@ -1,5 +1,7 @@
 import express from 'express';
-import { REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER } from './constants';
+import {
+  REQUIRED_VARBITS, REQUIRED_VARPS, MANIFEST_VERSION, COLLECTION_LOG_ORDER,
+} from './constants';
 import RLService, { RuneLiteGetDataReturn } from './service';
 import { AchievementDiaryTransformer } from './transformers/AchievementDiaryTransformer';
 import { BingoTransformer } from './transformers/BingoTransformer';
@@ -100,6 +102,6 @@ router.get('/player/:username/:profile?', async (req, res) => {
     league_tasks: leagueTasks,
     bingo_tasks: bingoTasks,
     collection_log: collectionLog,
-    collectionLogItemCount: data.collectionLogItemCount
+    collectionLogItemCount: data.collectionLogItemCount,
   });
 });

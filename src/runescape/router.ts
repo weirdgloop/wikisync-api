@@ -1,6 +1,5 @@
 import express from 'express';
 import { RunescapeService, RunescapeGetDataReturn } from './service';
-import { AllowedProfileType, ProfileType } from './enum/ProfileType';
 import { LeagueTransformer } from './transformers/LeagueTransformer';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
@@ -43,13 +42,13 @@ router.get('/player/:username/:profile', async (req, res) => {
   let json: object = {
     username: req.params.username,
     timestamp: new Date(),
-  }
+  };
 
   if (raw) {
     json = {
       ...json,
-      ...data
-    }
+      ...data,
+    };
   } else {
     if (!Object.keys(data.varbs).length && !Object.keys(data.varps).length) {
       res.status(400).json({ code: 'NO_USER_DATA', error: 'No user data found.' });
@@ -62,8 +61,8 @@ router.get('/player/:username/:profile', async (req, res) => {
     json = {
       ...json,
       league_tasks: leagueTasks,
-      levels: data.levels
-    }
+      levels: data.levels,
+    };
   }
 
   res.setHeader('Cache-Control', 'no-cache').json(json);
