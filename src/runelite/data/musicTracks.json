@@ -40,6 +40,14 @@
         "varpBitIndex": 3
     },
     {
+        "trackName": "All Aboard",
+        "trackNameForSorting": "All Aboard",
+        "midiId": 833,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 26
+    },
+    {
         "trackName": "All's Fairy in Love & War",
         "trackNameForSorting": "All's Fairy in Love & War",
         "midiId": 73,
@@ -478,6 +486,14 @@
         "ignored": false,
         "varpIndex": 13,
         "varpBitIndex": 29
+    },
+    {
+        "trackName": "Below the Conch",
+        "trackNameForSorting": "Below the Conch",
+        "midiId": 841,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 16
     },
     {
         "trackName": "Beneath Cursed Sands",
@@ -990,6 +1006,14 @@
         "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 4
+    },
+    {
+        "trackName": "Crashing Waves",
+        "trackNameForSorting": "Crashing Waves",
+        "midiId": 853,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 28
     },
     {
         "trackName": "Creature Cruelty",
@@ -1576,12 +1600,28 @@
         "varpBitIndex": 27
     },
     {
+        "trackName": "Echoes of the North",
+        "trackNameForSorting": "Echoes of the North",
+        "midiId": 847,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 1
+    },
+    {
         "trackName": "Egypt",
         "trackNameForSorting": "Egypt",
         "midiId": 69,
         "ignored": false,
         "varpIndex": 2,
         "varpBitIndex": 5
+    },
+    {
+        "trackName": "Elder Wisdom",
+        "trackNameForSorting": "Elder Wisdom",
+        "midiId": 840,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 15
     },
     {
         "trackName": "Elven Guardians",
@@ -1678,6 +1718,14 @@
         "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 3
+    },
+    {
+        "trackName": "The Eternal Waves",
+        "trackNameForSorting": "Eternal Waves, The",
+        "midiId": 850,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 31
     },
     {
         "trackName": "Eve's Epinette",
@@ -2336,6 +2384,14 @@
         "varpBitIndex": 7
     },
     {
+        "trackName": "The Great North",
+        "trackNameForSorting": "Great North, The",
+        "midiId": 846,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 0
+    },
+    {
         "trackName": "Greatness",
         "trackNameForSorting": "Greatness",
         "midiId": 116,
@@ -2576,6 +2632,14 @@
         "varpBitIndex": 1
     },
     {
+        "trackName": "Honkytonky Sea Shanty 2",
+        "trackNameForSorting": "Honkytonky Sea Shanty 2",
+        "midiId": 843,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 12
+    },
+    {
         "trackName": "Horizon",
         "trackNameForSorting": "Horizon",
         "midiId": 18,
@@ -2750,6 +2814,14 @@
         "ignored": false,
         "varpIndex": 10,
         "varpBitIndex": 29
+    },
+    {
+        "trackName": "Into the Blue",
+        "trackNameForSorting": "Into the Blue",
+        "midiId": 849,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 30
     },
     {
         "trackName": "Into the Tombs",
@@ -3192,6 +3264,14 @@
         "varpBitIndex": 8
     },
     {
+        "trackName": "Life at Sea",
+        "trackNameForSorting": "Life at Sea",
+        "midiId": 844,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 10
+    },
+    {
         "trackName": "Life's a Beach!",
         "trackNameForSorting": "Life's a Beach!",
         "midiId": 631,
@@ -3366,6 +3446,14 @@
         "ignored": false,
         "varpIndex": 14,
         "varpBitIndex": 4
+    },
+    {
+        "trackName": "Lurking Threats",
+        "trackNameForSorting": "Lurking Threats",
+        "midiId": 838,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 9
     },
     {
         "trackName": "Mad Eadgar",
@@ -3840,6 +3928,14 @@
         "varpBitIndex": 28
     },
     {
+        "trackName": "Mysterious Lands",
+        "trackNameForSorting": "Mysterious Lands",
+        "midiId": 845,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 8
+    },
+    {
         "trackName": "Mystics of Nature",
         "trackNameForSorting": "Mystics of Nature",
         "midiId": 655,
@@ -4134,6 +4230,14 @@
         "ignored": false,
         "varpIndex": 8,
         "varpBitIndex": 29
+    },
+    {
+        "trackName": "Over the Horizon",
+        "trackNameForSorting": "Over the Horizon",
+        "midiId": 851,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 4
     },
     {
         "trackName": "Over the Mountains",
@@ -4504,6 +4608,14 @@
         "varpBitIndex": 7
     },
     {
+        "trackName": "Remote Waters",
+        "trackNameForSorting": "Remote Waters",
+        "midiId": 854,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 29
+    },
+    {
         "trackName": "Rest in Peace",
         "trackNameForSorting": "Rest in Peace",
         "midiId": 679,
@@ -4704,6 +4816,14 @@
         "varpBitIndex": 8
     },
     {
+        "trackName": "A Sailor's Dream",
+        "trackNameForSorting": "Sailor's Dream, A",
+        "midiId": 856,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 3
+    },
+    {
         "trackName": "Sands of Time",
         "trackNameForSorting": "Sands of Time",
         "midiId": 739,
@@ -4814,6 +4934,14 @@
         "ignored": false,
         "varpIndex": 4,
         "varpBitIndex": 8
+    },
+    {
+        "trackName": "Scape Sail",
+        "trackNameForSorting": "Scape Sail",
+        "midiId": 848,
+        "ignored": false,
+        "varpIndex": -1,
+        "varpBitIndex": -1
     },
     {
         "trackName": "Scape Santa",
@@ -4968,6 +5096,14 @@
         "varpBitIndex": 12
     },
     {
+        "trackName": "Set Sail",
+        "trackNameForSorting": "Set Sail",
+        "midiId": 834,
+        "ignored": false,
+        "varpIndex": 25,
+        "varpBitIndex": 27
+    },
+    {
         "trackName": "The Setting Sun",
         "trackNameForSorting": "Setting Sun, The",
         "midiId": 821,
@@ -4982,6 +5118,14 @@
         "ignored": false,
         "varpIndex": 9,
         "varpBitIndex": 23
+    },
+    {
+        "trackName": "Shadow of the Ocean",
+        "trackNameForSorting": "Shadow of the Ocean",
+        "midiId": 852,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 5
     },
     {
         "trackName": "The Shadow",
@@ -5624,6 +5768,14 @@
         "varpBitIndex": 30
     },
     {
+        "trackName": "Test Your Sails",
+        "trackNameForSorting": "Test Your Sails",
+        "midiId": 835,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 6
+    },
+    {
         "trackName": "Test of Companionship",
         "trackNameForSorting": "Test of Companionship",
         "midiId": 741,
@@ -5816,6 +5968,14 @@
         "varpBitIndex": 14
     },
     {
+        "trackName": "The Tortugan Way",
+        "trackNameForSorting": "Tortugan Way, The",
+        "midiId": 839,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 14
+    },
+    {
         "trackName": "The Tower of Voices",
         "trackNameForSorting": "Tower of Voices, The",
         "midiId": 648,
@@ -5846,6 +6006,14 @@
         "ignored": false,
         "varpIndex": 19,
         "varpBitIndex": 25
+    },
+    {
+        "trackName": "Tranquillity",
+        "trackNameForSorting": "Tranquillity",
+        "midiId": 836,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 7
     },
     {
         "trackName": "Trawler",
@@ -6352,12 +6520,28 @@
         "varpBitIndex": 29
     },
     {
+        "trackName": "The Western Seas",
+        "trackNameForSorting": "Western Seas, The",
+        "midiId": 855,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 2
+    },
+    {
         "trackName": "What Happens Below...",
         "trackNameForSorting": "What Happens Below...",
         "midiId": 703,
         "ignored": false,
         "varpIndex": 21,
         "varpBitIndex": 17
+    },
+    {
+        "trackName": "What the Shell!",
+        "trackNameForSorting": "What the Shell!",
+        "midiId": 842,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 11
     },
     {
         "trackName": "Where Eagles Lair",
@@ -6518,6 +6702,14 @@
         "ignored": false,
         "varpIndex": 6,
         "varpBitIndex": 1
+    },
+    {
+        "trackName": "Yo Ho Ho!",
+        "trackNameForSorting": "Yo Ho Ho!",
+        "midiId": 857,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 13
     },
     {
         "trackName": "You Have My Attention",
