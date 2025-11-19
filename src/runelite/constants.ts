@@ -7,6 +7,7 @@ import { LEAGUE_TASK_VARPS } from './transformers/LeagueTransformer';
 import { BINGO_TASK_VARBITS } from './transformers/BingoTransformer';
 import { MUSIC_TRACK_VARPS } from './transformers/MusicTransformer';
 import { QUEST_VARBITS, QUEST_VARPS } from './transformers/QuestTransformer';
+import { SAILING_CHART_VARPS } from './transformers/SailingTransformer';
 
 export const MANIFEST_VERSION = 1;
 
@@ -23,7 +24,7 @@ export const REQUIRED_VARBITS = [...QUEST_VARBITS, ...DIARY_VARBITS, ...BINGO_TA
  * The varps that we require from RuneLite.
  */
 // 2943 is number of unique items in the collection log obtained (according to Jagex, though this seems wrong)
-export const REQUIRED_VARPS = [...DIARY_VARPS, ...LEAGUE_TASK_VARPS, ...QUEST_VARPS, ...COMBAT_ACHIEVEMENTS_VARPS, ...MUSIC_TRACK_VARPS, 2943];
+export const REQUIRED_VARPS = [...DIARY_VARPS, ...LEAGUE_TASK_VARPS, ...QUEST_VARPS, ...COMBAT_ACHIEVEMENTS_VARPS, ...MUSIC_TRACK_VARPS, ...SAILING_CHART_VARPS, 2943];
 
 /**
  * Valid skills to save in the database.
