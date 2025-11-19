@@ -11,6 +11,7 @@ import { MusicTransformer } from './transformers/MusicTransformer';
 import { QuestTransformer } from './transformers/QuestTransformer';
 import { CollectionLogTransformer } from './transformers/CollectionLogTransformer';
 import { AllowedProfileType, ProfileType } from './enum/ProfileType';
+import { SailingTransformer } from './transformers/SailingTransformer';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
@@ -90,6 +91,7 @@ router.get('/player/:username/:profile?', async (req, res) => {
   const combatAchievements = await CombatAchievementsTransformer.getCombatAchievements(data);
   const musicTracks = await MusicTransformer.getMusicTracks(data);
   const collectionLog = await CollectionLogTransformer.getCollectionLogData(data);
+  const sailing = SailingTransformer.getSailingData(data);
 
   res.setHeader('Cache-Control', 'no-cache').json({
     username: req.params.username,
@@ -103,5 +105,6 @@ router.get('/player/:username/:profile?', async (req, res) => {
     bingo_tasks: bingoTasks,
     collection_log: collectionLog,
     collectionLogItemCount: data.collectionLogItemCount,
+    ...sailing,
   });
 });

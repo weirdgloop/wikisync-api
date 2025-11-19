@@ -6,11 +6,9 @@ import { configs as airbrbConfigs } from 'eslint-config-airbnb-extended/legacy';
 export default defineConfig([
   eslint.configs.recommended,
   tseslint.configs.recommended,
+  airbrbConfigs.base.recommended,
+  airbrbConfigs.base.typescript,
   {
-    extends: [
-      airbrbConfigs.base.recommended,
-      airbrbConfigs.base.typescript,
-    ],
     languageOptions: {
       globals: {
         node: true,
