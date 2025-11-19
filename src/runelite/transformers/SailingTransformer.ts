@@ -19,6 +19,7 @@ class SailingTransformer {
         }
       }
     });
+
     return results;
   }
 
