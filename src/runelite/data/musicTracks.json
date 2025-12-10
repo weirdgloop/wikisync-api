@@ -48,6 +48,14 @@
         "varpBitIndex": 26
     },
     {
+        "trackName": "All the Trimmings",
+        "trackNameForSorting": "All the Trimmings",
+        "midiId": 858,
+        "ignored": false,
+        "varpIndex": 26,
+        "varpBitIndex": 17
+    },
+    {
         "trackName": "All's Fairy in Love & War",
         "trackNameForSorting": "All's Fairy in Love & War",
         "midiId": 73,
