@@ -19,7 +19,7 @@
         "trackName": "The Adventurer",
         "trackNameForSorting": "Adventurer, The",
         "midiId": 401,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -267,7 +267,7 @@
         "trackName": "Athletes Foot",
         "trackNameForSorting": "Athletes Foot",
         "midiId": 415,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -339,7 +339,7 @@
         "trackName": "Autumn in Bridgelum",
         "trackNameForSorting": "Autumn in Bridgelum",
         "midiId": 538,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -1052,8 +1052,8 @@
         "trackNameForSorting": "Crest of a Wave",
         "midiId": 350,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 27,
+        "varpBitIndex": 2
     },
     {
         "trackName": "Crystal Castle",
@@ -1539,7 +1539,7 @@
         "trackName": "Drunken Dwarf",
         "trackNameForSorting": "Drunken Dwarf",
         "midiId": 438,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -2348,8 +2348,8 @@
         "trackNameForSorting": "Gnome Village Party",
         "midiId": 416,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 18
     },
     {
         "trackName": "Gnomeball",
@@ -2507,7 +2507,7 @@
         "trackName": "Harmony",
         "trackNameForSorting": "Harmony",
         "midiId": 76,
-        "ignored": false,
+        "ignored": true,
         "varpIndex": 2,
         "varpBitIndex": 26
     },
@@ -3051,7 +3051,7 @@
         "trackName": "The Kin",
         "trackNameForSorting": "Kin, The",
         "midiId": 794,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -3723,7 +3723,7 @@
         "trackName": "Mined Out",
         "trackNameForSorting": "Mined Out",
         "midiId": 480,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -4012,8 +4012,8 @@
         "trackNameForSorting": "Newbie Melody",
         "midiId": 62,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 27,
+        "varpBitIndex": 0
     },
     {
         "trackName": "Night of the Vampyre",
@@ -4196,16 +4196,16 @@
         "trackNameForSorting": "Organ Music 1",
         "midiId": 39,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 23
     },
     {
         "trackName": "Organ Music 2",
         "trackNameForSorting": "Organ Music 2",
         "midiId": 40,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 24
     },
     {
         "trackName": "Oriental",
@@ -4868,8 +4868,8 @@
         "trackNameForSorting": "Scape Ape",
         "midiId": 458,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 22
     },
     {
         "trackName": "Scape Cave",
@@ -4884,56 +4884,56 @@
         "trackNameForSorting": "Scape Crystal",
         "midiId": 661,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 25
     },
     {
         "trackName": "Scape Five",
         "trackNameForSorting": "Scape Five",
         "midiId": 552,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 31
     },
     {
         "trackName": "Scape Ground",
         "trackNameForSorting": "Scape Ground",
         "midiId": 466,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 19
     },
     {
         "trackName": "Scape Home",
         "trackNameForSorting": "Scape Home",
         "midiId": 621,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 20
     },
     {
         "trackName": "Scape Hunter",
         "trackNameForSorting": "Scape Hunter",
         "midiId": 207,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 26
     },
     {
         "trackName": "Scape Main",
         "trackNameForSorting": "Scape Main",
         "midiId": 16,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 27
     },
     {
         "trackName": "Scape Original",
         "trackNameForSorting": "Scape Original",
         "midiId": 400,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 28
     },
     {
         "trackName": "Scape Sad",
@@ -4948,24 +4948,24 @@
         "trackNameForSorting": "Scape Sail",
         "midiId": 848,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 27,
+        "varpBitIndex": 1
     },
     {
         "trackName": "Scape Santa",
         "trackNameForSorting": "Scape Santa",
         "midiId": 547,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 29
     },
     {
         "trackName": "Scape Scared",
         "trackNameForSorting": "Scape Scared",
         "midiId": 321,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 30
     },
     {
         "trackName": "Scape Soft",
@@ -5164,8 +5164,8 @@
         "trackNameForSorting": "Shattered Relics",
         "midiId": 712,
         "ignored": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
+        "varpIndex": 26,
+        "varpBitIndex": 21
     },
     {
         "trackName": "Shine",
@@ -5339,7 +5339,7 @@
         "trackName": "The Sound of Guthix",
         "trackNameForSorting": "Sound of Guthix, The",
         "midiId": 796,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5435,7 +5435,7 @@
         "trackName": "Spy Games",
         "trackNameForSorting": "Spy Games",
         "midiId": 619,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5875,7 +5875,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 760,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5883,7 +5883,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 758,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5891,7 +5891,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 751,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5899,7 +5899,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 754,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5907,7 +5907,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 755,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -5915,7 +5915,7 @@
         "trackName": "Tick Tock",
         "trackNameForSorting": "Tick Tock",
         "midiId": 753,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -6731,7 +6731,7 @@
         "trackName": "You Have My Attention",
         "trackNameForSorting": "You Have My Attention",
         "midiId": 673,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
@@ -6739,7 +6739,7 @@
         "trackName": "You Have My Attention",
         "trackNameForSorting": "You Have My Attention",
         "midiId": 668,
-        "ignored": true,
+        "ignored": false,
         "varpIndex": -1,
         "varpBitIndex": -1
     },
