@@ -14,7 +14,7 @@ class MusicTransformer {
 
     MUSIC_TRACKS.forEach((val) => {
       const { varpBitIndex, varpIndex } = val;
-      if (varpIndex === -1) {
+      if (val.automaticUnlock || varpIndex === -1) {
         // This track is automatically unlocked
         results[val.trackName] = true;
         return;

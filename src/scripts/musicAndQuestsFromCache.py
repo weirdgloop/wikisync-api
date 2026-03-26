@@ -1,10 +1,8 @@
 import requests
 import subprocess
-import glob
 import json
 import os
 import argparse
-import subprocess
 
 parser = argparse.ArgumentParser()
 subparsers = parser.add_subparsers(dest="command")
@@ -106,16 +104,19 @@ def get_music_tracks():
     tracks = []
     musicDbRows = get_json("dbtable_index/44/master.json")["tupleIndexes"][0]["0"]
     for dbRow in musicDbRows:
+        # gameval reference: https://github.com/runelite/runelite/blob/c88a0d1f5cb8c59e04364a876856496d86010e9f/runelite-api/src/main/java/net/runelite/api/gameval/DBTableID.java#L4937
         trackDbColumns = get_json("dbrow/" + str(dbRow) + ".json")["columnValues"]
-        midiId = trackDbColumns[4][0]
         trackNameForSorting = trackDbColumns[0][0]
         trackName = trackDbColumns[1][0].replace("\t", "")
-        ignored = False
         if trackName == "":
             continue
-        if trackDbColumns[8] is not None and trackDbColumns[8][0] == True:
-            # This track is hidden from the music list
-            ignored = True
+        midiId = trackDbColumns[4][0]
+
+        # `ignored` means it is hidden from the music list
+        ignored = trackDbColumns[9] is not None and bool(trackDbColumns[9][0])
+
+        automaticUnlock = trackDbColumns[6] is not None and bool(trackDbColumns[6][0])
+
         varpIndex = -1
         varpBitIndex = -1
         if trackDbColumns[5] is not None and len(trackDbColumns[5]) > 0:
@@ -127,6 +128,7 @@ def get_music_tracks():
                 "trackNameForSorting": trackNameForSorting,
                 "midiId": midiId,
                 "ignored": ignored,
+                "automaticUnlock": automaticUnlock,
                 "varpIndex": varpIndex,
                 "varpBitIndex": varpBitIndex,
             }
