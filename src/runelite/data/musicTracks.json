@@ -657,6 +657,15 @@
         "varpBitIndex": 7
     },
     {
+        "trackName": "Boat 'Em Up",
+        "trackNameForSorting": "Boat 'Em Up",
+        "midiId": 862,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 4
+    },
+    {
         "trackName": "Bob's on Holiday",
         "trackNameForSorting": "Bob's on Holiday",
         "midiId": 484,
@@ -810,6 +819,15 @@
         "varpBitIndex": 3
     },
     {
+        "trackName": "Business as Unusual",
+        "trackNameForSorting": "Business as Unusual",
+        "midiId": 861,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 5
+    },
+    {
         "trackName": "Cabin Fever",
         "trackNameForSorting": "Cabin Fever",
         "midiId": 545,
@@ -844,6 +862,15 @@
         "automaticUnlock": false,
         "varpIndex": 1,
         "varpBitIndex": 24
+    },
+    {
+        "trackName": "Cannonballin'",
+        "trackNameForSorting": "Cannonballin'",
+        "midiId": 863,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 7
     },
     {
         "trackName": "Castle Wars",
@@ -4642,6 +4669,15 @@
         "automaticUnlock": false,
         "varpIndex": 13,
         "varpBitIndex": 16
+    },
+    {
+        "trackName": "Ocean Depths",
+        "trackNameForSorting": "Ocean Depths",
+        "midiId": 860,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 6
     },
     {
         "trackName": "Ogre the Top",
