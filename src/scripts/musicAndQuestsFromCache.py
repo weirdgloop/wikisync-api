@@ -117,11 +117,12 @@ def get_music_tracks():
 
         automaticUnlock = trackDbColumns[6] is not None and bool(trackDbColumns[6][0])
 
-        varpIndex = -1
-        varpBitIndex = -1
-        if trackDbColumns[5] is not None and len(trackDbColumns[5]) > 0:
-            varpIndex = trackDbColumns[5][0]
-            varpBitIndex = trackDbColumns[5][1]
+        if trackDbColumns[5] is None or len(trackDbColumns[5]) == 0:
+            continue
+
+        varpIndex = trackDbColumns[5][0]
+        varpBitIndex = trackDbColumns[5][1]
+
         tracks.append(
             {
                 "trackName": trackName,
