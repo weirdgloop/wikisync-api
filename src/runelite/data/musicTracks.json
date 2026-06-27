@@ -18,15 +18,6 @@
         "varpBitIndex": 0
     },
     {
-        "trackName": "The Adventurer",
-        "trackNameForSorting": "Adventurer, The",
-        "midiId": 401,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
         "trackName": "Al Kharid",
         "trackNameForSorting": "Al Kharid",
         "midiId": 50,
@@ -297,15 +288,6 @@
         "varpBitIndex": 23
     },
     {
-        "trackName": "Athletes Foot",
-        "trackNameForSorting": "Athletes Foot",
-        "midiId": 415,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
         "trackName": "Attack 1",
         "trackNameForSorting": "Attack 1",
         "midiId": 24,
@@ -376,15 +358,6 @@
         "automaticUnlock": false,
         "varpIndex": 1,
         "varpBitIndex": 17
-    },
-    {
-        "trackName": "Autumn in Bridgelum",
-        "trackNameForSorting": "Autumn in Bridgelum",
-        "midiId": 538,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "Awful Anthem",
@@ -1762,15 +1735,6 @@
         "automaticUnlock": false,
         "varpIndex": 14,
         "varpBitIndex": 3
-    },
-    {
-        "trackName": "Drunken Dwarf",
-        "trackNameForSorting": "Drunken Dwarf",
-        "midiId": 438,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "Dunes of Eternity",
@@ -3465,15 +3429,6 @@
         "varpBitIndex": 21
     },
     {
-        "trackName": "The Kin",
-        "trackNameForSorting": "Kin, The",
-        "midiId": 794,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
         "trackName": "King of the Trolls",
         "trackNameForSorting": "King of the Trolls",
         "midiId": 226,
@@ -4219,15 +4174,6 @@
         "automaticUnlock": false,
         "varpIndex": 12,
         "varpBitIndex": 21
-    },
-    {
-        "trackName": "Mined Out",
-        "trackNameForSorting": "Mined Out",
-        "midiId": 480,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "Miracle Dance",
@@ -6048,15 +5994,6 @@
         "varpBitIndex": 23
     },
     {
-        "trackName": "The Sound of Guthix",
-        "trackNameForSorting": "Sound of Guthix, The",
-        "midiId": 796,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
         "trackName": "Soundscape",
         "trackNameForSorting": "Soundscape",
         "midiId": 80,
@@ -6154,15 +6091,6 @@
         "automaticUnlock": false,
         "varpIndex": 19,
         "varpBitIndex": 27
-    },
-    {
-        "trackName": "Spy Games",
-        "trackNameForSorting": "Spy Games",
-        "midiId": 619,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "The Spymaster",
@@ -6649,60 +6577,6 @@
         "automaticUnlock": false,
         "varpIndex": 23,
         "varpBitIndex": 24
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 760,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 758,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 751,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 754,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 755,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "Tick Tock",
-        "trackNameForSorting": "Tick Tock",
-        "midiId": 753,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "Time Out",
@@ -7612,24 +7486,6 @@
         "automaticUnlock": false,
         "varpIndex": 20,
         "varpBitIndex": 20
-    },
-    {
-        "trackName": "You Have My Attention",
-        "trackNameForSorting": "You Have My Attention",
-        "midiId": 673,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
-    },
-    {
-        "trackName": "You Have My Attention",
-        "trackNameForSorting": "You Have My Attention",
-        "midiId": 668,
-        "ignored": true,
-        "automaticUnlock": false,
-        "varpIndex": -1,
-        "varpBitIndex": -1
     },
     {
         "trackName": "Zamorak Zoo",
