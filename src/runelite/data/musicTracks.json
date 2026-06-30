@@ -612,6 +612,15 @@
         "varpBitIndex": 0
     },
     {
+        "trackName": "The Blood Moon Rises",
+        "trackNameForSorting": "Blood Moon Rises, The",
+        "midiId": 868,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 11
+    },
+    {
         "trackName": "Blood Rush",
         "trackNameForSorting": "Blood Rush",
         "midiId": 761,
@@ -747,6 +756,15 @@
         "varpBitIndex": 18
     },
     {
+        "trackName": "The Bridge",
+        "trackNameForSorting": "Bridge, The",
+        "midiId": 876,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 16
+    },
+    {
         "trackName": "Brimstail's Scales",
         "trackNameForSorting": "Brimstail's Scales",
         "midiId": 194,
@@ -844,6 +862,15 @@
         "automaticUnlock": false,
         "varpIndex": 27,
         "varpBitIndex": 7
+    },
+    {
+        "trackName": "Castle Drakan",
+        "trackNameForSorting": "Castle Drakan",
+        "midiId": 866,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 19
     },
     {
         "trackName": "Castle Wars",
@@ -1384,6 +1411,15 @@
         "automaticUnlock": false,
         "varpIndex": 13,
         "varpBitIndex": 10
+    },
+    {
+        "trackName": "Dawn",
+        "trackNameForSorting": "Dawn",
+        "midiId": 878,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 14
     },
     {
         "trackName": "Dead Can Dance",
@@ -2574,6 +2610,15 @@
         "varpBitIndex": 20
     },
     {
+        "trackName": "Gathering",
+        "trackNameForSorting": "Gathering",
+        "midiId": 871,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 17
+    },
+    {
         "trackName": "The Gauntlet",
         "trackNameForSorting": "Gauntlet, The",
         "midiId": 650,
@@ -2961,6 +3006,15 @@
         "varpBitIndex": 0
     },
     {
+        "trackName": "Home",
+        "trackNameForSorting": "Home",
+        "midiId": 869,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 12
+    },
+    {
         "trackName": "Home Sweet Home",
         "trackNameForSorting": "Home Sweet Home",
         "midiId": 454,
@@ -2997,6 +3051,15 @@
         "varpBitIndex": 8
     },
     {
+        "trackName": "Hunted",
+        "trackNameForSorting": "Hunted",
+        "midiId": 867,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 10
+    },
+    {
         "trackName": "Hypnotised",
         "trackNameForSorting": "Hypnotised",
         "midiId": 384,
@@ -3004,6 +3067,15 @@
         "automaticUnlock": false,
         "varpIndex": 10,
         "varpBitIndex": 13
+    },
+    {
+        "trackName": "I'm Sorry",
+        "trackNameForSorting": "I'm Sorry",
+        "midiId": 884,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 9
     },
     {
         "trackName": "Iban",
@@ -3780,6 +3852,15 @@
         "varpBitIndex": 10
     },
     {
+        "trackName": "Lord of the Larvae",
+        "trackNameForSorting": "Lord of the Larvae",
+        "midiId": 880,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 13
+    },
+    {
         "trackName": "Lore and Order",
         "trackNameForSorting": "Lore and Order",
         "midiId": 382,
@@ -4120,6 +4201,15 @@
         "automaticUnlock": false,
         "varpIndex": 8,
         "varpBitIndex": 24
+    },
+    {
+        "trackName": "Memories of the Myreque",
+        "trackNameForSorting": "Memories of the Myreque",
+        "midiId": 879,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 15
     },
     {
         "trackName": "Meridian",
@@ -5022,6 +5112,15 @@
         "varpBitIndex": 18
     },
     {
+        "trackName": "Prey",
+        "trackNameForSorting": "Prey",
+        "midiId": 882,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 18
+    },
+    {
         "trackName": "Prime Time",
         "trackNameForSorting": "Prime Time",
         "midiId": 202,
@@ -5182,6 +5281,15 @@
         "automaticUnlock": false,
         "varpIndex": 8,
         "varpBitIndex": 7
+    },
+    {
+        "trackName": "Remnants",
+        "trackNameForSorting": "Remnants",
+        "midiId": 881,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 20
     },
     {
         "trackName": "Remote Waters",
@@ -5938,6 +6046,15 @@
         "automaticUnlock": false,
         "varpIndex": 7,
         "varpBitIndex": 17
+    },
+    {
+        "trackName": "Solitude",
+        "trackNameForSorting": "Solitude",
+        "midiId": 883,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 8
     },
     {
         "trackName": "Song of the Elves",
