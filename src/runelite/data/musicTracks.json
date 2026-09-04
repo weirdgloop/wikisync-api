@@ -7479,6 +7479,15 @@
         "varpBitIndex": 0
     },
     {
+        "trackName": "Wings of Madness",
+        "trackNameForSorting": "Wings of Madness",
+        "midiId": 885,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 21
+    },
+    {
         "trackName": "Winter Funfair",
         "trackNameForSorting": "Winter Funfair",
         "midiId": 526,
