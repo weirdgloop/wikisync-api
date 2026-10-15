@@ -1,3 +1,11 @@
+import { QUEST_VARBITS, QUEST_VARPS } from './transformers/QuestTransformer';
+
+export const MANIFEST_VERSION = 1;
+
+export const REQUIRED_VARBITS = [...QUEST_VARBITS];
+
+export const REQUIRED_VARPS = [...QUEST_VARPS];
+
 /**
  * The order matters! These allow us to map integer values to skill names.
  */

@@ -1,12 +1,23 @@
 import express from 'express';
 import { RunescapeService, RunescapeGetDataReturn } from './service';
 import { LeagueTransformer } from './transformers/LeagueTransformer';
+import { MANIFEST_VERSION, REQUIRED_VARBITS, REQUIRED_VARPS } from './constants';
+import { QuestTransformer } from './transformers/QuestTransformer';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
 const PROPORTION_OF_GET_PROFILE_REQUESTS_TO_HANDLE = 1.00;
 
 export const router = express.Router();
+
+router.get('/manifest', (req, res) => {
+  res.json({
+    varbits: REQUIRED_VARBITS,
+    varps: REQUIRED_VARPS,
+    version: MANIFEST_VERSION,
+    timestamp: new Date(),
+  });
+});
 
 /**
  * Submits player data from the Runescape 3 client to our database
@@ -55,13 +66,14 @@ router.get('/player/:username/:profile', async (req, res) => {
       return;
     }
 
-    // more transformers here as jagex send us more data
+    const questCompletion = await QuestTransformer.getQuestCompletionStates(data);
     const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
 
     json = {
       ...json,
       league_tasks: leagueTasks,
       levels: data.levels,
+      quests: questCompletion
     };
   }
 

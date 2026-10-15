@@ -1,0 +1,357 @@
+{
+    "Big Chompy Bird Hunting": [
+        2772,
+        5,
+        65
+    ],
+    "Biohazard": [
+        2535,
+        1,
+        16
+    ],
+    "Black Knights' Fortress": [
+        2552,
+        1,
+        4
+    ],
+    "Cabin Fever": [
+        2326,
+        10,
+        140
+    ],
+    "Clock Tower": [
+        2197,
+        1,
+        8
+    ],
+    "Cook's Assistant": [
+        2492,
+        1,
+        2
+    ],
+    "Creature of Fenkenstrain": [
+        2615,
+        1,
+        8
+    ],
+    "Doric's Quest": [
+        2261,
+        10,
+        100
+    ],
+    "Dragon Slayer": [
+        2268,
+        1,
+        10
+    ],
+    "Dwarf Cannon": [
+        2732,
+        1,
+        11
+    ],
+    "Eadgar's Ruse": [
+        2549,
+        10,
+        110
+    ],
+    "Elemental Workshop I": [
+        2675,
+        1,
+        524288
+    ],
+    "Enter the Abyss (miniquest)": [
+        3149,
+        1,
+        4
+    ],
+    "Ernest the Chicken": [
+        2183,
+        1,
+        3
+    ],
+    "Family Crest": [
+        2663,
+        1,
+        11
+    ],
+    "Fight Arena": [
+        2595,
+        1,
+        14
+    ],
+    "Fishing Contest": [
+        2331,
+        1,
+        5
+    ],
+    "Gertrude's Cat": [
+        2175,
+        1,
+        6
+    ],
+    "Haunted Mine": [
+        2201,
+        1,
+        11
+    ],
+    "Hazeel Cult": [
+        2592,
+        2,
+        9
+    ],
+    "Heroes' Quest": [
+        2618,
+        1,
+        15
+    ],
+    "Holy Grail": [
+        2330,
+        2,
+        10
+    ],
+    "Imp Catcher": [
+        2669,
+        1,
+        2
+    ],
+    "In Search of the Myreque": [
+        2696,
+        5,
+        105
+    ],
+    "Jungle Potion": [
+        2484,
+        1,
+        12
+    ],
+    "Legends' Quest": [
+        2265,
+        1,
+        75
+    ],
+    "Lost City": [
+        2551,
+        1,
+        6
+    ],
+    "Merlin's Crystal": [
+        2178,
+        1,
+        7
+    ],
+    "Monk's Friend": [
+        2370,
+        10,
+        80
+    ],
+    "Monkey Madness": [
+        2762,
+        1,
+        9
+    ],
+    "Mourning's End Part I": [
+        2777,
+        1,
+        8
+    ],
+    "Murder Mystery": [
+        2364,
+        1,
+        2
+    ],
+    "Nature Spirit": [
+        2355,
+        5,
+        110
+    ],
+    "Observatory Quest": [
+        2796,
+        1,
+        7
+    ],
+    "One Small Favour": [
+        2671,
+        5,
+        280
+    ],
+    "Pirate's Treasure": [
+        2227,
+        1,
+        4
+    ],
+    "Plague City": [
+        2386,
+        1,
+        29
+    ],
+    "Priest in Peril": [
+        2171,
+        1,
+        60
+    ],
+    "Prince Ali Rescue": [
+        2388,
+        10,
+        110
+    ],
+    "Regicide": [
+        2102,
+        1,
+        15
+    ],
+    "Romeo and Juliet": [
+        2692,
+        10,
+        100
+    ],
+    "Roving Elves": [
+        2286,
+        2,
+        6
+    ],
+    "Rum Deal": [
+        2100,
+        1,
+        19
+    ],
+    "Rune Mysteries": [
+        2689,
+        1,
+        6
+    ],
+    "Scorpion Catcher": [
+        2747,
+        1,
+        6
+    ],
+    "Sea Slug": [
+        2700,
+        1,
+        12
+    ],
+    "Shades of Mort'ton": [
+        2620,
+        5,
+        85
+    ],
+    "Sheep Herder": [
+        2274,
+        1,
+        3
+    ],
+    "Sheep Shearer (miniquest)": [
+        2163,
+        1,
+        21
+    ],
+    "Shield of Arrav": [
+        2738,
+        1,
+        7
+    ],
+    "Shilo Village": [
+        2793,
+        1,
+        15
+    ],
+    "Tai Bwo Wannai Trio": [
+        2523,
+        2,
+        6
+    ],
+    "Temple of Ikov": [
+        2148,
+        10,
+        80
+    ],
+    "The Dig Site": [
+        2205,
+        1,
+        9
+    ],
+    "The Fremennik Trials": [
+        2262,
+        1,
+        10
+    ],
+    "The Grand Tree": [
+        2740,
+        5,
+        160
+    ],
+    "The Great Brain Robbery": [
+        2082,
+        10,
+        130
+    ],
+    "The Knight's Sword": [
+        2547,
+        1,
+        7
+    ],
+    "The Restless Ghost": [
+        2324,
+        1,
+        5
+    ],
+    "The Tourist Trap": [
+        2501,
+        1,
+        30
+    ],
+    "Throne of Miscellania": [
+        2236,
+        10,
+        100
+    ],
+    "Tree Gnome Village": [
+        2661,
+        1,
+        9
+    ],
+    "Tribal Totem": [
+        2783,
+        1,
+        5
+    ],
+    "Troll Romance": [
+        2135,
+        1,
+        45
+    ],
+    "Troll Stronghold": [
+        2347,
+        10,
+        50
+    ],
+    "Underground Pass": [
+        2426,
+        1,
+        10
+    ],
+    "Unstable Foundations": [
+        1295,
+        5,
+        1000
+    ],
+    "Watchtower": [
+        2397,
+        1,
+        13
+    ],
+    "Waterfall Quest": [
+        2353,
+        1,
+        10
+    ],
+    "Witch's House": [
+        2276,
+        1,
+        7
+    ],
+    "Witch's Potion (miniquest)": [
+        2473,
+        1,
+        3
+    ]
+}
