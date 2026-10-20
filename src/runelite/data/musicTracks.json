@@ -216,6 +216,15 @@
         "varpBitIndex": 24
     },
     {
+        "trackName": "The Archive Guardian",
+        "trackNameForSorting": "Archive Guardian, The",
+        "midiId": 887,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 23
+    },
+    {
         "trackName": "Are You Not Entertained?",
         "trackNameForSorting": "Are You Not Entertained?",
         "midiId": 782,
@@ -261,6 +270,15 @@
         "varpBitIndex": 9
     },
     {
+        "trackName": "Artifacts of Old",
+        "trackNameForSorting": "Artifacts of Old",
+        "midiId": 893,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 30
+    },
+    {
         "trackName": "Artistry",
         "trackNameForSorting": "Artistry",
         "midiId": 247,
@@ -268,6 +286,15 @@
         "automaticUnlock": false,
         "varpIndex": 7,
         "varpBitIndex": 8
+    },
+    {
+        "trackName": "Ascension",
+        "trackNameForSorting": "Ascension",
+        "midiId": 894,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 31
     },
     {
         "trackName": "Ascent",
@@ -603,6 +630,15 @@
         "varpBitIndex": 17
     },
     {
+        "trackName": "Blade of Forgotten Justice",
+        "trackNameForSorting": "Blade of Forgotten Justice",
+        "midiId": 890,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 24
+    },
+    {
         "trackName": "Blistering Barnacles",
         "trackNameForSorting": "Blistering Barnacles",
         "midiId": 498,
@@ -709,6 +745,15 @@
         "automaticUnlock": false,
         "varpIndex": 8,
         "varpBitIndex": 9
+    },
+    {
+        "trackName": "Bork's Beats",
+        "trackNameForSorting": "Bork's Beats",
+        "midiId": 888,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 25
     },
     {
         "trackName": "Boss Moosic",
@@ -1402,6 +1447,15 @@
         "automaticUnlock": false,
         "varpIndex": 17,
         "varpBitIndex": 12
+    },
+    {
+        "trackName": "Daughter of Darkness",
+        "trackNameForSorting": "Daughter of Darkness",
+        "midiId": 892,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 28
     },
     {
         "trackName": "Davy Jones' Locker",
@@ -2394,6 +2448,15 @@
         "varpBitIndex": 16
     },
     {
+        "trackName": "Forged Through Fire",
+        "trackNameForSorting": "Forged Through Fire",
+        "midiId": 896,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 29
+    },
+    {
         "trackName": "Forgettable Melody",
         "trackNameForSorting": "Forgettable Melody",
         "midiId": 436,
@@ -2952,6 +3015,15 @@
         "varpBitIndex": 9
     },
     {
+        "trackName": "Hellatine",
+        "trackNameForSorting": "Hellatine",
+        "midiId": 895,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 27
+    },
+    {
         "trackName": "Hells Bells",
         "trackNameForSorting": "Hells Bells",
         "midiId": 4,
@@ -3247,6 +3319,15 @@
         "automaticUnlock": false,
         "varpIndex": 10,
         "varpBitIndex": 29
+    },
+    {
+        "trackName": "Into the Archive",
+        "trackNameForSorting": "Into the Archive",
+        "midiId": 891,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 22
     },
     {
         "trackName": "Into the Blue",
@@ -6883,6 +6964,15 @@
         "automaticUnlock": false,
         "varpIndex": 5,
         "varpBitIndex": 2
+    },
+    {
+        "trackName": "Triple Threat",
+        "trackNameForSorting": "Triple Threat",
+        "midiId": 889,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 27,
+        "varpBitIndex": 26
     },
     {
         "trackName": "Troll Shuffle",
