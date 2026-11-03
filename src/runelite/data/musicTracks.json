@@ -1926,6 +1926,15 @@
         "varpBitIndex": 15
     },
     {
+        "trackName": "Elementary",
+        "trackNameForSorting": "Elementary",
+        "midiId": 897,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 0
+    },
+    {
         "trackName": "Elven Guardians",
         "trackNameForSorting": "Elven Guardians",
         "midiId": 647,
