@@ -77,7 +77,7 @@ router.get('/player/:username/:profile', async (req, res) => {
       levels: data.levels,
       quests: questCompletion,
       // -2 is used for completed achievements, see https://developer.runescape.com/rs/game/config/achievementtype.html#achievementprogresstype
-      ach: Object.entries(data.ach).filter(([, v]) => v === -2).flatMap(([k]) => k),
+      ach: data.ach ? Object.entries(data.ach).filter(([, v]) => v === -2).flatMap(([k]) => k) : null,
       im: isIronman
     };
   }

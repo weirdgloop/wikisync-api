@@ -49,7 +49,7 @@ export class RunescapeService {
       varps: data?.value?.varp || {},
       varcs: data?.value?.varc || {},
       levels: data?.value?.level,
-      ach: data?.value?.ach || {},
+      ach: data?.value?.ach,
     };
   }
 
