@@ -17,6 +17,7 @@ export class RunescapePlayerDataJson extends BaseEntity {
       varp: object,
       varc: object,
       varbit: object,
-      level: object
+      level: object,
+      ach: object
     };
 }

@@ -3,6 +3,7 @@ import { RunescapeService, RunescapeGetDataReturn } from './service';
 import { LeagueTransformer } from './transformers/LeagueTransformer';
 import { MANIFEST_VERSION, REQUIRED_VARBITS, REQUIRED_VARPS } from './constants';
 import { QuestTransformer } from './transformers/QuestTransformer';
+import { GeneralTransformer } from './transformers/GeneralTransformer';
 
 // 0.00 will handle no requests, 0.20 will handle 20% of requests, 1.00 will handle all requests
 const PROPORTION_OF_SUBMIT_REQUESTS_TO_HANDLE = 1.00;
@@ -68,12 +69,16 @@ router.get('/player/:username/:profile', async (req, res) => {
 
     const questCompletion = await QuestTransformer.getQuestCompletionStates(data);
     const leagueTasks = await LeagueTransformer.getLeagueTasks(data);
+    const isIronman = GeneralTransformer.isIronman(data);
 
     json = {
       ...json,
       league_tasks: leagueTasks,
       levels: data.levels,
-      quests: questCompletion
+      quests: questCompletion,
+      // -2 is used for completed achievements, see https://developer.runescape.com/rs/game/config/achievementtype.html#achievementprogresstype
+      ach: Object.entries(data.ach).filter(([, v]) => v === -2).flatMap(([k]) => k),
+      im: isIronman
     };
   }
 

@@ -9,6 +9,7 @@ interface RunescapeSubmitData {
     varc: object,
     varbit: object,
     level: object,
+    ach: object,
   }
 }
 
@@ -17,6 +18,7 @@ export interface RunescapeGetDataReturn {
   varps: object;
   varcs: object;
   levels: object;
+  ach: object;
 }
 
 export class RunescapeService {
@@ -47,6 +49,7 @@ export class RunescapeService {
       varps: data?.value?.varp || {},
       varcs: data?.value?.varc || {},
       levels: data?.value?.level,
+      ach: data?.value?.ach || {},
     };
   }
 
@@ -68,7 +71,7 @@ export class RunescapeService {
       newPlayerData.username = username;
       newPlayerData.profile = data.profile;
       newPlayerData.value = {
-        varp: {}, varc: {}, varbit: {}, level: {},
+        varp: {}, varc: {}, varbit: {}, level: {}, ach: {},
       };
     }
 
@@ -90,6 +93,10 @@ export class RunescapeService {
       level: {
         ...newPlayerData.value.level,
         ...data.data.level,
+      },
+      ach: {
+        ...newPlayerData.value.ach,
+        ...data.data.ach,
       },
     };
 
