@@ -9,6 +9,10 @@ varps = {}
 varbs = {}
 
 for quest in res:
+    if "extra" in quest:
+        if "quest_disabled" in quest["extra"]:
+            continue
+
     if "varps" in quest:
         varps[quest["name"]] = [
             quest["varps"][0]["varp"],
