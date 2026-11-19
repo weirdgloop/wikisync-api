@@ -28,15 +28,15 @@ jobs:
       - name: Print `git status`
         run: "git status --porcelain"
 
-      - name: Ensure working directory clean (unless run triggered by a schedule)
-        if: ${{ github.event_name != 'schedule' }}
+      - name: Ensure working directory clean (on push)
+        if: ${{ github.event_name == 'push' }}
         run: 'if [ ! -z "$(git status --porcelain)" ]; then echo "Status is unclean, and this is not a scheduled run."; git status --porcelain; exit 1; fi'
 
-      # Create pull request if this job was triggered by a schedule
+      # Create pull request on scheduled or manual runs
       - name: Create Pull Request
         id: create-pull-request
         uses: peter-evans/create-pull-request@v5
-        if: ${{ github.event_name == 'schedule' }}
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         with:
           base: master
           title: "[auto] Rebuild data from the latest cache"
