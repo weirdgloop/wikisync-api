@@ -24,7 +24,7 @@
   },
   "homepage": "https://gitlab.com/weirdgloop/wikisync-api#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.20.9",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "5.0.0-beta.3",
