@@ -3123,6 +3123,15 @@
         "varpBitIndex": 28
     },
     {
+        "trackName": "The Horror",
+        "trackNameForSorting": "Horror, The",
+        "midiId": 898,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 2
+    },
+    {
         "trackName": "The Houses of Kourend",
         "trackNameForSorting": "Houses of Kourend, The",
         "midiId": 699,
@@ -5956,6 +5965,15 @@
         "automaticUnlock": false,
         "varpIndex": 9,
         "varpBitIndex": 23
+    },
+    {
+        "trackName": "Severed",
+        "trackNameForSorting": "Severed",
+        "midiId": 899,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 1
     },
     {
         "trackName": "Shadow of the Ocean",
