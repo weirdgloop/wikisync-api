@@ -1,6 +1,7 @@
 name: Ensure everything builds
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: "30 13 * * *"
 
