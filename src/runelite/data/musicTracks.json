@@ -2808,6 +2808,15 @@
         "varpBitIndex": 7
     },
     {
+        "trackName": "The Graveyard",
+        "trackNameForSorting": "Graveyard, The",
+        "midiId": 900,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 3
+    },
+    {
         "trackName": "The Great North",
         "trackNameForSorting": "Great North, The",
         "midiId": 846,
@@ -4770,6 +4779,15 @@
         "varpBitIndex": 8
     },
     {
+        "trackName": "Not Forgotten",
+        "trackNameForSorting": "Not Forgotten",
+        "midiId": 901,
+        "ignored": true,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 4
+    },
+    {
         "trackName": "Not a Moment of Relief",
         "trackNameForSorting": "Not a Moment of Relief",
         "midiId": 705,
@@ -5281,6 +5299,15 @@
         "automaticUnlock": false,
         "varpIndex": 21,
         "varpBitIndex": 1
+    },
+    {
+        "trackName": "Rage of R\u00e6un",
+        "trackNameForSorting": "Rage of Raeun",
+        "midiId": 903,
+        "ignored": false,
+        "automaticUnlock": false,
+        "varpIndex": 28,
+        "varpBitIndex": 5
     },
     {
         "trackName": "Rat Hunt",
